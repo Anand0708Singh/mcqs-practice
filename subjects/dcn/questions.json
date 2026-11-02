@@ -3442,5 +3442,3225 @@
       }
     ],
     "correct_text": "SMTP is used to push/send email; POP3 and IMAP are used to retrieve/access email"
+  },
+  {
+    "id": 124,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What is the full form of IP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Internet Protocol"
+      },
+      {
+        "letter": "B",
+        "text": "Internal Protocol"
+      },
+      {
+        "letter": "C",
+        "text": "Interface Program"
+      },
+      {
+        "letter": "D",
+        "text": "Inter-network Packet"
+      }
+    ],
+    "correct_text": "Internet Protocol"
+  },
+  {
+    "id": 125,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What is the full form of ICMP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Internet Control Message Protocol"
+      },
+      {
+        "letter": "B",
+        "text": "Inter-network Connection Management Protocol"
+      },
+      {
+        "letter": "C",
+        "text": "Internal Communication Message Packet"
+      },
+      {
+        "letter": "D",
+        "text": "Internet Channel Monitoring Protocol"
+      }
+    ],
+    "correct_text": "Internet Control Message Protocol"
+  },
+  {
+    "id": 126,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What is the full form of RIP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Routing Information Protocol"
+      },
+      {
+        "letter": "B",
+        "text": "Router Interface Program"
+      },
+      {
+        "letter": "C",
+        "text": "Remote Internet Protocol"
+      },
+      {
+        "letter": "D",
+        "text": "Resource Identification Packet"
+      }
+    ],
+    "correct_text": "Routing Information Protocol"
+  },
+  {
+    "id": 127,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What is the full form of OSPF?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Open Shortest Path First"
+      },
+      {
+        "letter": "B",
+        "text": "Optimal System Packet Forwarding"
+      },
+      {
+        "letter": "C",
+        "text": "Open Standard Packet Filter"
+      },
+      {
+        "letter": "D",
+        "text": "Ordered Shortest Path Function"
+      }
+    ],
+    "correct_text": "Open Shortest Path First"
+  },
+  {
+    "id": 128,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What is the full form of BGP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Border Gateway Protocol"
+      },
+      {
+        "letter": "B",
+        "text": "Binary Gateway Protocol"
+      },
+      {
+        "letter": "C",
+        "text": "Broadband Group Protocol"
+      },
+      {
+        "letter": "D",
+        "text": "Base Grid Protocol"
+      }
+    ],
+    "correct_text": "Border Gateway Protocol"
+  },
+  {
+    "id": 129,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What is the full form of IGMP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Internet Group Management Protocol"
+      },
+      {
+        "letter": "B",
+        "text": "Internal Gateway Monitoring Protocol"
+      },
+      {
+        "letter": "C",
+        "text": "Inter-network Group Messaging Protocol"
+      },
+      {
+        "letter": "D",
+        "text": "Interface Group Multicast Packet"
+      }
+    ],
+    "correct_text": "Internet Group Management Protocol"
+  },
+  {
+    "id": 130,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What is the full form of ARP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Address Resolution Protocol"
+      },
+      {
+        "letter": "B",
+        "text": "Application Routing Protocol"
+      },
+      {
+        "letter": "C",
+        "text": "Asynchronous Relay Packet"
+      },
+      {
+        "letter": "D",
+        "text": "Automated Resource Program"
+      }
+    ],
+    "correct_text": "Address Resolution Protocol"
+  },
+  {
+    "id": 131,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What is the full form of NDP in IPv6?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Neighbor Discovery Protocol"
+      },
+      {
+        "letter": "B",
+        "text": "Network Datagram Protocol"
+      },
+      {
+        "letter": "C",
+        "text": "Node Distribution Protocol"
+      },
+      {
+        "letter": "D",
+        "text": "Next-hop Delivery Packet"
+      }
+    ],
+    "correct_text": "Neighbor Discovery Protocol"
+  },
+  {
+    "id": 132,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What is the full form of MTU?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Maximum Transmission Unit"
+      },
+      {
+        "letter": "B",
+        "text": "Minimum Transport Unit"
+      },
+      {
+        "letter": "C",
+        "text": "Modular Translation Utility"
+      },
+      {
+        "letter": "D",
+        "text": "Multi-packet Transmission Unit"
+      }
+    ],
+    "correct_text": "Maximum Transmission Unit"
+  },
+  {
+    "id": 133,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What is the full form of AS in routing?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Autonomous System"
+      },
+      {
+        "letter": "B",
+        "text": "Automated Switch"
+      },
+      {
+        "letter": "C",
+        "text": "Application Server"
+      },
+      {
+        "letter": "D",
+        "text": "Address Space"
+      }
+    ],
+    "correct_text": "Autonomous System"
+  },
+  {
+    "id": 134,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer Protocols",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What is the full form of UDP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "User Datagram Protocol"
+      },
+      {
+        "letter": "B",
+        "text": "Unified Data Packet"
+      },
+      {
+        "letter": "C",
+        "text": "Universal Delivery Protocol"
+      },
+      {
+        "letter": "D",
+        "text": "Unchecked Datagram Program"
+      }
+    ],
+    "correct_text": "User Datagram Protocol"
+  },
+  {
+    "id": 135,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer Protocols",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What is the full form of TCP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Transmission Control Protocol"
+      },
+      {
+        "letter": "B",
+        "text": "Transfer Communication Packet"
+      },
+      {
+        "letter": "C",
+        "text": "Terminal Connection Protocol"
+      },
+      {
+        "letter": "D",
+        "text": "Transport Control Packet"
+      }
+    ],
+    "correct_text": "Transmission Control Protocol"
+  },
+  {
+    "id": 136,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer Protocols",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What is the full form of SCTP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Stream Control Transmission Protocol"
+      },
+      {
+        "letter": "B",
+        "text": "Synchronous Communication Transfer Protocol"
+      },
+      {
+        "letter": "C",
+        "text": "Socket Connection Transport Protocol"
+      },
+      {
+        "letter": "D",
+        "text": "Simple Control Transmission Packet"
+      }
+    ],
+    "correct_text": "Stream Control Transmission Protocol"
+  },
+  {
+    "id": 137,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer Protocols",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What does the SYN flag in TCP stand for?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Synchronize (Synchronize Sequence Numbers)"
+      },
+      {
+        "letter": "B",
+        "text": "Syntax"
+      },
+      {
+        "letter": "C",
+        "text": "System Node"
+      },
+      {
+        "letter": "D",
+        "text": "Synchronous Network"
+      }
+    ],
+    "correct_text": "Synchronize (Synchronize Sequence Numbers)"
+  },
+  {
+    "id": 138,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer Protocols",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What does the ACK flag in TCP stand for?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Acknowledgment"
+      },
+      {
+        "letter": "B",
+        "text": "Access Key"
+      },
+      {
+        "letter": "C",
+        "text": "Active Connection"
+      },
+      {
+        "letter": "D",
+        "text": "Address Check"
+      }
+    ],
+    "correct_text": "Acknowledgment"
+  },
+  {
+    "id": 139,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer Protocols",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What does the FIN flag in TCP stand for?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Finish (terminate connection)"
+      },
+      {
+        "letter": "B",
+        "text": "Finalized packet"
+      },
+      {
+        "letter": "C",
+        "text": "Filter index"
+      },
+      {
+        "letter": "D",
+        "text": "Flow indication"
+      }
+    ],
+    "correct_text": "Finish (terminate connection)"
+  },
+  {
+    "id": 140,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer Protocols",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What does the RST flag in TCP stand for?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Reset (reset the connection)"
+      },
+      {
+        "letter": "B",
+        "text": "Restart session"
+      },
+      {
+        "letter": "C",
+        "text": "Routing status"
+      },
+      {
+        "letter": "D",
+        "text": "Receiver state"
+      }
+    ],
+    "correct_text": "Reset (reset the connection)"
+  },
+  {
+    "id": 141,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What is the full form of WWW?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "World Wide Web"
+      },
+      {
+        "letter": "B",
+        "text": "Wide World Web"
+      },
+      {
+        "letter": "C",
+        "text": "World Wide Windows"
+      },
+      {
+        "letter": "D",
+        "text": "Web World Wide"
+      }
+    ],
+    "correct_text": "World Wide Web"
+  },
+  {
+    "id": 142,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What is the full form of HTTP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Hypertext Transfer Protocol"
+      },
+      {
+        "letter": "B",
+        "text": "High-speed Text Transmission Protocol"
+      },
+      {
+        "letter": "C",
+        "text": "Host Terminal Transfer Packet"
+      },
+      {
+        "letter": "D",
+        "text": "Hyperlink Text Translation Program"
+      }
+    ],
+    "correct_text": "Hypertext Transfer Protocol"
+  },
+  {
+    "id": 143,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What is the full form of HTTPS?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Hypertext Transfer Protocol Secure"
+      },
+      {
+        "letter": "B",
+        "text": "High-level Transfer Protocol Standard"
+      },
+      {
+        "letter": "C",
+        "text": "Hypertext Translation Program Socket"
+      },
+      {
+        "letter": "D",
+        "text": "Host Terminal Transport Security"
+      }
+    ],
+    "correct_text": "Hypertext Transfer Protocol Secure"
+  },
+  {
+    "id": 144,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What is the full form of TLS?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Transport Layer Security"
+      },
+      {
+        "letter": "B",
+        "text": "Terminal Link System"
+      },
+      {
+        "letter": "C",
+        "text": "Transaction Level Security"
+      },
+      {
+        "letter": "D",
+        "text": "Transmission Layer Socket"
+      }
+    ],
+    "correct_text": "Transport Layer Security"
+  },
+  {
+    "id": 145,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What is the full form of SSL?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Secure Sockets Layer"
+      },
+      {
+        "letter": "B",
+        "text": "Standard Socket Link"
+      },
+      {
+        "letter": "C",
+        "text": "System Security Level"
+      },
+      {
+        "letter": "D",
+        "text": "Secure Synchronous Line"
+      }
+    ],
+    "correct_text": "Secure Sockets Layer"
+  },
+  {
+    "id": 146,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What is the full form of FTP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "File Transfer Protocol"
+      },
+      {
+        "letter": "B",
+        "text": "Fast Transmission Packet"
+      },
+      {
+        "letter": "C",
+        "text": "Folder Tracking Program"
+      },
+      {
+        "letter": "D",
+        "text": "Format Translation Protocol"
+      }
+    ],
+    "correct_text": "File Transfer Protocol"
+  },
+  {
+    "id": 147,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What is the full form of SMTP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Simple Mail Transfer Protocol"
+      },
+      {
+        "letter": "B",
+        "text": "Standard Message Transmission Packet"
+      },
+      {
+        "letter": "C",
+        "text": "System Mail Transport Program"
+      },
+      {
+        "letter": "D",
+        "text": "Secure Mail Transition Protocol"
+      }
+    ],
+    "correct_text": "Simple Mail Transfer Protocol"
+  },
+  {
+    "id": 148,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What is the full form of POP3?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Post Office Protocol version 3"
+      },
+      {
+        "letter": "B",
+        "text": "Packet Order Protocol 3"
+      },
+      {
+        "letter": "C",
+        "text": "Public Office Program 3"
+      },
+      {
+        "letter": "D",
+        "text": "Private Online Protocol 3"
+      }
+    ],
+    "correct_text": "Post Office Protocol version 3"
+  },
+  {
+    "id": 149,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What is the full form of IMAP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Internet Message Access Protocol"
+      },
+      {
+        "letter": "B",
+        "text": "Internal Mail Application Program"
+      },
+      {
+        "letter": "C",
+        "text": "Interface Mail Access Packet"
+      },
+      {
+        "letter": "D",
+        "text": "Instant Message Action Protocol"
+      }
+    ],
+    "correct_text": "Internet Message Access Protocol"
+  },
+  {
+    "id": 150,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What is the full form of SSH?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Secure Shell"
+      },
+      {
+        "letter": "B",
+        "text": "System Security Host"
+      },
+      {
+        "letter": "C",
+        "text": "Socket Secure Handler"
+      },
+      {
+        "letter": "D",
+        "text": "Server Sharing Header"
+      }
+    ],
+    "correct_text": "Secure Shell"
+  },
+  {
+    "id": 151,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What is the full form of DNS?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Domain Name System"
+      },
+      {
+        "letter": "B",
+        "text": "Dynamic Network Service"
+      },
+      {
+        "letter": "C",
+        "text": "Data Node Synchronization"
+      },
+      {
+        "letter": "D",
+        "text": "Digital Name Server"
+      }
+    ],
+    "correct_text": "Domain Name System"
+  },
+  {
+    "id": 152,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Abbreviations & Full Forms",
+    "question": "What is the full form of URL?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Uniform Resource Locator"
+      },
+      {
+        "letter": "B",
+        "text": "Universal Resource Link"
+      },
+      {
+        "letter": "C",
+        "text": "Unified Reference Location"
+      },
+      {
+        "letter": "D",
+        "text": "Universal Routing Line"
+      }
+    ],
+    "correct_text": "Uniform Resource Locator"
+  },
+  {
+    "id": 153,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Well-Known Port Numbers",
+    "question": "What is the standard port number for DNS queries?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Port 53"
+      },
+      {
+        "letter": "B",
+        "text": "Port 80"
+      },
+      {
+        "letter": "C",
+        "text": "Port 25"
+      },
+      {
+        "letter": "D",
+        "text": "Port 110"
+      }
+    ],
+    "correct_text": "Port 53"
+  },
+  {
+    "id": 154,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Well-Known Port Numbers",
+    "question": "What is the default port number used by unencrypted HTTP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Port 80"
+      },
+      {
+        "letter": "B",
+        "text": "Port 443"
+      },
+      {
+        "letter": "C",
+        "text": "Port 8080"
+      },
+      {
+        "letter": "D",
+        "text": "Port 21"
+      }
+    ],
+    "correct_text": "Port 80"
+  },
+  {
+    "id": 155,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Well-Known Port Numbers",
+    "question": "What is the default port number used by encrypted HTTPS?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Port 443"
+      },
+      {
+        "letter": "B",
+        "text": "Port 80"
+      },
+      {
+        "letter": "C",
+        "text": "Port 22"
+      },
+      {
+        "letter": "D",
+        "text": "Port 8443"
+      }
+    ],
+    "correct_text": "Port 443"
+  },
+  {
+    "id": 156,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Well-Known Port Numbers",
+    "question": "What is the default port used by SSH for secure remote login?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Port 22"
+      },
+      {
+        "letter": "B",
+        "text": "Port 23"
+      },
+      {
+        "letter": "C",
+        "text": "Port 21"
+      },
+      {
+        "letter": "D",
+        "text": "Port 25"
+      }
+    ],
+    "correct_text": "Port 22"
+  },
+  {
+    "id": 157,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Well-Known Port Numbers",
+    "question": "What is the default port for Telnet (insecure remote terminal)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Port 23"
+      },
+      {
+        "letter": "B",
+        "text": "Port 22"
+      },
+      {
+        "letter": "C",
+        "text": "Port 25"
+      },
+      {
+        "letter": "D",
+        "text": "Port 21"
+      }
+    ],
+    "correct_text": "Port 23"
+  },
+  {
+    "id": 158,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Well-Known Port Numbers",
+    "question": "What is the default port for FTP Control connection?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Port 21"
+      },
+      {
+        "letter": "B",
+        "text": "Port 20"
+      },
+      {
+        "letter": "C",
+        "text": "Port 22"
+      },
+      {
+        "letter": "D",
+        "text": "Port 80"
+      }
+    ],
+    "correct_text": "Port 21"
+  },
+  {
+    "id": 159,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Well-Known Port Numbers",
+    "question": "What is the default port for active FTP Data connection?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Port 20"
+      },
+      {
+        "letter": "B",
+        "text": "Port 21"
+      },
+      {
+        "letter": "C",
+        "text": "Port 25"
+      },
+      {
+        "letter": "D",
+        "text": "Port 110"
+      }
+    ],
+    "correct_text": "Port 20"
+  },
+  {
+    "id": 160,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Well-Known Port Numbers",
+    "question": "What is the standard port for SMTP email transmission?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Port 25"
+      },
+      {
+        "letter": "B",
+        "text": "Port 110"
+      },
+      {
+        "letter": "C",
+        "text": "Port 143"
+      },
+      {
+        "letter": "D",
+        "text": "Port 80"
+      }
+    ],
+    "correct_text": "Port 25"
+  },
+  {
+    "id": 161,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Well-Known Port Numbers",
+    "question": "Which port is recommended for modern authenticated email submission using SMTP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Port 587"
+      },
+      {
+        "letter": "B",
+        "text": "Port 25"
+      },
+      {
+        "letter": "C",
+        "text": "Port 110"
+      },
+      {
+        "letter": "D",
+        "text": "Port 22"
+      }
+    ],
+    "correct_text": "Port 587"
+  },
+  {
+    "id": 162,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Well-Known Port Numbers",
+    "question": "What is the default port for standard unencrypted POP3 email retrieval?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Port 110"
+      },
+      {
+        "letter": "B",
+        "text": "Port 995"
+      },
+      {
+        "letter": "C",
+        "text": "Port 143"
+      },
+      {
+        "letter": "D",
+        "text": "Port 25"
+      }
+    ],
+    "correct_text": "Port 110"
+  },
+  {
+    "id": 163,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Well-Known Port Numbers",
+    "question": "What is the default port for secure POP3 over SSL/TLS?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Port 995"
+      },
+      {
+        "letter": "B",
+        "text": "Port 110"
+      },
+      {
+        "letter": "C",
+        "text": "Port 993"
+      },
+      {
+        "letter": "D",
+        "text": "Port 465"
+      }
+    ],
+    "correct_text": "Port 995"
+  },
+  {
+    "id": 164,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Well-Known Port Numbers",
+    "question": "What is the default port for standard unencrypted IMAP email access?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Port 143"
+      },
+      {
+        "letter": "B",
+        "text": "Port 993"
+      },
+      {
+        "letter": "C",
+        "text": "Port 110"
+      },
+      {
+        "letter": "D",
+        "text": "Port 25"
+      }
+    ],
+    "correct_text": "Port 143"
+  },
+  {
+    "id": 165,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Well-Known Port Numbers",
+    "question": "What is the default port for secure IMAP over SSL/TLS?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Port 993"
+      },
+      {
+        "letter": "B",
+        "text": "Port 143"
+      },
+      {
+        "letter": "C",
+        "text": "Port 995"
+      },
+      {
+        "letter": "D",
+        "text": "Port 465"
+      }
+    ],
+    "correct_text": "Port 993"
+  },
+  {
+    "id": 166,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Well-Known Port Numbers",
+    "question": "Which UDP port is used by RIP (Routing Information Protocol) to exchange routing tables?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "UDP port 520"
+      },
+      {
+        "letter": "B",
+        "text": "TCP port 179"
+      },
+      {
+        "letter": "C",
+        "text": "UDP port 69"
+      },
+      {
+        "letter": "D",
+        "text": "TCP port 520"
+      }
+    ],
+    "correct_text": "UDP port 520"
+  },
+  {
+    "id": 167,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Well-Known Port Numbers",
+    "question": "Which TCP port is used by BGP (Border Gateway Protocol) for inter-domain routing?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "TCP port 179"
+      },
+      {
+        "letter": "B",
+        "text": "UDP port 520"
+      },
+      {
+        "letter": "C",
+        "text": "TCP port 89"
+      },
+      {
+        "letter": "D",
+        "text": "UDP port 179"
+      }
+    ],
+    "correct_text": "TCP port 179"
+  },
+  {
+    "id": 168,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Well-Known Port Numbers",
+    "question": "Which IP protocol number is used directly by OSPF without requiring a TCP or UDP header?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "IP protocol 89"
+      },
+      {
+        "letter": "B",
+        "text": "TCP port 89"
+      },
+      {
+        "letter": "C",
+        "text": "UDP port 89"
+      },
+      {
+        "letter": "D",
+        "text": "IP protocol 6"
+      }
+    ],
+    "correct_text": "IP protocol 89"
+  },
+  {
+    "id": 169,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Header Sizes & Formats",
+    "question": "What is the minimum header size of an IPv4 packet?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "20 bytes"
+      },
+      {
+        "letter": "B",
+        "text": "40 bytes"
+      },
+      {
+        "letter": "C",
+        "text": "8 bytes"
+      },
+      {
+        "letter": "D",
+        "text": "16 bytes"
+      }
+    ],
+    "correct_text": "20 bytes"
+  },
+  {
+    "id": 170,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Header Sizes & Formats",
+    "question": "What is the maximum possible header size of an IPv4 packet including options?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "60 bytes"
+      },
+      {
+        "letter": "B",
+        "text": "40 bytes"
+      },
+      {
+        "letter": "C",
+        "text": "20 bytes"
+      },
+      {
+        "letter": "D",
+        "text": "128 bytes"
+      }
+    ],
+    "correct_text": "60 bytes"
+  },
+  {
+    "id": 171,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Header Sizes & Formats",
+    "question": "What is the fixed base header size of an IPv6 packet?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "40 bytes"
+      },
+      {
+        "letter": "B",
+        "text": "20 bytes"
+      },
+      {
+        "letter": "C",
+        "text": "32 bytes"
+      },
+      {
+        "letter": "D",
+        "text": "64 bytes"
+      }
+    ],
+    "correct_text": "40 bytes"
+  },
+  {
+    "id": 172,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer Protocols",
+    "topic": "Header Sizes & Formats",
+    "question": "What is the standard fixed header size of a UDP datagram?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "8 bytes"
+      },
+      {
+        "letter": "B",
+        "text": "20 bytes"
+      },
+      {
+        "letter": "C",
+        "text": "40 bytes"
+      },
+      {
+        "letter": "D",
+        "text": "16 bytes"
+      }
+    ],
+    "correct_text": "8 bytes"
+  },
+  {
+    "id": 173,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer Protocols",
+    "topic": "Header Sizes & Formats",
+    "question": "What is the minimum header size of a TCP segment without optional headers?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "20 bytes"
+      },
+      {
+        "letter": "B",
+        "text": "8 bytes"
+      },
+      {
+        "letter": "C",
+        "text": "40 bytes"
+      },
+      {
+        "letter": "D",
+        "text": "16 bytes"
+      }
+    ],
+    "correct_text": "20 bytes"
+  },
+  {
+    "id": 174,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer Protocols",
+    "topic": "Header Sizes & Formats",
+    "question": "What is the maximum header size of a TCP segment including options?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "60 bytes"
+      },
+      {
+        "letter": "B",
+        "text": "40 bytes"
+      },
+      {
+        "letter": "C",
+        "text": "32 bytes"
+      },
+      {
+        "letter": "D",
+        "text": "128 bytes"
+      }
+    ],
+    "correct_text": "60 bytes"
+  },
+  {
+    "id": 175,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Network Layer Core Principles",
+    "question": "In the OSI 7-layer model, which layer lies immediately below the Network Layer?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Data Link Layer (Layer 2)"
+      },
+      {
+        "letter": "B",
+        "text": "Physical Layer (Layer 1)"
+      },
+      {
+        "letter": "C",
+        "text": "Transport Layer (Layer 4)"
+      },
+      {
+        "letter": "D",
+        "text": "Session Layer (Layer 5)"
+      }
+    ],
+    "correct_text": "Data Link Layer (Layer 2)"
+  },
+  {
+    "id": 176,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Network Layer Core Principles",
+    "question": "In the OSI 7-layer model, which layer lies immediately above the Network Layer?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Transport Layer (Layer 4)"
+      },
+      {
+        "letter": "B",
+        "text": "Data Link Layer (Layer 2)"
+      },
+      {
+        "letter": "C",
+        "text": "Application Layer (Layer 7)"
+      },
+      {
+        "letter": "D",
+        "text": "Session Layer (Layer 5)"
+      }
+    ],
+    "correct_text": "Transport Layer (Layer 4)"
+  },
+  {
+    "id": 177,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Network Layer Core Principles",
+    "question": "What type of address is an IP address?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Logical network address"
+      },
+      {
+        "letter": "B",
+        "text": "Physical MAC address"
+      },
+      {
+        "letter": "C",
+        "text": "Port socket address"
+      },
+      {
+        "letter": "D",
+        "text": "Hardware serial number"
+      }
+    ],
+    "correct_text": "Logical network address"
+  },
+  {
+    "id": 178,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Network Layer Core Principles",
+    "question": "What is the primary difference between routing and forwarding?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Routing determines the overall end-to-end path; forwarding moves a packet from an input interface to an output interface"
+      },
+      {
+        "letter": "B",
+        "text": "Routing is done by switches; forwarding is done by firewalls"
+      },
+      {
+        "letter": "C",
+        "text": "Routing modifies MAC addresses; forwarding modifies IP addresses"
+      },
+      {
+        "letter": "D",
+        "text": "Forwarding calculates shortest paths; routing transmits physical voltages"
+      }
+    ],
+    "correct_text": "Routing determines the overall end-to-end path; forwarding moves a packet from an input interface to an output interface"
+  },
+  {
+    "id": 179,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Network Layer Core Principles",
+    "question": "Why is IP called connectionless?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Each packet is treated independently with no prior connection setup between sender and receiver"
+      },
+      {
+        "letter": "B",
+        "text": "It cannot connect to routers"
+      },
+      {
+        "letter": "C",
+        "text": "It requires copper cables to connect"
+      },
+      {
+        "letter": "D",
+        "text": "It only operates when computers are turned off"
+      }
+    ],
+    "correct_text": "Each packet is treated independently with no prior connection setup between sender and receiver"
+  },
+  {
+    "id": 180,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Network Layer Core Principles",
+    "question": "What happens to an IP packet if its Time To Live (TTL) or Hop Limit reaches zero?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The packet is discarded and an ICMP Time Exceeded message is sent back to the sender"
+      },
+      {
+        "letter": "B",
+        "text": "The packet is immediately sent to the destination"
+      },
+      {
+        "letter": "C",
+        "text": "The packet is stored in router permanent storage"
+      },
+      {
+        "letter": "D",
+        "text": "The packet is converted into an Ethernet frame"
+      }
+    ],
+    "correct_text": "The packet is discarded and an ICMP Time Exceeded message is sent back to the sender"
+  },
+  {
+    "id": 181,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Network Layer Core Principles",
+    "question": "What is the purpose of the TTL (Time to Live) field in IPv4 packets?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To prevent packets from circulating endlessly in routing loops"
+      },
+      {
+        "letter": "B",
+        "text": "To track how many seconds the computer has been on"
+      },
+      {
+        "letter": "C",
+        "text": "To measure cable length"
+      },
+      {
+        "letter": "D",
+        "text": "To encrypt packet contents"
+      }
+    ],
+    "correct_text": "To prevent packets from circulating endlessly in routing loops"
+  },
+  {
+    "id": 182,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Network Layer Core Principles",
+    "question": "What is the equivalent of IPv4's TTL (Time To Live) field in the IPv6 header?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Hop Limit"
+      },
+      {
+        "letter": "B",
+        "text": "Payload Length"
+      },
+      {
+        "letter": "C",
+        "text": "Next Header"
+      },
+      {
+        "letter": "D",
+        "text": "Traffic Class"
+      }
+    ],
+    "correct_text": "Hop Limit"
+  },
+  {
+    "id": 183,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Network Layer Core Principles",
+    "question": "What is the equivalent of IPv4's 'Protocol' field in the IPv6 header?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Next Header"
+      },
+      {
+        "letter": "B",
+        "text": "Hop Limit"
+      },
+      {
+        "letter": "C",
+        "text": "Flow Label"
+      },
+      {
+        "letter": "D",
+        "text": "Version"
+      }
+    ],
+    "correct_text": "Next Header"
+  },
+  {
+    "id": 184,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Routing Protocols & Algorithms",
+    "question": "What is an Autonomous System (AS)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A collection of routers and networks managed under a single administrative authority"
+      },
+      {
+        "letter": "B",
+        "text": "A self-driving automobile network"
+      },
+      {
+        "letter": "C",
+        "text": "A router that operates without electrical power"
+      },
+      {
+        "letter": "D",
+        "text": "A single client computer connected to Wi-Fi"
+      }
+    ],
+    "correct_text": "A collection of routers and networks managed under a single administrative authority"
+  },
+  {
+    "id": 185,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Routing Protocols & Algorithms",
+    "question": "Which type of routing protocol is used within a single Autonomous System?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Interior Gateway Protocol (IGP)"
+      },
+      {
+        "letter": "B",
+        "text": "Exterior Gateway Protocol (EGP)"
+      },
+      {
+        "letter": "C",
+        "text": "Border Gateway Protocol"
+      },
+      {
+        "letter": "D",
+        "text": "Inter-domain Protocol"
+      }
+    ],
+    "correct_text": "Interior Gateway Protocol (IGP)"
+  },
+  {
+    "id": 186,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Routing Protocols & Algorithms",
+    "question": "Which of the following routing protocols is an Exterior Gateway Protocol (EGP)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "BGP (Border Gateway Protocol)"
+      },
+      {
+        "letter": "B",
+        "text": "RIP"
+      },
+      {
+        "letter": "C",
+        "text": "OSPF"
+      },
+      {
+        "letter": "D",
+        "text": "IS-IS"
+      }
+    ],
+    "correct_text": "BGP (Border Gateway Protocol)"
+  },
+  {
+    "id": 187,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Routing Protocols & Algorithms",
+    "question": "Which of the following routing protocols are examples of Interior Gateway Protocols (IGPs)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "RIP and OSPF"
+      },
+      {
+        "letter": "B",
+        "text": "BGP and DNS"
+      },
+      {
+        "letter": "C",
+        "text": "HTTP and FTP"
+      },
+      {
+        "letter": "D",
+        "text": "TCP and UDP"
+      }
+    ],
+    "correct_text": "RIP and OSPF"
+  },
+  {
+    "id": 188,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Routing Protocols & Algorithms",
+    "question": "Why is RIP unsuitable for large networks or the global Internet?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Because its maximum hop limit is 15 and it has slow convergence"
+      },
+      {
+        "letter": "B",
+        "text": "Because it requires 128-bit addresses only"
+      },
+      {
+        "letter": "C",
+        "text": "Because it does not support IP packets"
+      },
+      {
+        "letter": "D",
+        "text": "Because it requires optical fiber only"
+      }
+    ],
+    "correct_text": "Because its maximum hop limit is 15 and it has slow convergence"
+  },
+  {
+    "id": 189,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Routing Protocols & Algorithms",
+    "question": "How frequently does RIP traditionally broadcast or send routing updates to neighbors?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Every 30 seconds"
+      },
+      {
+        "letter": "B",
+        "text": "Every 5 minutes"
+      },
+      {
+        "letter": "C",
+        "text": "Every 1 millisecond"
+      },
+      {
+        "letter": "D",
+        "text": "Only when router boots up"
+      }
+    ],
+    "correct_text": "Every 30 seconds"
+  },
+  {
+    "id": 190,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Routing Protocols & Algorithms",
+    "question": "What information does a Link State router send in Link State Advertisements (LSAs)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The state and cost of its directly connected links to all routers in the area"
+      },
+      {
+        "letter": "B",
+        "text": "Its entire routing table to neighboring routers only"
+      },
+      {
+        "letter": "C",
+        "text": "All user web passwords"
+      },
+      {
+        "letter": "D",
+        "text": "Only the default gateway IP"
+      }
+    ],
+    "correct_text": "The state and cost of its directly connected links to all routers in the area"
+  },
+  {
+    "id": 191,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Routing Protocols & Algorithms",
+    "question": "Why do Link State routing protocols converge faster than Distance Vector protocols?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Each router has full topology knowledge and computes shortest paths independently using Dijkstra"
+      },
+      {
+        "letter": "B",
+        "text": "They use slower baud rates"
+      },
+      {
+        "letter": "C",
+        "text": "They send updates only once a day"
+      },
+      {
+        "letter": "D",
+        "text": "They do not use IP routing tables"
+      }
+    ],
+    "correct_text": "Each router has full topology knowledge and computes shortest paths independently using Dijkstra"
+  },
+  {
+    "id": 192,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Routing Protocols & Algorithms",
+    "question": "What technique is commonly used to prevent routing loops in Distance Vector routing?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Split Horizon and Poison Reverse"
+      },
+      {
+        "letter": "B",
+        "text": "Dijkstra algorithm"
+      },
+      {
+        "letter": "C",
+        "text": "Binary search"
+      },
+      {
+        "letter": "D",
+        "text": "Sliding Window"
+      }
+    ],
+    "correct_text": "Split Horizon and Poison Reverse"
+  },
+  {
+    "id": 193,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Multicasting Deep-Dive",
+    "question": "In IPv4 multicast, what is the first octet range of Class D addresses?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "224 to 239"
+      },
+      {
+        "letter": "B",
+        "text": "128 to 191"
+      },
+      {
+        "letter": "C",
+        "text": "192 to 223"
+      },
+      {
+        "letter": "D",
+        "text": "240 to 255"
+      }
+    ],
+    "correct_text": "224 to 239"
+  },
+  {
+    "id": 194,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Multicasting Deep-Dive",
+    "question": "Which of the following is a valid IPv4 multicast address?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "224.0.0.1"
+      },
+      {
+        "letter": "B",
+        "text": "192.168.1.1"
+      },
+      {
+        "letter": "C",
+        "text": "10.0.0.1"
+      },
+      {
+        "letter": "D",
+        "text": "255.255.255.255"
+      }
+    ],
+    "correct_text": "224.0.0.1"
+  },
+  {
+    "id": 195,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Multicasting Deep-Dive",
+    "question": "What is the IPv4 multicast address 224.0.0.1 used for?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "All systems/hosts on this subnet"
+      },
+      {
+        "letter": "B",
+        "text": "All routers on this subnet"
+      },
+      {
+        "letter": "C",
+        "text": "RIP routers"
+      },
+      {
+        "letter": "D",
+        "text": "OSPF routers"
+      }
+    ],
+    "correct_text": "All systems/hosts on this subnet"
+  },
+  {
+    "id": 196,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Multicasting Deep-Dive",
+    "question": "What is the IPv4 multicast address 224.0.0.2 used for?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "All routers on this subnet"
+      },
+      {
+        "letter": "B",
+        "text": "All hosts on the Internet"
+      },
+      {
+        "letter": "C",
+        "text": "Default gateway only"
+      },
+      {
+        "letter": "D",
+        "text": "DHCP servers"
+      }
+    ],
+    "correct_text": "All routers on this subnet"
+  },
+  {
+    "id": 197,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "Multicasting Deep-Dive",
+    "question": "What protocol enables multicast listeners to inform local routers that they wish to receive group traffic in IPv6?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "MLD (Multicast Listener Discovery)"
+      },
+      {
+        "letter": "B",
+        "text": "IGMP"
+      },
+      {
+        "letter": "C",
+        "text": "ARP"
+      },
+      {
+        "letter": "D",
+        "text": "ICMPv4"
+      }
+    ],
+    "correct_text": "MLD (Multicast Listener Discovery)"
+  },
+  {
+    "id": 198,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "IPv6 Addressing Rules",
+    "question": "How many 16-bit blocks (hextets) compose an IPv6 address?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "8 blocks"
+      },
+      {
+        "letter": "B",
+        "text": "4 blocks"
+      },
+      {
+        "letter": "C",
+        "text": "16 blocks"
+      },
+      {
+        "letter": "D",
+        "text": "32 blocks"
+      }
+    ],
+    "correct_text": "8 blocks"
+  },
+  {
+    "id": 199,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "IPv6 Addressing Rules",
+    "question": "How is the IPv6 address '2001:0db8:0000:0000:0000:0000:1428:57ab' correctly abbreviated?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "2001:db8::1428:57ab"
+      },
+      {
+        "letter": "B",
+        "text": "2001:db8:0::1428:57ab::"
+      },
+      {
+        "letter": "C",
+        "text": "2001:db8:1428:57ab"
+      },
+      {
+        "letter": "D",
+        "text": "2001::db8::1428:57ab"
+      }
+    ],
+    "correct_text": "2001:db8::1428:57ab"
+  },
+  {
+    "id": 200,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "IPv6 Addressing Rules",
+    "question": "Why can the double-colon '::' symbol only be used ONCE in an IPv6 address?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Because using it more than once creates ambiguity about how many zero blocks were omitted"
+      },
+      {
+        "letter": "B",
+        "text": "Because hexadecimal notation only allows one colon"
+      },
+      {
+        "letter": "C",
+        "text": "Because routers will crash"
+      },
+      {
+        "letter": "D",
+        "text": "Because IPv6 addresses cannot exceed 32 bits"
+      }
+    ],
+    "correct_text": "Because using it more than once creates ambiguity about how many zero blocks were omitted"
+  },
+  {
+    "id": 201,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "IPv6 Addressing Rules",
+    "question": "What is the loopback address in IPv6?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "::1 (or 0:0:0:0:0:0:0:1)"
+      },
+      {
+        "letter": "B",
+        "text": "127.0.0.1"
+      },
+      {
+        "letter": "C",
+        "text": "::0"
+      },
+      {
+        "letter": "D",
+        "text": "fe80::1"
+      }
+    ],
+    "correct_text": "::1 (or 0:0:0:0:0:0:0:1)"
+  },
+  {
+    "id": 202,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "IPv6 Addressing Rules",
+    "question": "What is the unspecified address in IPv6 representing 'any address' or 'no address'?",
+    "options": [
+      {
+        "letter": "A",
+        "text": ":: (all zeros)"
+      },
+      {
+        "letter": "B",
+        "text": "::1"
+      },
+      {
+        "letter": "C",
+        "text": "ff00::"
+      },
+      {
+        "letter": "D",
+        "text": "fe80::"
+      }
+    ],
+    "correct_text": ":: (all zeros)"
+  },
+  {
+    "id": 203,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer Protocols",
+    "topic": "IPv6 Addressing Rules",
+    "question": "What prefix identifies link-local unicast addresses in IPv6?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "fe80::/10"
+      },
+      {
+        "letter": "B",
+        "text": "ff00::/8"
+      },
+      {
+        "letter": "C",
+        "text": "2001::/16"
+      },
+      {
+        "letter": "D",
+        "text": "fc00::/7"
+      }
+    ],
+    "correct_text": "fe80::/10"
+  },
+  {
+    "id": 204,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer Protocols",
+    "topic": "Ports & Multiplexing",
+    "question": "What is port multiplexing at the Transport Layer?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Combining data streams from multiple applications into packets at sender, and demultiplexing to correct applications at receiver"
+      },
+      {
+        "letter": "B",
+        "text": "Splitting an optical cable into multiple glass fibers"
+      },
+      {
+        "letter": "C",
+        "text": "Assigning multiple IP addresses to a single network card"
+      },
+      {
+        "letter": "D",
+        "text": "Converting analog radio signals into digital packets"
+      }
+    ],
+    "correct_text": "Combining data streams from multiple applications into packets at sender, and demultiplexing to correct applications at receiver"
+  },
+  {
+    "id": 205,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer Protocols",
+    "topic": "Ports & Multiplexing",
+    "question": "What is the range of Well-Known port numbers reserved for standard protocols?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0 to 1023"
+      },
+      {
+        "letter": "B",
+        "text": "1024 to 49151"
+      },
+      {
+        "letter": "C",
+        "text": "49152 to 65535"
+      },
+      {
+        "letter": "D",
+        "text": "1 to 255"
+      }
+    ],
+    "correct_text": "0 to 1023"
+  },
+  {
+    "id": 206,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer Protocols",
+    "topic": "Ports & Multiplexing",
+    "question": "What is the range of Registered port numbers?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1024 to 49151"
+      },
+      {
+        "letter": "B",
+        "text": "0 to 1023"
+      },
+      {
+        "letter": "C",
+        "text": "49152 to 65535"
+      },
+      {
+        "letter": "D",
+        "text": "1000 to 2000"
+      }
+    ],
+    "correct_text": "1024 to 49151"
+  },
+  {
+    "id": 207,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer Protocols",
+    "topic": "Ports & Multiplexing",
+    "question": "What is the range of Dynamic, Private, or Ephemeral port numbers automatically chosen by client devices?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "49152 to 65535"
+      },
+      {
+        "letter": "B",
+        "text": "0 to 1023"
+      },
+      {
+        "letter": "C",
+        "text": "1024 to 49151"
+      },
+      {
+        "letter": "D",
+        "text": "1 to 65536"
+      }
+    ],
+    "correct_text": "49152 to 65535"
+  },
+  {
+    "id": 208,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer Protocols",
+    "topic": "TCP Features & Mechanisms",
+    "question": "What mechanism does TCP use to perform flow control so a fast sender does not overwhelm a slow receiver?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Sliding Window flow control (based on Receive Window advertised by receiver)"
+      },
+      {
+        "letter": "B",
+        "text": "Stop-and-wait ARQ only"
+      },
+      {
+        "letter": "C",
+        "text": "Dropping packets silently"
+      },
+      {
+        "letter": "D",
+        "text": "Decreasing physical voltage"
+      }
+    ],
+    "correct_text": "Sliding Window flow control (based on Receive Window advertised by receiver)"
+  },
+  {
+    "id": 209,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer Protocols",
+    "topic": "TCP Features & Mechanisms",
+    "question": "What does the Sequence Number in a TCP header represent?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The byte sequence number of the first data byte in the segment"
+      },
+      {
+        "letter": "B",
+        "text": "The total count of routers along the path"
+      },
+      {
+        "letter": "C",
+        "text": "The port number of the receiving program"
+      },
+      {
+        "letter": "D",
+        "text": "The checksum of the IP header"
+      }
+    ],
+    "correct_text": "The byte sequence number of the first data byte in the segment"
+  },
+  {
+    "id": 210,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer Protocols",
+    "topic": "TCP Features & Mechanisms",
+    "question": "What does the Acknowledgment Number in a TCP header represent?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The next byte sequence number that the receiver expects to receive"
+      },
+      {
+        "letter": "B",
+        "text": "The last byte that was corrupted"
+      },
+      {
+        "letter": "C",
+        "text": "The port number of the sender"
+      },
+      {
+        "letter": "D",
+        "text": "The number of packets dropped"
+      }
+    ],
+    "correct_text": "The next byte sequence number that the receiver expects to receive"
+  },
+  {
+    "id": 211,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer Protocols",
+    "topic": "TCP Features & Mechanisms",
+    "question": "What are the four phases of TCP congestion control?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery"
+      },
+      {
+        "letter": "B",
+        "text": "Open, Connect, Transmit, Close"
+      },
+      {
+        "letter": "C",
+        "text": "SYN, SYN-ACK, ACK, FIN"
+      },
+      {
+        "letter": "D",
+        "text": "Listen, Send, Receive, Discard"
+      }
+    ],
+    "correct_text": "Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery"
+  },
+  {
+    "id": 212,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer Protocols",
+    "topic": "TCP Features & Mechanisms",
+    "question": "How does TCP detect that a packet was lost in transit?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Retransmission timeout (RTO) expiration or receipt of 3 duplicate ACKs"
+      },
+      {
+        "letter": "B",
+        "text": "ICMP error message from the client"
+      },
+      {
+        "letter": "C",
+        "text": "Receiver sends a broadcast frame"
+      },
+      {
+        "letter": "D",
+        "text": "The router sends an HTTP 404 response"
+      }
+    ],
+    "correct_text": "Retransmission timeout (RTO) expiration or receipt of 3 duplicate ACKs"
+  },
+  {
+    "id": 213,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer Protocols",
+    "topic": "TCP Features & Mechanisms",
+    "question": "What is the role of the URG (Urgent) flag in TCP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Indicates that the segment contains urgent data pointed to by the Urgent Pointer field"
+      },
+      {
+        "letter": "B",
+        "text": "Closes the connection immediately"
+      },
+      {
+        "letter": "C",
+        "text": "Resets the sliding window to zero"
+      },
+      {
+        "letter": "D",
+        "text": "Forces packet fragmentation"
+      }
+    ],
+    "correct_text": "Indicates that the segment contains urgent data pointed to by the Urgent Pointer field"
+  },
+  {
+    "id": 214,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer Protocols",
+    "topic": "TCP Features & Mechanisms",
+    "question": "What is the role of the PSH (Push) flag in TCP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Requests the receiver to push buffered data immediately to the receiving application"
+      },
+      {
+        "letter": "B",
+        "text": "Terminates the TCP connection"
+      },
+      {
+        "letter": "C",
+        "text": "Encrypts the payload"
+      },
+      {
+        "letter": "D",
+        "text": "Suspends transmission"
+      }
+    ],
+    "correct_text": "Requests the receiver to push buffered data immediately to the receiving application"
+  },
+  {
+    "id": 215,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer Protocols",
+    "topic": "SCTP In-Depth",
+    "question": "How does SCTP multi-streaming prevent Head-of-Line (HoL) blocking found in TCP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Loss or delay in one stream does not block data delivery in other independent streams"
+      },
+      {
+        "letter": "B",
+        "text": "By converting all data into UDP datagrams"
+      },
+      {
+        "letter": "C",
+        "text": "By eliminating sequence numbers"
+      },
+      {
+        "letter": "D",
+        "text": "By limiting message length to 8 bytes"
+      }
+    ],
+    "correct_text": "Loss or delay in one stream does not block data delivery in other independent streams"
+  },
+  {
+    "id": 216,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer Protocols",
+    "topic": "SCTP In-Depth",
+    "question": "What is the unit of transmission exchanged between SCTP endpoints?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "SCTP Packets containing one or more Chunks"
+      },
+      {
+        "letter": "B",
+        "text": "Segments"
+      },
+      {
+        "letter": "C",
+        "text": "Frames"
+      },
+      {
+        "letter": "D",
+        "text": "Datagrams only"
+      }
+    ],
+    "correct_text": "SCTP Packets containing one or more Chunks"
+  },
+  {
+    "id": 217,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer Protocols",
+    "topic": "SCTP In-Depth",
+    "question": "How does SCTP establish an association between endpoints?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A 4-way handshake using INIT, INIT-ACK, COOKIE-ECHO, and COOKIE-ACK"
+      },
+      {
+        "letter": "B",
+        "text": "A 3-way handshake using SYN, SYN-ACK, ACK"
+      },
+      {
+        "letter": "C",
+        "text": "A 2-way ping-pong exchange"
+      },
+      {
+        "letter": "D",
+        "text": "No handshake (connectionless)"
+      }
+    ],
+    "correct_text": "A 4-way handshake using INIT, INIT-ACK, COOKIE-ECHO, and COOKIE-ACK"
+  },
+  {
+    "id": 218,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer Protocols",
+    "topic": "SCTP In-Depth",
+    "question": "Why does SCTP use a 4-way handshake with signed cookie verification?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To protect servers against SYN-flood denial of service (DoS) attacks"
+      },
+      {
+        "letter": "B",
+        "text": "To slow down fast clients"
+      },
+      {
+        "letter": "C",
+        "text": "To generate random port numbers"
+      },
+      {
+        "letter": "D",
+        "text": "To replace SSL encryption"
+      }
+    ],
+    "correct_text": "To protect servers against SYN-flood denial of service (DoS) attacks"
+  },
+  {
+    "id": 219,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "HTTP & Web Protocols",
+    "question": "Which HTTP method is typically used by a client to request data/webpages from a server without modifying server state?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "GET"
+      },
+      {
+        "letter": "B",
+        "text": "POST"
+      },
+      {
+        "letter": "C",
+        "text": "DELETE"
+      },
+      {
+        "letter": "D",
+        "text": "PUT"
+      }
+    ],
+    "correct_text": "GET"
+  },
+  {
+    "id": 220,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "HTTP & Web Protocols",
+    "question": "Which HTTP method is typically used to submit form data or upload files to a server?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "POST"
+      },
+      {
+        "letter": "B",
+        "text": "GET"
+      },
+      {
+        "letter": "C",
+        "text": "HEAD"
+      },
+      {
+        "letter": "D",
+        "text": "OPTIONS"
+      }
+    ],
+    "correct_text": "POST"
+  },
+  {
+    "id": 221,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "HTTP & Web Protocols",
+    "question": "What does HTTP status code 200 represent?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "OK (request succeeded)"
+      },
+      {
+        "letter": "B",
+        "text": "Not Found"
+      },
+      {
+        "letter": "C",
+        "text": "Internal Server Error"
+      },
+      {
+        "letter": "D",
+        "text": "Unauthorized"
+      }
+    ],
+    "correct_text": "OK (request succeeded)"
+  },
+  {
+    "id": 222,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "HTTP & Web Protocols",
+    "question": "What does HTTP status code 404 represent?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Not Found (requested resource does not exist)"
+      },
+      {
+        "letter": "B",
+        "text": "Bad Request"
+      },
+      {
+        "letter": "C",
+        "text": "Forbidden"
+      },
+      {
+        "letter": "D",
+        "text": "Moved Permanently"
+      }
+    ],
+    "correct_text": "Not Found (requested resource does not exist)"
+  },
+  {
+    "id": 223,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "HTTP & Web Protocols",
+    "question": "What does HTTP status code 500 represent?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Internal Server Error"
+      },
+      {
+        "letter": "B",
+        "text": "Bad Gateway"
+      },
+      {
+        "letter": "C",
+        "text": "Gateway Timeout"
+      },
+      {
+        "letter": "D",
+        "text": "Service Unavailable"
+      }
+    ],
+    "correct_text": "Internal Server Error"
+  },
+  {
+    "id": 224,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "HTTP & Web Protocols",
+    "question": "What does HTTP status code 301 represent?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Moved Permanently (redirect)"
+      },
+      {
+        "letter": "B",
+        "text": "Found (temporary redirect)"
+      },
+      {
+        "letter": "C",
+        "text": "Unauthorized"
+      },
+      {
+        "letter": "D",
+        "text": "Accepted"
+      }
+    ],
+    "correct_text": "Moved Permanently (redirect)"
+  },
+  {
+    "id": 225,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "HTTP & Web Protocols",
+    "question": "How do modern web applications maintain session state over stateless HTTP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Using HTTP Cookies and Session tokens"
+      },
+      {
+        "letter": "B",
+        "text": "By altering IP addresses on each request"
+      },
+      {
+        "letter": "C",
+        "text": "By establishing continuous TCP connections that never close"
+      },
+      {
+        "letter": "D",
+        "text": "By encoding state in DNS records"
+      }
+    ],
+    "correct_text": "Using HTTP Cookies and Session tokens"
+  },
+  {
+    "id": 226,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "DNS Deep-Dive",
+    "question": "In DNS, what is the role of a Root Name Server?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "It directs queries to the appropriate Top-Level Domain (TLD) servers (such as .com, .org, .edu)"
+      },
+      {
+        "letter": "B",
+        "text": "It stores the IP address of every computer on Earth"
+      },
+      {
+        "letter": "C",
+        "text": "It translates MAC addresses to IP addresses"
+      },
+      {
+        "letter": "D",
+        "text": "It runs web browsers for users"
+      }
+    ],
+    "correct_text": "It directs queries to the appropriate Top-Level Domain (TLD) servers (such as .com, .org, .edu)"
+  },
+  {
+    "id": 227,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "DNS Deep-Dive",
+    "question": "What is an Authoritative DNS server?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A server that holds the actual definitive DNS records for a specific domain name"
+      },
+      {
+        "letter": "B",
+        "text": "A temporary caching server at an ISP"
+      },
+      {
+        "letter": "C",
+        "text": "A root server that routes all Internet traffic"
+      },
+      {
+        "letter": "D",
+        "text": "A browser cache on a local laptop"
+      }
+    ],
+    "correct_text": "A server that holds the actual definitive DNS records for a specific domain name"
+  },
+  {
+    "id": 228,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "DNS Deep-Dive",
+    "question": "What is the difference between Recursive and Iterative DNS queries?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "In recursive queries, the client asks the resolver to find the complete answer; in iterative queries, the server returns the best referral it knows"
+      },
+      {
+        "letter": "B",
+        "text": "Recursive queries use TCP; iterative queries use UDP"
+      },
+      {
+        "letter": "C",
+        "text": "Recursive queries are unencrypted; iterative queries use TLS"
+      },
+      {
+        "letter": "D",
+        "text": "There is no functional difference"
+      }
+    ],
+    "correct_text": "In recursive queries, the client asks the resolver to find the complete answer; in iterative queries, the server returns the best referral it knows"
+  },
+  {
+    "id": 229,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "DNS Deep-Dive",
+    "question": "Which DNS record is used for Reverse DNS Lookups (translating an IP address back into a domain name)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "PTR (Pointer) record"
+      },
+      {
+        "letter": "B",
+        "text": "A record"
+      },
+      {
+        "letter": "C",
+        "text": "MX record"
+      },
+      {
+        "letter": "D",
+        "text": "CNAME record"
+      }
+    ],
+    "correct_text": "PTR (Pointer) record"
+  },
+  {
+    "id": 230,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Email & File Protocols",
+    "question": "What format was developed to allow emails to contain multimedia, attachments, and non-ASCII character sets?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "MIME (Multipurpose Internet Mail Extensions)"
+      },
+      {
+        "letter": "B",
+        "text": "ASCII-7"
+      },
+      {
+        "letter": "C",
+        "text": "HTML5"
+      },
+      {
+        "letter": "D",
+        "text": "FTP"
+      }
+    ],
+    "correct_text": "MIME (Multipurpose Internet Mail Extensions)"
+  },
+  {
+    "id": 231,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Email & File Protocols",
+    "question": "What is the main limitation of traditional POP3 compared to IMAP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "POP3 downloads emails to one device and deletes or decouples them from the server, preventing synchronized multi-device access"
+      },
+      {
+        "letter": "B",
+        "text": "POP3 cannot download text emails"
+      },
+      {
+        "letter": "C",
+        "text": "POP3 requires port 80"
+      },
+      {
+        "letter": "D",
+        "text": "POP3 only works on Linux"
+      }
+    ],
+    "correct_text": "POP3 downloads emails to one device and deletes or decouples them from the server, preventing synchronized multi-device access"
+  },
+  {
+    "id": 232,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Email & File Protocols",
+    "question": "Why does FTP use two separate TCP connections (control and data)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To allow control commands to be issued while a large data transfer is actively taking place"
+      },
+      {
+        "letter": "B",
+        "text": "Because one connection cannot transfer more than 1 MB"
+      },
+      {
+        "letter": "C",
+        "text": "Because control connections use UDP"
+      },
+      {
+        "letter": "D",
+        "text": "To allow two different users to share one password"
+      }
+    ],
+    "correct_text": "To allow control commands to be issued while a large data transfer is actively taking place"
+  },
+  {
+    "id": 233,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Email & File Protocols",
+    "question": "What is the difference between Active FTP and Passive FTP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "In active mode, the server initiates the data connection to the client; in passive mode, the client initiates the data connection (firewall-friendly)"
+      },
+      {
+        "letter": "B",
+        "text": "Active FTP uses UDP; passive FTP uses TCP"
+      },
+      {
+        "letter": "C",
+        "text": "Active FTP is encrypted; passive FTP is plaintext"
+      },
+      {
+        "letter": "D",
+        "text": "Active FTP is only for downloads; passive FTP is for uploads"
+      }
+    ],
+    "correct_text": "In active mode, the server initiates the data connection to the client; in passive mode, the client initiates the data connection (firewall-friendly)"
+  },
+  {
+    "id": 234,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Data Compression Deep-Dive",
+    "question": "Why is Lossy compression acceptable for image and audio streaming but completely unacceptable for executable programs and source code?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Because human perception tolerates minor sensory imperfections, but a single lost bit in code causes crashes or corruption"
+      },
+      {
+        "letter": "B",
+        "text": "Because lossy algorithms cannot run on text files"
+      },
+      {
+        "letter": "C",
+        "text": "Because lossless compression makes files larger"
+      },
+      {
+        "letter": "D",
+        "text": "Because audio files cannot be compressed losslessly"
+      }
+    ],
+    "correct_text": "Because human perception tolerates minor sensory imperfections, but a single lost bit in code causes crashes or corruption"
+  },
+  {
+    "id": 235,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Data Compression Deep-Dive",
+    "question": "Which algorithm is famously used in lossless compression utilities such as GZIP, ZIP, and PNG?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "DEFLATE (combination of LZ77 and Huffman coding)"
+      },
+      {
+        "letter": "B",
+        "text": "Dijkstra algorithm"
+      },
+      {
+        "letter": "C",
+        "text": "Bellman-Ford algorithm"
+      },
+      {
+        "letter": "D",
+        "text": "RSA algorithm"
+      }
+    ],
+    "correct_text": "DEFLATE (combination of LZ77 and Huffman coding)"
+  },
+  {
+    "id": 236,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Data Compression Deep-Dive",
+    "question": "What type of compression is used by the MP3 audio format?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Lossy compression (perceptual audio coding removing inaudible frequencies)"
+      },
+      {
+        "letter": "B",
+        "text": "Lossless compression"
+      },
+      {
+        "letter": "C",
+        "text": "Run-length encoding without loss"
+      },
+      {
+        "letter": "D",
+        "text": "Delta modulation without data loss"
+      }
+    ],
+    "correct_text": "Lossy compression (perceptual audio coding removing inaudible frequencies)"
+  },
+  {
+    "id": 237,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Data Compression Deep-Dive",
+    "question": "What type of compression is used by the JPEG image format?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Lossy compression (based on Discrete Cosine Transform and quantization)"
+      },
+      {
+        "letter": "B",
+        "text": "Lossless compression"
+      },
+      {
+        "letter": "C",
+        "text": "Huffman coding only with zero loss"
+      },
+      {
+        "letter": "D",
+        "text": "Bitwise copy"
+      }
+    ],
+    "correct_text": "Lossy compression (based on Discrete Cosine Transform and quantization)"
+  },
+  {
+    "id": 238,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Data Compression Deep-Dive",
+    "question": "What type of compression is used by the GIF and PNG graphic formats?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Lossless compression"
+      },
+      {
+        "letter": "B",
+        "text": "Lossy compression"
+      },
+      {
+        "letter": "C",
+        "text": "Psychoacoustic lossy model"
+      },
+      {
+        "letter": "D",
+        "text": "DCT quantization"
+      }
+    ],
+    "correct_text": "Lossless compression"
   }
 ]
