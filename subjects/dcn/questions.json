@@ -7894,5 +7894,3169 @@
       }
     ],
     "correct_text": "ARP (Address Resolution Protocol)"
+  },
+  {
+    "id": 283,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Network Layer Services",
+    "question": "At the network layer, which device is responsible for making routing and forwarding decisions between heterogeneous links?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Router"
+      },
+      {
+        "letter": "B",
+        "text": "Repeater"
+      },
+      {
+        "letter": "C",
+        "text": "Passive Hub"
+      },
+      {
+        "letter": "D",
+        "text": "Layer 2 Bridge"
+      }
+    ],
+    "correct_text": "Router"
+  },
+  {
+    "id": 284,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Network Layer Services",
+    "question": "What happens to the transport layer segment when it arrives at the network layer of the sending host?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "It is encapsulated into an IP datagram with source and destination IP addresses added to the header"
+      },
+      {
+        "letter": "B",
+        "text": "It is converted into an analog radio wave"
+      },
+      {
+        "letter": "C",
+        "text": "It is decrypted using AES-256"
+      },
+      {
+        "letter": "D",
+        "text": "It is split into individual ASCII characters"
+      }
+    ],
+    "correct_text": "It is encapsulated into an IP datagram with source and destination IP addresses added to the header"
+  },
+  {
+    "id": 285,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Network Layer Services",
+    "question": "Which of the following is considered an end-to-end layer rather than a hop-by-hop layer?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Transport Layer (Layer 4)"
+      },
+      {
+        "letter": "B",
+        "text": "Data Link Layer (Layer 2)"
+      },
+      {
+        "letter": "C",
+        "text": "Physical Layer (Layer 1)"
+      },
+      {
+        "letter": "D",
+        "text": "Network Layer hop routing"
+      }
+    ],
+    "correct_text": "Transport Layer (Layer 4)"
+  },
+  {
+    "id": 286,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Packet Switching",
+    "question": "What is the term for the maximum amount of data that a link can transmit in a given time period?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Bandwidth (or link capacity)"
+      },
+      {
+        "letter": "B",
+        "text": "Propagation delay"
+      },
+      {
+        "letter": "C",
+        "text": "Attenuation factor"
+      },
+      {
+        "letter": "D",
+        "text": "Hop metric"
+      }
+    ],
+    "correct_text": "Bandwidth (or link capacity)"
+  },
+  {
+    "id": 287,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Packet Switching",
+    "question": "In packet-switched networks, what problem occurs when packets of the same message take different paths with varying delays?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Out-of-order packet arrival at the destination"
+      },
+      {
+        "letter": "B",
+        "text": "Complete loss of electricity on the cable"
+      },
+      {
+        "letter": "C",
+        "text": "Physical destruction of routers"
+      },
+      {
+        "letter": "D",
+        "text": "Permanent corruption of hard disk drives"
+      }
+    ],
+    "correct_text": "Out-of-order packet arrival at the destination"
+  },
+  {
+    "id": 288,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Packet Switching",
+    "question": "Which layer is primarily responsible for reordering out-of-order datagrams so the application receives an in-order byte stream?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Transport Layer (via TCP sequence numbers)"
+      },
+      {
+        "letter": "B",
+        "text": "Network Layer (IP)"
+      },
+      {
+        "letter": "C",
+        "text": "Physical Layer"
+      },
+      {
+        "letter": "D",
+        "text": "Data Link Layer"
+      }
+    ],
+    "correct_text": "Transport Layer (via TCP sequence numbers)"
+  },
+  {
+    "id": 289,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Packet Switching",
+    "question": "What header field in an IPv4 packet ensures that packets do not loop endlessly during temporary routing loops?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "TTL (Time To Live)"
+      },
+      {
+        "letter": "B",
+        "text": "Checksum"
+      },
+      {
+        "letter": "C",
+        "text": "Identification"
+      },
+      {
+        "letter": "D",
+        "text": "TOS (Type of Service)"
+      }
+    ],
+    "correct_text": "TTL (Time To Live)"
+  },
+  {
+    "id": 290,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Packet Switching",
+    "question": "What is the typical default initial TTL value set by many modern operating systems in IP datagrams?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "64 or 128"
+      },
+      {
+        "letter": "B",
+        "text": "1"
+      },
+      {
+        "letter": "C",
+        "text": "16"
+      },
+      {
+        "letter": "D",
+        "text": "1024"
+      }
+    ],
+    "correct_text": "64 or 128"
+  },
+  {
+    "id": 291,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Packet Switching",
+    "question": "In a Virtual Circuit network, what table do switches maintain to map incoming VC identifiers to outgoing VC identifiers and ports?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "VC Translation Table (or Label Information Base)"
+      },
+      {
+        "letter": "B",
+        "text": "ARP Table"
+      },
+      {
+        "letter": "C",
+        "text": "DNS Cache"
+      },
+      {
+        "letter": "D",
+        "text": "DHCP Lease Table"
+      }
+    ],
+    "correct_text": "VC Translation Table (or Label Information Base)"
+  },
+  {
+    "id": 292,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Network Layer Performance",
+    "question": "If a packet has a length of $L = 10,000$ bits and the transmission link rate is $R = 10$ Mbps ($10,000,000$ bps), what is the Transmission Delay ($D_{trans}$)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1 millisecond (0.001 s)"
+      },
+      {
+        "letter": "B",
+        "text": "10 milliseconds"
+      },
+      {
+        "letter": "C",
+        "text": "0.1 millisecond"
+      },
+      {
+        "letter": "D",
+        "text": "1 second"
+      }
+    ],
+    "correct_text": "1 millisecond (0.001 s)"
+  },
+  {
+    "id": 293,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Network Layer Performance",
+    "question": "If a fiber cable length is $d = 2,000$ km and light travels in fiber at speed $s = 200,000$ km/s, what is the Propagation Delay ($D_{prop}$)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "10 milliseconds (0.01 s)"
+      },
+      {
+        "letter": "B",
+        "text": "1 millisecond"
+      },
+      {
+        "letter": "C",
+        "text": "100 milliseconds"
+      },
+      {
+        "letter": "D",
+        "text": "0.1 second"
+      }
+    ],
+    "correct_text": "10 milliseconds (0.01 s)"
+  },
+  {
+    "id": 294,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Network Layer Performance",
+    "question": "Does the Transmission Delay ($L/R$) depend on the physical distance between the sender and receiver?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "No, it depends only on the packet length and link bandwidth rate"
+      },
+      {
+        "letter": "B",
+        "text": "Yes, transmission delay increases linearly with fiber distance"
+      },
+      {
+        "letter": "C",
+        "text": "Yes, transmission delay doubles every 100 km"
+      },
+      {
+        "letter": "D",
+        "text": "Only when using satellite links"
+      }
+    ],
+    "correct_text": "No, it depends only on the packet length and link bandwidth rate"
+  },
+  {
+    "id": 295,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Network Layer Performance",
+    "question": "Does the Propagation Delay ($d/s$) depend on the packet size in bits?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "No, it depends only on the physical distance and transmission medium propagation speed"
+      },
+      {
+        "letter": "B",
+        "text": "Yes, larger packets propagate slower through glass fiber"
+      },
+      {
+        "letter": "C",
+        "text": "Yes, 1500-byte packets travel at half the speed of light"
+      },
+      {
+        "letter": "D",
+        "text": "Only when routers have full buffers"
+      }
+    ],
+    "correct_text": "No, it depends only on the physical distance and transmission medium propagation speed"
+  },
+  {
+    "id": 296,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Network Layer Performance",
+    "question": "What term describes the variation in packet arrival delay across a network connection?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Jitter"
+      },
+      {
+        "letter": "B",
+        "text": "Attenuation"
+      },
+      {
+        "letter": "C",
+        "text": "Crosstalk"
+      },
+      {
+        "letter": "D",
+        "text": "Dispersion"
+      }
+    ],
+    "correct_text": "Jitter"
+  },
+  {
+    "id": 297,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Network Layer Performance",
+    "question": "Why is low jitter critically important for real-time applications such as VoIP and live video conferencing?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "High jitter causes audio gaps, jerky video playback, and buffer underflows"
+      },
+      {
+        "letter": "B",
+        "text": "High jitter reduces operating system battery life"
+      },
+      {
+        "letter": "C",
+        "text": "High jitter causes physical damage to routers"
+      },
+      {
+        "letter": "D",
+        "text": "High jitter changes the font of web pages"
+      }
+    ],
+    "correct_text": "High jitter causes audio gaps, jerky video playback, and buffer underflows"
+  },
+  {
+    "id": 298,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Network Layer Performance",
+    "question": "What is Round Trip Time (RTT)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The time taken for a packet to travel from source to destination plus the time for its acknowledgment to return"
+      },
+      {
+        "letter": "B",
+        "text": "The time to boot up a router switch"
+      },
+      {
+        "letter": "C",
+        "text": "The time taken to generate an IP address"
+      },
+      {
+        "letter": "D",
+        "text": "The propagation delay in copper wires only"
+      }
+    ],
+    "correct_text": "The time taken for a packet to travel from source to destination plus the time for its acknowledgment to return"
+  },
+  {
+    "id": 299,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "What is the total theoretical address space of IPv4?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "$2^{32} \\approx 4.29$ billion addresses"
+      },
+      {
+        "letter": "B",
+        "text": "$2^{64}$ addresses"
+      },
+      {
+        "letter": "C",
+        "text": "$2^{16} = 65,536$ addresses"
+      },
+      {
+        "letter": "D",
+        "text": "$2^{128}$ addresses"
+      }
+    ],
+    "correct_text": "$2^{32} \\approx 4.29$ billion addresses"
+  },
+  {
+    "id": 300,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "What are the leading bits of an IPv4 Class A address in binary?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0"
+      },
+      {
+        "letter": "B",
+        "text": "10"
+      },
+      {
+        "letter": "C",
+        "text": "110"
+      },
+      {
+        "letter": "D",
+        "text": "1110"
+      }
+    ],
+    "correct_text": "0"
+  },
+  {
+    "id": 301,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "What are the leading bits of an IPv4 Class B address in binary?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "10"
+      },
+      {
+        "letter": "B",
+        "text": "0"
+      },
+      {
+        "letter": "C",
+        "text": "110"
+      },
+      {
+        "letter": "D",
+        "text": "1110"
+      }
+    ],
+    "correct_text": "10"
+  },
+  {
+    "id": 302,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "What are the leading bits of an IPv4 Class C address in binary?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "110"
+      },
+      {
+        "letter": "B",
+        "text": "10"
+      },
+      {
+        "letter": "C",
+        "text": "0"
+      },
+      {
+        "letter": "D",
+        "text": "1110"
+      }
+    ],
+    "correct_text": "110"
+  },
+  {
+    "id": 303,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "What are the leading bits of an IPv4 Class D (multicast) address in binary?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1110"
+      },
+      {
+        "letter": "B",
+        "text": "110"
+      },
+      {
+        "letter": "C",
+        "text": "10"
+      },
+      {
+        "letter": "D",
+        "text": "1111"
+      }
+    ],
+    "correct_text": "1110"
+  },
+  {
+    "id": 304,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "What is the maximum number of usable hosts in an IPv4 Class C network?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "254 hosts"
+      },
+      {
+        "letter": "B",
+        "text": "65,534 hosts"
+      },
+      {
+        "letter": "C",
+        "text": "16,777,214 hosts"
+      },
+      {
+        "letter": "D",
+        "text": "128 hosts"
+      }
+    ],
+    "correct_text": "254 hosts"
+  },
+  {
+    "id": 305,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "What is the maximum number of usable hosts in an IPv4 Class B network?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "65,534 hosts ($2^{16} - 2$)"
+      },
+      {
+        "letter": "B",
+        "text": "254 hosts"
+      },
+      {
+        "letter": "C",
+        "text": "1,024 hosts"
+      },
+      {
+        "letter": "D",
+        "text": "16,777,214 hosts"
+      }
+    ],
+    "correct_text": "65,534 hosts ($2^{16} - 2$)"
+  },
+  {
+    "id": 306,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "What is the maximum number of usable hosts in an IPv4 Class A network?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "16,777,214 hosts ($2^{24} - 2$)"
+      },
+      {
+        "letter": "B",
+        "text": "65,534 hosts"
+      },
+      {
+        "letter": "C",
+        "text": "254 hosts"
+      },
+      {
+        "letter": "D",
+        "text": "4,294,967,296 hosts"
+      }
+    ],
+    "correct_text": "16,777,214 hosts ($2^{24} - 2$)"
+  },
+  {
+    "id": 307,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "What is the subnet mask representation in dotted decimal for a '/25' prefix?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "255.255.255.128"
+      },
+      {
+        "letter": "B",
+        "text": "255.255.255.192"
+      },
+      {
+        "letter": "C",
+        "text": "255.255.255.224"
+      },
+      {
+        "letter": "D",
+        "text": "255.255.255.0"
+      }
+    ],
+    "correct_text": "255.255.255.128"
+  },
+  {
+    "id": 308,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "What is the subnet mask representation in dotted decimal for a '/26' prefix?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "255.255.255.192"
+      },
+      {
+        "letter": "B",
+        "text": "255.255.255.128"
+      },
+      {
+        "letter": "C",
+        "text": "255.255.255.224"
+      },
+      {
+        "letter": "D",
+        "text": "255.255.255.240"
+      }
+    ],
+    "correct_text": "255.255.255.192"
+  },
+  {
+    "id": 309,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "What is the subnet mask representation in dotted decimal for a '/27' prefix?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "255.255.255.224"
+      },
+      {
+        "letter": "B",
+        "text": "255.255.255.240"
+      },
+      {
+        "letter": "C",
+        "text": "255.255.255.192"
+      },
+      {
+        "letter": "D",
+        "text": "255.255.255.128"
+      }
+    ],
+    "correct_text": "255.255.255.224"
+  },
+  {
+    "id": 310,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "What is the subnet mask representation in dotted decimal for a '/28' prefix?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "255.255.255.240"
+      },
+      {
+        "letter": "B",
+        "text": "255.255.255.224"
+      },
+      {
+        "letter": "C",
+        "text": "255.255.255.248"
+      },
+      {
+        "letter": "D",
+        "text": "255.255.255.252"
+      }
+    ],
+    "correct_text": "255.255.255.240"
+  },
+  {
+    "id": 311,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "What is the subnet mask representation in dotted decimal for a '/30' prefix (commonly used for point-to-point router links)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "255.255.255.252"
+      },
+      {
+        "letter": "B",
+        "text": "255.255.255.248"
+      },
+      {
+        "letter": "C",
+        "text": "255.255.255.254"
+      },
+      {
+        "letter": "D",
+        "text": "255.255.255.240"
+      }
+    ],
+    "correct_text": "255.255.255.252"
+  },
+  {
+    "id": 312,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "How many usable host IP addresses are provided by a '/30' subnet?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "2 usable host addresses ($2^2 - 2$)"
+      },
+      {
+        "letter": "B",
+        "text": "4 usable hosts"
+      },
+      {
+        "letter": "C",
+        "text": "6 usable hosts"
+      },
+      {
+        "letter": "D",
+        "text": "1 usable host"
+      }
+    ],
+    "correct_text": "2 usable host addresses ($2^2 - 2$)"
+  },
+  {
+    "id": 313,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "In the IP address 192.168.10.65/26, what is the Network Address of the subnet?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "192.168.10.64"
+      },
+      {
+        "letter": "B",
+        "text": "192.168.10.0"
+      },
+      {
+        "letter": "C",
+        "text": "192.168.10.128"
+      },
+      {
+        "letter": "D",
+        "text": "192.168.10.65"
+      }
+    ],
+    "correct_text": "192.168.10.64"
+  },
+  {
+    "id": 314,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "In the IP address 192.168.10.65/26, what is the Directed Broadcast Address of the subnet?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "192.168.10.127"
+      },
+      {
+        "letter": "B",
+        "text": "192.168.10.255"
+      },
+      {
+        "letter": "C",
+        "text": "192.168.10.64"
+      },
+      {
+        "letter": "D",
+        "text": "192.168.10.128"
+      }
+    ],
+    "correct_text": "192.168.10.127"
+  },
+  {
+    "id": 315,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "What is the network address of the private class A address block defined in RFC 1918?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "10.0.0.0/8 (10.0.0.0 to 10.255.255.255)"
+      },
+      {
+        "letter": "B",
+        "text": "172.16.0.0/12"
+      },
+      {
+        "letter": "C",
+        "text": "192.168.0.0/16"
+      },
+      {
+        "letter": "D",
+        "text": "11.0.0.0/8"
+      }
+    ],
+    "correct_text": "10.0.0.0/8 (10.0.0.0 to 10.255.255.255)"
+  },
+  {
+    "id": 316,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "What is the address range of the private class B address block defined in RFC 1918?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "172.16.0.0 to 172.31.255.255 (/12)"
+      },
+      {
+        "letter": "B",
+        "text": "172.0.0.0 to 172.15.255.255"
+      },
+      {
+        "letter": "C",
+        "text": "172.16.0.0 to 172.16.255.255"
+      },
+      {
+        "letter": "D",
+        "text": "172.32.0.0 to 172.64.255.255"
+      }
+    ],
+    "correct_text": "172.16.0.0 to 172.31.255.255 (/12)"
+  },
+  {
+    "id": 317,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "What is the address range of the private class C address block defined in RFC 1918?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "192.168.0.0 to 192.168.255.255 (/16)"
+      },
+      {
+        "letter": "B",
+        "text": "192.0.0.0 to 192.255.255.255"
+      },
+      {
+        "letter": "C",
+        "text": "192.168.1.0 to 192.168.1.255 only"
+      },
+      {
+        "letter": "D",
+        "text": "192.170.0.0 to 192.170.255.255"
+      }
+    ],
+    "correct_text": "192.168.0.0 to 192.168.255.255 (/16)"
+  },
+  {
+    "id": 318,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "What is an APIPA (Automatic Private IP Addressing) address assigned by Windows when DHCP fails?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "169.254.0.0/16 (169.254.0.1 to 169.254.255.254)"
+      },
+      {
+        "letter": "B",
+        "text": "192.168.1.1"
+      },
+      {
+        "letter": "C",
+        "text": "127.0.0.1"
+      },
+      {
+        "letter": "D",
+        "text": "10.0.0.1"
+      }
+    ],
+    "correct_text": "169.254.0.0/16 (169.254.0.1 to 169.254.255.254)"
+  },
+  {
+    "id": 319,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Header Structure",
+    "question": "What is the size of the 'Version' field in an IPv4 header?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "4 bits (value = 4)"
+      },
+      {
+        "letter": "B",
+        "text": "8 bits"
+      },
+      {
+        "letter": "C",
+        "text": "16 bits"
+      },
+      {
+        "letter": "D",
+        "text": "32 bits"
+      }
+    ],
+    "correct_text": "4 bits (value = 4)"
+  },
+  {
+    "id": 320,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Header Structure",
+    "question": "What does the Header Length (IHL) field in an IPv4 header specify?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The total length of the IP header in 4-byte (32-bit) words"
+      },
+      {
+        "letter": "B",
+        "text": "The length of the payload in bytes"
+      },
+      {
+        "letter": "C",
+        "text": "The number of routers along the path"
+      },
+      {
+        "letter": "D",
+        "text": "The MTU of the outgoing interface"
+      }
+    ],
+    "correct_text": "The total length of the IP header in 4-byte (32-bit) words"
+  },
+  {
+    "id": 321,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Header Structure",
+    "question": "If the IHL (Internet Header Length) field in an IPv4 header has a decimal value of 5, what is the actual header length in bytes?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "20 bytes ($5 \\times 4$)"
+      },
+      {
+        "letter": "B",
+        "text": "5 bytes"
+      },
+      {
+        "letter": "C",
+        "text": "10 bytes"
+      },
+      {
+        "letter": "D",
+        "text": "40 bytes"
+      }
+    ],
+    "correct_text": "20 bytes ($5 \\times 4$)"
+  },
+  {
+    "id": 322,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Header Structure",
+    "question": "What is the maximum value of the Total Length field in an IPv4 header?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "65,535 bytes (16 bits)"
+      },
+      {
+        "letter": "B",
+        "text": "20 bytes"
+      },
+      {
+        "letter": "C",
+        "text": "1,500 bytes"
+      },
+      {
+        "letter": "D",
+        "text": "4,294,967,295 bytes"
+      }
+    ],
+    "correct_text": "65,535 bytes (16 bits)"
+  },
+  {
+    "id": 323,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Header Structure",
+    "question": "What are the three flags in the IPv4 header used for fragmentation control?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Reserved (0), Don't Fragment (DF), and More Fragments (MF)"
+      },
+      {
+        "letter": "B",
+        "text": "SYN, ACK, FIN"
+      },
+      {
+        "letter": "C",
+        "text": "URG, PSH, RST"
+      },
+      {
+        "letter": "D",
+        "text": "TOS, TTL, IHL"
+      }
+    ],
+    "correct_text": "Reserved (0), Don't Fragment (DF), and More Fragments (MF)"
+  },
+  {
+    "id": 324,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Header Structure",
+    "question": "What happens if an IPv4 packet larger than the link MTU arrives at a router and its 'DF' (Don't Fragment) flag is set to 1?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The packet is dropped and the router returns an ICMP 'Fragmentation Needed and DF set' error"
+      },
+      {
+        "letter": "B",
+        "text": "The router forces fragmentation anyway"
+      },
+      {
+        "letter": "C",
+        "text": "The router compresses the packet with ZIP"
+      },
+      {
+        "letter": "D",
+        "text": "The packet is converted into a broadcast frame"
+      }
+    ],
+    "correct_text": "The packet is dropped and the router returns an ICMP 'Fragmentation Needed and DF set' error"
+  },
+  {
+    "id": 325,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Header Structure",
+    "question": "What unit is used for the Fragment Offset field in the IPv4 header?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "8-byte (64-bit) blocks"
+      },
+      {
+        "letter": "B",
+        "text": "Single bytes"
+      },
+      {
+        "letter": "C",
+        "text": "32-bit words"
+      },
+      {
+        "letter": "D",
+        "text": "16-byte blocks"
+      }
+    ],
+    "correct_text": "8-byte (64-bit) blocks"
+  },
+  {
+    "id": 326,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Header Structure",
+    "question": "What is the Protocol field value in the IPv4 header for TCP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "6"
+      },
+      {
+        "letter": "B",
+        "text": "17"
+      },
+      {
+        "letter": "C",
+        "text": "1"
+      },
+      {
+        "letter": "D",
+        "text": "89"
+      }
+    ],
+    "correct_text": "6"
+  },
+  {
+    "id": 327,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Header Structure",
+    "question": "What is the Protocol field value in the IPv4 header for UDP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "17"
+      },
+      {
+        "letter": "B",
+        "text": "6"
+      },
+      {
+        "letter": "C",
+        "text": "1"
+      },
+      {
+        "letter": "D",
+        "text": "89"
+      }
+    ],
+    "correct_text": "17"
+  },
+  {
+    "id": 328,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Header Structure",
+    "question": "What is the Protocol field value in the IPv4 header for ICMP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1"
+      },
+      {
+        "letter": "B",
+        "text": "6"
+      },
+      {
+        "letter": "C",
+        "text": "17"
+      },
+      {
+        "letter": "D",
+        "text": "2"
+      }
+    ],
+    "correct_text": "1"
+  },
+  {
+    "id": 329,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Header Structure",
+    "question": "What is the Protocol field value in the IPv4 header for IGMP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "2"
+      },
+      {
+        "letter": "B",
+        "text": "1"
+      },
+      {
+        "letter": "C",
+        "text": "6"
+      },
+      {
+        "letter": "D",
+        "text": "17"
+      }
+    ],
+    "correct_text": "2"
+  },
+  {
+    "id": 330,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Header Structure",
+    "question": "What does the IPv4 Header Checksum protect against?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Bit errors in the IP header only (it does NOT cover the payload)"
+      },
+      {
+        "letter": "B",
+        "text": "Errors in the entire packet payload"
+      },
+      {
+        "letter": "C",
+        "text": "Malicious cyber attacks"
+      },
+      {
+        "letter": "D",
+        "text": "Router hardware failure"
+      }
+    ],
+    "correct_text": "Bit errors in the IP header only (it does NOT cover the payload)"
+  },
+  {
+    "id": 331,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Forwarding of IP Packets",
+    "question": "What does a routing table entry with next-hop 'Direct' or '0.0.0.0' indicate?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The destination host resides on the locally connected network attached to that interface"
+      },
+      {
+        "letter": "B",
+        "text": "The packet should be discarded"
+      },
+      {
+        "letter": "C",
+        "text": "The packet should be sent to the ISP"
+      },
+      {
+        "letter": "D",
+        "text": "The packet requires satellite uplink"
+      }
+    ],
+    "correct_text": "The destination host resides on the locally connected network attached to that interface"
+  },
+  {
+    "id": 332,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Forwarding of IP Packets",
+    "question": "What is the purpose of the Default Gateway on a host computer?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "It is the local router IP address to which the host forwards packets destined for remote subnets"
+      },
+      {
+        "letter": "B",
+        "text": "It is the root DNS server address"
+      },
+      {
+        "letter": "C",
+        "text": "It is the public IP of Google"
+      },
+      {
+        "letter": "D",
+        "text": "It is the MAC address of the host network card"
+      }
+    ],
+    "correct_text": "It is the local router IP address to which the host forwards packets destined for remote subnets"
+  },
+  {
+    "id": 333,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Forwarding of IP Packets",
+    "question": "What algorithm data structure is commonly used inside routers to perform fast Longest Prefix Match (LPM) lookups?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Trie (Prefix Tree) / Patricia Trie"
+      },
+      {
+        "letter": "B",
+        "text": "Linked List"
+      },
+      {
+        "letter": "C",
+        "text": "Bubble Sort"
+      },
+      {
+        "letter": "D",
+        "text": "FIFO Stack"
+      }
+    ],
+    "correct_text": "Trie (Prefix Tree) / Patricia Trie"
+  },
+  {
+    "id": 334,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Routing Protocols & Algorithms",
+    "question": "What is the metric used by OSPF to compute path cost?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Cost based on reference bandwidth ($10^8 / \\text{bandwidth in bps}$)"
+      },
+      {
+        "letter": "B",
+        "text": "Hop count only"
+      },
+      {
+        "letter": "C",
+        "text": "Packet size"
+      },
+      {
+        "letter": "D",
+        "text": "Physical fiber color"
+      }
+    ],
+    "correct_text": "Cost based on reference bandwidth ($10^8 / \\text{bandwidth in bps}$)"
+  },
+  {
+    "id": 335,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Routing Protocols & Algorithms",
+    "question": "What is Area 0 in an OSPF multi-area network?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The Backbone Area (to which all other OSPF areas must connect)"
+      },
+      {
+        "letter": "B",
+        "text": "The isolated private stub area"
+      },
+      {
+        "letter": "C",
+        "text": "The default route area"
+      },
+      {
+        "letter": "D",
+        "text": "The external internet gateway"
+      }
+    ],
+    "correct_text": "The Backbone Area (to which all other OSPF areas must connect)"
+  },
+  {
+    "id": 336,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Routing Protocols & Algorithms",
+    "question": "In OSPF, what is an ABR (Area Border Router)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A router that connects one or more non-backbone areas to the backbone area (Area 0)"
+      },
+      {
+        "letter": "B",
+        "text": "A router connecting to a competitor ISP"
+      },
+      {
+        "letter": "C",
+        "text": "A home Wi-Fi router"
+      },
+      {
+        "letter": "D",
+        "text": "A core Ethernet switch"
+      }
+    ],
+    "correct_text": "A router that connects one or more non-backbone areas to the backbone area (Area 0)"
+  },
+  {
+    "id": 337,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Routing Protocols & Algorithms",
+    "question": "In OSPF, what is an ASBR (Autonomous System Boundary Router)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A router that exchanges routing information with routers belonging to other Autonomous Systems"
+      },
+      {
+        "letter": "B",
+        "text": "A bridge between Layer 1 and Layer 2"
+      },
+      {
+        "letter": "C",
+        "text": "A local DHCP server"
+      },
+      {
+        "letter": "D",
+        "text": "An access point for smartphones"
+      }
+    ],
+    "correct_text": "A router that exchanges routing information with routers belonging to other Autonomous Systems"
+  },
+  {
+    "id": 338,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv6 Protocol Deep-Dive",
+    "question": "In IPv6, how are optional headers handled compared to IPv4?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Using Extension Headers chained together sequentially via the 'Next Header' field"
+      },
+      {
+        "letter": "B",
+        "text": "Appended as variable fields inside the base 40-byte header"
+      },
+      {
+        "letter": "C",
+        "text": "Included inside the TCP payload"
+      },
+      {
+        "letter": "D",
+        "text": "Sent as separate ICMP packets"
+      }
+    ],
+    "correct_text": "Using Extension Headers chained together sequentially via the 'Next Header' field"
+  },
+  {
+    "id": 339,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv6 Protocol Deep-Dive",
+    "question": "What is the Flow Label field (20 bits) in the IPv6 base header used for?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To identify packets belonging to the same flow for Quality of Service (QoS) handling without opening extension headers"
+      },
+      {
+        "letter": "B",
+        "text": "To measure packet length"
+      },
+      {
+        "letter": "C",
+        "text": "To specify the encryption algorithm"
+      },
+      {
+        "letter": "D",
+        "text": "To count the number of routers"
+      }
+    ],
+    "correct_text": "To identify packets belonging to the same flow for Quality of Service (QoS) handling without opening extension headers"
+  },
+  {
+    "id": 340,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv6 Protocol Deep-Dive",
+    "question": "What is the Traffic Class field (8 bits) in the IPv6 header equivalent to in IPv4?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Type of Service (TOS) / Differentiated Services (DiffServ)"
+      },
+      {
+        "letter": "B",
+        "text": "Time To Live (TTL)"
+      },
+      {
+        "letter": "C",
+        "text": "Identification"
+      },
+      {
+        "letter": "D",
+        "text": "Fragment Offset"
+      }
+    ],
+    "correct_text": "Type of Service (TOS) / Differentiated Services (DiffServ)"
+  },
+  {
+    "id": 341,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv6 Protocol Deep-Dive",
+    "question": "What mechanism does IPv6 use to discover the Maximum Transmission Unit (MTU) of the path before sending data?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Path MTU Discovery (PMTUD) using ICMPv6 Packet Too Big messages"
+      },
+      {
+        "letter": "B",
+        "text": "ARP broadcast probing"
+      },
+      {
+        "letter": "C",
+        "text": "Trial and error by rebooting routers"
+      },
+      {
+        "letter": "D",
+        "text": "Fixed 576-byte fallback only"
+      }
+    ],
+    "correct_text": "Path MTU Discovery (PMTUD) using ICMPv6 Packet Too Big messages"
+  },
+  {
+    "id": 342,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv6 Protocol Deep-Dive",
+    "question": "What is the minimum MTU that every IPv6 link must support?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1,280 bytes"
+      },
+      {
+        "letter": "B",
+        "text": "576 bytes"
+      },
+      {
+        "letter": "C",
+        "text": "1,500 bytes"
+      },
+      {
+        "letter": "D",
+        "text": "65,535 bytes"
+      }
+    ],
+    "correct_text": "1,280 bytes"
+  },
+  {
+    "id": 343,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv6 Protocol Deep-Dive",
+    "question": "What is SLAAC in IPv6 networking?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Stateless Address Autoconfiguration (allows hosts to automatically configure their own IPv6 address using Router Advertisements)"
+      },
+      {
+        "letter": "B",
+        "text": "Standard Link Addressing and Authorization Code"
+      },
+      {
+        "letter": "C",
+        "text": "Synchronous Line Access and Allocation Channel"
+      },
+      {
+        "letter": "D",
+        "text": "Software Layer Automated Access Control"
+      }
+    ],
+    "correct_text": "Stateless Address Autoconfiguration (allows hosts to automatically configure their own IPv6 address using Router Advertisements)"
+  },
+  {
+    "id": 344,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer",
+    "topic": "Transport Layer Services",
+    "question": "What is the port number size in bits for both TCP and UDP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "16 bits (0 to 65,535)"
+      },
+      {
+        "letter": "B",
+        "text": "32 bits"
+      },
+      {
+        "letter": "C",
+        "text": "8 bits"
+      },
+      {
+        "letter": "D",
+        "text": "64 bits"
+      }
+    ],
+    "correct_text": "16 bits (0 to 65,535)"
+  },
+  {
+    "id": 345,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer",
+    "topic": "Transport Layer Services",
+    "question": "What is a Socket in network programming?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "An endpoint of a two-way communication link, uniquely defined by an IP address and Port number tuple"
+      },
+      {
+        "letter": "B",
+        "text": "A physical electrical wall outlet"
+      },
+      {
+        "letter": "C",
+        "text": "A software virus scanner"
+      },
+      {
+        "letter": "D",
+        "text": "A cable connector for fiber optics"
+      }
+    ],
+    "correct_text": "An endpoint of a two-way communication link, uniquely defined by an IP address and Port number tuple"
+  },
+  {
+    "id": 346,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer",
+    "topic": "Transport Layer Services",
+    "question": "What is a 4-tuple that uniquely identifies a TCP connection on the Internet?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "(Source IP, Source Port, Destination IP, Destination Port)"
+      },
+      {
+        "letter": "B",
+        "text": "(MAC Source, MAC Destination, IP Source, IP Destination)"
+      },
+      {
+        "letter": "C",
+        "text": "(URL, Username, Password, Token)"
+      },
+      {
+        "letter": "D",
+        "text": "(Browser, Operating System, Screen Size, RAM)"
+      }
+    ],
+    "correct_text": "(Source IP, Source Port, Destination IP, Destination Port)"
+  },
+  {
+    "id": 347,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer",
+    "topic": "User Datagram Protocol (UDP)",
+    "question": "In UDP, what does the Length field in the header represent?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The total length of the UDP segment in bytes (Header + Data)"
+      },
+      {
+        "letter": "B",
+        "text": "The length of the data payload only"
+      },
+      {
+        "letter": "C",
+        "text": "The MTU of the network card"
+      },
+      {
+        "letter": "D",
+        "text": "The count of dropped packets"
+      }
+    ],
+    "correct_text": "The total length of the UDP segment in bytes (Header + Data)"
+  },
+  {
+    "id": 348,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer",
+    "topic": "User Datagram Protocol (UDP)",
+    "question": "What is the minimum possible value of the UDP Length field?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "8 bytes (when the UDP payload data length is 0)"
+      },
+      {
+        "letter": "B",
+        "text": "0 bytes"
+      },
+      {
+        "letter": "C",
+        "text": "20 bytes"
+      },
+      {
+        "letter": "D",
+        "text": "1 byte"
+      }
+    ],
+    "correct_text": "8 bytes (when the UDP payload data length is 0)"
+  },
+  {
+    "id": 349,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer",
+    "topic": "User Datagram Protocol (UDP)",
+    "question": "Is the UDP checksum calculation mandatory or optional in IPv4?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Optional in IPv4, but mandatory in IPv6"
+      },
+      {
+        "letter": "B",
+        "text": "Mandatory in IPv4, optional in IPv6"
+      },
+      {
+        "letter": "C",
+        "text": "Optional in both"
+      },
+      {
+        "letter": "D",
+        "text": "Mandatory in both"
+      }
+    ],
+    "correct_text": "Optional in IPv4, but mandatory in IPv6"
+  },
+  {
+    "id": 350,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer",
+    "topic": "User Datagram Protocol (UDP)",
+    "question": "What pseudo-header is included during the calculation of the UDP and TCP checksums?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A pseudo-header containing Source IP, Destination IP, Protocol, and Length from the IP layer"
+      },
+      {
+        "letter": "B",
+        "text": "The MAC address header"
+      },
+      {
+        "letter": "C",
+        "text": "The HTTP request line"
+      },
+      {
+        "letter": "D",
+        "text": "The physical layer preamble"
+      }
+    ],
+    "correct_text": "A pseudo-header containing Source IP, Destination IP, Protocol, and Length from the IP layer"
+  },
+  {
+    "id": 351,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer",
+    "topic": "TCP Protocol Details",
+    "question": "In TCP, what is Cumulative Acknowledgment?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The ACK number acknowledges all bytes received up to that number minus 1"
+      },
+      {
+        "letter": "B",
+        "text": "An ACK is sent for every single individual bit"
+      },
+      {
+        "letter": "C",
+        "text": "An ACK confirms only the last byte received, ignoring prior gaps"
+      },
+      {
+        "letter": "D",
+        "text": "Acknowledgments accumulate until the computer is rebooted"
+      }
+    ],
+    "correct_text": "The ACK number acknowledges all bytes received up to that number minus 1"
+  },
+  {
+    "id": 352,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer",
+    "topic": "TCP Protocol Details",
+    "question": "What is the TCP Maximum Segment Size (MSS)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The maximum amount of application data (excluding TCP/IP headers) that a host can receive in a single TCP segment"
+      },
+      {
+        "letter": "B",
+        "text": "The maximum size of the Ethernet cable"
+      },
+      {
+        "letter": "C",
+        "text": "The total size of the TCP header with options"
+      },
+      {
+        "letter": "D",
+        "text": "The maximum number of TCP sockets permitted on a computer"
+      }
+    ],
+    "correct_text": "The maximum amount of application data (excluding TCP/IP headers) that a host can receive in a single TCP segment"
+  },
+  {
+    "id": 353,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer",
+    "topic": "TCP Protocol Details",
+    "question": "How is the TCP MSS (Maximum Segment Size) calculated for standard Ethernet (MTU = 1500 bytes)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "$1500 - 20 \\text{ (IP header)} - 20 \\text{ (TCP header)} = 1460 \\text{ bytes}$"
+      },
+      {
+        "letter": "B",
+        "text": "$1500 - 8 = 1492$ bytes"
+      },
+      {
+        "letter": "C",
+        "text": "$1500 - 40 = 1460$ bytes"
+      },
+      {
+        "letter": "D",
+        "text": "$1500 \\times 2 = 3000$ bytes"
+      }
+    ],
+    "correct_text": "$1500 - 20 \\text{ (IP header)} - 20 \\text{ (TCP header)} = 1460 \\text{ bytes}$"
+  },
+  {
+    "id": 354,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer",
+    "topic": "TCP Protocol Details",
+    "question": "What is the role of the TCP Receive Window (rwnd) field?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To communicate available buffer space in the receiver so the sender does not overflow the buffer (Flow Control)"
+      },
+      {
+        "letter": "B",
+        "text": "To indicate the speed of the sender's CPU"
+      },
+      {
+        "letter": "C",
+        "text": "To select an encryption key"
+      },
+      {
+        "letter": "D",
+        "text": "To measure packet round-trip delay"
+      }
+    ],
+    "correct_text": "To communicate available buffer space in the receiver so the sender does not overflow the buffer (Flow Control)"
+  },
+  {
+    "id": 355,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer",
+    "topic": "TCP Protocol Details",
+    "question": "What is the Congestion Window (cwnd) in TCP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A state variable maintained by the sender that limits transmission to avoid congesting the network path"
+      },
+      {
+        "letter": "B",
+        "text": "A physical window on the router casing"
+      },
+      {
+        "letter": "C",
+        "text": "The buffer size advertised by the receiver"
+      },
+      {
+        "letter": "D",
+        "text": "The size of the hard drive cache"
+      }
+    ],
+    "correct_text": "A state variable maintained by the sender that limits transmission to avoid congesting the network path"
+  },
+  {
+    "id": 356,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer",
+    "topic": "TCP Protocol Details",
+    "question": "In TCP, what limits the maximum number of unacknowledged bytes a sender can transmit at any moment?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "$\\min(\\text{rwnd}, \\text{cwnd})$ (the minimum of receiver window and congestion window)"
+      },
+      {
+        "letter": "B",
+        "text": "$\\text{rwnd} + \\text{cwnd}$"
+      },
+      {
+        "letter": "C",
+        "text": "Only the speed of light"
+      },
+      {
+        "letter": "D",
+        "text": "The total RAM on the server"
+      }
+    ],
+    "correct_text": "$\\min(\\text{rwnd}, \\text{cwnd})$ (the minimum of receiver window and congestion window)"
+  },
+  {
+    "id": 357,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer",
+    "topic": "TCP Protocol Details",
+    "question": "During the TCP Slow Start phase, how does the Congestion Window (cwnd) increase upon receiving ACKs?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Exponentially (doubles every RTT until threshold ssthresh is reached)"
+      },
+      {
+        "letter": "B",
+        "text": "Linearly by 1 segment per RTT"
+      },
+      {
+        "letter": "C",
+        "text": "It decreases by half"
+      },
+      {
+        "letter": "D",
+        "text": "It remains constant"
+      }
+    ],
+    "correct_text": "Exponentially (doubles every RTT until threshold ssthresh is reached)"
+  },
+  {
+    "id": 358,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer",
+    "topic": "TCP Protocol Details",
+    "question": "During the TCP Congestion Avoidance phase, how does the Congestion Window (cwnd) increase?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Linearly (increases by 1 MSS per RTT)"
+      },
+      {
+        "letter": "B",
+        "text": "Exponentially (doubles every RTT)"
+      },
+      {
+        "letter": "C",
+        "text": "Quadratically"
+      },
+      {
+        "letter": "D",
+        "text": "Logarithmically"
+      }
+    ],
+    "correct_text": "Linearly (increases by 1 MSS per RTT)"
+  },
+  {
+    "id": 359,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer",
+    "topic": "TCP Protocol Details",
+    "question": "What action triggers Fast Retransmit in TCP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Arrival of 3 duplicate ACKs (indicating a missing segment while subsequent segments arrived)"
+      },
+      {
+        "letter": "B",
+        "text": "Expiration of the Retransmission Timer (RTO)"
+      },
+      {
+        "letter": "C",
+        "text": "A user clicking refresh in a browser"
+      },
+      {
+        "letter": "D",
+        "text": "A packet checksum failure in the router"
+      }
+    ],
+    "correct_text": "Arrival of 3 duplicate ACKs (indicating a missing segment while subsequent segments arrived)"
+  },
+  {
+    "id": 360,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer",
+    "topic": "TCP Protocol Details",
+    "question": "In TCP connection teardown, how many steps (or packets) are typically exchanged?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "4-way termination (FIN -> ACK, FIN -> ACK)"
+      },
+      {
+        "letter": "B",
+        "text": "3-way handshake"
+      },
+      {
+        "letter": "C",
+        "text": "2-way reset"
+      },
+      {
+        "letter": "D",
+        "text": "1-way abort"
+      }
+    ],
+    "correct_text": "4-way termination (FIN -> ACK, FIN -> ACK)"
+  },
+  {
+    "id": 361,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer",
+    "topic": "TCP Protocol Details",
+    "question": "What is the purpose of the TIME_WAIT state in the TCP state machine on the endpoint that initiated active close?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To ensure the final ACK was received by the remote peer and allow late-arriving duplicate segments to expire from the network"
+      },
+      {
+        "letter": "B",
+        "text": "To download pending web images"
+      },
+      {
+        "letter": "C",
+        "text": "To recharge the network interface card"
+      },
+      {
+        "letter": "D",
+        "text": "To wait for a user password prompt"
+      }
+    ],
+    "correct_text": "To ensure the final ACK was received by the remote peer and allow late-arriving duplicate segments to expire from the network"
+  },
+  {
+    "id": 362,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer",
+    "topic": "TCP Protocol Details",
+    "question": "How long does a TCP connection typically remain in the TIME_WAIT state?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "$2 \\times \\text{MSL}$ (Maximum Segment Lifetime, typically 1 to 2 minutes)"
+      },
+      {
+        "letter": "B",
+        "text": "5 seconds"
+      },
+      {
+        "letter": "C",
+        "text": "24 hours"
+      },
+      {
+        "letter": "D",
+        "text": "10 milliseconds"
+      }
+    ],
+    "correct_text": "$2 \\times \\text{MSL}$ (Maximum Segment Lifetime, typically 1 to 2 minutes)"
+  },
+  {
+    "id": 363,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer",
+    "topic": "SCTP Deep-Dive",
+    "question": "In SCTP, what are the two main categories of Chunks found inside an SCTP packet?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Control Chunks and Data Chunks"
+      },
+      {
+        "letter": "B",
+        "text": "Header Chunks and Trailer Chunks"
+      },
+      {
+        "letter": "C",
+        "text": "TCP Chunks and UDP Chunks"
+      },
+      {
+        "letter": "D",
+        "text": "Binary Chunks and ASCII Chunks"
+      }
+    ],
+    "correct_text": "Control Chunks and Data Chunks"
+  },
+  {
+    "id": 364,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer",
+    "topic": "SCTP Deep-Dive",
+    "question": "Can an SCTP packet contain multiple chunks bundled together in a single transmission?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Yes, an SCTP packet can bundle control and data chunks up to the path MTU"
+      },
+      {
+        "letter": "B",
+        "text": "No, SCTP allows strictly one chunk per packet"
+      },
+      {
+        "letter": "C",
+        "text": "Only if all chunks are encrypted"
+      },
+      {
+        "letter": "D",
+        "text": "Only during association shutdown"
+      }
+    ],
+    "correct_text": "Yes, an SCTP packet can bundle control and data chunks up to the path MTU"
+  },
+  {
+    "id": 365,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer",
+    "topic": "SCTP Deep-Dive",
+    "question": "What does SCTP use to acknowledge received data chunks?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "SACK (Selective Acknowledgment) chunk"
+      },
+      {
+        "letter": "B",
+        "text": "ACK flag bit"
+      },
+      {
+        "letter": "C",
+        "text": "SYN packet"
+      },
+      {
+        "letter": "D",
+        "text": "ICMP Echo Reply"
+      }
+    ],
+    "correct_text": "SACK (Selective Acknowledgment) chunk"
+  },
+  {
+    "id": 366,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer",
+    "topic": "SCTP Deep-Dive",
+    "question": "What is Transmission Sequence Number (TSN) in SCTP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A sequence number assigned to each data chunk for end-to-end reliable delivery and fragmentation reassembly"
+      },
+      {
+        "letter": "B",
+        "text": "The port number of the sender"
+      },
+      {
+        "letter": "C",
+        "text": "The IP address of the gateway"
+      },
+      {
+        "letter": "D",
+        "text": "The stream identifier within the application"
+      }
+    ],
+    "correct_text": "A sequence number assigned to each data chunk for end-to-end reliable delivery and fragmentation reassembly"
+  },
+  {
+    "id": 367,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit V: Transport Layer",
+    "topic": "SCTP Deep-Dive",
+    "question": "What is Stream Identifier (SI) and Stream Sequence Number (SSN) in SCTP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "SI identifies the specific stream, and SSN preserves the order of messages within that individual stream"
+      },
+      {
+        "letter": "B",
+        "text": "They replace the MAC address"
+      },
+      {
+        "letter": "C",
+        "text": "They indicate the size of the packet"
+      },
+      {
+        "letter": "D",
+        "text": "They specify the time of day"
+      }
+    ],
+    "correct_text": "SI identifies the specific stream, and SSN preserves the order of messages within that individual stream"
+  },
+  {
+    "id": 368,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "HTTP & Web Details",
+    "question": "What is the difference between Persistent and Non-Persistent HTTP connections?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Persistent HTTP allows multiple requests and responses over a single TCP connection; Non-persistent closes the TCP connection after every single object"
+      },
+      {
+        "letter": "B",
+        "text": "Persistent HTTP uses UDP; Non-persistent uses TCP"
+      },
+      {
+        "letter": "C",
+        "text": "Persistent HTTP works only without images"
+      },
+      {
+        "letter": "D",
+        "text": "Persistent HTTP requires user credit cards"
+      }
+    ],
+    "correct_text": "Persistent HTTP allows multiple requests and responses over a single TCP connection; Non-persistent closes the TCP connection after every single object"
+  },
+  {
+    "id": 369,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "HTTP & Web Details",
+    "question": "Which version of HTTP introduced persistent connections by default?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "HTTP/1.1"
+      },
+      {
+        "letter": "B",
+        "text": "HTTP/0.9"
+      },
+      {
+        "letter": "C",
+        "text": "HTTP/1.0"
+      },
+      {
+        "letter": "D",
+        "text": "Telnet 1.0"
+      }
+    ],
+    "correct_text": "HTTP/1.1"
+  },
+  {
+    "id": 370,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "HTTP & Web Details",
+    "question": "What major feature did HTTP/2 introduce to solve Head-of-Line blocking at the application layer?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Binary framing and multiplexing of multiple streams over a single TCP connection"
+      },
+      {
+        "letter": "B",
+        "text": "Switching to pure UDP"
+      },
+      {
+        "letter": "C",
+        "text": "Removing all header text"
+      },
+      {
+        "letter": "D",
+        "text": "Eliminating server status codes"
+      }
+    ],
+    "correct_text": "Binary framing and multiplexing of multiple streams over a single TCP connection"
+  },
+  {
+    "id": 371,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "HTTP & Web Details",
+    "question": "What underlying transport protocol does HTTP/3 use instead of TCP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "QUIC (Quick UDP Internet Connections over UDP)"
+      },
+      {
+        "letter": "B",
+        "text": "Raw IP datagrams"
+      },
+      {
+        "letter": "C",
+        "text": "SCTP"
+      },
+      {
+        "letter": "D",
+        "text": "Ethernet frames"
+      }
+    ],
+    "correct_text": "QUIC (Quick UDP Internet Connections over UDP)"
+  },
+  {
+    "id": 372,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "HTTP & Web Details",
+    "question": "What is an HTTP Request Header 'User-Agent' used for?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "It identifies the client application, browser type, rendering engine, and operating system making the request"
+      },
+      {
+        "letter": "B",
+        "text": "It contains the user's credit card PIN"
+      },
+      {
+        "letter": "C",
+        "text": "It specifies the IP address of the router"
+      },
+      {
+        "letter": "D",
+        "text": "It generates random passwords"
+      }
+    ],
+    "correct_text": "It identifies the client application, browser type, rendering engine, and operating system making the request"
+  },
+  {
+    "id": 373,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "HTTP & Web Details",
+    "question": "What is the purpose of the HTTP 'Cache-Control' header?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Directs browsers and intermediate proxies whether and for how long to store copies of web resources locally"
+      },
+      {
+        "letter": "B",
+        "text": "Controls the speed of the CPU"
+      },
+      {
+        "letter": "C",
+        "text": "Resets the router firewall"
+      },
+      {
+        "letter": "D",
+        "text": "Encrypts the database"
+      }
+    ],
+    "correct_text": "Directs browsers and intermediate proxies whether and for how long to store copies of web resources locally"
+  },
+  {
+    "id": 374,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "HTTP & Web Details",
+    "question": "What does HTTP status code 403 represent?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Forbidden (the server understands the request but refuses to authorize it)"
+      },
+      {
+        "letter": "B",
+        "text": "Not Found"
+      },
+      {
+        "letter": "C",
+        "text": "Bad Gateway"
+      },
+      {
+        "letter": "D",
+        "text": "OK"
+      }
+    ],
+    "correct_text": "Forbidden (the server understands the request but refuses to authorize it)"
+  },
+  {
+    "id": 375,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "HTTP & Web Details",
+    "question": "What does HTTP status code 503 represent?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Service Unavailable (server is temporarily overloaded or down for maintenance)"
+      },
+      {
+        "letter": "B",
+        "text": "Not Found"
+      },
+      {
+        "letter": "C",
+        "text": "Unauthorized"
+      },
+      {
+        "letter": "D",
+        "text": "Moved Temporarily"
+      }
+    ],
+    "correct_text": "Service Unavailable (server is temporarily overloaded or down for maintenance)"
+  },
+  {
+    "id": 376,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "HTTP & Web Details",
+    "question": "What does HTTP status code 304 represent?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Not Modified (resource has not changed since the version specified in client cache)"
+      },
+      {
+        "letter": "B",
+        "text": "Internal Server Error"
+      },
+      {
+        "letter": "C",
+        "text": "Created"
+      },
+      {
+        "letter": "D",
+        "text": "Accepted"
+      }
+    ],
+    "correct_text": "Not Modified (resource has not changed since the version specified in client cache)"
+  },
+  {
+    "id": 377,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "DNS Protocol Details",
+    "question": "What is the maximum length of a domain name in the DNS hierarchy?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "253 characters (labels separated by dots, max 63 characters per label)"
+      },
+      {
+        "letter": "B",
+        "text": "1,024 characters"
+      },
+      {
+        "letter": "C",
+        "text": "32 characters"
+      },
+      {
+        "letter": "D",
+        "text": "64 characters"
+      }
+    ],
+    "correct_text": "253 characters (labels separated by dots, max 63 characters per label)"
+  },
+  {
+    "id": 378,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "DNS Protocol Details",
+    "question": "What is a DNS Resolver?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A client program or local ISP server that translates domain names into IP addresses by querying DNS servers"
+      },
+      {
+        "letter": "B",
+        "text": "A hardware cable connector"
+      },
+      {
+        "letter": "C",
+        "text": "A program that formats hard drives"
+      },
+      {
+        "letter": "D",
+        "text": "A software compiler for C++"
+      }
+    ],
+    "correct_text": "A client program or local ISP server that translates domain names into IP addresses by querying DNS servers"
+  },
+  {
+    "id": 379,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "DNS Protocol Details",
+    "question": "What is DNS Caching, and why is it used?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Storing previously resolved domain lookups locally for a period defined by TTL to reduce lookup latency and network traffic"
+      },
+      {
+        "letter": "B",
+        "text": "Deleting old domain names from the Internet"
+      },
+      {
+        "letter": "C",
+        "text": "Encrypting passwords on the local hard disk"
+      },
+      {
+        "letter": "D",
+        "text": "Compressing web page images"
+      }
+    ],
+    "correct_text": "Storing previously resolved domain lookups locally for a period defined by TTL to reduce lookup latency and network traffic"
+  },
+  {
+    "id": 380,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "DNS Protocol Details",
+    "question": "What does the TTL (Time to Live) field in a DNS Resource Record indicate?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The number of seconds a caching resolver is permitted to keep the record in cache before discarding it"
+      },
+      {
+        "letter": "B",
+        "text": "The number of routers the query can cross"
+      },
+      {
+        "letter": "C",
+        "text": "The bandwidth of the DNS server"
+      },
+      {
+        "letter": "D",
+        "text": "The age of the domain owner"
+      }
+    ],
+    "correct_text": "The number of seconds a caching resolver is permitted to keep the record in cache before discarding it"
+  },
+  {
+    "id": 381,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "DNS Protocol Details",
+    "question": "What is a DNS Zone Transfer, and which transport protocol does it use?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Replicating DNS database records from a primary master DNS server to secondary slave servers using TCP port 53"
+      },
+      {
+        "letter": "B",
+        "text": "Sending an email using UDP"
+      },
+      {
+        "letter": "C",
+        "text": "Uploading files via FTP"
+      },
+      {
+        "letter": "D",
+        "text": "Resolving an IP using ICMP"
+      }
+    ],
+    "correct_text": "Replicating DNS database records from a primary master DNS server to secondary slave servers using TCP port 53"
+  },
+  {
+    "id": 382,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "DNS Protocol Details",
+    "question": "Which DNS record is used to store human-readable arbitrary text, often used for SPF email verification and domain ownership validation?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "TXT record"
+      },
+      {
+        "letter": "B",
+        "text": "A record"
+      },
+      {
+        "letter": "C",
+        "text": "PTR record"
+      },
+      {
+        "letter": "D",
+        "text": "NS record"
+      }
+    ],
+    "correct_text": "TXT record"
+  },
+  {
+    "id": 383,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "DNS Protocol Details",
+    "question": "Which DNS record defines the start of authority for a zone, including primary master name server, administrator email, and serial number?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "SOA (Start of Authority) record"
+      },
+      {
+        "letter": "B",
+        "text": "MX record"
+      },
+      {
+        "letter": "C",
+        "text": "A record"
+      },
+      {
+        "letter": "D",
+        "text": "CNAME record"
+      }
+    ],
+    "correct_text": "SOA (Start of Authority) record"
+  },
+  {
+    "id": 384,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Email Protocols Details",
+    "question": "What protocol extension allows SMTP to secure communication with TLS encryption over port 587 or 25?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "STARTTLS"
+      },
+      {
+        "letter": "B",
+        "text": "SMTPSSL"
+      },
+      {
+        "letter": "C",
+        "text": "SECUREMAIL"
+      },
+      {
+        "letter": "D",
+        "text": "OPENSSL"
+      }
+    ],
+    "correct_text": "STARTTLS"
+  },
+  {
+    "id": 385,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Email Protocols Details",
+    "question": "What are the two major components of an email system architecture?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "User Agent (MUA) and Mail Transfer Agent (MTA)"
+      },
+      {
+        "letter": "B",
+        "text": "Web Browser and Web Server"
+      },
+      {
+        "letter": "C",
+        "text": "Client and Router"
+      },
+      {
+        "letter": "D",
+        "text": "Encoder and Decoder"
+      }
+    ],
+    "correct_text": "User Agent (MUA) and Mail Transfer Agent (MTA)"
+  },
+  {
+    "id": 386,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Email Protocols Details",
+    "question": "Which of the following software programs is an example of a Mail User Agent (MUA)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Microsoft Outlook / Mozilla Thunderbird"
+      },
+      {
+        "letter": "B",
+        "text": "Postfix"
+      },
+      {
+        "letter": "C",
+        "text": "BIND"
+      },
+      {
+        "letter": "D",
+        "text": "Apache HTTP Server"
+      }
+    ],
+    "correct_text": "Microsoft Outlook / Mozilla Thunderbird"
+  },
+  {
+    "id": 387,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Email Protocols Details",
+    "question": "Which of the following software programs is an example of a Mail Transfer Agent (MTA)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Postfix / Sendmail"
+      },
+      {
+        "letter": "B",
+        "text": "Google Chrome"
+      },
+      {
+        "letter": "C",
+        "text": "FileZilla"
+      },
+      {
+        "letter": "D",
+        "text": "Notepad"
+      }
+    ],
+    "correct_text": "Postfix / Sendmail"
+  },
+  {
+    "id": 388,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "SSH Security Details",
+    "question": "How does SSH authenticate users and servers without sending passwords in cleartext?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Using public-key cryptography (asymmetric key pairs) or encrypted password hashes over a secure tunnel"
+      },
+      {
+        "letter": "B",
+        "text": "By sending passwords in Base64 encoding"
+      },
+      {
+        "letter": "C",
+        "text": "By relying on physical router passwords"
+      },
+      {
+        "letter": "D",
+        "text": "By matching MAC addresses"
+      }
+    ],
+    "correct_text": "Using public-key cryptography (asymmetric key pairs) or encrypted password hashes over a secure tunnel"
+  },
+  {
+    "id": 389,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "SSH Security Details",
+    "question": "What tool included with SSH enables secure, encrypted file transfers between remote computers?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "SFTP (SSH File Transfer Protocol) and SCP (Secure Copy)"
+      },
+      {
+        "letter": "B",
+        "text": "Telnet"
+      },
+      {
+        "letter": "C",
+        "text": "Trivial FTP (TFTP)"
+      },
+      {
+        "letter": "D",
+        "text": "Gopher"
+      }
+    ],
+    "correct_text": "SFTP (SSH File Transfer Protocol) and SCP (Secure Copy)"
+  },
+  {
+    "id": 390,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "SSH Security Details",
+    "question": "What is Port Forwarding (SSH Tunneling)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A mechanism in SSH that encrypts and routes network data from an arbitrary application through an established SSH connection"
+      },
+      {
+        "letter": "B",
+        "text": "Modifying router firewall ports permanently"
+      },
+      {
+        "letter": "C",
+        "text": "Opening physical server cases"
+      },
+      {
+        "letter": "D",
+        "text": "Assigning public IP addresses to switches"
+      }
+    ],
+    "correct_text": "A mechanism in SSH that encrypts and routes network data from an arbitrary application through an established SSH connection"
+  },
+  {
+    "id": 391,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Data Compression Principles",
+    "question": "What is the Compression Ratio?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The ratio of the size of the uncompressed data to the size of the compressed data (Uncompressed Size / Compressed Size)"
+      },
+      {
+        "letter": "B",
+        "text": "The time taken to download the file"
+      },
+      {
+        "letter": "C",
+        "text": "The number of bits corrupted during transmission"
+      },
+      {
+        "letter": "D",
+        "text": "The cost of storage disks"
+      }
+    ],
+    "correct_text": "The ratio of the size of the uncompressed data to the size of the compressed data (Uncompressed Size / Compressed Size)"
+  },
+  {
+    "id": 392,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Data Compression Principles",
+    "question": "What is Huffman Coding used in lossless compression?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "An entropy encoding algorithm that assigns shorter variable-length bit codes to more frequently occurring symbols"
+      },
+      {
+        "letter": "B",
+        "text": "An encryption cipher using prime numbers"
+      },
+      {
+        "letter": "C",
+        "text": "A routing algorithm for packet switches"
+      },
+      {
+        "letter": "D",
+        "text": "A method to calculate TCP checksums"
+      }
+    ],
+    "correct_text": "An entropy encoding algorithm that assigns shorter variable-length bit codes to more frequently occurring symbols"
+  },
+  {
+    "id": 393,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Data Compression Principles",
+    "question": "What is Run-Length Encoding (RLE)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A simple lossless compression method that replaces consecutive repeated data values with a single value and a count"
+      },
+      {
+        "letter": "B",
+        "text": "A method to run faster on fiber optic cables"
+      },
+      {
+        "letter": "C",
+        "text": "A mechanism to increase packet transmission speed"
+      },
+      {
+        "letter": "D",
+        "text": "An algorithm to detect network loops"
+      }
+    ],
+    "correct_text": "A simple lossless compression method that replaces consecutive repeated data values with a single value and a count"
+  },
+  {
+    "id": 394,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Data Compression Principles",
+    "question": "How would the text sequence 'AAAAABBBCC' be represented using basic Run-Length Encoding (RLE)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "5A3B2C"
+      },
+      {
+        "letter": "B",
+        "text": "A5B3C2"
+      },
+      {
+        "letter": "C",
+        "text": "10ABC"
+      },
+      {
+        "letter": "D",
+        "text": "AABBCC"
+      }
+    ],
+    "correct_text": "5A3B2C"
+  },
+  {
+    "id": 395,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit VI: Application Layer",
+    "topic": "Data Compression Principles",
+    "question": "What is the trade-off of Lossy compression compared to Lossless compression?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Lossy yields much smaller file sizes and higher compression ratios at the expense of irreversible loss of subtle visual/audio detail"
+      },
+      {
+        "letter": "B",
+        "text": "Lossy compression requires 100 times more storage space"
+      },
+      {
+        "letter": "C",
+        "text": "Lossy files can never be opened on mobile devices"
+      },
+      {
+        "letter": "D",
+        "text": "Lossy compression only works on plain text files"
+      }
+    ],
+    "correct_text": "Lossy yields much smaller file sizes and higher compression ratios at the expense of irreversible loss of subtle visual/audio detail"
   }
 ]

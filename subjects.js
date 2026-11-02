@@ -39,7 +39,7 @@ const SUBJECTS_CATALOG = [
     description: "Network Layer (Services, Packet Switching, Performance, IPv4 & IPv6, Forwarding, Routing & Multicast), Transport Layer (Services, UDP, TCP, SCTP), and Application Layer (WWW/HTTP, FTP, Email, SSH, DNS, Compression).",
     icon: "📡",
     available: true,
-    totalQuestions: 282,
+    totalQuestions: 395,
     unitsCount: 3,
     topicsCount: 26,
     dataPath: "subjects/dcn/questions.json",
