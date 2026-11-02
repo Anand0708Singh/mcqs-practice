@@ -136,8 +136,15 @@ document.querySelectorAll('input[name="app-mode"]').forEach(radio => {
 
 // Initialize Data & Group by Subject
 function initData() {
+  allQuestions = [];
   if (window.MCQ_DATA && Array.isArray(window.MCQ_DATA)) {
-    allQuestions = window.MCQ_DATA;
+    allQuestions.push(...window.MCQ_DATA);
+  }
+  if (window.DCN_DATA && Array.isArray(window.DCN_DATA)) {
+    allQuestions.push(...window.DCN_DATA);
+  }
+
+  if (allQuestions.length > 0) {
     buildSubjectsRegistry();
   } else {
     fetch('questions.json')
@@ -550,6 +557,21 @@ function renderPalette() {
       }
     }
   }
+
+  // Keep focus on question without annoying jumps
+  if (quizScreen.classList.contains('active')) {
+    const qCol = document.querySelector('.question-column');
+    if (qCol) {
+      const rect = qCol.getBoundingClientRect();
+      // Only scroll if question top is out of viewport view
+      if (rect.top < 60 || rect.top > 250) {
+        window.scrollTo({
+          top: qCol.offsetTop - 70,
+          behavior: 'smooth'
+        });
+      }
+    }
+  }
 }
 
 function updatePaletteStatus() {
@@ -592,6 +614,21 @@ function loadQuestion(idx) {
   }
 
   updatePaletteStatus();
+
+  // Keep focus on question without annoying jumps
+  if (quizScreen.classList.contains('active')) {
+    const qCol = document.querySelector('.question-column');
+    if (qCol) {
+      const rect = qCol.getBoundingClientRect();
+      // Only scroll if question top is out of viewport view
+      if (rect.top < 60 || rect.top > 250) {
+        window.scrollTo({
+          top: qCol.offsetTop - 70,
+          behavior: 'smooth'
+        });
+      }
+    }
+  }
 }
 
 function renderOptions(q) {
@@ -650,6 +687,21 @@ function selectOption(choiceText) {
   }
 
   updatePaletteStatus();
+
+  // Keep focus on question without annoying jumps
+  if (quizScreen.classList.contains('active')) {
+    const qCol = document.querySelector('.question-column');
+    if (qCol) {
+      const rect = qCol.getBoundingClientRect();
+      // Only scroll if question top is out of viewport view
+      if (rect.top < 60 || rect.top > 250) {
+        window.scrollTo({
+          top: qCol.offsetTop - 70,
+          behavior: 'smooth'
+        });
+      }
+    }
+  }
 }
 
 function showPracticeFeedback(isCorrect, correctText) {
@@ -693,6 +745,21 @@ flagBtn.addEventListener('click', () => {
   flagText.textContent = flaggedQuestions.has(currentIndex) ? 'Unflag' : 'Flag';
   flagBtn.classList.toggle('btn-warning', flaggedQuestions.has(currentIndex));
   updatePaletteStatus();
+
+  // Keep focus on question without annoying jumps
+  if (quizScreen.classList.contains('active')) {
+    const qCol = document.querySelector('.question-column');
+    if (qCol) {
+      const rect = qCol.getBoundingClientRect();
+      // Only scroll if question top is out of viewport view
+      if (rect.top < 60 || rect.top > 250) {
+        window.scrollTo({
+          top: qCol.offsetTop - 70,
+          behavior: 'smooth'
+        });
+      }
+    }
+  }
 });
 
 abortBtn.addEventListener('click', () => {

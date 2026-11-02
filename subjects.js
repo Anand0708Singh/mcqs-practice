@@ -13,6 +13,7 @@ const SUBJECTS_CATALOG = [
     topicsCount: 13,
     dataPath: "subjects/web-dotnet/questions.json",
     scriptPath: "subjects/web-dotnet/questions.js",
+    pdfPath: "subjects/web-dotnet/IT5058_Unit_V_VI_MCQ_Question_Bank.pdf",
     dataVar: "MCQ_DATA"
   },
   {
@@ -35,13 +36,16 @@ const SUBJECTS_CATALOG = [
     name: "Data Communication and Networking",
     date: "03/11/2026",
     time: "01:30 PM – 01:50 PM & 02:15 PM – 02:35 PM",
-    description: "OSI & TCP/IP layers, routing algorithms, subnetting, flow/error control, and transmission media.",
+    description: "Network Layer (IP, ICMP, Unicast & Multicast, IPv6), Transport Layer (UDP, TCP, SCTP), and Application Layer (HTTP, FTP, SMTP, SSH, DNS, Compression).",
     icon: "📡",
-    available: false,
-    totalQuestions: 0,
-    unitsCount: 0,
-    topicsCount: 0,
-    dataPath: "subjects/dcn/questions.json"
+    available: true,
+    totalQuestions: 123,
+    unitsCount: 3,
+    topicsCount: 16,
+    dataPath: "subjects/dcn/questions.json",
+    scriptPath: "subjects/dcn/questions.js",
+    pdfPath: "subjects/dcn/IT5052_DCN_Units_IV_V_VI_MCQ_Question_Bank.pdf",
+    dataVar: "DCN_DATA"
   },
   {
     id: "windows-ios",
@@ -116,3 +120,4 @@ const SUBJECTS_CATALOG = [
 ];
 
 window.SUBJECTS_CATALOG = SUBJECTS_CATALOG;
+

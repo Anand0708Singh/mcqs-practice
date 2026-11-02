@@ -93,7 +93,12 @@
         <button id="back-to-subjects-btn" class="btn btn-subtle">
           ← Back to All Subjects
         </button>
-        <span class="current-selected-subject-badge" id="selected-subject-tag">Subject</span>
+        <div class="setup-header-actions">
+          <a id="download-pdf-link" class="btn btn-secondary btn-sm" href="#" download style="display: none;">
+            📄 Download Official PDF
+          </a>
+          <span class="current-selected-subject-badge" id="selected-subject-tag">Subject</span>
+        </div>
       </div>
 
       <div class="hero-header">
@@ -355,6 +360,7 @@
   <!-- Include Question Bank and App Logic -->
   <script src="subjects.js"></script>
   <script src="questions.js"></script>
+  <script src="subjects/dcn/questions.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
