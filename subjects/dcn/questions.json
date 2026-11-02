@@ -4,7 +4,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "1. Network Layer Introduction",
     "question": "Which layer of the OSI model is the Network Layer?",
     "options": [
@@ -32,7 +32,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "1. Network Layer Introduction",
     "question": "What is the primary protocol data unit (PDU) at the Network Layer?",
     "options": [
@@ -60,7 +60,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "1. Network Layer Introduction",
     "question": "Which networking hardware device primarily operates at the Network Layer (Layer 3)?",
     "options": [
@@ -88,7 +88,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "1. Network Layer Introduction",
     "question": "What is the primary responsibility of the Network Layer in computer networking?",
     "options": [
@@ -116,7 +116,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "1. Network Layer Introduction",
     "question": "Which protocol serves as the core and primary protocol of the Network Layer?",
     "options": [
@@ -144,7 +144,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "2. IP - Internet Protocol",
     "question": "Which of the following characteristics best describes the Internet Protocol (IP)?",
     "options": [
@@ -172,7 +172,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "2. IP - Internet Protocol",
     "question": "What does 'best-effort delivery' mean in the context of the Internet Protocol (IP)?",
     "options": [
@@ -200,7 +200,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "2. IP - Internet Protocol",
     "question": "What is the size of an IPv4 address in bits and bytes?",
     "options": [
@@ -228,7 +228,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "2. IP - Internet Protocol",
     "question": "What is the size of an IPv6 address in bits and bytes?",
     "options": [
@@ -256,7 +256,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "2. IP - Internet Protocol",
     "question": "Which protocol layer or protocol can be utilized above IP to provide reliability and ordered data delivery?",
     "options": [
@@ -284,7 +284,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "3. ICMPv4",
     "question": "What does the acronym ICMP stand for?",
     "options": [
@@ -312,7 +312,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "3. ICMPv4",
     "question": "What is the primary function of ICMPv4 in computer networks?",
     "options": [
@@ -340,7 +340,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "3. ICMPv4",
     "question": "Which popular network diagnostic utility utilizes ICMP Echo Request and Echo Reply messages?",
     "options": [
@@ -368,7 +368,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "3. ICMPv4",
     "question": "How are ICMP messages encapsulated and transmitted over networks?",
     "options": [
@@ -396,7 +396,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "3. ICMPv4",
     "question": "Which of the following represents standard error reporting messages in ICMPv4?",
     "options": [
@@ -424,7 +424,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "4. Unicast Routing - Introduction",
     "question": "What is the fundamental definition of unicast communication?",
     "options": [
@@ -452,7 +452,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "4. Unicast Routing - Introduction",
     "question": "What is the primary role of routing in computer networking?",
     "options": [
@@ -480,7 +480,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "4. Unicast Routing - Introduction",
     "question": "When a laptop sends an HTTP web request to a specific web server, which communication model is being used?",
     "options": [
@@ -508,7 +508,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "5. Routing Algorithms",
     "question": "Which type of routing algorithm shares distance and next-hop vector information exclusively with neighboring routers?",
     "options": [
@@ -536,7 +536,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "5. Routing Algorithms",
     "question": "Which mathematical algorithm is typically used by Distance Vector routing protocols?",
     "options": [
@@ -564,7 +564,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "5. Routing Algorithms",
     "question": "Which type of routing algorithm builds a complete network topology map and calculates shortest paths?",
     "options": [
@@ -592,7 +592,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "5. Routing Algorithms",
     "question": "Which shortest-path algorithm is utilized by Link State routing protocols?",
     "options": [
@@ -620,7 +620,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "5. Routing Algorithms",
     "question": "Which of the following problems is famously associated with Distance Vector routing algorithms?",
     "options": [
@@ -648,7 +648,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "6. Unicast Routing Protocols",
     "question": "What does the acronym RIP stand for in computer networking?",
     "options": [
@@ -676,7 +676,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "6. Unicast Routing Protocols",
     "question": "What routing metric is used by RIP to determine the best path?",
     "options": [
@@ -704,7 +704,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "6. Unicast Routing Protocols",
     "question": "In RIP, what is the maximum number of usable hops, and what does a hop count of 16 indicate?",
     "options": [
@@ -732,7 +732,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "6. Unicast Routing Protocols",
     "question": "Which transport protocol and port number does RIP utilize for exchanging routing updates?",
     "options": [
@@ -760,7 +760,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "6. Unicast Routing Protocols",
     "question": "What does the acronym OSPF stand for?",
     "options": [
@@ -788,7 +788,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "6. Unicast Routing Protocols",
     "question": "Which type of routing algorithm is OSPF based upon?",
     "options": [
@@ -816,7 +816,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "6. Unicast Routing Protocols",
     "question": "How are OSPF packets transported directly over IP?",
     "options": [
@@ -844,7 +844,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "6. Unicast Routing Protocols",
     "question": "What does the acronym BGP stand for, and what is its primary role?",
     "options": [
@@ -872,7 +872,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "6. Unicast Routing Protocols",
     "question": "Which transport layer protocol and destination port does BGP use to ensure reliable route exchanges?",
     "options": [
@@ -900,7 +900,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "7. Multicast Routing & Basics",
     "question": "What is the definition of multicast communication?",
     "options": [
@@ -928,7 +928,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "7. Multicast Routing & Basics",
     "question": "What is a primary efficiency advantage of multicasting over sending multiple unicast packets?",
     "options": [
@@ -956,7 +956,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "7. Multicast Routing & Basics",
     "question": "Which IPv4 address class is specifically reserved for multicast addressing?",
     "options": [
@@ -984,7 +984,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "7. Multicast Routing & Basics",
     "question": "What is the defined IPv4 multicast address range?",
     "options": [
@@ -1012,7 +1012,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "7. Multicast Routing & Basics",
     "question": "Which protocol is used by IPv4 hosts and local routers to manage multicast group membership?",
     "options": [
@@ -1040,7 +1040,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "7. Multicast Routing & Basics",
     "question": "In IPv6, how are all multicast addresses formatted at their start?",
     "options": [
@@ -1068,7 +1068,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "9. IPv6 Addressing",
     "question": "How is an IPv6 address written and formatted?",
     "options": [
@@ -1096,7 +1096,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "9. IPv6 Addressing",
     "question": "Which compression rule is valid when abbreviating an IPv6 address?",
     "options": [
@@ -1124,7 +1124,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "9. IPv6 Addressing",
     "question": "Which transmission mode exists in IPv4 but was completely eliminated in IPv6?",
     "options": [
@@ -1152,7 +1152,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "9. IPv6 Addressing",
     "question": "Which of the following communication types are supported by IPv6?",
     "options": [
@@ -1180,7 +1180,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "10. IPv6 Protocol",
     "question": "What is the fixed size of the IPv6 base header?",
     "options": [
@@ -1208,7 +1208,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "10. IPv6 Protocol",
     "question": "What is the minimum base header size of an IPv4 packet (without optional fields)?",
     "options": [
@@ -1236,7 +1236,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "10. IPv6 Protocol",
     "question": "Why was the header checksum field removed from the IPv6 base header?",
     "options": [
@@ -1264,7 +1264,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "10. IPv6 Protocol",
     "question": "Which protocol does IPv6 utilize instead of the traditional IPv4 ARP (Address Resolution Protocol)?",
     "options": [
@@ -1292,7 +1292,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "10. IPv6 Protocol",
     "question": "How does packet fragmentation work in IPv6 compared to IPv4?",
     "options": [
@@ -1320,7 +1320,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "10. IPv6 Protocol",
     "question": "Which control and diagnostics protocol accompanies IPv6?",
     "options": [
@@ -1348,7 +1348,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "1. Transport Layer Introduction",
     "question": "Which layer of the OSI reference model is the Transport Layer?",
     "options": [
@@ -1376,7 +1376,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "1. Transport Layer Introduction",
     "question": "What fundamental type of communication is provided by the Transport Layer?",
     "options": [
@@ -1404,7 +1404,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "1. Transport Layer Introduction",
     "question": "What is the general name of the Protocol Data Unit (PDU) at the Transport Layer?",
     "options": [
@@ -1432,7 +1432,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "2. Transport Layer Services",
     "question": "What identifier is used at the Transport Layer to distinguish between multiple applications running on the same host?",
     "options": [
@@ -1460,7 +1460,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "2. Transport Layer Services",
     "question": "What is the difference between an IP address and a Port number?",
     "options": [
@@ -1488,7 +1488,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "2. Transport Layer Services",
     "question": "Which of the following is a standard well-known port example?",
     "options": [
@@ -1516,7 +1516,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "2. Transport Layer Services",
     "question": "What does the combination of an IP address and a Port number form?",
     "options": [
@@ -1544,7 +1544,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "3. Transport Layer Protocols Overview",
     "question": "What are the three primary transport layer protocols in the modern Internet protocol suite?",
     "options": [
@@ -1572,7 +1572,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "3. Transport Layer Protocols Overview",
     "question": "Which protocol is connectionless and lightweight with minimal overhead?",
     "options": [
@@ -1600,7 +1600,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "3. Transport Layer Protocols Overview",
     "question": "Which protocol provides reliable, connection-oriented byte stream transmission?",
     "options": [
@@ -1628,7 +1628,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "3. Transport Layer Protocols Overview",
     "question": "Which protocol is reliable and message-oriented, supporting multi-homing and multi-streaming?",
     "options": [
@@ -1656,7 +1656,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "4. UDP",
     "question": "What does the acronym UDP stand for?",
     "options": [
@@ -1684,7 +1684,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "4. UDP",
     "question": "What is the size of the standard UDP header?",
     "options": [
@@ -1712,7 +1712,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "4. UDP",
     "question": "Which fields constitute the 8-byte UDP header?",
     "options": [
@@ -1740,7 +1740,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "4. UDP",
     "question": "Why is UDP chosen for applications like online gaming, video conferencing, and DNS queries?",
     "options": [
@@ -1768,7 +1768,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "4. UDP",
     "question": "Does UDP provide guaranteed packet order or retransmission of lost datagrams?",
     "options": [
@@ -1796,7 +1796,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "5. TCP",
     "question": "What does the acronym TCP stand for?",
     "options": [
@@ -1824,7 +1824,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "5. TCP",
     "question": "What is the minimum header size of a TCP segment (without options)?",
     "options": [
@@ -1852,7 +1852,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "5. TCP",
     "question": "How does TCP achieve reliable and ordered delivery of application data?",
     "options": [
@@ -1880,7 +1880,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "5. TCP",
     "question": "What is the sequence of steps in the standard TCP Three-Way Handshake for connection establishment?",
     "options": [
@@ -1908,7 +1908,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "5. TCP",
     "question": "What occurs in step 1 of the TCP three-way handshake?",
     "options": [
@@ -1936,7 +1936,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "5. TCP",
     "question": "What occurs in step 2 of the TCP three-way handshake?",
     "options": [
@@ -1964,7 +1964,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "5. TCP",
     "question": "What occurs in step 3 of the TCP three-way handshake?",
     "options": [
@@ -1992,7 +1992,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "5. TCP",
     "question": "Which control mechanisms are natively built into TCP to manage network transmission speeds?",
     "options": [
@@ -2020,7 +2020,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "5. TCP",
     "question": "Which flag in the TCP header is used to gracefully close/terminate an established connection?",
     "options": [
@@ -2048,7 +2048,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "6. SCTP",
     "question": "What does the acronym SCTP stand for?",
     "options": [
@@ -2076,7 +2076,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "6. SCTP",
     "question": "Which feature allows SCTP to handle multiple independent message streams within a single connection?",
     "options": [
@@ -2104,7 +2104,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "6. SCTP",
     "question": "Which feature in SCTP allows an endpoint to bind to multiple IP addresses for link redundancy and failover?",
     "options": [
@@ -2132,7 +2132,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "6. SCTP",
     "question": "What term does SCTP use to refer to an established connection between two endpoints?",
     "options": [
@@ -2160,7 +2160,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "6. SCTP",
     "question": "How does SCTP transmit data in terms of framing?",
     "options": [
@@ -3308,7 +3308,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Comparison: IPv4 vs IPv6",
     "question": "Which comparison between IPv4 and IPv6 is correct regarding address format?",
     "options": [
@@ -3336,7 +3336,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Comparison: IPv4 vs IPv6",
     "question": "Which feature is present in the IPv4 base header but omitted in the IPv6 base header to increase router forwarding performance?",
     "options": [
@@ -3364,7 +3364,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Comparison: Routing Protocols",
     "question": "Which pair correctly matches the routing protocol with its underlying algorithm?",
     "options": [
@@ -3392,7 +3392,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "Comparison: TCP vs UDP",
     "question": "Which comparison correctly pairs transport protocol header sizes?",
     "options": [
@@ -3448,7 +3448,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Abbreviations & Full Forms",
     "question": "What is the full form of IP?",
     "options": [
@@ -3476,7 +3476,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Abbreviations & Full Forms",
     "question": "What is the full form of ICMP?",
     "options": [
@@ -3504,7 +3504,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Abbreviations & Full Forms",
     "question": "What is the full form of RIP?",
     "options": [
@@ -3532,7 +3532,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Abbreviations & Full Forms",
     "question": "What is the full form of OSPF?",
     "options": [
@@ -3560,7 +3560,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Abbreviations & Full Forms",
     "question": "What is the full form of BGP?",
     "options": [
@@ -3588,7 +3588,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Abbreviations & Full Forms",
     "question": "What is the full form of IGMP?",
     "options": [
@@ -3616,7 +3616,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Abbreviations & Full Forms",
     "question": "What is the full form of ARP?",
     "options": [
@@ -3644,7 +3644,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Abbreviations & Full Forms",
     "question": "What is the full form of NDP in IPv6?",
     "options": [
@@ -3672,7 +3672,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Abbreviations & Full Forms",
     "question": "What is the full form of MTU?",
     "options": [
@@ -3700,7 +3700,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Abbreviations & Full Forms",
     "question": "What is the full form of AS in routing?",
     "options": [
@@ -3728,7 +3728,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "Abbreviations & Full Forms",
     "question": "What is the full form of UDP?",
     "options": [
@@ -3756,7 +3756,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "Abbreviations & Full Forms",
     "question": "What is the full form of TCP?",
     "options": [
@@ -3784,7 +3784,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "Abbreviations & Full Forms",
     "question": "What is the full form of SCTP?",
     "options": [
@@ -3812,7 +3812,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "Abbreviations & Full Forms",
     "question": "What does the SYN flag in TCP stand for?",
     "options": [
@@ -3840,7 +3840,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "Abbreviations & Full Forms",
     "question": "What does the ACK flag in TCP stand for?",
     "options": [
@@ -3868,7 +3868,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "Abbreviations & Full Forms",
     "question": "What does the FIN flag in TCP stand for?",
     "options": [
@@ -3896,7 +3896,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "Abbreviations & Full Forms",
     "question": "What does the RST flag in TCP stand for?",
     "options": [
@@ -4624,7 +4624,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Well-Known Port Numbers",
     "question": "Which UDP port is used by RIP (Routing Information Protocol) to exchange routing tables?",
     "options": [
@@ -4652,7 +4652,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Well-Known Port Numbers",
     "question": "Which TCP port is used by BGP (Border Gateway Protocol) for inter-domain routing?",
     "options": [
@@ -4680,7 +4680,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Well-Known Port Numbers",
     "question": "Which IP protocol number is used directly by OSPF without requiring a TCP or UDP header?",
     "options": [
@@ -4708,7 +4708,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Header Sizes & Formats",
     "question": "What is the minimum header size of an IPv4 packet?",
     "options": [
@@ -4736,7 +4736,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Header Sizes & Formats",
     "question": "What is the maximum possible header size of an IPv4 packet including options?",
     "options": [
@@ -4764,7 +4764,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Header Sizes & Formats",
     "question": "What is the fixed base header size of an IPv6 packet?",
     "options": [
@@ -4792,7 +4792,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "Header Sizes & Formats",
     "question": "What is the standard fixed header size of a UDP datagram?",
     "options": [
@@ -4820,7 +4820,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "Header Sizes & Formats",
     "question": "What is the minimum header size of a TCP segment without optional headers?",
     "options": [
@@ -4848,7 +4848,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "Header Sizes & Formats",
     "question": "What is the maximum header size of a TCP segment including options?",
     "options": [
@@ -4876,7 +4876,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Network Layer Core Principles",
     "question": "In the OSI 7-layer model, which layer lies immediately below the Network Layer?",
     "options": [
@@ -4904,7 +4904,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Network Layer Core Principles",
     "question": "In the OSI 7-layer model, which layer lies immediately above the Network Layer?",
     "options": [
@@ -4932,7 +4932,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Network Layer Core Principles",
     "question": "What type of address is an IP address?",
     "options": [
@@ -4960,7 +4960,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Network Layer Core Principles",
     "question": "What is the primary difference between routing and forwarding?",
     "options": [
@@ -4988,7 +4988,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Network Layer Core Principles",
     "question": "Why is IP called connectionless?",
     "options": [
@@ -5016,7 +5016,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Network Layer Core Principles",
     "question": "What happens to an IP packet if its Time To Live (TTL) or Hop Limit reaches zero?",
     "options": [
@@ -5044,7 +5044,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Network Layer Core Principles",
     "question": "What is the purpose of the TTL (Time to Live) field in IPv4 packets?",
     "options": [
@@ -5072,7 +5072,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Network Layer Core Principles",
     "question": "What is the equivalent of IPv4's TTL (Time To Live) field in the IPv6 header?",
     "options": [
@@ -5100,7 +5100,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Network Layer Core Principles",
     "question": "What is the equivalent of IPv4's 'Protocol' field in the IPv6 header?",
     "options": [
@@ -5128,7 +5128,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Routing Protocols & Algorithms",
     "question": "What is an Autonomous System (AS)?",
     "options": [
@@ -5156,7 +5156,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Routing Protocols & Algorithms",
     "question": "Which type of routing protocol is used within a single Autonomous System?",
     "options": [
@@ -5184,7 +5184,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Routing Protocols & Algorithms",
     "question": "Which of the following routing protocols is an Exterior Gateway Protocol (EGP)?",
     "options": [
@@ -5212,7 +5212,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Routing Protocols & Algorithms",
     "question": "Which of the following routing protocols are examples of Interior Gateway Protocols (IGPs)?",
     "options": [
@@ -5240,7 +5240,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Routing Protocols & Algorithms",
     "question": "Why is RIP unsuitable for large networks or the global Internet?",
     "options": [
@@ -5268,7 +5268,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Routing Protocols & Algorithms",
     "question": "How frequently does RIP traditionally broadcast or send routing updates to neighbors?",
     "options": [
@@ -5296,7 +5296,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Routing Protocols & Algorithms",
     "question": "What information does a Link State router send in Link State Advertisements (LSAs)?",
     "options": [
@@ -5324,7 +5324,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Routing Protocols & Algorithms",
     "question": "Why do Link State routing protocols converge faster than Distance Vector protocols?",
     "options": [
@@ -5352,7 +5352,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Routing Protocols & Algorithms",
     "question": "What technique is commonly used to prevent routing loops in Distance Vector routing?",
     "options": [
@@ -5380,7 +5380,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Multicasting Deep-Dive",
     "question": "In IPv4 multicast, what is the first octet range of Class D addresses?",
     "options": [
@@ -5408,7 +5408,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Multicasting Deep-Dive",
     "question": "Which of the following is a valid IPv4 multicast address?",
     "options": [
@@ -5436,7 +5436,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Multicasting Deep-Dive",
     "question": "What is the IPv4 multicast address 224.0.0.1 used for?",
     "options": [
@@ -5464,7 +5464,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Multicasting Deep-Dive",
     "question": "What is the IPv4 multicast address 224.0.0.2 used for?",
     "options": [
@@ -5492,7 +5492,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "Multicasting Deep-Dive",
     "question": "What protocol enables multicast listeners to inform local routers that they wish to receive group traffic in IPv6?",
     "options": [
@@ -5520,7 +5520,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "IPv6 Addressing Rules",
     "question": "How many 16-bit blocks (hextets) compose an IPv6 address?",
     "options": [
@@ -5548,7 +5548,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "IPv6 Addressing Rules",
     "question": "How is the IPv6 address '2001:0db8:0000:0000:0000:0000:1428:57ab' correctly abbreviated?",
     "options": [
@@ -5576,7 +5576,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "IPv6 Addressing Rules",
     "question": "Why can the double-colon '::' symbol only be used ONCE in an IPv6 address?",
     "options": [
@@ -5604,7 +5604,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "IPv6 Addressing Rules",
     "question": "What is the loopback address in IPv6?",
     "options": [
@@ -5632,7 +5632,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "IPv6 Addressing Rules",
     "question": "What is the unspecified address in IPv6 representing 'any address' or 'no address'?",
     "options": [
@@ -5660,7 +5660,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit IV: Network Layer Protocols",
+    "unit": "Unit IV: Network Layer",
     "topic": "IPv6 Addressing Rules",
     "question": "What prefix identifies link-local unicast addresses in IPv6?",
     "options": [
@@ -5688,7 +5688,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "Ports & Multiplexing",
     "question": "What is port multiplexing at the Transport Layer?",
     "options": [
@@ -5716,7 +5716,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "Ports & Multiplexing",
     "question": "What is the range of Well-Known port numbers reserved for standard protocols?",
     "options": [
@@ -5744,7 +5744,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "Ports & Multiplexing",
     "question": "What is the range of Registered port numbers?",
     "options": [
@@ -5772,7 +5772,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "Ports & Multiplexing",
     "question": "What is the range of Dynamic, Private, or Ephemeral port numbers automatically chosen by client devices?",
     "options": [
@@ -5800,7 +5800,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "TCP Features & Mechanisms",
     "question": "What mechanism does TCP use to perform flow control so a fast sender does not overwhelm a slow receiver?",
     "options": [
@@ -5828,7 +5828,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "TCP Features & Mechanisms",
     "question": "What does the Sequence Number in a TCP header represent?",
     "options": [
@@ -5856,7 +5856,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "TCP Features & Mechanisms",
     "question": "What does the Acknowledgment Number in a TCP header represent?",
     "options": [
@@ -5884,7 +5884,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "TCP Features & Mechanisms",
     "question": "What are the four phases of TCP congestion control?",
     "options": [
@@ -5912,7 +5912,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "TCP Features & Mechanisms",
     "question": "How does TCP detect that a packet was lost in transit?",
     "options": [
@@ -5940,7 +5940,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "TCP Features & Mechanisms",
     "question": "What is the role of the URG (Urgent) flag in TCP?",
     "options": [
@@ -5968,7 +5968,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "TCP Features & Mechanisms",
     "question": "What is the role of the PSH (Push) flag in TCP?",
     "options": [
@@ -5996,7 +5996,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "SCTP In-Depth",
     "question": "How does SCTP multi-streaming prevent Head-of-Line (HoL) blocking found in TCP?",
     "options": [
@@ -6024,7 +6024,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "SCTP In-Depth",
     "question": "What is the unit of transmission exchanged between SCTP endpoints?",
     "options": [
@@ -6052,7 +6052,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "SCTP In-Depth",
     "question": "How does SCTP establish an association between endpoints?",
     "options": [
@@ -6080,7 +6080,7 @@
     "subject_id": "dcn",
     "subject_code": "IT5052",
     "subject_name": "Data Communication and Networking",
-    "unit": "Unit V: Transport Layer Protocols",
+    "unit": "Unit V: Transport Layer",
     "topic": "SCTP In-Depth",
     "question": "Why does SCTP use a 4-way handshake with signed cookie verification?",
     "options": [
