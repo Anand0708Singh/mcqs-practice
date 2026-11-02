@@ -108,8 +108,14 @@
               <option value="20">Quick 20 Questions</option>
               <option value="50" selected>Standard 50 Questions</option>
               <option value="100">Intensive 100 Questions</option>
-              <option value="all">Full Set (All Available in filter)</option>
+              <option value="all">Full Set (All Available)</option>
+              <option value="custom">Custom Amount ✍️</option>
             </select>
+          </div>
+
+          <div class="form-group" id="custom-count-group" style="display: none;">
+            <label for="custom-count-input">Enter Custom Question Count: <span id="available-max-hint" class="hint-text">(Max: 465)</span></label>
+            <input type="number" id="custom-count-input" class="form-control" min="1" max="465" placeholder="e.g. 15, 35, 75...">
           </div>
         </div>
 
@@ -282,3 +288,4 @@
   <script src="app.js"></script>
 </body>
 </html>
+

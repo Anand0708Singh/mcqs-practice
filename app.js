@@ -16,6 +16,9 @@ const resultsScreen = document.getElementById('results-screen');
 const unitSelect = document.getElementById('unit-select');
 const topicSelect = document.getElementById('topic-select');
 const countSelect = document.getElementById('count-select');
+const customCountGroup = document.getElementById('custom-count-group');
+const customCountInput = document.getElementById('custom-count-input');
+const availableMaxHint = document.getElementById('available-max-hint');
 const shuffleQuestionsCheckbox = document.getElementById('shuffle-questions');
 const shuffleOptionsCheckbox = document.getElementById('shuffle-options');
 const startBtn = document.getElementById('start-btn');
@@ -110,6 +113,39 @@ function initData() {
   populateTopicDropdown();
 }
 
+function getFilteredPoolSize() {
+  const selUnit = unitSelect.value;
+  const selTopic = topicSelect.value;
+  return allQuestions.filter(q => {
+    if (selUnit !== 'all' && q.unit !== selUnit) return false;
+    if (selTopic !== 'all' && q.topic !== selTopic) return false;
+    return true;
+  }).length;
+}
+
+function updateCountLimits() {
+  const available = getFilteredPoolSize();
+  if (availableMaxHint) {
+    availableMaxHint.textContent = `(Max: ${available})`;
+  }
+  if (customCountInput) {
+    customCountInput.max = available;
+    if (!customCountInput.value || parseInt(customCountInput.value, 10) > available) {
+      customCountInput.placeholder = `e.g. 10, 25 (up to ${available})`;
+    }
+  }
+}
+
+countSelect.addEventListener('change', () => {
+  if (countSelect.value === 'custom') {
+    customCountGroup.style.display = 'flex';
+    updateCountLimits();
+    customCountInput.focus();
+  } else {
+    customCountGroup.style.display = 'none';
+  }
+});
+
 function populateTopicDropdown() {
   const selectedUnit = unitSelect.value;
   const topics = new Set();
@@ -127,9 +163,17 @@ function populateTopicDropdown() {
     opt.textContent = topic;
     topicSelect.appendChild(opt);
   });
+  updateCountLimits();
 }
 
-unitSelect.addEventListener('change', populateTopicDropdown);
+unitSelect.addEventListener('change', () => {
+  populateTopicDropdown();
+  updateCountLimits();
+});
+
+topicSelect.addEventListener('change', () => {
+  updateCountLimits();
+});
 
 // Fisher-Yates Shuffle
 function shuffleArray(arr) {
@@ -183,7 +227,21 @@ startBtn.addEventListener('click', () => {
     pool = shuffleArray(pool);
   }
 
-  if (selCount !== 'all') {
+  if (selCount === 'custom') {
+    const rawVal = customCountInput.value.trim();
+    const customNum = parseInt(rawVal, 10);
+    if (!rawVal || isNaN(customNum) || customNum <= 0) {
+      alert(`Please enter a valid number of questions to attempt (between 1 and ${pool.length}).`);
+      customCountInput.focus();
+      return;
+    }
+    if (customNum > pool.length) {
+      alert(`The selected filter only contains ${pool.length} questions. Setting question count to ${pool.length}.`);
+      pool = pool.slice(0, pool.length);
+    } else {
+      pool = pool.slice(0, customNum);
+    }
+  } else if (selCount !== 'all') {
     const limit = parseInt(selCount, 10);
     pool = pool.slice(0, limit);
   }
@@ -613,3 +671,4 @@ window.addEventListener('DOMContentLoaded', () => {
   initTheme();
   initData();
 });
+
