@@ -6662,5 +6662,1237 @@
       }
     ],
     "correct_text": "Lossless compression"
+  },
+  {
+    "id": 239,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Network Layer Services",
+    "question": "Which of the following is a fundamental service provided by the Network Layer?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Packetizing, logical addressing, routing, and packet forwarding"
+      },
+      {
+        "letter": "B",
+        "text": "Framing and physical bit transmission"
+      },
+      {
+        "letter": "C",
+        "text": "Process-to-process port demultiplexing"
+      },
+      {
+        "letter": "D",
+        "text": "Displaying GUI windows on the monitor"
+      }
+    ],
+    "correct_text": "Packetizing, logical addressing, routing, and packet forwarding"
+  },
+  {
+    "id": 240,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Network Layer Services",
+    "question": "What does 'packetizing' mean at the Network Layer?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Encapsulating the transport layer payload into an IP datagram at the source and decapsulating it at destination"
+      },
+      {
+        "letter": "B",
+        "text": "Converting ASCII text into JPEG format"
+      },
+      {
+        "letter": "C",
+        "text": "Compressing audio files into MP3"
+      },
+      {
+        "letter": "D",
+        "text": "Splitting an electrical voltage into radio frequencies"
+      }
+    ],
+    "correct_text": "Encapsulating the transport layer payload into an IP datagram at the source and decapsulating it at destination"
+  },
+  {
+    "id": 241,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Network Layer Services",
+    "question": "Can intermediate routers along a packet's path modify the IP payload data?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "No, routers do not inspect or modify the upper-layer payload data (except for header fields like TTL)"
+      },
+      {
+        "letter": "B",
+        "text": "Yes, routers compress the payload at every hop"
+      },
+      {
+        "letter": "C",
+        "text": "Yes, routers translate payloads between languages"
+      },
+      {
+        "letter": "D",
+        "text": "Yes, routers encrypt the payload with their private key"
+      }
+    ],
+    "correct_text": "No, routers do not inspect or modify the upper-layer payload data (except for header fields like TTL)"
+  },
+  {
+    "id": 242,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Network Layer Services",
+    "question": "What is the difference between Connectionless service and Connection-oriented service at the Network Layer?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Connectionless treats every packet independently without path setup; Connection-oriented sets up a virtual circuit before sending packets"
+      },
+      {
+        "letter": "B",
+        "text": "Connectionless requires telephone calls; Connection-oriented uses Wi-Fi"
+      },
+      {
+        "letter": "C",
+        "text": "Connectionless operates at Layer 7; Connection-oriented operates at Layer 1"
+      },
+      {
+        "letter": "D",
+        "text": "There is no difference in modern networks"
+      }
+    ],
+    "correct_text": "Connectionless treats every packet independently without path setup; Connection-oriented sets up a virtual circuit before sending packets"
+  },
+  {
+    "id": 243,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Packet Switching",
+    "question": "What is the fundamental principle of Packet Switching in computer networks?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Data is broken into independent chunks called packets that share network transmission links dynamically"
+      },
+      {
+        "letter": "B",
+        "text": "A physical copper circuit is reserved exclusively for the entire duration of a call"
+      },
+      {
+        "letter": "C",
+        "text": "Data is transmitted as continuous unpacketized radio waves"
+      },
+      {
+        "letter": "D",
+        "text": "Computers exchange data by physically mailing storage drives"
+      }
+    ],
+    "correct_text": "Data is broken into independent chunks called packets that share network transmission links dynamically"
+  },
+  {
+    "id": 244,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Packet Switching",
+    "question": "Which packet switching approach is used by the Internet Protocol (IP)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Datagram approach (connectionless packet switching)"
+      },
+      {
+        "letter": "B",
+        "text": "Virtual Circuit approach"
+      },
+      {
+        "letter": "C",
+        "text": "Circuit switching"
+      },
+      {
+        "letter": "D",
+        "text": "Message switching with magnetic tapes"
+      }
+    ],
+    "correct_text": "Datagram approach (connectionless packet switching)"
+  },
+  {
+    "id": 245,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Packet Switching",
+    "question": "In a Datagram packet-switched network, how are packets belonging to the same message routed?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Each packet is routed independently and may follow different paths to the destination"
+      },
+      {
+        "letter": "B",
+        "text": "All packets must strictly follow the exact same physical wire in locked sequence"
+      },
+      {
+        "letter": "C",
+        "text": "Packets cannot travel unless all packets arrive at the first router"
+      },
+      {
+        "letter": "D",
+        "text": "Packets are broadcast to every computer on Earth simultaneously"
+      }
+    ],
+    "correct_text": "Each packet is routed independently and may follow different paths to the destination"
+  },
+  {
+    "id": 246,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Packet Switching",
+    "question": "What is a defining feature of a Virtual Circuit (VC) packet-switched network (e.g. X.25, Frame Relay, ATM)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A predetermined logical path is established during setup, and all packets carry a VC identifier and follow that path"
+      },
+      {
+        "letter": "B",
+        "text": "Packets are routed with no destination address"
+      },
+      {
+        "letter": "C",
+        "text": "It does not require any routers or switches"
+      },
+      {
+        "letter": "D",
+        "text": "It can only transmit voice signals"
+      }
+    ],
+    "correct_text": "A predetermined logical path is established during setup, and all packets carry a VC identifier and follow that path"
+  },
+  {
+    "id": 247,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Packet Switching",
+    "question": "What is the main advantage of Packet Switching over traditional Circuit Switching?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Higher link utilization and efficiency through statistical multiplexing and dynamic sharing of bandwidth"
+      },
+      {
+        "letter": "B",
+        "text": "Guaranteed 100% constant reserved bandwidth even when idle"
+      },
+      {
+        "letter": "C",
+        "text": "Zero possibility of packet delay or loss"
+      },
+      {
+        "letter": "D",
+        "text": "Complete elimination of routing tables"
+      }
+    ],
+    "correct_text": "Higher link utilization and efficiency through statistical multiplexing and dynamic sharing of bandwidth"
+  },
+  {
+    "id": 248,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Packet Switching",
+    "question": "What occurs in Store-and-Forward packet switching at intermediate routers?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The router must receive the entire packet and verify its checksum before transmitting it onto the outbound link"
+      },
+      {
+        "letter": "B",
+        "text": "The router forwards individual bits before receiving the full packet"
+      },
+      {
+        "letter": "C",
+        "text": "The router stores packets on floppy disks permanently"
+      },
+      {
+        "letter": "D",
+        "text": "The router discards all packets after forwarding"
+      }
+    ],
+    "correct_text": "The router must receive the entire packet and verify its checksum before transmitting it onto the outbound link"
+  },
+  {
+    "id": 249,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Network Layer Performance",
+    "question": "What are the four primary components that make up total packet delay in a network?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Transmission delay, Propagation delay, Queuing delay, and Processing delay"
+      },
+      {
+        "letter": "B",
+        "text": "Encoding delay, Audio delay, Video delay, and Display delay"
+      },
+      {
+        "letter": "C",
+        "text": "Keyboard delay, Mouse delay, CPU delay, and Disk delay"
+      },
+      {
+        "letter": "D",
+        "text": "Download delay, Upload delay, Billing delay, and Power delay"
+      }
+    ],
+    "correct_text": "Transmission delay, Propagation delay, Queuing delay, and Processing delay"
+  },
+  {
+    "id": 250,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Network Layer Performance",
+    "question": "What is Transmission Delay ($D_{trans}$)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The time required to push/transmit all the packet's bits into the wire ($L / R$, packet length / transmission rate)"
+      },
+      {
+        "letter": "B",
+        "text": "The time for a single bit to travel across the physical medium from sender to receiver"
+      },
+      {
+        "letter": "C",
+        "text": "The time a packet waits in a router buffer queue"
+      },
+      {
+        "letter": "D",
+        "text": "The time taken by a router CPU to examine the packet header"
+      }
+    ],
+    "correct_text": "The time required to push/transmit all the packet's bits into the wire ($L / R$, packet length / transmission rate)"
+  },
+  {
+    "id": 251,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Network Layer Performance",
+    "question": "What is Propagation Delay ($D_{prop}$)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The time for a bit to travel through the physical medium from one end of the link to the other ($d / s$, distance / propagation speed)"
+      },
+      {
+        "letter": "B",
+        "text": "The time to push all packet bits onto the link"
+      },
+      {
+        "letter": "C",
+        "text": "The time spent waiting inside a buffer"
+      },
+      {
+        "letter": "D",
+        "text": "The time to compute the IP header checksum"
+      }
+    ],
+    "correct_text": "The time for a bit to travel through the physical medium from one end of the link to the other ($d / s$, distance / propagation speed)"
+  },
+  {
+    "id": 252,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Network Layer Performance",
+    "question": "What is Queuing Delay in network layer performance?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The time a packet spends waiting in router buffer queues for transmission onto the outgoing link"
+      },
+      {
+        "letter": "B",
+        "text": "The time taken to run the Dijkstra algorithm"
+      },
+      {
+        "letter": "C",
+        "text": "The time to resolve a DNS query"
+      },
+      {
+        "letter": "D",
+        "text": "The speed of light in optical fiber"
+      }
+    ],
+    "correct_text": "The time a packet spends waiting in router buffer queues for transmission onto the outgoing link"
+  },
+  {
+    "id": 253,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Network Layer Performance",
+    "question": "What is Processing Delay in a router?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The time required by the router to examine the packet header, check for bit-level errors, and determine the output link"
+      },
+      {
+        "letter": "B",
+        "text": "The time to heat up the router silicon"
+      },
+      {
+        "letter": "C",
+        "text": "The time to push the packet into the buffer queue"
+      },
+      {
+        "letter": "D",
+        "text": "The propagation delay across transatlantic fiber cables"
+      }
+    ],
+    "correct_text": "The time required by the router to examine the packet header, check for bit-level errors, and determine the output link"
+  },
+  {
+    "id": 254,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Network Layer Performance",
+    "question": "What is Throughput in computer networks?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The actual rate at which data is successfully transferred from source to destination across a communication link (measured in bps)"
+      },
+      {
+        "letter": "B",
+        "text": "The maximum theoretically possible frequency of an antenna"
+      },
+      {
+        "letter": "C",
+        "text": "The size of the router buffer memory"
+      },
+      {
+        "letter": "D",
+        "text": "The total number of dropped packets"
+      }
+    ],
+    "correct_text": "The actual rate at which data is successfully transferred from source to destination across a communication link (measured in bps)"
+  },
+  {
+    "id": 255,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Network Layer Performance",
+    "question": "What causes Packet Loss at the Network Layer?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "When arriving packets find the router buffer queue full (buffer overflow caused by network congestion)"
+      },
+      {
+        "letter": "B",
+        "text": "When a computer runs out of RAM"
+      },
+      {
+        "letter": "C",
+        "text": "When the user closes the web browser tab"
+      },
+      {
+        "letter": "D",
+        "text": "When an IP address contains odd numbers"
+      }
+    ],
+    "correct_text": "When arriving packets find the router buffer queue full (buffer overflow caused by network congestion)"
+  },
+  {
+    "id": 256,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Network Layer Performance",
+    "question": "What is Congestion at the Network Layer?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A state where too many packets are present in a part of the subnet, degrading performance and causing queue overflows"
+      },
+      {
+        "letter": "B",
+        "text": "A physical break in an optical fiber cable"
+      },
+      {
+        "letter": "C",
+        "text": "A virus infecting user operating systems"
+      },
+      {
+        "letter": "D",
+        "text": "A collision between two wireless mice"
+      }
+    ],
+    "correct_text": "A state where too many packets are present in a part of the subnet, degrading performance and causing queue overflows"
+  },
+  {
+    "id": 257,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Network Layer Performance",
+    "question": "What is the Bandwidth-Delay Product (BDP) in network performance?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The product of link bandwidth and round-trip delay, representing the maximum volume of data in flight in the network pipe"
+      },
+      {
+        "letter": "B",
+        "text": "The total cost of an ISP connection per month"
+      },
+      {
+        "letter": "C",
+        "text": "The physical weight of router cables"
+      },
+      {
+        "letter": "D",
+        "text": "The time to reboot a core switch"
+      }
+    ],
+    "correct_text": "The product of link bandwidth and round-trip delay, representing the maximum volume of data in flight in the network pipe"
+  },
+  {
+    "id": 258,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "In IPv4 addressing, what are the two main logical components of an address?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Network ID (Netid) and Host ID (Hostid)"
+      },
+      {
+        "letter": "B",
+        "text": "Country Code and Area Code"
+      },
+      {
+        "letter": "C",
+        "text": "MAC address and Port number"
+      },
+      {
+        "letter": "D",
+        "text": "Hardware ID and Software ID"
+      }
+    ],
+    "correct_text": "Network ID (Netid) and Host ID (Hostid)"
+  },
+  {
+    "id": 259,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "In classful addressing, which class uses the first octet range 1 to 126?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Class A"
+      },
+      {
+        "letter": "B",
+        "text": "Class B"
+      },
+      {
+        "letter": "C",
+        "text": "Class C"
+      },
+      {
+        "letter": "D",
+        "text": "Class D"
+      }
+    ],
+    "correct_text": "Class A"
+  },
+  {
+    "id": 260,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "What is the default subnet mask for an IPv4 Class A network?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "255.0.0.0 (/8)"
+      },
+      {
+        "letter": "B",
+        "text": "255.255.0.0 (/16)"
+      },
+      {
+        "letter": "C",
+        "text": "255.255.255.0 (/24)"
+      },
+      {
+        "letter": "D",
+        "text": "255.255.255.255 (/32)"
+      }
+    ],
+    "correct_text": "255.0.0.0 (/8)"
+  },
+  {
+    "id": 261,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "In classful addressing, which class uses the first octet range 128 to 191?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Class B"
+      },
+      {
+        "letter": "B",
+        "text": "Class A"
+      },
+      {
+        "letter": "C",
+        "text": "Class C"
+      },
+      {
+        "letter": "D",
+        "text": "Class D"
+      }
+    ],
+    "correct_text": "Class B"
+  },
+  {
+    "id": 262,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "What is the default subnet mask for an IPv4 Class B network?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "255.255.0.0 (/16)"
+      },
+      {
+        "letter": "B",
+        "text": "255.0.0.0 (/8)"
+      },
+      {
+        "letter": "C",
+        "text": "255.255.255.0 (/24)"
+      },
+      {
+        "letter": "D",
+        "text": "255.240.0.0 (/12)"
+      }
+    ],
+    "correct_text": "255.255.0.0 (/16)"
+  },
+  {
+    "id": 263,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "In classful addressing, which class uses the first octet range 192 to 223?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Class C"
+      },
+      {
+        "letter": "B",
+        "text": "Class A"
+      },
+      {
+        "letter": "C",
+        "text": "Class B"
+      },
+      {
+        "letter": "D",
+        "text": "Class D"
+      }
+    ],
+    "correct_text": "Class C"
+  },
+  {
+    "id": 264,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "What is the default subnet mask for an IPv4 Class C network?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "255.255.255.0 (/24)"
+      },
+      {
+        "letter": "B",
+        "text": "255.255.0.0 (/16)"
+      },
+      {
+        "letter": "C",
+        "text": "255.0.0.0 (/8)"
+      },
+      {
+        "letter": "D",
+        "text": "255.255.255.128 (/25)"
+      }
+    ],
+    "correct_text": "255.255.255.0 (/24)"
+  },
+  {
+    "id": 265,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "What is IPv4 Class E (240.0.0.0 to 255.255.255.255) reserved for?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Experimental and research purposes"
+      },
+      {
+        "letter": "B",
+        "text": "Multicast streaming"
+      },
+      {
+        "letter": "C",
+        "text": "Commercial web hosting"
+      },
+      {
+        "letter": "D",
+        "text": "Local loopback testing"
+      }
+    ],
+    "correct_text": "Experimental and research purposes"
+  },
+  {
+    "id": 266,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "Why was Classless Inter-Domain Routing (CIDR) introduced to replace classful addressing?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To prevent IPv4 address exhaustion and reduce the explosion of routing table sizes"
+      },
+      {
+        "letter": "B",
+        "text": "To force all computers to use hexadecimal notation"
+      },
+      {
+        "letter": "C",
+        "text": "To eliminate the need for routers"
+      },
+      {
+        "letter": "D",
+        "text": "To speed up optical laser modulation"
+      }
+    ],
+    "correct_text": "To prevent IPv4 address exhaustion and reduce the explosion of routing table sizes"
+  },
+  {
+    "id": 267,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "In CIDR notation '192.168.1.0/26', what does the '/26' prefix length indicate?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The first 26 bits represent the network prefix, leaving 6 bits for host addressing"
+      },
+      {
+        "letter": "B",
+        "text": "There are 26 available IP addresses in the subnet"
+      },
+      {
+        "letter": "C",
+        "text": "The network can have up to 26 routers"
+      },
+      {
+        "letter": "D",
+        "text": "The packet must be transmitted within 26 milliseconds"
+      }
+    ],
+    "correct_text": "The first 26 bits represent the network prefix, leaving 6 bits for host addressing"
+  },
+  {
+    "id": 268,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "How many usable host IP addresses are available in a standard '/24' subnet (e.g. 192.168.1.0/24)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "254 usable hosts ($2^8 - 2$)"
+      },
+      {
+        "letter": "B",
+        "text": "256 usable hosts"
+      },
+      {
+        "letter": "C",
+        "text": "128 usable hosts"
+      },
+      {
+        "letter": "D",
+        "text": "512 usable hosts"
+      }
+    ],
+    "correct_text": "254 usable hosts ($2^8 - 2$)"
+  },
+  {
+    "id": 269,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "Why are 2 addresses subtracted when calculating the number of usable hosts in an IPv4 subnet ($2^h - 2$)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "One address is reserved as the Network Address (all host bits 0), and one as the Broadcast Address (all host bits 1)"
+      },
+      {
+        "letter": "B",
+        "text": "One for the router and one for the firewall"
+      },
+      {
+        "letter": "C",
+        "text": "One for DNS and one for DHCP"
+      },
+      {
+        "letter": "D",
+        "text": "One for the gateway and one for the web server"
+      }
+    ],
+    "correct_text": "One address is reserved as the Network Address (all host bits 0), and one as the Broadcast Address (all host bits 1)"
+  },
+  {
+    "id": 270,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "Which of the following represents the private IPv4 address blocks defined in RFC 1918?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16"
+      },
+      {
+        "letter": "B",
+        "text": "1.0.0.0/8, 2.0.0.0/8, and 3.0.0.0/8"
+      },
+      {
+        "letter": "C",
+        "text": "127.0.0.0/8 and 224.0.0.0/4"
+      },
+      {
+        "letter": "D",
+        "text": "192.0.0.0/8 and 240.0.0.0/4"
+      }
+    ],
+    "correct_text": "10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16"
+  },
+  {
+    "id": 271,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "Can private IPv4 addresses (such as 192.168.1.10) be routed directly across the public global Internet?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "No, private IP addresses are non-routable on the public Internet and require NAT (Network Address Translation)"
+      },
+      {
+        "letter": "B",
+        "text": "Yes, all IP addresses route globally without distinction"
+      },
+      {
+        "letter": "C",
+        "text": "Only if the router uses OSPF"
+      },
+      {
+        "letter": "D",
+        "text": "Only during night hours"
+      }
+    ],
+    "correct_text": "No, private IP addresses are non-routable on the public Internet and require NAT (Network Address Translation)"
+  },
+  {
+    "id": 272,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "What is the purpose of NAT (Network Address Translation)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To map private local IP addresses to one or more public IP addresses for Internet access"
+      },
+      {
+        "letter": "B",
+        "text": "To convert IPv4 packets into IPv6 packets"
+      },
+      {
+        "letter": "C",
+        "text": "To calculate routing metrics using Dijkstra"
+      },
+      {
+        "letter": "D",
+        "text": "To assign DNS names to MAC addresses"
+      }
+    ],
+    "correct_text": "To map private local IP addresses to one or more public IP addresses for Internet access"
+  },
+  {
+    "id": 273,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "What is the special IPv4 address 127.0.0.1 used for?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Loopback testing (communicating with the local host itself)"
+      },
+      {
+        "letter": "B",
+        "text": "Default gateway on home routers"
+      },
+      {
+        "letter": "C",
+        "text": "Global public broadcast"
+      },
+      {
+        "letter": "D",
+        "text": "Multicast streaming"
+      }
+    ],
+    "correct_text": "Loopback testing (communicating with the local host itself)"
+  },
+  {
+    "id": 274,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "What is the special IPv4 address 255.255.255.255 used for?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Limited broadcast address (broadcasts to all hosts on the local network)"
+      },
+      {
+        "letter": "B",
+        "text": "Default route to the Internet"
+      },
+      {
+        "letter": "C",
+        "text": "Loopback testing"
+      },
+      {
+        "letter": "D",
+        "text": "DNS root server address"
+      }
+    ],
+    "correct_text": "Limited broadcast address (broadcasts to all hosts on the local network)"
+  },
+  {
+    "id": 275,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "IPv4 Addresses",
+    "question": "What is the IPv4 address 0.0.0.0 used for in routing tables?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The default route (matches any destination address not specifically listed)"
+      },
+      {
+        "letter": "B",
+        "text": "The loopback address"
+      },
+      {
+        "letter": "C",
+        "text": "The broadcast address"
+      },
+      {
+        "letter": "D",
+        "text": "The multicast rendezvous point"
+      }
+    ],
+    "correct_text": "The default route (matches any destination address not specifically listed)"
+  },
+  {
+    "id": 276,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Forwarding of IP Packets",
+    "question": "What principle does a router use to select the matching route when multiple prefixes match an incoming destination IP address?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Longest Prefix Match (LPM)"
+      },
+      {
+        "letter": "B",
+        "text": "Shortest Prefix Match"
+      },
+      {
+        "letter": "C",
+        "text": "First match in the text file"
+      },
+      {
+        "letter": "D",
+        "text": "Random selection"
+      }
+    ],
+    "correct_text": "Longest Prefix Match (LPM)"
+  },
+  {
+    "id": 277,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Forwarding of IP Packets",
+    "question": "Suppose a packet destination is 192.168.1.130 and the routing table has entries for '192.168.1.0/24' and '192.168.1.128/25'. Which entry is chosen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "192.168.1.128/25 because it has the longer prefix match (/25 > /24)"
+      },
+      {
+        "letter": "B",
+        "text": "192.168.1.0/24 because it comes first numerically"
+      },
+      {
+        "letter": "C",
+        "text": "Both routes simultaneously"
+      },
+      {
+        "letter": "D",
+        "text": "The default route 0.0.0.0/0"
+      }
+    ],
+    "correct_text": "192.168.1.128/25 because it has the longer prefix match (/25 > /24)"
+  },
+  {
+    "id": 278,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Forwarding of IP Packets",
+    "question": "What is the difference between Direct Delivery and Indirect Delivery in IP packet forwarding?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Direct delivery occurs when the destination host is on the same physical network as the deliverer; Indirect delivery forwards the packet to a next-hop router"
+      },
+      {
+        "letter": "B",
+        "text": "Direct delivery uses optical fiber; Indirect delivery uses copper"
+      },
+      {
+        "letter": "C",
+        "text": "Direct delivery uses UDP; Indirect delivery uses TCP"
+      },
+      {
+        "letter": "D",
+        "text": "Direct delivery travels through at least 10 routers"
+      }
+    ],
+    "correct_text": "Direct delivery occurs when the destination host is on the same physical network as the deliverer; Indirect delivery forwards the packet to a next-hop router"
+  },
+  {
+    "id": 279,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Forwarding of IP Packets",
+    "question": "What structure inside a high-speed router contains the cached information needed to make forwarding decisions on incoming packets?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Forwarding Information Base (FIB) / Forwarding Table"
+      },
+      {
+        "letter": "B",
+        "text": "DNS Cache"
+      },
+      {
+        "letter": "C",
+        "text": "ARP Poison Table"
+      },
+      {
+        "letter": "D",
+        "text": "MIME table"
+      }
+    ],
+    "correct_text": "Forwarding Information Base (FIB) / Forwarding Table"
+  },
+  {
+    "id": 280,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Forwarding of IP Packets",
+    "question": "When an intermediate router forwards an IPv4 datagram to the next hop, what modifications does it make to the IP header?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Decrements the TTL field by at least 1 and recomputes the Header Checksum"
+      },
+      {
+        "letter": "B",
+        "text": "Changes the Source IP address to the router's IP"
+      },
+      {
+        "letter": "C",
+        "text": "Replaces the upper-layer payload"
+      },
+      {
+        "letter": "D",
+        "text": "Inverts all binary bits"
+      }
+    ],
+    "correct_text": "Decrements the TTL field by at least 1 and recomputes the Header Checksum"
+  },
+  {
+    "id": 281,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Forwarding of IP Packets",
+    "question": "When a router forwards an IP packet over an Ethernet link, how does it encapsulate the packet?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "As the payload of a new Data Link Layer (Ethernet) frame with the next-hop MAC address as destination MAC"
+      },
+      {
+        "letter": "B",
+        "text": "It sends the IP packet directly without any frame header"
+      },
+      {
+        "letter": "C",
+        "text": "It converts the IP packet into a DNS record"
+      },
+      {
+        "letter": "D",
+        "text": "It wraps it in an HTTP header"
+      }
+    ],
+    "correct_text": "As the payload of a new Data Link Layer (Ethernet) frame with the next-hop MAC address as destination MAC"
+  },
+  {
+    "id": 282,
+    "subject_id": "dcn",
+    "subject_code": "IT5052",
+    "subject_name": "Data Communication and Networking",
+    "unit": "Unit IV: Network Layer",
+    "topic": "Forwarding of IP Packets",
+    "question": "What protocol does an IPv4 router use to find the physical MAC address corresponding to the next-hop IP address?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "ARP (Address Resolution Protocol)"
+      },
+      {
+        "letter": "B",
+        "text": "DNS"
+      },
+      {
+        "letter": "C",
+        "text": "DHCP"
+      },
+      {
+        "letter": "D",
+        "text": "ICMP"
+      }
+    ],
+    "correct_text": "ARP (Address Resolution Protocol)"
   }
 ]

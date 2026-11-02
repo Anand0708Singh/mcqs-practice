@@ -13,7 +13,7 @@ Hosted live on **GitHub Pages**:
 | :--- | :--- | :--- | :---: | :---: | :---: |
 | **03/11/2026** | 9:45–10:05 AM & 10:30–10:50 AM | **Web Technology with .NET** | `IT5058` | 🟢 **Ready** | **465 MCQs** (Units V & VI) |
 | **03/11/2026** | 12:00 PM – 12:20 PM | **Design of Wearable and Smart Gadgets** | `DWG501` | ⏳ Pending | `subjects/wearable-gadgets/` |
-| **03/11/2026** | 01:30–01:50 PM & 02:15–02:35 PM | **Data Communication and Networking (DCN)** | `IT5052` | 🟢 **Ready** | **238 MCQs** (Units IV, V & VI) |
+| **03/11/2026** | 01:30–01:50 PM & 02:15–02:35 PM | **Data Communication and Networking (DCN)** | `IT5052` | 🟢 **Ready** | **282 MCQs** (Units IV, V & VI) |
 | **04/11/2026** | 9:00 – 9:20 AM | **Windows_252, iOS_56** | `MOB503` | ⏳ Pending | `subjects/windows-ios/` |
 | **04/11/2026** | 10:30 – 10:50 AM | **Information Security** | `IT5054` | ⏳ Pending | `subjects/information-security/` |
 | **04/11/2026** | 12:45 PM – 01:05 PM | **Cloud Infrastructure & Resource Management**| `IT5056` | ⏳ Pending | `subjects/cloud-infrastructure/` |
