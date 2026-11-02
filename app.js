@@ -14,9 +14,21 @@ let timerSeconds = 0;
 
 // Screens
 const subjectScreen = document.getElementById('subject-screen');
+const notAvailableScreen = document.getElementById('not-available-screen');
 const setupScreen = document.getElementById('setup-screen');
 const quizScreen = document.getElementById('quiz-screen');
 const resultsScreen = document.getElementById('results-screen');
+
+// Not Available Screen Elements
+const naBackBtn = document.getElementById('na-back-btn');
+const naReturnBtn = document.getElementById('na-return-btn');
+const naIcon = document.getElementById('na-icon');
+const naCode = document.getElementById('na-code');
+const naTitle = document.getElementById('na-title');
+const naDesc = document.getElementById('na-desc');
+const naExamDate = document.getElementById('na-exam-date');
+const naExamTime = document.getElementById('na-exam-time');
+const naFolderPath = document.getElementById('na-folder-path');
 
 // Navbar Elements
 const headerSubjectBadge = document.getElementById('header-subject-badge');
@@ -131,33 +143,61 @@ function initData() {
         allQuestions = d;
         buildSubjectsRegistry();
       })
-      .catch(err => console.error('Could not load questions.json', err));
+      .catch(err => {
+        console.error('Could not load questions.json', err);
+        buildSubjectsRegistry();
+      });
   }
 }
 
 function buildSubjectsRegistry() {
   subjectsMap = {};
 
+  // First seed from window.SUBJECTS_CATALOG
+  const catalog = window.SUBJECTS_CATALOG || [];
+  catalog.forEach(sub => {
+    subjectsMap[sub.id] = {
+      id: sub.id,
+      code: sub.code,
+      name: sub.name,
+      date: sub.date,
+      time: sub.time,
+      description: sub.description,
+      icon: sub.icon,
+      available: sub.available,
+      questions: [],
+      units: new Set(),
+      topics: new Set(),
+      dataPath: sub.dataPath
+    };
+  });
+
+  // Populate questions
   allQuestions.forEach(q => {
-    const sId = q.subject_id || 'it5058';
-    const sName = q.subject_name || 'IT5058 - Web Technologies with .NET';
+    let sId = q.subject_id;
+    if (!sId || sId === 'it5058') sId = 'web-dotnet';
 
     if (!subjectsMap[sId]) {
       subjectsMap[sId] = {
         id: sId,
-        name: sName,
+        code: q.subject_code || sId.toUpperCase(),
+        name: q.subject_name || sId,
+        date: 'TBD',
+        time: 'TBD',
+        description: 'Multiple Choice Questions question bank and assessment.',
+        icon: '📚',
+        available: true,
         questions: [],
         units: new Set(),
         topics: new Set(),
-        description: sId === 'it5058'
-          ? 'Razor Views, Controllers, Layouts, Model Binding, Validations, Form Apps, Payments, Emails, and Social Logins.'
-          : 'Multiple Choice Questions question bank and assessment.'
+        dataPath: `subjects/${sId}/questions.json`
       };
     }
 
     subjectsMap[sId].questions.push(q);
     if (q.unit) subjectsMap[sId].units.add(q.unit);
     if (q.topic) subjectsMap[sId].topics.add(q.topic);
+    subjectsMap[sId].available = true; // Has questions
   });
 
   renderSubjectCards();
@@ -169,7 +209,8 @@ function renderSubjectCards() {
 
   subjects.forEach(sub => {
     const card = document.createElement('div');
-    card.className = 'subject-card';
+    const isAvail = sub.available && sub.questions.length > 0;
+    card.className = `subject-card ${isAvail ? 'is-available' : 'is-disabled'}`;
 
     const unitsCount = sub.units.size;
     const topicsCount = sub.topics.size;
@@ -178,19 +219,34 @@ function renderSubjectCards() {
     card.innerHTML = `
       <div>
         <div class="subject-card-top">
-          <div class="subject-icon-box">💻</div>
-          <span class="subject-code-badge">${escapeHtml(sub.id.toUpperCase())}</span>
+          <div class="subject-icon-box">${sub.icon || '📚'}</div>
+          <span class="subject-status-pill ${isAvail ? 'status-ready' : 'status-pending'}">
+            ${isAvail ? '✓ Ready to Practice' : '⏳ Questions Pending'}
+          </span>
         </div>
+
+        <div class="subject-timing-bar ${isAvail ? '' : 'pending-bar'}">
+          <div><strong>📅 Date:</strong> ${escapeHtml(sub.date)}</div>
+          <div><strong>⏱️ Exam Time:</strong> ${escapeHtml(sub.time)}</div>
+        </div>
+
         <h3 class="subject-title">${escapeHtml(sub.name)}</h3>
         <p class="subject-description">${escapeHtml(sub.description)}</p>
+
         <div class="subject-meta-tags">
-          <span class="subject-meta-tag">📝 ${questionsCount} MCQs</span>
-          <span class="subject-meta-tag">📚 ${unitsCount} Units</span>
-          <span class="subject-meta-tag">🔖 ${topicsCount} Topics</span>
+          <span class="subject-code-badge">${escapeHtml(sub.code || sub.id.toUpperCase())}</span>
+          ${isAvail ? `
+            <span class="subject-meta-tag">📝 ${questionsCount} MCQs</span>
+            <span class="subject-meta-tag">📚 ${unitsCount} Units</span>
+            <span class="subject-meta-tag">🔖 ${topicsCount} Topics</span>
+          ` : `
+            <span class="subject-meta-tag">📁 Folder: subjects/${escapeHtml(sub.id)}/</span>
+          `}
         </div>
       </div>
-      <button class="subject-action-btn">
-        Start Practicing →
+
+      <button class="subject-action-btn ${isAvail ? '' : 'btn-disabled'}">
+        ${isAvail ? 'Start Practicing →' : 'View Subject Details / Status'}
       </button>
     `;
 
@@ -200,21 +256,29 @@ function renderSubjectCards() {
 }
 
 function selectSubject(subjectId) {
-  currentSubjectId = subjectId;
   const sub = subjectsMap[subjectId];
   if (!sub) return;
 
+  const isAvail = sub.available && sub.questions.length > 0;
+
+  if (!isAvail) {
+    // Show Not Available Screen
+    showSubjectNotAvailable(sub);
+    return;
+  }
+
+  currentSubjectId = subjectId;
   currentSubjectQuestions = sub.questions;
 
   // Update Navbar and Tags
-  headerSubjectBadge.textContent = sub.id.toUpperCase();
+  headerSubjectBadge.textContent = sub.code || sub.id.toUpperCase();
   headerTitle.textContent = sub.name;
   headerSubtitle.textContent = `${sub.questions.length} MCQs | ${sub.units.size} Units | ${sub.topics.size} Topics`;
   navChangeSubjectBtn.style.display = 'inline-flex';
 
-  selectedSubjectTag.textContent = sub.id.toUpperCase();
+  selectedSubjectTag.textContent = sub.code || sub.id.toUpperCase();
   setupHeroTitle.textContent = `Practice: ${sub.name}`;
-  setupHeroDesc.textContent = `Select your preferred unit, topic, question count, and test mode for ${sub.id.toUpperCase()}.`;
+  setupHeroDesc.textContent = `Dedicated question bank for ${sub.name}. Select unit, topic, question count, and test mode.`;
 
   statTotalMcqs.textContent = sub.questions.length;
   statTotalUnits.textContent = `${sub.units.size} Units`;
@@ -228,6 +292,26 @@ function selectSubject(subjectId) {
   // Show Setup screen
   showScreen(setupScreen);
 }
+
+function showSubjectNotAvailable(sub) {
+  headerSubjectBadge.textContent = sub.code || sub.id.toUpperCase();
+  headerTitle.textContent = sub.name;
+  headerSubtitle.textContent = 'MCQ Question Bank Pending Upload';
+  navChangeSubjectBtn.style.display = 'inline-flex';
+
+  naIcon.textContent = sub.icon || '⏳';
+  naCode.textContent = sub.code || sub.id.toUpperCase();
+  naTitle.textContent = `${sub.name} - MCQs Not Yet Available`;
+  naDesc.textContent = `The MCQ question bank for "${sub.name}" has not been uploaded yet. Please add its questions to the "${sub.dataPath}" folder to enable practice.`;
+  naExamDate.textContent = sub.date;
+  naExamTime.textContent = sub.time;
+  naFolderPath.textContent = sub.dataPath;
+
+  showScreen(notAvailableScreen);
+}
+
+if (naBackBtn) naBackBtn.addEventListener('click', goToSubjectsScreen);
+if (naReturnBtn) naReturnBtn.addEventListener('click', goToSubjectsScreen);
 
 function showScreen(screenEl) {
   document.querySelectorAll('.view-card').forEach(s => s.classList.remove('active'));

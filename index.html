@@ -35,13 +35,55 @@
     <!-- Subject Selection Screen -->
     <section id="subject-screen" class="view-card active">
       <div class="hero-header">
-        <div class="hero-pill">🎓 Multi-Subject MCQ Hub</div>
-        <h2 class="hero-title">Choose Your Subject</h2>
-        <p class="hero-desc">Select a course to load its dedicated question bank, units, and custom test engine.</p>
+        <div class="hero-pill">📅 Internal Examination - 2 | Semester 5</div>
+        <h2 class="hero-title">Select Your Subject</h2>
+        <p class="hero-desc">Choose a subject from your exam schedule to practice its dedicated MCQs with randomized questions and answers.</p>
+      </div>
+
+      <div class="exam-schedule-legend">
+        <span class="legend-badge legend-active">🟢 Questions Available</span>
+        <span class="legend-badge legend-unavailable">⚪ Question Bank Pending Upload</span>
       </div>
 
       <div class="subjects-grid" id="subjects-grid">
         <!-- Rendered dynamically -->
+      </div>
+    </section>
+
+    <!-- Subject Not Available Screen -->
+    <section id="not-available-screen" class="view-card">
+      <div class="setup-header-bar">
+        <button id="na-back-btn" class="btn btn-secondary">
+          ← Return to All Subjects
+        </button>
+      </div>
+
+      <div class="na-card">
+        <div class="na-icon" id="na-icon">⏳</div>
+        <span class="na-badge" id="na-code">SUBJECT CODE</span>
+        <h2 class="na-title" id="na-title">Subject Questions Coming Soon</h2>
+        <p class="na-desc" id="na-desc">The MCQ question bank for this subject has not been uploaded yet or is currently being prepared.</p>
+
+        <div class="na-details-box">
+          <div class="na-detail-item">
+            <span class="na-label">Scheduled Exam Date:</span>
+            <strong id="na-exam-date">Date</strong>
+          </div>
+          <div class="na-detail-item">
+            <span class="na-label">Exam Timing:</span>
+            <strong id="na-exam-time">Time</strong>
+          </div>
+          <div class="na-detail-item">
+            <span class="na-label">Subject Folder:</span>
+            <code id="na-folder-path">subjects/...</code>
+          </div>
+        </div>
+
+        <div class="na-actions">
+          <button id="na-return-btn" class="btn btn-primary btn-lg">
+            ← Return to Home Page
+          </button>
+        </div>
       </div>
     </section>
 
@@ -308,6 +350,7 @@
   </footer>
 
   <!-- Include Question Bank and App Logic -->
+  <script src="subjects.js"></script>
   <script src="questions.js"></script>
   <script src="app.js"></script>
 </body>

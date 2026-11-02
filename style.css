@@ -173,12 +173,40 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 
+/* Exam Schedule Legend */
+.exam-schedule-legend {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  margin-bottom: 1.75rem;
+  flex-wrap: wrap;
+}
+
+.legend-badge {
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.35rem 0.85rem;
+  border-radius: var(--radius-full);
+}
+
+.legend-active {
+  background: var(--success-light);
+  color: var(--success-text);
+  border: 1px solid var(--success-border);
+}
+
+.legend-unavailable {
+  background: var(--bg-hover);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+}
+
 /* Subjects Grid */
 .subjects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
   gap: 1.5rem;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .subject-card {
@@ -196,10 +224,21 @@ body {
   overflow: hidden;
 }
 
-.subject-card:hover {
+.subject-card.is-available:hover {
   transform: translateY(-4px);
   border-color: var(--primary);
   box-shadow: var(--shadow-lg);
+}
+
+.subject-card.is-disabled {
+  opacity: 0.85;
+  background: var(--bg-secondary);
+  border-style: dashed;
+}
+
+.subject-card.is-disabled:hover {
+  transform: translateY(-2px);
+  border-color: var(--border-focus);
 }
 
 .subject-card-top {
@@ -218,6 +257,41 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 1.75rem;
+}
+
+.subject-status-pill {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 0.6rem;
+  border-radius: var(--radius-sm);
+}
+
+.status-ready {
+  background: var(--success-light);
+  color: var(--success-text);
+  border: 1px solid var(--success-border);
+}
+
+.status-pending {
+  background: var(--bg-hover);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+}
+
+.subject-timing-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  background: var(--bg-primary);
+  padding: 0.6rem 0.85rem;
+  border-radius: var(--radius-sm);
+  margin-bottom: 1rem;
+  border-left: 3px solid var(--primary);
+  font-size: 0.8rem;
+}
+
+.subject-timing-bar.pending-bar {
+  border-left-color: var(--text-muted);
 }
 
 .subject-code-badge {
@@ -280,8 +354,101 @@ body {
   transition: background 0.2s;
 }
 
-.subject-card:hover .subject-action-btn {
+.subject-card.is-available:hover .subject-action-btn {
   background: var(--primary-hover);
+}
+
+.subject-action-btn.btn-disabled {
+  background: var(--bg-hover);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  cursor: pointer;
+}
+
+.subject-action-btn.btn-disabled:hover {
+  background: var(--border);
+  color: var(--text-main);
+}
+
+/* Not Available Screen Card */
+.na-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 3rem 2rem;
+  max-width: 680px;
+  margin: 1.5rem auto;
+  text-align: center;
+  box-shadow: var(--shadow-md);
+}
+
+.na-icon {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.na-badge {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 700;
+  background: var(--bg-hover);
+  color: var(--text-muted);
+  padding: 0.35rem 0.85rem;
+  border-radius: var(--radius-full);
+  display: inline-block;
+  margin-bottom: 0.75rem;
+}
+
+.na-title {
+  font-size: 1.65rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.na-desc {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 1.75rem;
+  line-height: 1.5;
+}
+
+.na-details-box {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.na-detail-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.na-label {
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.na-folder-path {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  background: var(--bg-hover);
+  padding: 0.2rem 0.5rem;
+  border-radius: var(--radius-sm);
+}
+
+.na-actions {
+  display: flex;
+  justify-content: center;
 }
 
 /* Setup Header Navigation */
