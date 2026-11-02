@@ -1,5 +1,9 @@
 // State management
 let allQuestions = [];
+let subjectsMap = {}; // subject_id -> { id, name, questions, units, topics }
+let currentSubjectId = null;
+let currentSubjectQuestions = [];
+
 let activeQuestions = []; // Filtered, shuffled, sliced
 let currentIndex = 0;
 let userAnswers = {}; // map index -> selectedOptionText
@@ -8,10 +12,29 @@ let quizMode = 'practice'; // 'practice' or 'exam'
 let timerInterval = null;
 let timerSeconds = 0;
 
-// DOM Elements
+// Screens
+const subjectScreen = document.getElementById('subject-screen');
 const setupScreen = document.getElementById('setup-screen');
 const quizScreen = document.getElementById('quiz-screen');
 const resultsScreen = document.getElementById('results-screen');
+
+// Navbar Elements
+const headerSubjectBadge = document.getElementById('header-subject-badge');
+const headerTitle = document.getElementById('header-title');
+const headerSubtitle = document.getElementById('header-subtitle');
+const navChangeSubjectBtn = document.getElementById('nav-change-subject');
+const backToSubjectsBtn = document.getElementById('back-to-subjects-btn');
+const resultsChangeSubjectBtn = document.getElementById('results-change-subject-btn');
+const subjectsGrid = document.getElementById('subjects-grid');
+
+// Setup Screen Elements
+const selectedSubjectTag = document.getElementById('selected-subject-tag');
+const setupHeroPill = document.getElementById('setup-hero-pill');
+const setupHeroTitle = document.getElementById('setup-hero-title');
+const setupHeroDesc = document.getElementById('setup-hero-desc');
+const statTotalMcqs = document.getElementById('stat-total-mcqs');
+const statTotalUnits = document.getElementById('stat-total-units');
+const statTotalTopics = document.getElementById('stat-total-topics');
 
 const unitSelect = document.getElementById('unit-select');
 const topicSelect = document.getElementById('topic-select');
@@ -96,27 +119,173 @@ document.querySelectorAll('input[name="app-mode"]').forEach(radio => {
   });
 });
 
-// Initialize Question Bank
+// Initialize Data & Group by Subject
 function initData() {
   if (window.MCQ_DATA && Array.isArray(window.MCQ_DATA)) {
     allQuestions = window.MCQ_DATA;
+    buildSubjectsRegistry();
   } else {
-    // Fallback fetch if opened in local server
     fetch('questions.json')
       .then(r => r.json())
       .then(d => {
         allQuestions = d;
-        populateTopicDropdown();
+        buildSubjectsRegistry();
       })
       .catch(err => console.error('Could not load questions.json', err));
   }
+}
+
+function buildSubjectsRegistry() {
+  subjectsMap = {};
+
+  allQuestions.forEach(q => {
+    const sId = q.subject_id || 'it5058';
+    const sName = q.subject_name || 'IT5058 - Web Technologies with .NET';
+
+    if (!subjectsMap[sId]) {
+      subjectsMap[sId] = {
+        id: sId,
+        name: sName,
+        questions: [],
+        units: new Set(),
+        topics: new Set(),
+        description: sId === 'it5058'
+          ? 'Razor Views, Controllers, Layouts, Model Binding, Validations, Form Apps, Payments, Emails, and Social Logins.'
+          : 'Multiple Choice Questions question bank and assessment.'
+      };
+    }
+
+    subjectsMap[sId].questions.push(q);
+    if (q.unit) subjectsMap[sId].units.add(q.unit);
+    if (q.topic) subjectsMap[sId].topics.add(q.topic);
+  });
+
+  renderSubjectCards();
+}
+
+function renderSubjectCards() {
+  subjectsGrid.innerHTML = '';
+  const subjects = Object.values(subjectsMap);
+
+  subjects.forEach(sub => {
+    const card = document.createElement('div');
+    card.className = 'subject-card';
+
+    const unitsCount = sub.units.size;
+    const topicsCount = sub.topics.size;
+    const questionsCount = sub.questions.length;
+
+    card.innerHTML = `
+      <div>
+        <div class="subject-card-top">
+          <div class="subject-icon-box">💻</div>
+          <span class="subject-code-badge">${escapeHtml(sub.id.toUpperCase())}</span>
+        </div>
+        <h3 class="subject-title">${escapeHtml(sub.name)}</h3>
+        <p class="subject-description">${escapeHtml(sub.description)}</p>
+        <div class="subject-meta-tags">
+          <span class="subject-meta-tag">📝 ${questionsCount} MCQs</span>
+          <span class="subject-meta-tag">📚 ${unitsCount} Units</span>
+          <span class="subject-meta-tag">🔖 ${topicsCount} Topics</span>
+        </div>
+      </div>
+      <button class="subject-action-btn">
+        Start Practicing →
+      </button>
+    `;
+
+    card.addEventListener('click', () => selectSubject(sub.id));
+    subjectsGrid.appendChild(card);
+  });
+}
+
+function selectSubject(subjectId) {
+  currentSubjectId = subjectId;
+  const sub = subjectsMap[subjectId];
+  if (!sub) return;
+
+  currentSubjectQuestions = sub.questions;
+
+  // Update Navbar and Tags
+  headerSubjectBadge.textContent = sub.id.toUpperCase();
+  headerTitle.textContent = sub.name;
+  headerSubtitle.textContent = `${sub.questions.length} MCQs | ${sub.units.size} Units | ${sub.topics.size} Topics`;
+  navChangeSubjectBtn.style.display = 'inline-flex';
+
+  selectedSubjectTag.textContent = sub.id.toUpperCase();
+  setupHeroTitle.textContent = `Practice: ${sub.name}`;
+  setupHeroDesc.textContent = `Select your preferred unit, topic, question count, and test mode for ${sub.id.toUpperCase()}.`;
+
+  statTotalMcqs.textContent = sub.questions.length;
+  statTotalUnits.textContent = `${sub.units.size} Units`;
+  statTotalTopics.textContent = `${sub.topics.size} Topics`;
+
+  // Populate Unit Dropdown
+  populateUnitsDropdown(sub);
   populateTopicDropdown();
+  updateCountLimits();
+
+  // Show Setup screen
+  showScreen(setupScreen);
+}
+
+function showScreen(screenEl) {
+  document.querySelectorAll('.view-card').forEach(s => s.classList.remove('active'));
+  screenEl.classList.add('active');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function goToSubjectsScreen() {
+  stopTimer();
+  currentSubjectId = null;
+  currentSubjectQuestions = [];
+  headerSubjectBadge.textContent = 'PORTAL';
+  headerTitle.textContent = 'MCQs Practice & Assessment Portal';
+  headerSubtitle.textContent = 'Select a subject to begin';
+  navChangeSubjectBtn.style.display = 'none';
+  showScreen(subjectScreen);
+}
+
+navChangeSubjectBtn.addEventListener('click', goToSubjectsScreen);
+backToSubjectsBtn.addEventListener('click', goToSubjectsScreen);
+if (resultsChangeSubjectBtn) {
+  resultsChangeSubjectBtn.addEventListener('click', goToSubjectsScreen);
+}
+
+function populateUnitsDropdown(sub) {
+  unitSelect.innerHTML = '<option value="all">All Units in Subject</option>';
+  Array.from(sub.units).forEach(unit => {
+    const opt = document.createElement('option');
+    opt.value = unit;
+    opt.textContent = unit;
+    unitSelect.appendChild(opt);
+  });
+}
+
+function populateTopicDropdown() {
+  const selectedUnit = unitSelect.value;
+  const topics = new Set();
+  
+  currentSubjectQuestions.forEach(q => {
+    if (selectedUnit === 'all' || q.unit === selectedUnit) {
+      if (q.topic) topics.add(q.topic);
+    }
+  });
+
+  topicSelect.innerHTML = '<option value="all">All Topics (Full Coverage)</option>';
+  Array.from(topics).sort().forEach(topic => {
+    const opt = document.createElement('option');
+    opt.value = topic;
+    opt.textContent = topic;
+    topicSelect.appendChild(opt);
+  });
+  updateCountLimits();
 }
 
 function getFilteredPoolSize() {
   const selUnit = unitSelect.value;
   const selTopic = topicSelect.value;
-  return allQuestions.filter(q => {
+  return currentSubjectQuestions.filter(q => {
     if (selUnit !== 'all' && q.unit !== selUnit) return false;
     if (selTopic !== 'all' && q.topic !== selTopic) return false;
     return true;
@@ -146,26 +315,6 @@ countSelect.addEventListener('change', () => {
   }
 });
 
-function populateTopicDropdown() {
-  const selectedUnit = unitSelect.value;
-  const topics = new Set();
-  
-  allQuestions.forEach(q => {
-    if (selectedUnit === 'all' || q.unit === selectedUnit) {
-      if (q.topic) topics.add(q.topic);
-    }
-  });
-
-  topicSelect.innerHTML = '<option value="all">All Topics (Full Coverage)</option>';
-  Array.from(topics).sort().forEach(topic => {
-    const opt = document.createElement('option');
-    opt.value = topic;
-    opt.textContent = topic;
-    topicSelect.appendChild(opt);
-  });
-  updateCountLimits();
-}
-
 unitSelect.addEventListener('change', () => {
   populateTopicDropdown();
   updateCountLimits();
@@ -193,7 +342,7 @@ startBtn.addEventListener('click', () => {
   const doShuffleQ = shuffleQuestionsCheckbox.checked;
   const doShuffleOpt = shuffleOptionsCheckbox.checked;
 
-  let pool = allQuestions.filter(q => {
+  let pool = currentSubjectQuestions.filter(q => {
     if (selUnit !== 'all' && q.unit !== selUnit) return false;
     if (selTopic !== 'all' && q.topic !== selTopic) return false;
     return true;
@@ -210,7 +359,6 @@ startBtn.addEventListener('click', () => {
     if (doShuffleOpt) {
       opts = shuffleArray(opts);
     }
-    // Re-assign A, B, C, D letters to the shuffled positions
     const letters = ['A', 'B', 'C', 'D'];
     opts = opts.map((o, idx) => ({
       letter: letters[idx] || o.letter,
@@ -256,12 +404,10 @@ startBtn.addEventListener('click', () => {
 });
 
 function launchQuiz() {
-  setupScreen.classList.remove('active');
-  resultsScreen.classList.remove('active');
-  quizScreen.classList.add('active');
+  showScreen(quizScreen);
 
   quizBadgeMode.textContent = quizMode === 'practice' ? '🎯 Practice Mode' : '⏱️ Assessment Mode';
-  quizBadgeUnit.textContent = unitSelect.options[unitSelect.selectedIndex].text.split('(')[0].trim();
+  quizBadgeUnit.textContent = unitSelect.value === 'all' ? (currentSubjectId ? currentSubjectId.toUpperCase() : 'All') : unitSelect.value.split(':')[0];
   totalQCountSpan.textContent = activeQuestions.length;
 
   if (quizMode === 'exam') {
@@ -313,7 +459,6 @@ function updatePaletteStatus() {
     btn.classList.toggle('flagged', flaggedQuestions.has(idx));
   });
 
-  // Progress Bar
   const answeredCount = Object.keys(userAnswers).length;
   const pct = (answeredCount / activeQuestions.length) * 100;
   quizProgressBar.style.width = `${pct}%`;
@@ -334,10 +479,8 @@ function loadQuestion(idx) {
   flagText.textContent = flaggedQuestions.has(currentIndex) ? 'Unflag' : 'Flag';
   flagBtn.classList.toggle('btn-warning', flaggedQuestions.has(currentIndex));
 
-  // Options
   renderOptions(q);
 
-  // Prev / Next / Finish button states
   prevBtn.disabled = currentIndex === 0;
   if (currentIndex === activeQuestions.length - 1) {
     nextBtn.style.display = 'none';
@@ -355,7 +498,6 @@ function renderOptions(q) {
   const selectedText = userAnswers[currentIndex];
   const isAnswered = selectedText !== undefined;
 
-  // Reset feedback
   feedbackPanel.style.display = 'none';
   feedbackPanel.className = 'feedback-panel';
 
@@ -367,7 +509,6 @@ function renderOptions(q) {
       optEl.classList.add('selected');
     }
 
-    // In practice mode, if already answered, colorize choices
     if (quizMode === 'practice' && isAnswered) {
       optEl.classList.add('locked');
       if (opt.text === q.correct_text) {
@@ -383,7 +524,6 @@ function renderOptions(q) {
     `;
 
     optEl.addEventListener('click', () => {
-      // In practice mode, lock once picked
       if (quizMode === 'practice' && isAnswered) return;
       selectOption(opt.text);
     });
@@ -391,7 +531,6 @@ function renderOptions(q) {
     optionsList.appendChild(optEl);
   });
 
-  // Practice mode feedback display
   if (quizMode === 'practice' && isAnswered) {
     showPracticeFeedback(selectedText === q.correct_text, q.correct_text);
   }
@@ -402,10 +541,8 @@ function selectOption(choiceText) {
   const q = activeQuestions[currentIndex];
 
   if (quizMode === 'practice') {
-    // Show instant feedback
     renderOptions(q);
   } else {
-    // Just highlight chosen
     optionsList.querySelectorAll('.option-item').forEach(el => {
       el.classList.toggle('selected', el.querySelector('.option-text').textContent.trim() === choiceText);
     });
@@ -438,7 +575,6 @@ nextBtn.addEventListener('click', () => {
 
 clearBtn.addEventListener('click', () => {
   if (quizMode === 'practice' && userAnswers[currentIndex] !== undefined) {
-    // Allow retrying this question in practice mode
     delete userAnswers[currentIndex];
     loadQuestion(currentIndex);
     return;
@@ -461,8 +597,7 @@ flagBtn.addEventListener('click', () => {
 abortBtn.addEventListener('click', () => {
   if (confirm('Are you sure you want to quit the current session and return to settings?')) {
     stopTimer();
-    quizScreen.classList.remove('active');
-    setupScreen.classList.add('active');
+    showScreen(setupScreen);
   }
 });
 
@@ -481,8 +616,7 @@ finishBtn.addEventListener('click', () => {
 // Results & Scoring
 function showResults() {
   stopTimer();
-  quizScreen.classList.remove('active');
-  resultsScreen.classList.add('active');
+  showScreen(resultsScreen);
 
   let correctCount = 0;
   let wrongCount = 0;
@@ -502,8 +636,7 @@ function showResults() {
   const total = activeQuestions.length;
   const percentage = Math.round((correctCount / total) * 100);
 
-  // Animate SVG ring
-  const circumference = 2 * Math.PI * 50; // r=50 -> ~314
+  const circumference = 2 * Math.PI * 50;
   const offset = circumference - (percentage / 100) * circumference;
   scoreRingProgress.style.strokeDashoffset = offset;
   if (percentage >= 75) {
@@ -518,7 +651,7 @@ function showResults() {
 
   if (percentage >= 85) {
     resultGreeting.textContent = '🌟 Outstanding Performance!';
-    resultMessage.textContent = 'You have demonstrated mastery over these ASP.NET Core concepts.';
+    resultMessage.textContent = 'You have demonstrated mastery over these concepts.';
   } else if (percentage >= 60) {
     resultGreeting.textContent = '👍 Good Job!';
     resultMessage.textContent = 'Solid grasp of the topics, with room for minor revision.';
@@ -535,14 +668,12 @@ function showResults() {
   const secs = String(timerSeconds % 60).padStart(2, '0');
   resTimeTaken.textContent = `${mins}:${secs}`;
 
-  // Retry incorrect button
   if (wrongCount > 0) {
     retryIncorrectBtn.style.display = 'inline-flex';
   } else {
     retryIncorrectBtn.style.display = 'none';
   }
 
-  // Update filter chip counts
   chipAllCnt.textContent = total;
   chipWrongCnt.textContent = wrongCount;
   chipCorrectCnt.textContent = correctCount;
@@ -651,8 +782,7 @@ retryIncorrectBtn.addEventListener('click', () => {
 });
 
 newTestBtn.addEventListener('click', () => {
-  resultsScreen.classList.remove('active');
-  setupScreen.classList.add('active');
+  showScreen(setupScreen);
 });
 
 // Helper Escape HTML
@@ -671,4 +801,3 @@ window.addEventListener('DOMContentLoaded', () => {
   initTheme();
   initData();
 });
-

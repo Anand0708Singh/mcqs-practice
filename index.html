@@ -14,13 +14,16 @@
   <header class="navbar">
     <div class="nav-container">
       <div class="brand">
-        <span class="brand-badge">IT5058</span>
+        <span class="brand-badge" id="header-subject-badge">PORTAL</span>
         <div>
-          <h1 class="brand-title">.NET MCQ Practice Portal</h1>
-          <p class="brand-subtitle">Units V & VI | 465 Questions Question Bank</p>
+          <h1 class="brand-title" id="header-title">MCQs Practice & Assessment Portal</h1>
+          <p class="brand-subtitle" id="header-subtitle">Select a subject to begin</p>
         </div>
       </div>
       <div class="nav-actions">
+        <button id="nav-change-subject" class="btn btn-secondary btn-sm" style="display: none;">
+          📚 Switch Subject
+        </button>
         <button id="theme-toggle" class="btn-icon" title="Toggle Dark/Light Mode">
           <span class="icon" id="theme-icon">🌙</span>
         </button>
@@ -29,26 +32,46 @@
   </header>
 
   <main class="main-container">
-    <!-- Setup / Config Screen -->
-    <section id="setup-screen" class="view-card active">
+    <!-- Subject Selection Screen -->
+    <section id="subject-screen" class="view-card active">
       <div class="hero-header">
-        <div class="hero-pill">⚡ Interactive Exam Engine</div>
-        <h2 class="hero-title">Prepare, Test & Master ASP.NET Core</h2>
-        <p class="hero-desc">Complete coverage of Razor Views, Syntax, Layouts, Model Binding, Validations, Form Apps, Online Payments, Email Sending, & Social Logins.</p>
+        <div class="hero-pill">🎓 Multi-Subject MCQ Hub</div>
+        <h2 class="hero-title">Choose Your Subject</h2>
+        <p class="hero-desc">Select a course to load its dedicated question bank, units, and custom test engine.</p>
+      </div>
+
+      <div class="subjects-grid" id="subjects-grid">
+        <!-- Rendered dynamically -->
+      </div>
+    </section>
+
+    <!-- Setup / Config Screen -->
+    <section id="setup-screen" class="view-card">
+      <div class="setup-header-bar">
+        <button id="back-to-subjects-btn" class="btn btn-subtle">
+          ← Back to All Subjects
+        </button>
+        <span class="current-selected-subject-badge" id="selected-subject-tag">Subject</span>
+      </div>
+
+      <div class="hero-header">
+        <div class="hero-pill" id="setup-hero-pill">⚡ Interactive Exam Engine</div>
+        <h2 class="hero-title" id="setup-hero-title">Prepare, Test & Master</h2>
+        <p class="hero-desc" id="setup-hero-desc">Customizable practice and assessment with dynamic questions and answer shuffling.</p>
       </div>
 
       <!-- Quick Stats Banner -->
       <div class="stats-row">
         <div class="stat-card">
-          <span class="stat-number">465</span>
+          <span class="stat-number" id="stat-total-mcqs">0</span>
           <span class="stat-label">Total MCQs</span>
         </div>
         <div class="stat-card">
-          <span class="stat-number">2 Units</span>
-          <span class="stat-label">Units V & VI</span>
+          <span class="stat-number" id="stat-total-units">0 Units</span>
+          <span class="stat-label">Units Available</span>
         </div>
         <div class="stat-card">
-          <span class="stat-number">13 Topics</span>
+          <span class="stat-number" id="stat-total-topics">0 Topics</span>
           <span class="stat-label">Curated Sections</span>
         </div>
         <div class="stat-card">
@@ -254,7 +277,8 @@
       <div class="results-actions">
         <button id="retake-btn" class="btn btn-primary">🔄 Retake Same Filter (Shuffle)</button>
         <button id="retry-incorrect-btn" class="btn btn-warning" style="display: none;">⚠️ Retry Incorrect Questions</button>
-        <button id="new-test-btn" class="btn btn-secondary">⚙️ Configure New Assessment</button>
+        <button id="new-test-btn" class="btn btn-secondary">⚙️ Change Configuration</button>
+        <button id="results-change-subject-btn" class="btn btn-outline">📚 Choose Another Subject</button>
       </div>
 
       <!-- Detailed Review Section -->

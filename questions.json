@@ -22,7 +22,9 @@
         "text": "CSS stylesheet"
       }
     ],
-    "correct_text": "view file combining HTML with server-side Razor expressions"
+    "correct_text": "view file combining HTML with server-side Razor expressions",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 2,
@@ -47,7 +49,9 @@
         "text": "CSS stylesheet"
       }
     ],
-    "correct_text": "view file combining HTML with server-side Razor expressions"
+    "correct_text": "view file combining HTML with server-side Razor expressions",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 3,
@@ -72,7 +76,9 @@
         "text": "CSS stylesheet"
       }
     ],
-    "correct_text": "view file combining HTML with server-side Razor expressions"
+    "correct_text": "view file combining HTML with server-side Razor expressions",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 4,
@@ -97,7 +103,9 @@
         "text": "view file combining HTML with server-side Razor expressions"
       }
     ],
-    "correct_text": "view file combining HTML with server-side Razor expressions"
+    "correct_text": "view file combining HTML with server-side Razor expressions",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 5,
@@ -122,7 +130,9 @@
         "text": "CSS stylesheet"
       }
     ],
-    "correct_text": "view file combining HTML with server-side Razor expressions"
+    "correct_text": "view file combining HTML with server-side Razor expressions",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 6,
@@ -147,7 +157,9 @@
         "text": ".cs extension"
       }
     ],
-    "correct_text": "file extension used by Razor view files"
+    "correct_text": "file extension used by Razor view files",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 7,
@@ -172,7 +184,9 @@
         "text": ".cs extension"
       }
     ],
-    "correct_text": "file extension used by Razor view files"
+    "correct_text": "file extension used by Razor view files",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 8,
@@ -197,7 +211,9 @@
         "text": "file extension used by Razor view files"
       }
     ],
-    "correct_text": "file extension used by Razor view files"
+    "correct_text": "file extension used by Razor view files",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 9,
@@ -222,7 +238,9 @@
         "text": ".cs extension"
       }
     ],
-    "correct_text": "file extension used by Razor view files"
+    "correct_text": "file extension used by Razor view files",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 10,
@@ -247,7 +265,9 @@
         "text": ".cs extension"
       }
     ],
-    "correct_text": "file extension used by Razor view files"
+    "correct_text": "file extension used by Razor view files",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 11,
@@ -272,7 +292,9 @@
         "text": "Controllers folder"
       }
     ],
-    "correct_text": "conventional folder for MVC view files"
+    "correct_text": "conventional folder for MVC view files",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 12,
@@ -297,7 +319,9 @@
         "text": "conventional folder for MVC view files"
       }
     ],
-    "correct_text": "conventional folder for MVC view files"
+    "correct_text": "conventional folder for MVC view files",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 13,
@@ -322,7 +346,9 @@
         "text": "Controllers folder"
       }
     ],
-    "correct_text": "conventional folder for MVC view files"
+    "correct_text": "conventional folder for MVC view files",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 14,
@@ -347,7 +373,9 @@
         "text": "Controllers folder"
       }
     ],
-    "correct_text": "conventional folder for MVC view files"
+    "correct_text": "conventional folder for MVC view files",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 15,
@@ -372,7 +400,9 @@
         "text": "Controllers folder"
       }
     ],
-    "correct_text": "conventional folder for MVC view files"
+    "correct_text": "conventional folder for MVC view files",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 16,
@@ -397,7 +427,9 @@
         "text": "MVC action result that renders a view"
       }
     ],
-    "correct_text": "MVC action result that renders a view"
+    "correct_text": "MVC action result that renders a view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 17,
@@ -422,7 +454,9 @@
         "text": "RedirectResult"
       }
     ],
-    "correct_text": "MVC action result that renders a view"
+    "correct_text": "MVC action result that renders a view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 18,
@@ -447,7 +481,9 @@
         "text": "RedirectResult"
       }
     ],
-    "correct_text": "MVC action result that renders a view"
+    "correct_text": "MVC action result that renders a view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 19,
@@ -472,7 +508,9 @@
         "text": "RedirectResult"
       }
     ],
-    "correct_text": "MVC action result that renders a view"
+    "correct_text": "MVC action result that renders a view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 20,
@@ -497,7 +535,9 @@
         "text": "MVC action result that renders a view"
       }
     ],
-    "correct_text": "MVC action result that renders a view"
+    "correct_text": "MVC action result that renders a view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 21,
@@ -522,7 +562,9 @@
         "text": "return CSS()"
       }
     ],
-    "correct_text": "common way for a controller action to return its associated view"
+    "correct_text": "common way for a controller action to return its associated view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 22,
@@ -547,7 +589,9 @@
         "text": "return CSS()"
       }
     ],
-    "correct_text": "common way for a controller action to return its associated view"
+    "correct_text": "common way for a controller action to return its associated view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 23,
@@ -572,7 +616,9 @@
         "text": "return CSS()"
       }
     ],
-    "correct_text": "common way for a controller action to return its associated view"
+    "correct_text": "common way for a controller action to return its associated view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 24,
@@ -597,7 +643,9 @@
         "text": "common way for a controller action to return its associated view"
       }
     ],
-    "correct_text": "common way for a controller action to return its associated view"
+    "correct_text": "common way for a controller action to return its associated view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 25,
@@ -622,7 +670,9 @@
         "text": "return CSS()"
       }
     ],
-    "correct_text": "common way for a controller action to return its associated view"
+    "correct_text": "common way for a controller action to return its associated view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 26,
@@ -647,7 +697,9 @@
         "text": "database connection"
       }
     ],
-    "correct_text": "view declared with a specific model type"
+    "correct_text": "view declared with a specific model type",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 27,
@@ -672,7 +724,9 @@
         "text": "database connection"
       }
     ],
-    "correct_text": "view declared with a specific model type"
+    "correct_text": "view declared with a specific model type",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 28,
@@ -697,7 +751,9 @@
         "text": "view declared with a specific model type"
       }
     ],
-    "correct_text": "view declared with a specific model type"
+    "correct_text": "view declared with a specific model type",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 29,
@@ -722,7 +778,9 @@
         "text": "database connection"
       }
     ],
-    "correct_text": "view declared with a specific model type"
+    "correct_text": "view declared with a specific model type",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 30,
@@ -747,7 +805,9 @@
         "text": "database connection"
       }
     ],
-    "correct_text": "view declared with a specific model type"
+    "correct_text": "view declared with a specific model type",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 31,
@@ -772,7 +832,9 @@
         "text": "browser history"
       }
     ],
-    "correct_text": "data supplied by a controller for display in a view"
+    "correct_text": "data supplied by a controller for display in a view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 32,
@@ -797,7 +859,9 @@
         "text": "data supplied by a controller for display in a view"
       }
     ],
-    "correct_text": "data supplied by a controller for display in a view"
+    "correct_text": "data supplied by a controller for display in a view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 33,
@@ -822,7 +886,9 @@
         "text": "browser history"
       }
     ],
-    "correct_text": "data supplied by a controller for display in a view"
+    "correct_text": "data supplied by a controller for display in a view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 34,
@@ -847,7 +913,9 @@
         "text": "browser history"
       }
     ],
-    "correct_text": "data supplied by a controller for display in a view"
+    "correct_text": "data supplied by a controller for display in a view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 35,
@@ -872,7 +940,9 @@
         "text": "browser history"
       }
     ],
-    "correct_text": "data supplied by a controller for display in a view"
+    "correct_text": "data supplied by a controller for display in a view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 36,
@@ -897,7 +967,9 @@
         "text": "& symbol"
       }
     ],
-    "correct_text": "character that starts most Razor code expressions"
+    "correct_text": "character that starts most Razor code expressions",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 37,
@@ -922,7 +994,9 @@
         "text": "& symbol"
       }
     ],
-    "correct_text": "character that starts most Razor code expressions"
+    "correct_text": "character that starts most Razor code expressions",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 38,
@@ -947,7 +1021,9 @@
         "text": "& symbol"
       }
     ],
-    "correct_text": "character that starts most Razor code expressions"
+    "correct_text": "character that starts most Razor code expressions",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 39,
@@ -972,7 +1048,9 @@
         "text": "character that starts most Razor code expressions"
       }
     ],
-    "correct_text": "character that starts most Razor code expressions"
+    "correct_text": "character that starts most Razor code expressions",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 40,
@@ -997,7 +1075,9 @@
         "text": "& symbol"
       }
     ],
-    "correct_text": "character that starts most Razor code expressions"
+    "correct_text": "character that starts most Razor code expressions",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 41,
@@ -1022,7 +1102,9 @@
         "text": "route attribute"
       }
     ],
-    "correct_text": "Razor form used to explicitly evaluate an expression"
+    "correct_text": "Razor form used to explicitly evaluate an expression",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 42,
@@ -1047,7 +1129,9 @@
         "text": "route attribute"
       }
     ],
-    "correct_text": "Razor form used to explicitly evaluate an expression"
+    "correct_text": "Razor form used to explicitly evaluate an expression",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 43,
@@ -1072,7 +1156,9 @@
         "text": "Razor form used to explicitly evaluate an expression"
       }
     ],
-    "correct_text": "Razor form used to explicitly evaluate an expression"
+    "correct_text": "Razor form used to explicitly evaluate an expression",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 44,
@@ -1097,7 +1183,9 @@
         "text": "route attribute"
       }
     ],
-    "correct_text": "Razor form used to explicitly evaluate an expression"
+    "correct_text": "Razor form used to explicitly evaluate an expression",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 45,
@@ -1122,7 +1210,9 @@
         "text": "route attribute"
       }
     ],
-    "correct_text": "Razor form used to explicitly evaluate an expression"
+    "correct_text": "Razor form used to explicitly evaluate an expression",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 46,
@@ -1147,7 +1237,9 @@
         "text": "CSS block"
       }
     ],
-    "correct_text": "Razor syntax for a block of C# statements"
+    "correct_text": "Razor syntax for a block of C# statements",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 47,
@@ -1172,7 +1264,9 @@
         "text": "Razor syntax for a block of C# statements"
       }
     ],
-    "correct_text": "Razor syntax for a block of C# statements"
+    "correct_text": "Razor syntax for a block of C# statements",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 48,
@@ -1197,7 +1291,9 @@
         "text": "CSS block"
       }
     ],
-    "correct_text": "Razor syntax for a block of C# statements"
+    "correct_text": "Razor syntax for a block of C# statements",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 49,
@@ -1222,7 +1318,9 @@
         "text": "CSS block"
       }
     ],
-    "correct_text": "Razor syntax for a block of C# statements"
+    "correct_text": "Razor syntax for a block of C# statements",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 50,
@@ -1247,7 +1345,9 @@
         "text": "CSS block"
       }
     ],
-    "correct_text": "Razor syntax for a block of C# statements"
+    "correct_text": "Razor syntax for a block of C# statements",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 51,
@@ -1272,7 +1372,9 @@
         "text": "Razor construct used for conditional rendering"
       }
     ],
-    "correct_text": "Razor construct used for conditional rendering"
+    "correct_text": "Razor construct used for conditional rendering",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 52,
@@ -1297,7 +1399,9 @@
         "text": "registering middleware"
       }
     ],
-    "correct_text": "Razor construct used for conditional rendering"
+    "correct_text": "Razor construct used for conditional rendering",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 53,
@@ -1322,7 +1426,9 @@
         "text": "registering middleware"
       }
     ],
-    "correct_text": "Razor construct used for conditional rendering"
+    "correct_text": "Razor construct used for conditional rendering",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 54,
@@ -1347,7 +1453,9 @@
         "text": "registering middleware"
       }
     ],
-    "correct_text": "Razor construct used for conditional rendering"
+    "correct_text": "Razor construct used for conditional rendering",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 55,
@@ -1372,7 +1480,9 @@
         "text": "Razor construct used for conditional rendering"
       }
     ],
-    "correct_text": "Razor construct used for conditional rendering"
+    "correct_text": "Razor construct used for conditional rendering",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 56,
@@ -1397,7 +1507,9 @@
         "text": "encoding a URL"
       }
     ],
-    "correct_text": "Razor construct used to iterate over a collection"
+    "correct_text": "Razor construct used to iterate over a collection",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 57,
@@ -1422,7 +1534,9 @@
         "text": "encoding a URL"
       }
     ],
-    "correct_text": "Razor construct used to iterate over a collection"
+    "correct_text": "Razor construct used to iterate over a collection",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 58,
@@ -1447,7 +1561,9 @@
         "text": "encoding a URL"
       }
     ],
-    "correct_text": "Razor construct used to iterate over a collection"
+    "correct_text": "Razor construct used to iterate over a collection",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 59,
@@ -1472,7 +1588,9 @@
         "text": "Razor construct used to iterate over a collection"
       }
     ],
-    "correct_text": "Razor construct used to iterate over a collection"
+    "correct_text": "Razor construct used to iterate over a collection",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 60,
@@ -1497,7 +1615,9 @@
         "text": "encoding a URL"
       }
     ],
-    "correct_text": "Razor construct used to iterate over a collection"
+    "correct_text": "Razor construct used to iterate over a collection",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 61,
@@ -1522,7 +1642,9 @@
         "text": "loads CSS"
       }
     ],
-    "correct_text": "directive that declares the model type available to a view"
+    "correct_text": "directive that declares the model type available to a view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 62,
@@ -1547,7 +1669,9 @@
         "text": "loads CSS"
       }
     ],
-    "correct_text": "directive that declares the model type available to a view"
+    "correct_text": "directive that declares the model type available to a view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 63,
@@ -1572,7 +1696,9 @@
         "text": "directive that declares the model type available to a view"
       }
     ],
-    "correct_text": "directive that declares the model type available to a view"
+    "correct_text": "directive that declares the model type available to a view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 64,
@@ -1597,7 +1723,9 @@
         "text": "loads CSS"
       }
     ],
-    "correct_text": "directive that declares the model type available to a view"
+    "correct_text": "directive that declares the model type available to a view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 65,
@@ -1622,7 +1750,9 @@
         "text": "loads CSS"
       }
     ],
-    "correct_text": "directive that declares the model type available to a view"
+    "correct_text": "directive that declares the model type available to a view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 66,
@@ -1647,7 +1777,9 @@
         "text": "CSS comments"
       }
     ],
-    "correct_text": "comments written with @* and *@ that are not sent as page content"
+    "correct_text": "comments written with @* and *@ that are not sent as page content",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 67,
@@ -1672,7 +1804,9 @@
         "text": "comments written with @* and *@ that are not sent as page content"
       }
     ],
-    "correct_text": "comments written with @* and *@ that are not sent as page content"
+    "correct_text": "comments written with @* and *@ that are not sent as page content",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 68,
@@ -1697,7 +1831,9 @@
         "text": "CSS comments"
       }
     ],
-    "correct_text": "comments written with @* and *@ that are not sent as page content"
+    "correct_text": "comments written with @* and *@ that are not sent as page content",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 69,
@@ -1722,7 +1858,9 @@
         "text": "CSS comments"
       }
     ],
-    "correct_text": "comments written with @* and *@ that are not sent as page content"
+    "correct_text": "comments written with @* and *@ that are not sent as page content",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 70,
@@ -1747,7 +1885,9 @@
         "text": "CSS comments"
       }
     ],
-    "correct_text": "comments written with @* and *@ that are not sent as page content"
+    "correct_text": "comments written with @* and *@ that are not sent as page content",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 71,
@@ -1772,7 +1912,9 @@
         "text": "automatic encoding Razor applies to ordinary string expressions"
       }
     ],
-    "correct_text": "automatic encoding Razor applies to ordinary string expressions"
+    "correct_text": "automatic encoding Razor applies to ordinary string expressions",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 72,
@@ -1797,7 +1939,9 @@
         "text": "file compression"
       }
     ],
-    "correct_text": "automatic encoding Razor applies to ordinary string expressions"
+    "correct_text": "automatic encoding Razor applies to ordinary string expressions",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 73,
@@ -1822,7 +1966,9 @@
         "text": "file compression"
       }
     ],
-    "correct_text": "automatic encoding Razor applies to ordinary string expressions"
+    "correct_text": "automatic encoding Razor applies to ordinary string expressions",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 74,
@@ -1847,7 +1993,9 @@
         "text": "file compression"
       }
     ],
-    "correct_text": "automatic encoding Razor applies to ordinary string expressions"
+    "correct_text": "automatic encoding Razor applies to ordinary string expressions",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 75,
@@ -1872,7 +2020,9 @@
         "text": "automatic encoding Razor applies to ordinary string expressions"
       }
     ],
-    "correct_text": "automatic encoding Razor applies to ordinary string expressions"
+    "correct_text": "automatic encoding Razor applies to ordinary string expressions",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 76,
@@ -1897,7 +2047,9 @@
         "text": "layout file"
       }
     ],
-    "correct_text": "dynamic wrapper around ViewData used to pass data from controller to view"
+    "correct_text": "dynamic wrapper around ViewData used to pass data from controller to view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 77,
@@ -1922,7 +2074,9 @@
         "text": "layout file"
       }
     ],
-    "correct_text": "dynamic wrapper around ViewData used to pass data from controller to view"
+    "correct_text": "dynamic wrapper around ViewData used to pass data from controller to view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 78,
@@ -1947,7 +2101,9 @@
         "text": "layout file"
       }
     ],
-    "correct_text": "dynamic wrapper around ViewData used to pass data from controller to view"
+    "correct_text": "dynamic wrapper around ViewData used to pass data from controller to view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 79,
@@ -1972,7 +2128,9 @@
         "text": "dynamic wrapper around ViewData used to pass data from controller to view"
       }
     ],
-    "correct_text": "dynamic wrapper around ViewData used to pass data from controller to view"
+    "correct_text": "dynamic wrapper around ViewData used to pass data from controller to view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 80,
@@ -1997,7 +2155,9 @@
         "text": "layout file"
       }
     ],
-    "correct_text": "dynamic wrapper around ViewData used to pass data from controller to view"
+    "correct_text": "dynamic wrapper around ViewData used to pass data from controller to view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 81,
@@ -2022,7 +2182,9 @@
         "text": "CSS variables"
       }
     ],
-    "correct_text": "kind of properties accessed through ViewBag"
+    "correct_text": "kind of properties accessed through ViewBag",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 82,
@@ -2047,7 +2209,9 @@
         "text": "CSS variables"
       }
     ],
-    "correct_text": "kind of properties accessed through ViewBag"
+    "correct_text": "kind of properties accessed through ViewBag",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 83,
@@ -2072,7 +2236,9 @@
         "text": "kind of properties accessed through ViewBag"
       }
     ],
-    "correct_text": "kind of properties accessed through ViewBag"
+    "correct_text": "kind of properties accessed through ViewBag",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 84,
@@ -2097,7 +2263,9 @@
         "text": "CSS variables"
       }
     ],
-    "correct_text": "kind of properties accessed through ViewBag"
+    "correct_text": "kind of properties accessed through ViewBag",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 85,
@@ -2122,7 +2290,9 @@
         "text": "CSS variables"
       }
     ],
-    "correct_text": "kind of properties accessed through ViewBag"
+    "correct_text": "kind of properties accessed through ViewBag",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 86,
@@ -2147,7 +2317,9 @@
         "text": "model to middleware"
       }
     ],
-    "correct_text": "usual direction in which ViewBag transfers data"
+    "correct_text": "usual direction in which ViewBag transfers data",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 87,
@@ -2172,7 +2344,9 @@
         "text": "usual direction in which ViewBag transfers data"
       }
     ],
-    "correct_text": "usual direction in which ViewBag transfers data"
+    "correct_text": "usual direction in which ViewBag transfers data",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 88,
@@ -2197,7 +2371,9 @@
         "text": "model to middleware"
       }
     ],
-    "correct_text": "usual direction in which ViewBag transfers data"
+    "correct_text": "usual direction in which ViewBag transfers data",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 89,
@@ -2222,7 +2398,9 @@
         "text": "model to middleware"
       }
     ],
-    "correct_text": "usual direction in which ViewBag transfers data"
+    "correct_text": "usual direction in which ViewBag transfers data",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 90,
@@ -2247,7 +2425,9 @@
         "text": "model to middleware"
       }
     ],
-    "correct_text": "usual direction in which ViewBag transfers data"
+    "correct_text": "usual direction in which ViewBag transfers data",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 91,
@@ -2272,7 +2452,9 @@
         "text": "example of assigning a dynamic property named Message"
       }
     ],
-    "correct_text": "example of assigning a dynamic property named Message"
+    "correct_text": "example of assigning a dynamic property named Message",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 92,
@@ -2297,7 +2479,9 @@
         "text": "CSS class"
       }
     ],
-    "correct_text": "example of assigning a dynamic property named Message"
+    "correct_text": "example of assigning a dynamic property named Message",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 93,
@@ -2322,7 +2506,9 @@
         "text": "CSS class"
       }
     ],
-    "correct_text": "example of assigning a dynamic property named Message"
+    "correct_text": "example of assigning a dynamic property named Message",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 94,
@@ -2347,7 +2533,9 @@
         "text": "CSS class"
       }
     ],
-    "correct_text": "example of assigning a dynamic property named Message"
+    "correct_text": "example of assigning a dynamic property named Message",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 95,
@@ -2372,7 +2560,9 @@
         "text": "example of assigning a dynamic property named Message"
       }
     ],
-    "correct_text": "example of assigning a dynamic property named Message"
+    "correct_text": "example of assigning a dynamic property named Message",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 96,
@@ -2397,7 +2587,9 @@
         "text": "across server restarts"
       }
     ],
-    "correct_text": "scope in which ViewBag data is normally available"
+    "correct_text": "scope in which ViewBag data is normally available",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 97,
@@ -2422,7 +2614,9 @@
         "text": "across server restarts"
       }
     ],
-    "correct_text": "scope in which ViewBag data is normally available"
+    "correct_text": "scope in which ViewBag data is normally available",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 98,
@@ -2447,7 +2641,9 @@
         "text": "across server restarts"
       }
     ],
-    "correct_text": "scope in which ViewBag data is normally available"
+    "correct_text": "scope in which ViewBag data is normally available",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 99,
@@ -2472,7 +2668,9 @@
         "text": "scope in which ViewBag data is normally available"
       }
     ],
-    "correct_text": "scope in which ViewBag data is normally available"
+    "correct_text": "scope in which ViewBag data is normally available",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 100,
@@ -2497,7 +2695,9 @@
         "text": "across server restarts"
       }
     ],
-    "correct_text": "scope in which ViewBag data is normally available"
+    "correct_text": "scope in which ViewBag data is normally available",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 101,
@@ -2522,7 +2722,9 @@
         "text": "HttpContext.Session"
       }
     ],
-    "correct_text": "collection that ViewBag wraps internally"
+    "correct_text": "collection that ViewBag wraps internally",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 102,
@@ -2547,7 +2749,9 @@
         "text": "HttpContext.Session"
       }
     ],
-    "correct_text": "collection that ViewBag wraps internally"
+    "correct_text": "collection that ViewBag wraps internally",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 103,
@@ -2572,7 +2776,9 @@
         "text": "collection that ViewBag wraps internally"
       }
     ],
-    "correct_text": "collection that ViewBag wraps internally"
+    "correct_text": "collection that ViewBag wraps internally",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 104,
@@ -2597,7 +2803,9 @@
         "text": "HttpContext.Session"
       }
     ],
-    "correct_text": "collection that ViewBag wraps internally"
+    "correct_text": "collection that ViewBag wraps internally",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 105,
@@ -2622,7 +2830,9 @@
         "text": "HttpContext.Session"
       }
     ],
-    "correct_text": "collection that ViewBag wraps internally"
+    "correct_text": "collection that ViewBag wraps internally",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 106,
@@ -2647,7 +2857,9 @@
         "text": "cookies are deleted"
       }
     ],
-    "correct_text": "possible concern when retrieving dynamically typed ViewBag values"
+    "correct_text": "possible concern when retrieving dynamically typed ViewBag values",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 107,
@@ -2672,7 +2884,9 @@
         "text": "possible concern when retrieving dynamically typed ViewBag values"
       }
     ],
-    "correct_text": "possible concern when retrieving dynamically typed ViewBag values"
+    "correct_text": "possible concern when retrieving dynamically typed ViewBag values",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 108,
@@ -2697,7 +2911,9 @@
         "text": "cookies are deleted"
       }
     ],
-    "correct_text": "possible concern when retrieving dynamically typed ViewBag values"
+    "correct_text": "possible concern when retrieving dynamically typed ViewBag values",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 109,
@@ -2722,7 +2938,9 @@
         "text": "cookies are deleted"
       }
     ],
-    "correct_text": "possible concern when retrieving dynamically typed ViewBag values"
+    "correct_text": "possible concern when retrieving dynamically typed ViewBag values",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 110,
@@ -2747,7 +2965,9 @@
         "text": "cookies are deleted"
       }
     ],
-    "correct_text": "possible concern when retrieving dynamically typed ViewBag values"
+    "correct_text": "possible concern when retrieving dynamically typed ViewBag values",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 111,
@@ -2772,7 +2992,9 @@
         "text": "view layout"
       }
     ],
-    "correct_text": "mechanism for passing data between requests, commonly after a redirect"
+    "correct_text": "mechanism for passing data between requests, commonly after a redirect",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 112,
@@ -2797,7 +3019,9 @@
         "text": "view layout"
       }
     ],
-    "correct_text": "mechanism for passing data between requests, commonly after a redirect"
+    "correct_text": "mechanism for passing data between requests, commonly after a redirect",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 113,
@@ -2822,7 +3046,9 @@
         "text": "view layout"
       }
     ],
-    "correct_text": "mechanism for passing data between requests, commonly after a redirect"
+    "correct_text": "mechanism for passing data between requests, commonly after a redirect",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 114,
@@ -2847,7 +3073,9 @@
         "text": "mechanism for passing data between requests, commonly after a redirect"
       }
     ],
-    "correct_text": "mechanism for passing data between requests, commonly after a redirect"
+    "correct_text": "mechanism for passing data between requests, commonly after a redirect",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 115,
@@ -2872,7 +3100,9 @@
         "text": "view layout"
       }
     ],
-    "correct_text": "mechanism for passing data between requests, commonly after a redirect"
+    "correct_text": "mechanism for passing data between requests, commonly after a redirect",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 116,
@@ -2897,7 +3127,9 @@
         "text": "creating database index"
       }
     ],
-    "correct_text": "common situation where TempData is useful"
+    "correct_text": "common situation where TempData is useful",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 117,
@@ -2922,7 +3154,9 @@
         "text": "creating database index"
       }
     ],
-    "correct_text": "common situation where TempData is useful"
+    "correct_text": "common situation where TempData is useful",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 118,
@@ -2947,7 +3181,9 @@
         "text": "common situation where TempData is useful"
       }
     ],
-    "correct_text": "common situation where TempData is useful"
+    "correct_text": "common situation where TempData is useful",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 119,
@@ -2972,7 +3208,9 @@
         "text": "creating database index"
       }
     ],
-    "correct_text": "common situation where TempData is useful"
+    "correct_text": "common situation where TempData is useful",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 120,
@@ -2997,7 +3235,9 @@
         "text": "creating database index"
       }
     ],
-    "correct_text": "common situation where TempData is useful"
+    "correct_text": "common situation where TempData is useful",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 121,
@@ -3022,7 +3262,9 @@
         "text": "route attribute"
       }
     ],
-    "correct_text": "structure used to store TempData values by key"
+    "correct_text": "structure used to store TempData values by key",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 122,
@@ -3047,7 +3289,9 @@
         "text": "structure used to store TempData values by key"
       }
     ],
-    "correct_text": "structure used to store TempData values by key"
+    "correct_text": "structure used to store TempData values by key",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 123,
@@ -3072,7 +3316,9 @@
         "text": "route attribute"
       }
     ],
-    "correct_text": "structure used to store TempData values by key"
+    "correct_text": "structure used to store TempData values by key",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 124,
@@ -3097,7 +3343,9 @@
         "text": "route attribute"
       }
     ],
-    "correct_text": "structure used to store TempData values by key"
+    "correct_text": "structure used to store TempData values by key",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 125,
@@ -3122,7 +3370,9 @@
         "text": "route attribute"
       }
     ],
-    "correct_text": "structure used to store TempData values by key"
+    "correct_text": "structure used to store TempData values by key",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 126,
@@ -3147,7 +3397,9 @@
         "text": "method used to mark a TempData value to be retained"
       }
     ],
-    "correct_text": "method used to mark a TempData value to be retained"
+    "correct_text": "method used to mark a TempData value to be retained",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 127,
@@ -3172,7 +3424,9 @@
         "text": "validate a model"
       }
     ],
-    "correct_text": "method used to mark a TempData value to be retained"
+    "correct_text": "method used to mark a TempData value to be retained",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 128,
@@ -3197,7 +3451,9 @@
         "text": "validate a model"
       }
     ],
-    "correct_text": "method used to mark a TempData value to be retained"
+    "correct_text": "method used to mark a TempData value to be retained",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 129,
@@ -3222,7 +3478,9 @@
         "text": "validate a model"
       }
     ],
-    "correct_text": "method used to mark a TempData value to be retained"
+    "correct_text": "method used to mark a TempData value to be retained",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 130,
@@ -3247,7 +3505,9 @@
         "text": "method used to mark a TempData value to be retained"
       }
     ],
-    "correct_text": "method used to mark a TempData value to be retained"
+    "correct_text": "method used to mark a TempData value to be retained",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 131,
@@ -3272,7 +3532,9 @@
         "text": "redirect to an action"
       }
     ],
-    "correct_text": "method used to read TempData without marking it for deletion"
+    "correct_text": "method used to read TempData without marking it for deletion",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 132,
@@ -3297,7 +3559,9 @@
         "text": "redirect to an action"
       }
     ],
-    "correct_text": "method used to read TempData without marking it for deletion"
+    "correct_text": "method used to read TempData without marking it for deletion",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 133,
@@ -3322,7 +3586,9 @@
         "text": "redirect to an action"
       }
     ],
-    "correct_text": "method used to read TempData without marking it for deletion"
+    "correct_text": "method used to read TempData without marking it for deletion",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 134,
@@ -3347,7 +3613,9 @@
         "text": "method used to read TempData without marking it for deletion"
       }
     ],
-    "correct_text": "method used to read TempData without marking it for deletion"
+    "correct_text": "method used to read TempData without marking it for deletion",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 135,
@@ -3372,7 +3640,9 @@
         "text": "redirect to an action"
       }
     ],
-    "correct_text": "method used to read TempData without marking it for deletion"
+    "correct_text": "method used to read TempData without marking it for deletion",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 136,
@@ -3397,7 +3667,9 @@
         "text": "it is copied into database"
       }
     ],
-    "correct_text": "usual behavior of a TempData value after it is read"
+    "correct_text": "usual behavior of a TempData value after it is read",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 137,
@@ -3422,7 +3694,9 @@
         "text": "it is copied into database"
       }
     ],
-    "correct_text": "usual behavior of a TempData value after it is read"
+    "correct_text": "usual behavior of a TempData value after it is read",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 138,
@@ -3447,7 +3721,9 @@
         "text": "usual behavior of a TempData value after it is read"
       }
     ],
-    "correct_text": "usual behavior of a TempData value after it is read"
+    "correct_text": "usual behavior of a TempData value after it is read",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 139,
@@ -3472,7 +3748,9 @@
         "text": "it is copied into database"
       }
     ],
-    "correct_text": "usual behavior of a TempData value after it is read"
+    "correct_text": "usual behavior of a TempData value after it is read",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 140,
@@ -3497,7 +3775,9 @@
         "text": "it is copied into database"
       }
     ],
-    "correct_text": "usual behavior of a TempData value after it is read"
+    "correct_text": "usual behavior of a TempData value after it is read",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 141,
@@ -3522,7 +3802,9 @@
         "text": "database password"
       }
     ],
-    "correct_text": "common example of information stored in TempData"
+    "correct_text": "common example of information stored in TempData",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 142,
@@ -3547,7 +3829,9 @@
         "text": "common example of information stored in TempData"
       }
     ],
-    "correct_text": "common example of information stored in TempData"
+    "correct_text": "common example of information stored in TempData",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 143,
@@ -3572,7 +3856,9 @@
         "text": "database password"
       }
     ],
-    "correct_text": "common example of information stored in TempData"
+    "correct_text": "common example of information stored in TempData",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 144,
@@ -3597,7 +3883,9 @@
         "text": "database password"
       }
     ],
-    "correct_text": "common example of information stored in TempData"
+    "correct_text": "common example of information stored in TempData",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 145,
@@ -3622,7 +3910,9 @@
         "text": "database password"
       }
     ],
-    "correct_text": "common example of information stored in TempData"
+    "correct_text": "common example of information stored in TempData",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 146,
@@ -3647,7 +3937,9 @@
         "text": "_Database.cshtml"
       }
     ],
-    "correct_text": "conventional name of a shared Razor layout file"
+    "correct_text": "conventional name of a shared Razor layout file",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 147,
@@ -3672,7 +3964,9 @@
         "text": "_Database.cshtml"
       }
     ],
-    "correct_text": "conventional name of a shared Razor layout file"
+    "correct_text": "conventional name of a shared Razor layout file",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 148,
@@ -3697,7 +3991,9 @@
         "text": "_Database.cshtml"
       }
     ],
-    "correct_text": "conventional name of a shared Razor layout file"
+    "correct_text": "conventional name of a shared Razor layout file",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 149,
@@ -3722,7 +4018,9 @@
         "text": "conventional name of a shared Razor layout file"
       }
     ],
-    "correct_text": "conventional name of a shared Razor layout file"
+    "correct_text": "conventional name of a shared Razor layout file",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 150,
@@ -3747,7 +4045,9 @@
         "text": "_Database.cshtml"
       }
     ],
-    "correct_text": "conventional name of a shared Razor layout file"
+    "correct_text": "conventional name of a shared Razor layout file",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 151,
@@ -3772,7 +4072,9 @@
         "text": "model validation attribute"
       }
     ],
-    "correct_text": "page providing common structure for multiple views"
+    "correct_text": "page providing common structure for multiple views",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 152,
@@ -3797,7 +4099,9 @@
         "text": "model validation attribute"
       }
     ],
-    "correct_text": "page providing common structure for multiple views"
+    "correct_text": "page providing common structure for multiple views",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 153,
@@ -3822,7 +4126,9 @@
         "text": "page providing common structure for multiple views"
       }
     ],
-    "correct_text": "page providing common structure for multiple views"
+    "correct_text": "page providing common structure for multiple views",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 154,
@@ -3847,7 +4153,9 @@
         "text": "model validation attribute"
       }
     ],
-    "correct_text": "page providing common structure for multiple views"
+    "correct_text": "page providing common structure for multiple views",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 155,
@@ -3872,7 +4180,9 @@
         "text": "model validation attribute"
       }
     ],
-    "correct_text": "page providing common structure for multiple views"
+    "correct_text": "page providing common structure for multiple views",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 156,
@@ -3897,7 +4207,9 @@
         "text": "creates route"
       }
     ],
-    "correct_text": "method marking where a view's main content is rendered"
+    "correct_text": "method marking where a view's main content is rendered",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 157,
@@ -3922,7 +4234,9 @@
         "text": "method marking where a view's main content is rendered"
       }
     ],
-    "correct_text": "method marking where a view's main content is rendered"
+    "correct_text": "method marking where a view's main content is rendered",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 158,
@@ -3947,7 +4261,9 @@
         "text": "creates route"
       }
     ],
-    "correct_text": "method marking where a view's main content is rendered"
+    "correct_text": "method marking where a view's main content is rendered",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 159,
@@ -3972,7 +4288,9 @@
         "text": "creates route"
       }
     ],
-    "correct_text": "method marking where a view's main content is rendered"
+    "correct_text": "method marking where a view's main content is rendered",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 160,
@@ -3997,7 +4315,9 @@
         "text": "creates route"
       }
     ],
-    "correct_text": "method marking where a view's main content is rendered"
+    "correct_text": "method marking where a view's main content is rendered",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 161,
@@ -4022,7 +4342,9 @@
         "text": "method used to render a named section defined by a view"
       }
     ],
-    "correct_text": "method used to render a named section defined by a view"
+    "correct_text": "method used to render a named section defined by a view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 162,
@@ -4047,7 +4369,9 @@
         "text": "register a service"
       }
     ],
-    "correct_text": "method used to render a named section defined by a view"
+    "correct_text": "method used to render a named section defined by a view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 163,
@@ -4072,7 +4396,9 @@
         "text": "register a service"
       }
     ],
-    "correct_text": "method used to render a named section defined by a view"
+    "correct_text": "method used to render a named section defined by a view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 164,
@@ -4097,7 +4423,9 @@
         "text": "register a service"
       }
     ],
-    "correct_text": "method used to render a named section defined by a view"
+    "correct_text": "method used to render a named section defined by a view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 165,
@@ -4122,7 +4450,9 @@
         "text": "method used to render a named section defined by a view"
       }
     ],
-    "correct_text": "method used to render a named section defined by a view"
+    "correct_text": "method used to render a named section defined by a view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 166,
@@ -4147,7 +4477,9 @@
         "text": "CSS bundle"
       }
     ],
-    "correct_text": "file commonly used to set the layout for views in a folder"
+    "correct_text": "file commonly used to set the layout for views in a folder",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 167,
@@ -4172,7 +4504,9 @@
         "text": "CSS bundle"
       }
     ],
-    "correct_text": "file commonly used to set the layout for views in a folder"
+    "correct_text": "file commonly used to set the layout for views in a folder",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 168,
@@ -4197,7 +4531,9 @@
         "text": "CSS bundle"
       }
     ],
-    "correct_text": "file commonly used to set the layout for views in a folder"
+    "correct_text": "file commonly used to set the layout for views in a folder",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 169,
@@ -4222,7 +4558,9 @@
         "text": "file commonly used to set the layout for views in a folder"
       }
     ],
-    "correct_text": "file commonly used to set the layout for views in a folder"
+    "correct_text": "file commonly used to set the layout for views in a folder",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 170,
@@ -4247,7 +4585,9 @@
         "text": "CSS bundle"
       }
     ],
-    "correct_text": "file commonly used to set the layout for views in a folder"
+    "correct_text": "file commonly used to set the layout for views in a folder",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 171,
@@ -4272,7 +4612,9 @@
         "text": "database key"
       }
     ],
-    "correct_text": "section that a layout does not require every view to define"
+    "correct_text": "section that a layout does not require every view to define",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 172,
@@ -4297,7 +4639,9 @@
         "text": "database key"
       }
     ],
-    "correct_text": "section that a layout does not require every view to define"
+    "correct_text": "section that a layout does not require every view to define",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 173,
@@ -4322,7 +4666,9 @@
         "text": "section that a layout does not require every view to define"
       }
     ],
-    "correct_text": "section that a layout does not require every view to define"
+    "correct_text": "section that a layout does not require every view to define",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 174,
@@ -4347,7 +4693,9 @@
         "text": "database key"
       }
     ],
-    "correct_text": "section that a layout does not require every view to define"
+    "correct_text": "section that a layout does not require every view to define",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 175,
@@ -4372,7 +4720,9 @@
         "text": "database key"
       }
     ],
-    "correct_text": "section that a layout does not require every view to define"
+    "correct_text": "section that a layout does not require every view to define",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 176,
@@ -4397,7 +4747,9 @@
         "text": "single action's local variable"
       }
     ],
-    "correct_text": "content commonly placed in a layout"
+    "correct_text": "content commonly placed in a layout",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 177,
@@ -4422,7 +4774,9 @@
         "text": "content commonly placed in a layout"
       }
     ],
-    "correct_text": "content commonly placed in a layout"
+    "correct_text": "content commonly placed in a layout",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 178,
@@ -4447,7 +4801,9 @@
         "text": "single action's local variable"
       }
     ],
-    "correct_text": "content commonly placed in a layout"
+    "correct_text": "content commonly placed in a layout",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 179,
@@ -4472,7 +4828,9 @@
         "text": "single action's local variable"
       }
     ],
-    "correct_text": "content commonly placed in a layout"
+    "correct_text": "content commonly placed in a layout",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 180,
@@ -4497,7 +4855,9 @@
         "text": "single action's local variable"
       }
     ],
-    "correct_text": "content commonly placed in a layout"
+    "correct_text": "content commonly placed in a layout",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 181,
@@ -4522,7 +4882,9 @@
         "text": "layout arrangement in which one layout uses another layout"
       }
     ],
-    "correct_text": "layout arrangement in which one layout uses another layout"
+    "correct_text": "layout arrangement in which one layout uses another layout",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 182,
@@ -4547,7 +4909,9 @@
         "text": "controller without actions"
       }
     ],
-    "correct_text": "layout arrangement in which one layout uses another layout"
+    "correct_text": "layout arrangement in which one layout uses another layout",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 183,
@@ -4572,7 +4936,9 @@
         "text": "controller without actions"
       }
     ],
-    "correct_text": "layout arrangement in which one layout uses another layout"
+    "correct_text": "layout arrangement in which one layout uses another layout",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 184,
@@ -4597,7 +4963,9 @@
         "text": "controller without actions"
       }
     ],
-    "correct_text": "layout arrangement in which one layout uses another layout"
+    "correct_text": "layout arrangement in which one layout uses another layout",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 185,
@@ -4622,7 +4990,9 @@
         "text": "layout arrangement in which one layout uses another layout"
       }
     ],
-    "correct_text": "layout arrangement in which one layout uses another layout"
+    "correct_text": "layout arrangement in which one layout uses another layout",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 186,
@@ -4647,7 +5017,9 @@
         "text": "route constraint"
       }
     ],
-    "correct_text": "reusable fragment of Razor markup rendered inside another view"
+    "correct_text": "reusable fragment of Razor markup rendered inside another view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 187,
@@ -4672,7 +5044,9 @@
         "text": "route constraint"
       }
     ],
-    "correct_text": "reusable fragment of Razor markup rendered inside another view"
+    "correct_text": "reusable fragment of Razor markup rendered inside another view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 188,
@@ -4697,7 +5071,9 @@
         "text": "route constraint"
       }
     ],
-    "correct_text": "reusable fragment of Razor markup rendered inside another view"
+    "correct_text": "reusable fragment of Razor markup rendered inside another view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 189,
@@ -4722,7 +5098,9 @@
         "text": "reusable fragment of Razor markup rendered inside another view"
       }
     ],
-    "correct_text": "reusable fragment of Razor markup rendered inside another view"
+    "correct_text": "reusable fragment of Razor markup rendered inside another view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 190,
@@ -4747,7 +5125,9 @@
         "text": "route constraint"
       }
     ],
-    "correct_text": "reusable fragment of Razor markup rendered inside another view"
+    "correct_text": "reusable fragment of Razor markup rendered inside another view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 191,
@@ -4772,7 +5152,9 @@
         "text": "database prefix"
       }
     ],
-    "correct_text": "common naming convention for partial view files"
+    "correct_text": "common naming convention for partial view files",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 192,
@@ -4797,7 +5179,9 @@
         "text": "database prefix"
       }
     ],
-    "correct_text": "common naming convention for partial view files"
+    "correct_text": "common naming convention for partial view files",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 193,
@@ -4822,7 +5206,9 @@
         "text": "common naming convention for partial view files"
       }
     ],
-    "correct_text": "common naming convention for partial view files"
+    "correct_text": "common naming convention for partial view files",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 194,
@@ -4847,7 +5233,9 @@
         "text": "database prefix"
       }
     ],
-    "correct_text": "common naming convention for partial view files"
+    "correct_text": "common naming convention for partial view files",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 195,
@@ -4872,7 +5260,9 @@
         "text": "database prefix"
       }
     ],
-    "correct_text": "common naming convention for partial view files"
+    "correct_text": "common naming convention for partial view files",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 196,
@@ -4897,7 +5287,9 @@
         "text": "CSS compiler"
       }
     ],
-    "correct_text": "asynchronous method used to render a partial view"
+    "correct_text": "asynchronous method used to render a partial view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 197,
@@ -4922,7 +5314,9 @@
         "text": "asynchronous method used to render a partial view"
       }
     ],
-    "correct_text": "asynchronous method used to render a partial view"
+    "correct_text": "asynchronous method used to render a partial view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 198,
@@ -4947,7 +5341,9 @@
         "text": "CSS compiler"
       }
     ],
-    "correct_text": "asynchronous method used to render a partial view"
+    "correct_text": "asynchronous method used to render a partial view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 199,
@@ -4972,7 +5368,9 @@
         "text": "CSS compiler"
       }
     ],
-    "correct_text": "asynchronous method used to render a partial view"
+    "correct_text": "asynchronous method used to render a partial view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 200,
@@ -4997,7 +5395,9 @@
         "text": "CSS compiler"
       }
     ],
-    "correct_text": "asynchronous method used to render a partial view"
+    "correct_text": "asynchronous method used to render a partial view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 201,
@@ -5022,7 +5422,9 @@
         "text": "helper commonly used to render a partial view asynchronously"
       }
     ],
-    "correct_text": "helper commonly used to render a partial view asynchronously"
+    "correct_text": "helper commonly used to render a partial view asynchronously",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 202,
@@ -5047,7 +5449,9 @@
         "text": "model validator"
       }
     ],
-    "correct_text": "helper commonly used to render a partial view asynchronously"
+    "correct_text": "helper commonly used to render a partial view asynchronously",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 203,
@@ -5072,7 +5476,9 @@
         "text": "model validator"
       }
     ],
-    "correct_text": "helper commonly used to render a partial view asynchronously"
+    "correct_text": "helper commonly used to render a partial view asynchronously",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 204,
@@ -5097,7 +5503,9 @@
         "text": "model validator"
       }
     ],
-    "correct_text": "helper commonly used to render a partial view asynchronously"
+    "correct_text": "helper commonly used to render a partial view asynchronously",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 205,
@@ -5122,7 +5530,9 @@
         "text": "helper commonly used to render a partial view asynchronously"
       }
     ],
-    "correct_text": "helper commonly used to render a partial view asynchronously"
+    "correct_text": "helper commonly used to render a partial view asynchronously",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 206,
@@ -5147,7 +5557,9 @@
         "text": "changing database schema"
       }
     ],
-    "correct_text": "main benefit of extracting repeated markup into partial views"
+    "correct_text": "main benefit of extracting repeated markup into partial views",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 207,
@@ -5172,7 +5584,9 @@
         "text": "changing database schema"
       }
     ],
-    "correct_text": "main benefit of extracting repeated markup into partial views"
+    "correct_text": "main benefit of extracting repeated markup into partial views",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 208,
@@ -5197,7 +5611,9 @@
         "text": "changing database schema"
       }
     ],
-    "correct_text": "main benefit of extracting repeated markup into partial views"
+    "correct_text": "main benefit of extracting repeated markup into partial views",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 209,
@@ -5222,7 +5638,9 @@
         "text": "main benefit of extracting repeated markup into partial views"
       }
     ],
-    "correct_text": "main benefit of extracting repeated markup into partial views"
+    "correct_text": "main benefit of extracting repeated markup into partial views",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 210,
@@ -5247,7 +5665,9 @@
         "text": "changing database schema"
       }
     ],
-    "correct_text": "main benefit of extracting repeated markup into partial views"
+    "correct_text": "main benefit of extracting repeated markup into partial views",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 211,
@@ -5272,7 +5692,9 @@
         "text": "server operating system"
       }
     ],
-    "correct_text": "content suitable for a partial view"
+    "correct_text": "content suitable for a partial view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 212,
@@ -5297,7 +5719,9 @@
         "text": "server operating system"
       }
     ],
-    "correct_text": "content suitable for a partial view"
+    "correct_text": "content suitable for a partial view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 213,
@@ -5322,7 +5746,9 @@
         "text": "content suitable for a partial view"
       }
     ],
-    "correct_text": "content suitable for a partial view"
+    "correct_text": "content suitable for a partial view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 214,
@@ -5347,7 +5773,9 @@
         "text": "server operating system"
       }
     ],
-    "correct_text": "content suitable for a partial view"
+    "correct_text": "content suitable for a partial view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 215,
@@ -5372,7 +5800,9 @@
         "text": "server operating system"
       }
     ],
-    "correct_text": "content suitable for a partial view"
+    "correct_text": "content suitable for a partial view",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 216,
@@ -5397,7 +5827,9 @@
         "text": "port number"
       }
     ],
-    "correct_text": "data that can be passed to a partial view for rendering"
+    "correct_text": "data that can be passed to a partial view for rendering",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 217,
@@ -5422,7 +5854,9 @@
         "text": "data that can be passed to a partial view for rendering"
       }
     ],
-    "correct_text": "data that can be passed to a partial view for rendering"
+    "correct_text": "data that can be passed to a partial view for rendering",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 218,
@@ -5447,7 +5881,9 @@
         "text": "port number"
       }
     ],
-    "correct_text": "data that can be passed to a partial view for rendering"
+    "correct_text": "data that can be passed to a partial view for rendering",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 219,
@@ -5472,7 +5908,9 @@
         "text": "port number"
       }
     ],
-    "correct_text": "data that can be passed to a partial view for rendering"
+    "correct_text": "data that can be passed to a partial view for rendering",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 220,
@@ -5497,7 +5935,9 @@
         "text": "port number"
       }
     ],
-    "correct_text": "data that can be passed to a partial view for rendering"
+    "correct_text": "data that can be passed to a partial view for rendering",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 221,
@@ -5522,7 +5962,9 @@
         "text": "route mapping"
       }
     ],
-    "correct_text": "transformation used to represent response content, often for compression"
+    "correct_text": "transformation used to represent response content, often for compression",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 222,
@@ -5547,7 +5989,9 @@
         "text": "route mapping"
       }
     ],
-    "correct_text": "transformation used to represent response content, often for compression"
+    "correct_text": "transformation used to represent response content, often for compression",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 223,
@@ -5572,7 +6016,9 @@
         "text": "route mapping"
       }
     ],
-    "correct_text": "transformation used to represent response content, often for compression"
+    "correct_text": "transformation used to represent response content, often for compression",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 224,
@@ -5597,7 +6043,9 @@
         "text": "transformation used to represent response content, often for compression"
       }
     ],
-    "correct_text": "transformation used to represent response content, often for compression"
+    "correct_text": "transformation used to represent response content, often for compression",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 225,
@@ -5622,7 +6070,9 @@
         "text": "route mapping"
       }
     ],
-    "correct_text": "transformation used to represent response content, often for compression"
+    "correct_text": "transformation used to represent response content, often for compression",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 226,
@@ -5647,7 +6097,9 @@
         "text": "SQL"
       }
     ],
-    "correct_text": "commonly supported HTTP compression format"
+    "correct_text": "commonly supported HTTP compression format",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 227,
@@ -5672,7 +6124,9 @@
         "text": "SQL"
       }
     ],
-    "correct_text": "commonly supported HTTP compression format"
+    "correct_text": "commonly supported HTTP compression format",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 228,
@@ -5697,7 +6151,9 @@
         "text": "commonly supported HTTP compression format"
       }
     ],
-    "correct_text": "commonly supported HTTP compression format"
+    "correct_text": "commonly supported HTTP compression format",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 229,
@@ -5722,7 +6178,9 @@
         "text": "SQL"
       }
     ],
-    "correct_text": "commonly supported HTTP compression format"
+    "correct_text": "commonly supported HTTP compression format",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 230,
@@ -5747,7 +6205,9 @@
         "text": "SQL"
       }
     ],
-    "correct_text": "commonly supported HTTP compression format"
+    "correct_text": "commonly supported HTTP compression format",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 231,
@@ -5772,7 +6232,9 @@
         "text": "view engine"
       }
     ],
-    "correct_text": "modern compression algorithm supported by web servers and browsers"
+    "correct_text": "modern compression algorithm supported by web servers and browsers",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 232,
@@ -5797,7 +6259,9 @@
         "text": "modern compression algorithm supported by web servers and browsers"
       }
     ],
-    "correct_text": "modern compression algorithm supported by web servers and browsers"
+    "correct_text": "modern compression algorithm supported by web servers and browsers",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 233,
@@ -5822,7 +6286,9 @@
         "text": "view engine"
       }
     ],
-    "correct_text": "modern compression algorithm supported by web servers and browsers"
+    "correct_text": "modern compression algorithm supported by web servers and browsers",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 234,
@@ -5847,7 +6313,9 @@
         "text": "view engine"
       }
     ],
-    "correct_text": "modern compression algorithm supported by web servers and browsers"
+    "correct_text": "modern compression algorithm supported by web servers and browsers",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 235,
@@ -5872,7 +6340,9 @@
         "text": "view engine"
       }
     ],
-    "correct_text": "modern compression algorithm supported by web servers and browsers"
+    "correct_text": "modern compression algorithm supported by web servers and browsers",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 236,
@@ -5897,7 +6367,9 @@
         "text": "HTTP response header indicating encoding applied to message body"
       }
     ],
-    "correct_text": "HTTP response header indicating encoding applied to message body"
+    "correct_text": "HTTP response header indicating encoding applied to message body",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 237,
@@ -5922,7 +6394,9 @@
         "text": "Location"
       }
     ],
-    "correct_text": "HTTP response header indicating encoding applied to message body"
+    "correct_text": "HTTP response header indicating encoding applied to message body",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 238,
@@ -5947,7 +6421,9 @@
         "text": "Location"
       }
     ],
-    "correct_text": "HTTP response header indicating encoding applied to message body"
+    "correct_text": "HTTP response header indicating encoding applied to message body",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 239,
@@ -5972,7 +6448,9 @@
         "text": "Location"
       }
     ],
-    "correct_text": "HTTP response header indicating encoding applied to message body"
+    "correct_text": "HTTP response header indicating encoding applied to message body",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 240,
@@ -5997,7 +6475,9 @@
         "text": "HTTP response header indicating encoding applied to message body"
       }
     ],
-    "correct_text": "HTTP response header indicating encoding applied to message body"
+    "correct_text": "HTTP response header indicating encoding applied to message body",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 241,
@@ -6022,7 +6502,9 @@
         "text": "Referer"
       }
     ],
-    "correct_text": "request header through which a client indicates supported encodings"
+    "correct_text": "request header through which a client indicates supported encodings",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 242,
@@ -6047,7 +6529,9 @@
         "text": "Referer"
       }
     ],
-    "correct_text": "request header through which a client indicates supported encodings"
+    "correct_text": "request header through which a client indicates supported encodings",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 243,
@@ -6072,7 +6556,9 @@
         "text": "Referer"
       }
     ],
-    "correct_text": "request header through which a client indicates supported encodings"
+    "correct_text": "request header through which a client indicates supported encodings",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 244,
@@ -6097,7 +6583,9 @@
         "text": "request header through which a client indicates supported encodings"
       }
     ],
-    "correct_text": "request header through which a client indicates supported encodings"
+    "correct_text": "request header through which a client indicates supported encodings",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 245,
@@ -6122,7 +6610,9 @@
         "text": "Referer"
       }
     ],
-    "correct_text": "request header through which a client indicates supported encodings"
+    "correct_text": "request header through which a client indicates supported encodings",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 246,
@@ -6147,7 +6637,9 @@
         "text": "encrypted password"
       }
     ],
-    "correct_text": "response that can reduce data transferred over a network"
+    "correct_text": "response that can reduce data transferred over a network",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 247,
@@ -6172,7 +6664,9 @@
         "text": "encrypted password"
       }
     ],
-    "correct_text": "response that can reduce data transferred over a network"
+    "correct_text": "response that can reduce data transferred over a network",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 248,
@@ -6197,7 +6691,9 @@
         "text": "response that can reduce data transferred over a network"
       }
     ],
-    "correct_text": "response that can reduce data transferred over a network"
+    "correct_text": "response that can reduce data transferred over a network",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 249,
@@ -6222,7 +6718,9 @@
         "text": "encrypted password"
       }
     ],
-    "correct_text": "response that can reduce data transferred over a network"
+    "correct_text": "response that can reduce data transferred over a network",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 250,
@@ -6247,7 +6745,9 @@
         "text": "encrypted password"
       }
     ],
-    "correct_text": "response that can reduce data transferred over a network"
+    "correct_text": "response that can reduce data transferred over a network",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 251,
@@ -6272,7 +6772,9 @@
         "text": "model binding"
       }
     ],
-    "correct_text": "process by which a client restores compressed response content"
+    "correct_text": "process by which a client restores compressed response content",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 252,
@@ -6297,7 +6799,9 @@
         "text": "process by which a client restores compressed response content"
       }
     ],
-    "correct_text": "process by which a client restores compressed response content"
+    "correct_text": "process by which a client restores compressed response content",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 253,
@@ -6322,7 +6826,9 @@
         "text": "model binding"
       }
     ],
-    "correct_text": "process by which a client restores compressed response content"
+    "correct_text": "process by which a client restores compressed response content",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 254,
@@ -6347,7 +6853,9 @@
         "text": "model binding"
       }
     ],
-    "correct_text": "process by which a client restores compressed response content"
+    "correct_text": "process by which a client restores compressed response content",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 255,
@@ -6372,7 +6880,9 @@
         "text": "model binding"
       }
     ],
-    "correct_text": "process by which a client restores compressed response content"
+    "correct_text": "process by which a client restores compressed response content",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 256,
@@ -6397,7 +6907,9 @@
         "text": "sending an email"
       }
     ],
-    "correct_text": "process of mapping request data to action parameters or model properties"
+    "correct_text": "process of mapping request data to action parameters or model properties",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 257,
@@ -6422,7 +6934,9 @@
         "text": "sending an email"
       }
     ],
-    "correct_text": "process of mapping request data to action parameters or model properties"
+    "correct_text": "process of mapping request data to action parameters or model properties",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 258,
@@ -6447,7 +6961,9 @@
         "text": "sending an email"
       }
     ],
-    "correct_text": "process of mapping request data to action parameters or model properties"
+    "correct_text": "process of mapping request data to action parameters or model properties",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 259,
@@ -6472,7 +6988,9 @@
         "text": "process of mapping request data to action parameters or model properties"
       }
     ],
-    "correct_text": "process of mapping request data to action parameters or model properties"
+    "correct_text": "process of mapping request data to action parameters or model properties",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 260,
@@ -6497,7 +7015,9 @@
         "text": "sending an email"
       }
     ],
-    "correct_text": "process of mapping request data to action parameters or model properties"
+    "correct_text": "process of mapping request data to action parameters or model properties",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 261,
@@ -6522,7 +7042,9 @@
         "text": "server log only"
       }
     ],
-    "correct_text": "one possible source of values used by model binding"
+    "correct_text": "one possible source of values used by model binding",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 262,
@@ -6547,7 +7069,9 @@
         "text": "server log only"
       }
     ],
-    "correct_text": "one possible source of values used by model binding"
+    "correct_text": "one possible source of values used by model binding",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 263,
@@ -6572,7 +7096,9 @@
         "text": "one possible source of values used by model binding"
       }
     ],
-    "correct_text": "one possible source of values used by model binding"
+    "correct_text": "one possible source of values used by model binding",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 264,
@@ -6597,7 +7123,9 @@
         "text": "server log only"
       }
     ],
-    "correct_text": "one possible source of values used by model binding"
+    "correct_text": "one possible source of values used by model binding",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 265,
@@ -6622,7 +7150,9 @@
         "text": "server log only"
       }
     ],
-    "correct_text": "one possible source of values used by model binding"
+    "correct_text": "one possible source of values used by model binding",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 266,
@@ -6647,7 +7177,9 @@
         "text": "database index"
       }
     ],
-    "correct_text": "request data source appearing in URL after a question mark"
+    "correct_text": "request data source appearing in URL after a question mark",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 267,
@@ -6672,7 +7204,9 @@
         "text": "request data source appearing in URL after a question mark"
       }
     ],
-    "correct_text": "request data source appearing in URL after a question mark"
+    "correct_text": "request data source appearing in URL after a question mark",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 268,
@@ -6697,7 +7231,9 @@
         "text": "database index"
       }
     ],
-    "correct_text": "request data source appearing in URL after a question mark"
+    "correct_text": "request data source appearing in URL after a question mark",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 269,
@@ -6722,7 +7258,9 @@
         "text": "database index"
       }
     ],
-    "correct_text": "request data source appearing in URL after a question mark"
+    "correct_text": "request data source appearing in URL after a question mark",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 270,
@@ -6747,7 +7285,9 @@
         "text": "database index"
       }
     ],
-    "correct_text": "request data source appearing in URL after a question mark"
+    "correct_text": "request data source appearing in URL after a question mark",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 271,
@@ -6772,7 +7312,9 @@
         "text": "data commonly submitted through HTML form controls"
       }
     ],
-    "correct_text": "data commonly submitted through HTML form controls"
+    "correct_text": "data commonly submitted through HTML form controls",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 272,
@@ -6797,7 +7339,9 @@
         "text": "server certificates"
       }
     ],
-    "correct_text": "data commonly submitted through HTML form controls"
+    "correct_text": "data commonly submitted through HTML form controls",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 273,
@@ -6822,7 +7366,9 @@
         "text": "server certificates"
       }
     ],
-    "correct_text": "data commonly submitted through HTML form controls"
+    "correct_text": "data commonly submitted through HTML form controls",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 274,
@@ -6847,7 +7393,9 @@
         "text": "server certificates"
       }
     ],
-    "correct_text": "data commonly submitted through HTML form controls"
+    "correct_text": "data commonly submitted through HTML form controls",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 275,
@@ -6872,7 +7420,9 @@
         "text": "data commonly submitted through HTML form controls"
       }
     ],
-    "correct_text": "data commonly submitted through HTML form controls"
+    "correct_text": "data commonly submitted through HTML form controls",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 276,
@@ -6897,7 +7447,9 @@
         "text": "render partial view"
       }
     ],
-    "correct_text": "attribute indicating a parameter should be bound from request body"
+    "correct_text": "attribute indicating a parameter should be bound from request body",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 277,
@@ -6922,7 +7474,9 @@
         "text": "render partial view"
       }
     ],
-    "correct_text": "attribute indicating a parameter should be bound from request body"
+    "correct_text": "attribute indicating a parameter should be bound from request body",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 278,
@@ -6947,7 +7501,9 @@
         "text": "render partial view"
       }
     ],
-    "correct_text": "attribute indicating a parameter should be bound from request body"
+    "correct_text": "attribute indicating a parameter should be bound from request body",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 279,
@@ -6972,7 +7528,9 @@
         "text": "attribute indicating a parameter should be bound from request body"
       }
     ],
-    "correct_text": "attribute indicating a parameter should be bound from request body"
+    "correct_text": "attribute indicating a parameter should be bound from request body",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 280,
@@ -6997,7 +7555,9 @@
         "text": "render partial view"
       }
     ],
-    "correct_text": "attribute indicating a parameter should be bound from request body"
+    "correct_text": "attribute indicating a parameter should be bound from request body",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 281,
@@ -7022,7 +7582,9 @@
         "text": "compress a response"
       }
     ],
-    "correct_text": "attribute indicating a parameter should be bound from route values"
+    "correct_text": "attribute indicating a parameter should be bound from route values",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 282,
@@ -7047,7 +7609,9 @@
         "text": "compress a response"
       }
     ],
-    "correct_text": "attribute indicating a parameter should be bound from route values"
+    "correct_text": "attribute indicating a parameter should be bound from route values",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 283,
@@ -7072,7 +7636,9 @@
         "text": "attribute indicating a parameter should be bound from route values"
       }
     ],
-    "correct_text": "attribute indicating a parameter should be bound from route values"
+    "correct_text": "attribute indicating a parameter should be bound from route values",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 284,
@@ -7097,7 +7663,9 @@
         "text": "compress a response"
       }
     ],
-    "correct_text": "attribute indicating a parameter should be bound from route values"
+    "correct_text": "attribute indicating a parameter should be bound from route values",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 285,
@@ -7122,7 +7690,9 @@
         "text": "compress a response"
       }
     ],
-    "correct_text": "attribute indicating a parameter should be bound from route values"
+    "correct_text": "attribute indicating a parameter should be bound from route values",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 286,
@@ -7147,7 +7717,9 @@
         "text": "static file provider"
       }
     ],
-    "correct_text": "object storing model-binding and validation state information"
+    "correct_text": "object storing model-binding and validation state information",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 287,
@@ -7172,7 +7744,9 @@
         "text": "object storing model-binding and validation state information"
       }
     ],
-    "correct_text": "object storing model-binding and validation state information"
+    "correct_text": "object storing model-binding and validation state information",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 288,
@@ -7197,7 +7771,9 @@
         "text": "static file provider"
       }
     ],
-    "correct_text": "object storing model-binding and validation state information"
+    "correct_text": "object storing model-binding and validation state information",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 289,
@@ -7222,7 +7798,9 @@
         "text": "static file provider"
       }
     ],
-    "correct_text": "object storing model-binding and validation state information"
+    "correct_text": "object storing model-binding and validation state information",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 290,
@@ -7247,7 +7825,9 @@
         "text": "static file provider"
       }
     ],
-    "correct_text": "object storing model-binding and validation state information"
+    "correct_text": "object storing model-binding and validation state information",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 291,
@@ -7272,7 +7852,9 @@
         "text": "sending email"
       }
     ],
-    "correct_text": "process of checking submitted model data against defined rules"
+    "correct_text": "process of checking submitted model data against defined rules",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 292,
@@ -7297,7 +7879,9 @@
         "text": "sending email"
       }
     ],
-    "correct_text": "process of checking submitted model data against defined rules"
+    "correct_text": "process of checking submitted model data against defined rules",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 293,
@@ -7322,7 +7906,9 @@
         "text": "sending email"
       }
     ],
-    "correct_text": "process of checking submitted model data against defined rules"
+    "correct_text": "process of checking submitted model data against defined rules",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 294,
@@ -7347,7 +7933,9 @@
         "text": "process of checking submitted model data against defined rules"
       }
     ],
-    "correct_text": "process of checking submitted model data against defined rules"
+    "correct_text": "process of checking submitted model data against defined rules",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 295,
@@ -7372,7 +7960,9 @@
         "text": "sending email"
       }
     ],
-    "correct_text": "process of checking submitted model data against defined rules"
+    "correct_text": "process of checking submitted model data against defined rules",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 296,
@@ -7397,7 +7987,9 @@
         "text": "creates database"
       }
     ],
-    "correct_text": "attribute marking a property as mandatory"
+    "correct_text": "attribute marking a property as mandatory",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 297,
@@ -7422,7 +8014,9 @@
         "text": "creates database"
       }
     ],
-    "correct_text": "attribute marking a property as mandatory"
+    "correct_text": "attribute marking a property as mandatory",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 298,
@@ -7447,7 +8041,9 @@
         "text": "attribute marking a property as mandatory"
       }
     ],
-    "correct_text": "attribute marking a property as mandatory"
+    "correct_text": "attribute marking a property as mandatory",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 299,
@@ -7472,7 +8068,9 @@
         "text": "creates database"
       }
     ],
-    "correct_text": "attribute marking a property as mandatory"
+    "correct_text": "attribute marking a property as mandatory",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 300,
@@ -7497,7 +8095,9 @@
         "text": "creates database"
       }
     ],
-    "correct_text": "attribute marking a property as mandatory"
+    "correct_text": "attribute marking a property as mandatory",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 301,
@@ -7522,7 +8122,9 @@
         "text": "encrypts cookie"
       }
     ],
-    "correct_text": "attribute used to restrict the length of a string"
+    "correct_text": "attribute used to restrict the length of a string",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 302,
@@ -7547,7 +8149,9 @@
         "text": "attribute used to restrict the length of a string"
       }
     ],
-    "correct_text": "attribute used to restrict the length of a string"
+    "correct_text": "attribute used to restrict the length of a string",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 303,
@@ -7572,7 +8176,9 @@
         "text": "encrypts cookie"
       }
     ],
-    "correct_text": "attribute used to restrict the length of a string"
+    "correct_text": "attribute used to restrict the length of a string",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 304,
@@ -7597,7 +8203,9 @@
         "text": "encrypts cookie"
       }
     ],
-    "correct_text": "attribute used to restrict the length of a string"
+    "correct_text": "attribute used to restrict the length of a string",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 305,
@@ -7622,7 +8230,9 @@
         "text": "encrypts cookie"
       }
     ],
-    "correct_text": "attribute used to restrict the length of a string"
+    "correct_text": "attribute used to restrict the length of a string",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 306,
@@ -7647,7 +8257,9 @@
         "text": "attribute used to restrict a numeric value to a specified range"
       }
     ],
-    "correct_text": "attribute used to restrict a numeric value to a specified range"
+    "correct_text": "attribute used to restrict a numeric value to a specified range",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 307,
@@ -7672,7 +8284,9 @@
         "text": "sets a layout"
       }
     ],
-    "correct_text": "attribute used to restrict a numeric value to a specified range"
+    "correct_text": "attribute used to restrict a numeric value to a specified range",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 308,
@@ -7697,7 +8311,9 @@
         "text": "sets a layout"
       }
     ],
-    "correct_text": "attribute used to restrict a numeric value to a specified range"
+    "correct_text": "attribute used to restrict a numeric value to a specified range",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 309,
@@ -7722,7 +8338,9 @@
         "text": "sets a layout"
       }
     ],
-    "correct_text": "attribute used to restrict a numeric value to a specified range"
+    "correct_text": "attribute used to restrict a numeric value to a specified range",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 310,
@@ -7747,7 +8365,9 @@
         "text": "attribute used to restrict a numeric value to a specified range"
       }
     ],
-    "correct_text": "attribute used to restrict a numeric value to a specified range"
+    "correct_text": "attribute used to restrict a numeric value to a specified range",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 311,
@@ -7772,7 +8392,9 @@
         "text": "creates controller"
       }
     ],
-    "correct_text": "attribute used to validate an email address format"
+    "correct_text": "attribute used to validate an email address format",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 312,
@@ -7797,7 +8419,9 @@
         "text": "creates controller"
       }
     ],
-    "correct_text": "attribute used to validate an email address format"
+    "correct_text": "attribute used to validate an email address format",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 313,
@@ -7822,7 +8446,9 @@
         "text": "creates controller"
       }
     ],
-    "correct_text": "attribute used to validate an email address format"
+    "correct_text": "attribute used to validate an email address format",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 314,
@@ -7847,7 +8473,9 @@
         "text": "attribute used to validate an email address format"
       }
     ],
-    "correct_text": "attribute used to validate an email address format"
+    "correct_text": "attribute used to validate an email address format",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 315,
@@ -7872,7 +8500,9 @@
         "text": "creates controller"
       }
     ],
-    "correct_text": "attribute used to validate an email address format"
+    "correct_text": "attribute used to validate an email address format",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 316,
@@ -7897,7 +8527,9 @@
         "text": "view rendering helper"
       }
     ],
-    "correct_text": "property commonly checked to determine whether model validation succeeded"
+    "correct_text": "property commonly checked to determine whether model validation succeeded",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 317,
@@ -7922,7 +8554,9 @@
         "text": "view rendering helper"
       }
     ],
-    "correct_text": "property commonly checked to determine whether model validation succeeded"
+    "correct_text": "property commonly checked to determine whether model validation succeeded",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 318,
@@ -7947,7 +8581,9 @@
         "text": "property commonly checked to determine whether model validation succeeded"
       }
     ],
-    "correct_text": "property commonly checked to determine whether model validation succeeded"
+    "correct_text": "property commonly checked to determine whether model validation succeeded",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 319,
@@ -7972,7 +8608,9 @@
         "text": "view rendering helper"
       }
     ],
-    "correct_text": "property commonly checked to determine whether model validation succeeded"
+    "correct_text": "property commonly checked to determine whether model validation succeeded",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 320,
@@ -7997,7 +8635,9 @@
         "text": "view rendering helper"
       }
     ],
-    "correct_text": "property commonly checked to determine whether model validation succeeded"
+    "correct_text": "property commonly checked to determine whether model validation succeeded",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 321,
@@ -8022,7 +8662,9 @@
         "text": "layout file"
       }
     ],
-    "correct_text": "feedback displayed to explain an invalid field value"
+    "correct_text": "feedback displayed to explain an invalid field value",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 322,
@@ -8047,7 +8689,9 @@
         "text": "feedback displayed to explain an invalid field value"
       }
     ],
-    "correct_text": "feedback displayed to explain an invalid field value"
+    "correct_text": "feedback displayed to explain an invalid field value",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 323,
@@ -8072,7 +8716,9 @@
         "text": "layout file"
       }
     ],
-    "correct_text": "feedback displayed to explain an invalid field value"
+    "correct_text": "feedback displayed to explain an invalid field value",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 324,
@@ -8097,7 +8743,9 @@
         "text": "layout file"
       }
     ],
-    "correct_text": "feedback displayed to explain an invalid field value"
+    "correct_text": "feedback displayed to explain an invalid field value",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 325,
@@ -8122,7 +8770,9 @@
         "text": "layout file"
       }
     ],
-    "correct_text": "feedback displayed to explain an invalid field value"
+    "correct_text": "feedback displayed to explain an invalid field value",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 326,
@@ -8147,7 +8797,9 @@
         "text": "route constraint"
       }
     ],
-    "correct_text": "HTML element used to collect and submit user input"
+    "correct_text": "HTML element used to collect and submit user input",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 327,
@@ -8172,7 +8824,9 @@
         "text": "route constraint"
       }
     ],
-    "correct_text": "HTML element used to collect and submit user input"
+    "correct_text": "HTML element used to collect and submit user input",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 328,
@@ -8197,7 +8851,9 @@
         "text": "route constraint"
       }
     ],
-    "correct_text": "HTML element used to collect and submit user input"
+    "correct_text": "HTML element used to collect and submit user input",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 329,
@@ -8222,7 +8878,9 @@
         "text": "HTML element used to collect and submit user input"
       }
     ],
-    "correct_text": "HTML element used to collect and submit user input"
+    "correct_text": "HTML element used to collect and submit user input",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 330,
@@ -8247,7 +8905,9 @@
         "text": "route constraint"
       }
     ],
-    "correct_text": "HTML element used to collect and submit user input"
+    "correct_text": "HTML element used to collect and submit user input",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 331,
@@ -8272,7 +8932,9 @@
         "text": "defines model class"
       }
     ],
-    "correct_text": "form attribute specifying GET or POST submission"
+    "correct_text": "form attribute specifying GET or POST submission",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 332,
@@ -8297,7 +8959,9 @@
         "text": "defines model class"
       }
     ],
-    "correct_text": "form attribute specifying GET or POST submission"
+    "correct_text": "form attribute specifying GET or POST submission",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 333,
@@ -8322,7 +8986,9 @@
         "text": "form attribute specifying GET or POST submission"
       }
     ],
-    "correct_text": "form attribute specifying GET or POST submission"
+    "correct_text": "form attribute specifying GET or POST submission",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 334,
@@ -8347,7 +9013,9 @@
         "text": "defines model class"
       }
     ],
-    "correct_text": "form attribute specifying GET or POST submission"
+    "correct_text": "form attribute specifying GET or POST submission",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 335,
@@ -8372,7 +9040,9 @@
         "text": "defines model class"
       }
     ],
-    "correct_text": "form attribute specifying GET or POST submission"
+    "correct_text": "form attribute specifying GET or POST submission",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 336,
@@ -8397,7 +9067,9 @@
         "text": "view engine"
       }
     ],
-    "correct_text": "HTTP method commonly used to submit data that changes server state"
+    "correct_text": "HTTP method commonly used to submit data that changes server state",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 337,
@@ -8422,7 +9094,9 @@
         "text": "HTTP method commonly used to submit data that changes server state"
       }
     ],
-    "correct_text": "HTTP method commonly used to submit data that changes server state"
+    "correct_text": "HTTP method commonly used to submit data that changes server state",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 338,
@@ -8447,7 +9121,9 @@
         "text": "view engine"
       }
     ],
-    "correct_text": "HTTP method commonly used to submit data that changes server state"
+    "correct_text": "HTTP method commonly used to submit data that changes server state",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 339,
@@ -8472,7 +9148,9 @@
         "text": "view engine"
       }
     ],
-    "correct_text": "HTTP method commonly used to submit data that changes server state"
+    "correct_text": "HTTP method commonly used to submit data that changes server state",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 340,
@@ -8497,7 +9175,9 @@
         "text": "view engine"
       }
     ],
-    "correct_text": "HTTP method commonly used to submit data that changes server state"
+    "correct_text": "HTTP method commonly used to submit data that changes server state",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 341,
@@ -8522,7 +9202,9 @@
         "text": "form tag helper attribute identifying the target controller"
       }
     ],
-    "correct_text": "form tag helper attribute identifying the target controller"
+    "correct_text": "form tag helper attribute identifying the target controller",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 342,
@@ -8547,7 +9229,9 @@
         "text": "encodes image"
       }
     ],
-    "correct_text": "form tag helper attribute identifying the target controller"
+    "correct_text": "form tag helper attribute identifying the target controller",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 343,
@@ -8572,7 +9256,9 @@
         "text": "encodes image"
       }
     ],
-    "correct_text": "form tag helper attribute identifying the target controller"
+    "correct_text": "form tag helper attribute identifying the target controller",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 344,
@@ -8597,7 +9283,9 @@
         "text": "encodes image"
       }
     ],
-    "correct_text": "form tag helper attribute identifying the target controller"
+    "correct_text": "form tag helper attribute identifying the target controller",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 345,
@@ -8622,7 +9310,9 @@
         "text": "form tag helper attribute identifying the target controller"
       }
     ],
-    "correct_text": "form tag helper attribute identifying the target controller"
+    "correct_text": "form tag helper attribute identifying the target controller",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 346,
@@ -8647,7 +9337,9 @@
         "text": "sets cookie expiry"
       }
     ],
-    "correct_text": "form tag helper attribute identifying the target action method"
+    "correct_text": "form tag helper attribute identifying the target action method",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 347,
@@ -8672,7 +9364,9 @@
         "text": "sets cookie expiry"
       }
     ],
-    "correct_text": "form tag helper attribute identifying the target action method"
+    "correct_text": "form tag helper attribute identifying the target action method",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 348,
@@ -8697,7 +9391,9 @@
         "text": "sets cookie expiry"
       }
     ],
-    "correct_text": "form tag helper attribute identifying the target action method"
+    "correct_text": "form tag helper attribute identifying the target action method",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 349,
@@ -8722,7 +9418,9 @@
         "text": "form tag helper attribute identifying the target action method"
       }
     ],
-    "correct_text": "form tag helper attribute identifying the target action method"
+    "correct_text": "form tag helper attribute identifying the target action method",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 350,
@@ -8747,7 +9445,9 @@
         "text": "sets cookie expiry"
       }
     ],
-    "correct_text": "form tag helper attribute identifying the target action method"
+    "correct_text": "form tag helper attribute identifying the target action method",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 351,
@@ -8772,7 +9472,9 @@
         "text": "layout section"
       }
     ],
-    "correct_text": "security token used to help prevent cross-site request forgery"
+    "correct_text": "security token used to help prevent cross-site request forgery",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 352,
@@ -8797,7 +9499,9 @@
         "text": "layout section"
       }
     ],
-    "correct_text": "security token used to help prevent cross-site request forgery"
+    "correct_text": "security token used to help prevent cross-site request forgery",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 353,
@@ -8822,7 +9526,9 @@
         "text": "security token used to help prevent cross-site request forgery"
       }
     ],
-    "correct_text": "security token used to help prevent cross-site request forgery"
+    "correct_text": "security token used to help prevent cross-site request forgery",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 354,
@@ -8847,7 +9553,9 @@
         "text": "layout section"
       }
     ],
-    "correct_text": "security token used to help prevent cross-site request forgery"
+    "correct_text": "security token used to help prevent cross-site request forgery",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 355,
@@ -8872,7 +9580,9 @@
         "text": "layout section"
       }
     ],
-    "correct_text": "security token used to help prevent cross-site request forgery"
+    "correct_text": "security token used to help prevent cross-site request forgery",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 356,
@@ -8897,7 +9607,9 @@
         "text": "Connect, Route, Use, Deploy"
       }
     ],
-    "correct_text": "group of operations Create, Read, Update and Delete"
+    "correct_text": "group of operations Create, Read, Update and Delete",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 357,
@@ -8922,7 +9634,9 @@
         "text": "group of operations Create, Read, Update and Delete"
       }
     ],
-    "correct_text": "group of operations Create, Read, Update and Delete"
+    "correct_text": "group of operations Create, Read, Update and Delete",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 358,
@@ -8947,7 +9661,9 @@
         "text": "Connect, Route, Use, Deploy"
       }
     ],
-    "correct_text": "group of operations Create, Read, Update and Delete"
+    "correct_text": "group of operations Create, Read, Update and Delete",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 359,
@@ -8972,7 +9688,9 @@
         "text": "Connect, Route, Use, Deploy"
       }
     ],
-    "correct_text": "group of operations Create, Read, Update and Delete"
+    "correct_text": "group of operations Create, Read, Update and Delete",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 360,
@@ -8997,7 +9715,9 @@
         "text": "Connect, Route, Use, Deploy"
       }
     ],
-    "correct_text": "group of operations Create, Read, Update and Delete"
+    "correct_text": "group of operations Create, Read, Update and Delete",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 361,
@@ -9022,7 +9742,9 @@
         "text": "database editor"
       }
     ],
-    "correct_text": "service that securely processes online payment transactions"
+    "correct_text": "service that securely processes online payment transactions",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 362,
@@ -9047,7 +9769,9 @@
         "text": "database editor"
       }
     ],
-    "correct_text": "service that securely processes online payment transactions"
+    "correct_text": "service that securely processes online payment transactions",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 363,
@@ -9072,7 +9796,9 @@
         "text": "database editor"
       }
     ],
-    "correct_text": "service that securely processes online payment transactions"
+    "correct_text": "service that securely processes online payment transactions",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 364,
@@ -9097,7 +9823,9 @@
         "text": "service that securely processes online payment transactions"
       }
     ],
-    "correct_text": "service that securely processes online payment transactions"
+    "correct_text": "service that securely processes online payment transactions",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 365,
@@ -9122,7 +9850,9 @@
         "text": "database editor"
       }
     ],
-    "correct_text": "service that securely processes online payment transactions"
+    "correct_text": "service that securely processes online payment transactions",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 366,
@@ -9147,7 +9877,9 @@
         "text": "Razor layout"
       }
     ],
-    "correct_text": "external service that handles payment processing for a website"
+    "correct_text": "external service that handles payment processing for a website",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 367,
@@ -9172,7 +9904,9 @@
         "text": "Razor layout"
       }
     ],
-    "correct_text": "external service that handles payment processing for a website"
+    "correct_text": "external service that handles payment processing for a website",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 368,
@@ -9197,7 +9931,9 @@
         "text": "external service that handles payment processing for a website"
       }
     ],
-    "correct_text": "external service that handles payment processing for a website"
+    "correct_text": "external service that handles payment processing for a website",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 369,
@@ -9222,7 +9958,9 @@
         "text": "Razor layout"
       }
     ],
-    "correct_text": "external service that handles payment processing for a website"
+    "correct_text": "external service that handles payment processing for a website",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 370,
@@ -9247,7 +9985,9 @@
         "text": "Razor layout"
       }
     ],
-    "correct_text": "external service that handles payment processing for a website"
+    "correct_text": "external service that handles payment processing for a website",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 371,
@@ -9272,7 +10012,9 @@
         "text": "Telnet"
       }
     ],
-    "correct_text": "secure protocol that should be used when transmitting payment-related information"
+    "correct_text": "secure protocol that should be used when transmitting payment-related information",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 372,
@@ -9297,7 +10039,9 @@
         "text": "secure protocol that should be used when transmitting payment-related information"
       }
     ],
-    "correct_text": "secure protocol that should be used when transmitting payment-related information"
+    "correct_text": "secure protocol that should be used when transmitting payment-related information",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 373,
@@ -9322,7 +10066,9 @@
         "text": "Telnet"
       }
     ],
-    "correct_text": "secure protocol that should be used when transmitting payment-related information"
+    "correct_text": "secure protocol that should be used when transmitting payment-related information",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 374,
@@ -9347,7 +10093,9 @@
         "text": "Telnet"
       }
     ],
-    "correct_text": "secure protocol that should be used when transmitting payment-related information"
+    "correct_text": "secure protocol that should be used when transmitting payment-related information",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 375,
@@ -9372,7 +10120,9 @@
         "text": "Telnet"
       }
     ],
-    "correct_text": "secure protocol that should be used when transmitting payment-related information"
+    "correct_text": "secure protocol that should be used when transmitting payment-related information",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 376,
@@ -9397,7 +10147,9 @@
         "text": "unique reference used to identify a payment transaction"
       }
     ],
-    "correct_text": "unique reference used to identify a payment transaction"
+    "correct_text": "unique reference used to identify a payment transaction",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 377,
@@ -9422,7 +10174,9 @@
         "text": "route template"
       }
     ],
-    "correct_text": "unique reference used to identify a payment transaction"
+    "correct_text": "unique reference used to identify a payment transaction",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 378,
@@ -9447,7 +10201,9 @@
         "text": "route template"
       }
     ],
-    "correct_text": "unique reference used to identify a payment transaction"
+    "correct_text": "unique reference used to identify a payment transaction",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 379,
@@ -9472,7 +10228,9 @@
         "text": "route template"
       }
     ],
-    "correct_text": "unique reference used to identify a payment transaction"
+    "correct_text": "unique reference used to identify a payment transaction",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 380,
@@ -9497,7 +10255,9 @@
         "text": "unique reference used to identify a payment transaction"
       }
     ],
-    "correct_text": "unique reference used to identify a payment transaction"
+    "correct_text": "unique reference used to identify a payment transaction",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 381,
@@ -9522,7 +10282,9 @@
         "text": "layout name"
       }
     ],
-    "correct_text": "information indicating whether a transaction is pending, successful or failed"
+    "correct_text": "information indicating whether a transaction is pending, successful or failed",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 382,
@@ -9547,7 +10309,9 @@
         "text": "layout name"
       }
     ],
-    "correct_text": "information indicating whether a transaction is pending, successful or failed"
+    "correct_text": "information indicating whether a transaction is pending, successful or failed",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 383,
@@ -9572,7 +10336,9 @@
         "text": "layout name"
       }
     ],
-    "correct_text": "information indicating whether a transaction is pending, successful or failed"
+    "correct_text": "information indicating whether a transaction is pending, successful or failed",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 384,
@@ -9597,7 +10363,9 @@
         "text": "information indicating whether a transaction is pending, successful or failed"
       }
     ],
-    "correct_text": "information indicating whether a transaction is pending, successful or failed"
+    "correct_text": "information indicating whether a transaction is pending, successful or failed",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 385,
@@ -9622,7 +10390,9 @@
         "text": "layout name"
       }
     ],
-    "correct_text": "information indicating whether a transaction is pending, successful or failed"
+    "correct_text": "information indicating whether a transaction is pending, successful or failed",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 386,
@@ -9647,7 +10417,9 @@
         "text": "changing page colour"
       }
     ],
-    "correct_text": "step used to verify payment results with provider or trusted server data"
+    "correct_text": "step used to verify payment results with provider or trusted server data",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 387,
@@ -9672,7 +10444,9 @@
         "text": "changing page colour"
       }
     ],
-    "correct_text": "step used to verify payment results with provider or trusted server data"
+    "correct_text": "step used to verify payment results with provider or trusted server data",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 388,
@@ -9697,7 +10471,9 @@
         "text": "step used to verify payment results with provider or trusted server data"
       }
     ],
-    "correct_text": "step used to verify payment results with provider or trusted server data"
+    "correct_text": "step used to verify payment results with provider or trusted server data",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 389,
@@ -9722,7 +10498,9 @@
         "text": "changing page colour"
       }
     ],
-    "correct_text": "step used to verify payment results with provider or trusted server data"
+    "correct_text": "step used to verify payment results with provider or trusted server data",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 390,
@@ -9747,7 +10525,9 @@
         "text": "changing page colour"
       }
     ],
-    "correct_text": "step used to verify payment results with provider or trusted server data"
+    "correct_text": "step used to verify payment results with provider or trusted server data",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 391,
@@ -9772,7 +10552,9 @@
         "text": "Razor comment"
       }
     ],
-    "correct_text": "HTTP callback through which a payment provider notifies an application about an event"
+    "correct_text": "HTTP callback through which a payment provider notifies an application about an event",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 392,
@@ -9797,7 +10579,9 @@
         "text": "HTTP callback through which a payment provider notifies an application about an event"
       }
     ],
-    "correct_text": "HTTP callback through which a payment provider notifies an application about an event"
+    "correct_text": "HTTP callback through which a payment provider notifies an application about an event",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 393,
@@ -9822,7 +10606,9 @@
         "text": "Razor comment"
       }
     ],
-    "correct_text": "HTTP callback through which a payment provider notifies an application about an event"
+    "correct_text": "HTTP callback through which a payment provider notifies an application about an event",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 394,
@@ -9847,7 +10633,9 @@
         "text": "Razor comment"
       }
     ],
-    "correct_text": "HTTP callback through which a payment provider notifies an application about an event"
+    "correct_text": "HTTP callback through which a payment provider notifies an application about an event",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 395,
@@ -9872,7 +10660,9 @@
         "text": "Razor comment"
       }
     ],
-    "correct_text": "HTTP callback through which a payment provider notifies an application about an event"
+    "correct_text": "HTTP callback through which a payment provider notifies an application about an event",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 396,
@@ -9897,7 +10687,9 @@
         "text": "CSS"
       }
     ],
-    "correct_text": "protocol commonly used to send email messages"
+    "correct_text": "protocol commonly used to send email messages",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 397,
@@ -9922,7 +10714,9 @@
         "text": "CSS"
       }
     ],
-    "correct_text": "protocol commonly used to send email messages"
+    "correct_text": "protocol commonly used to send email messages",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 398,
@@ -9947,7 +10741,9 @@
         "text": "CSS"
       }
     ],
-    "correct_text": "protocol commonly used to send email messages"
+    "correct_text": "protocol commonly used to send email messages",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 399,
@@ -9972,7 +10768,9 @@
         "text": "protocol commonly used to send email messages"
       }
     ],
-    "correct_text": "protocol commonly used to send email messages"
+    "correct_text": "protocol commonly used to send email messages",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 400,
@@ -9997,7 +10795,9 @@
         "text": "CSS"
       }
     ],
-    "correct_text": "protocol commonly used to send email messages"
+    "correct_text": "protocol commonly used to send email messages",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 401,
@@ -10022,7 +10822,9 @@
         "text": "browser cache"
       }
     ],
-    "correct_text": "server that handles outgoing email delivery"
+    "correct_text": "server that handles outgoing email delivery",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 402,
@@ -10047,7 +10849,9 @@
         "text": "browser cache"
       }
     ],
-    "correct_text": "server that handles outgoing email delivery"
+    "correct_text": "server that handles outgoing email delivery",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 403,
@@ -10072,7 +10876,9 @@
         "text": "server that handles outgoing email delivery"
       }
     ],
-    "correct_text": "server that handles outgoing email delivery"
+    "correct_text": "server that handles outgoing email delivery",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 404,
@@ -10097,7 +10903,9 @@
         "text": "browser cache"
       }
     ],
-    "correct_text": "server that handles outgoing email delivery"
+    "correct_text": "server that handles outgoing email delivery",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 405,
@@ -10122,7 +10930,9 @@
         "text": "browser cache"
       }
     ],
-    "correct_text": "server that handles outgoing email delivery"
+    "correct_text": "server that handles outgoing email delivery",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 406,
@@ -10147,7 +10957,9 @@
         "text": "database name"
       }
     ],
-    "correct_text": "person or address to which an email is sent"
+    "correct_text": "person or address to which an email is sent",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 407,
@@ -10172,7 +10984,9 @@
         "text": "person or address to which an email is sent"
       }
     ],
-    "correct_text": "person or address to which an email is sent"
+    "correct_text": "person or address to which an email is sent",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 408,
@@ -10197,7 +11011,9 @@
         "text": "database name"
       }
     ],
-    "correct_text": "person or address to which an email is sent"
+    "correct_text": "person or address to which an email is sent",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 409,
@@ -10222,7 +11038,9 @@
         "text": "database name"
       }
     ],
-    "correct_text": "person or address to which an email is sent"
+    "correct_text": "person or address to which an email is sent",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 410,
@@ -10247,7 +11065,9 @@
         "text": "database name"
       }
     ],
-    "correct_text": "person or address to which an email is sent"
+    "correct_text": "person or address to which an email is sent",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 411,
@@ -10272,7 +11092,9 @@
         "text": "short heading that describes the email message"
       }
     ],
-    "correct_text": "short heading that describes the email message"
+    "correct_text": "short heading that describes the email message",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 412,
@@ -10297,7 +11119,9 @@
         "text": "URL route"
       }
     ],
-    "correct_text": "short heading that describes the email message"
+    "correct_text": "short heading that describes the email message",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 413,
@@ -10322,7 +11146,9 @@
         "text": "URL route"
       }
     ],
-    "correct_text": "short heading that describes the email message"
+    "correct_text": "short heading that describes the email message",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 414,
@@ -10347,7 +11173,9 @@
         "text": "URL route"
       }
     ],
-    "correct_text": "short heading that describes the email message"
+    "correct_text": "short heading that describes the email message",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 415,
@@ -10372,7 +11200,9 @@
         "text": "short heading that describes the email message"
       }
     ],
-    "correct_text": "short heading that describes the email message"
+    "correct_text": "short heading that describes the email message",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 416,
@@ -10397,7 +11227,9 @@
         "text": "CSS selector"
       }
     ],
-    "correct_text": "main content of an email message"
+    "correct_text": "main content of an email message",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 417,
@@ -10422,7 +11254,9 @@
         "text": "CSS selector"
       }
     ],
-    "correct_text": "main content of an email message"
+    "correct_text": "main content of an email message",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 418,
@@ -10447,7 +11281,9 @@
         "text": "CSS selector"
       }
     ],
-    "correct_text": "main content of an email message"
+    "correct_text": "main content of an email message",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 419,
@@ -10472,7 +11308,9 @@
         "text": "main content of an email message"
       }
     ],
-    "correct_text": "main content of an email message"
+    "correct_text": "main content of an email message",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 420,
@@ -10497,7 +11335,9 @@
         "text": "CSS selector"
       }
     ],
-    "correct_text": "main content of an email message"
+    "correct_text": "main content of an email message",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 421,
@@ -10522,7 +11362,9 @@
         "text": "login cookie"
       }
     ],
-    "correct_text": "file sent along with an email message"
+    "correct_text": "file sent along with an email message",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 422,
@@ -10547,7 +11389,9 @@
         "text": "login cookie"
       }
     ],
-    "correct_text": "file sent along with an email message"
+    "correct_text": "file sent along with an email message",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 423,
@@ -10572,7 +11416,9 @@
         "text": "file sent along with an email message"
       }
     ],
-    "correct_text": "file sent along with an email message"
+    "correct_text": "file sent along with an email message",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 424,
@@ -10597,7 +11443,9 @@
         "text": "login cookie"
       }
     ],
-    "correct_text": "file sent along with an email message"
+    "correct_text": "file sent along with an email message",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 425,
@@ -10622,7 +11470,9 @@
         "text": "login cookie"
       }
     ],
-    "correct_text": "file sent along with an email message"
+    "correct_text": "file sent along with an email message",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 426,
@@ -10647,7 +11497,9 @@
         "text": "view names"
       }
     ],
-    "correct_text": "authentication information used to connect to an email service"
+    "correct_text": "authentication information used to connect to an email service",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 427,
@@ -10672,7 +11524,9 @@
         "text": "authentication information used to connect to an email service"
       }
     ],
-    "correct_text": "authentication information used to connect to an email service"
+    "correct_text": "authentication information used to connect to an email service",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 428,
@@ -10697,7 +11551,9 @@
         "text": "view names"
       }
     ],
-    "correct_text": "authentication information used to connect to an email service"
+    "correct_text": "authentication information used to connect to an email service",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 429,
@@ -10722,7 +11578,9 @@
         "text": "view names"
       }
     ],
-    "correct_text": "authentication information used to connect to an email service"
+    "correct_text": "authentication information used to connect to an email service",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 430,
@@ -10747,7 +11605,9 @@
         "text": "view names"
       }
     ],
-    "correct_text": "authentication information used to connect to an email service"
+    "correct_text": "authentication information used to connect to an email service",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 431,
@@ -10772,7 +11632,9 @@
         "text": "compressing web page"
       }
     ],
-    "correct_text": "allowing users to sign in using an existing third-party account"
+    "correct_text": "allowing users to sign in using an existing third-party account",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 432,
@@ -10797,7 +11659,9 @@
         "text": "compressing web page"
       }
     ],
-    "correct_text": "allowing users to sign in using an existing third-party account"
+    "correct_text": "allowing users to sign in using an existing third-party account",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 433,
@@ -10822,7 +11686,9 @@
         "text": "compressing web page"
       }
     ],
-    "correct_text": "allowing users to sign in using an existing third-party account"
+    "correct_text": "allowing users to sign in using an existing third-party account",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 434,
@@ -10847,7 +11713,9 @@
         "text": "allowing users to sign in using an existing third-party account"
       }
     ],
-    "correct_text": "allowing users to sign in using an existing third-party account"
+    "correct_text": "allowing users to sign in using an existing third-party account",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 435,
@@ -10872,7 +11740,9 @@
         "text": "compressing web page"
       }
     ],
-    "correct_text": "allowing users to sign in using an existing third-party account"
+    "correct_text": "allowing users to sign in using an existing third-party account",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 436,
@@ -10897,7 +11767,9 @@
         "text": "database query language"
       }
     ],
-    "correct_text": "framework commonly used for delegated authorization"
+    "correct_text": "framework commonly used for delegated authorization",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 437,
@@ -10922,7 +11794,9 @@
         "text": "database query language"
       }
     ],
-    "correct_text": "framework commonly used for delegated authorization"
+    "correct_text": "framework commonly used for delegated authorization",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 438,
@@ -10947,7 +11821,9 @@
         "text": "framework commonly used for delegated authorization"
       }
     ],
-    "correct_text": "framework commonly used for delegated authorization"
+    "correct_text": "framework commonly used for delegated authorization",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 439,
@@ -10972,7 +11848,9 @@
         "text": "database query language"
       }
     ],
-    "correct_text": "framework commonly used for delegated authorization"
+    "correct_text": "framework commonly used for delegated authorization",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 440,
@@ -10997,7 +11875,9 @@
         "text": "database query language"
       }
     ],
-    "correct_text": "framework commonly used for delegated authorization"
+    "correct_text": "framework commonly used for delegated authorization",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 441,
@@ -11022,7 +11902,9 @@
         "text": "database engine"
       }
     ],
-    "correct_text": "identity layer built on OAuth 2.0 for authentication"
+    "correct_text": "identity layer built on OAuth 2.0 for authentication",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 442,
@@ -11047,7 +11929,9 @@
         "text": "identity layer built on OAuth 2.0 for authentication"
       }
     ],
-    "correct_text": "identity layer built on OAuth 2.0 for authentication"
+    "correct_text": "identity layer built on OAuth 2.0 for authentication",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 443,
@@ -11072,7 +11956,9 @@
         "text": "database engine"
       }
     ],
-    "correct_text": "identity layer built on OAuth 2.0 for authentication"
+    "correct_text": "identity layer built on OAuth 2.0 for authentication",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 444,
@@ -11097,7 +11983,9 @@
         "text": "database engine"
       }
     ],
-    "correct_text": "identity layer built on OAuth 2.0 for authentication"
+    "correct_text": "identity layer built on OAuth 2.0 for authentication",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 445,
@@ -11122,7 +12010,9 @@
         "text": "database engine"
       }
     ],
-    "correct_text": "identity layer built on OAuth 2.0 for authentication"
+    "correct_text": "identity layer built on OAuth 2.0 for authentication",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 446,
@@ -11147,7 +12037,9 @@
         "text": "service that authenticates users and supplies identity information"
       }
     ],
-    "correct_text": "service that authenticates users and supplies identity information"
+    "correct_text": "service that authenticates users and supplies identity information",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 447,
@@ -11172,7 +12064,9 @@
         "text": "database column"
       }
     ],
-    "correct_text": "service that authenticates users and supplies identity information"
+    "correct_text": "service that authenticates users and supplies identity information",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 448,
@@ -11197,7 +12091,9 @@
         "text": "database column"
       }
     ],
-    "correct_text": "service that authenticates users and supplies identity information"
+    "correct_text": "service that authenticates users and supplies identity information",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 449,
@@ -11222,7 +12118,9 @@
         "text": "database column"
       }
     ],
-    "correct_text": "service that authenticates users and supplies identity information"
+    "correct_text": "service that authenticates users and supplies identity information",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 450,
@@ -11247,7 +12145,9 @@
         "text": "service that authenticates users and supplies identity information"
       }
     ],
-    "correct_text": "service that authenticates users and supplies identity information"
+    "correct_text": "service that authenticates users and supplies identity information",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 451,
@@ -11272,7 +12172,9 @@
         "text": "CSS class"
       }
     ],
-    "correct_text": "identifier for an application registered with an external provider"
+    "correct_text": "identifier for an application registered with an external provider",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 452,
@@ -11297,7 +12199,9 @@
         "text": "CSS class"
       }
     ],
-    "correct_text": "identifier for an application registered with an external provider"
+    "correct_text": "identifier for an application registered with an external provider",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 453,
@@ -11322,7 +12226,9 @@
         "text": "CSS class"
       }
     ],
-    "correct_text": "identifier for an application registered with an external provider"
+    "correct_text": "identifier for an application registered with an external provider",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 454,
@@ -11347,7 +12253,9 @@
         "text": "identifier for an application registered with an external provider"
       }
     ],
-    "correct_text": "identifier for an application registered with an external provider"
+    "correct_text": "identifier for an application registered with an external provider",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 455,
@@ -11372,7 +12280,9 @@
         "text": "CSS class"
       }
     ],
-    "correct_text": "identifier for an application registered with an external provider"
+    "correct_text": "identifier for an application registered with an external provider",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 456,
@@ -11397,7 +12307,9 @@
         "text": "route parameter"
       }
     ],
-    "correct_text": "confidential credential used by an application when communicating with a provider"
+    "correct_text": "confidential credential used by an application when communicating with a provider",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 457,
@@ -11422,7 +12334,9 @@
         "text": "route parameter"
       }
     ],
-    "correct_text": "confidential credential used by an application when communicating with a provider"
+    "correct_text": "confidential credential used by an application when communicating with a provider",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 458,
@@ -11447,7 +12361,9 @@
         "text": "confidential credential used by an application when communicating with a provider"
       }
     ],
-    "correct_text": "confidential credential used by an application when communicating with a provider"
+    "correct_text": "confidential credential used by an application when communicating with a provider",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 459,
@@ -11472,7 +12388,9 @@
         "text": "route parameter"
       }
     ],
-    "correct_text": "confidential credential used by an application when communicating with a provider"
+    "correct_text": "confidential credential used by an application when communicating with a provider",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 460,
@@ -11497,7 +12415,9 @@
         "text": "route parameter"
       }
     ],
-    "correct_text": "confidential credential used by an application when communicating with a provider"
+    "correct_text": "confidential credential used by an application when communicating with a provider",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 461,
@@ -11522,7 +12442,9 @@
         "text": "browser home page"
       }
     ],
-    "correct_text": "registered URL to which provider returns the user after authentication"
+    "correct_text": "registered URL to which provider returns the user after authentication",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 462,
@@ -11547,7 +12469,9 @@
         "text": "registered URL to which provider returns the user after authentication"
       }
     ],
-    "correct_text": "registered URL to which provider returns the user after authentication"
+    "correct_text": "registered URL to which provider returns the user after authentication",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 463,
@@ -11572,7 +12496,9 @@
         "text": "browser home page"
       }
     ],
-    "correct_text": "registered URL to which provider returns the user after authentication"
+    "correct_text": "registered URL to which provider returns the user after authentication",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 464,
@@ -11597,7 +12523,9 @@
         "text": "browser home page"
       }
     ],
-    "correct_text": "registered URL to which provider returns the user after authentication"
+    "correct_text": "registered URL to which provider returns the user after authentication",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   },
   {
     "id": 465,
@@ -11622,6 +12550,8 @@
         "text": "browser home page"
       }
     ],
-    "correct_text": "registered URL to which provider returns the user after authentication"
+    "correct_text": "registered URL to which provider returns the user after authentication",
+    "subject_id": "it5058",
+    "subject_name": "IT5058 - Web Technologies with .NET"
   }
 ]
