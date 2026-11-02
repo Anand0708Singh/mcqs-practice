@@ -83,6 +83,9 @@ const nextBtn = document.getElementById('next-btn');
 const finishBtn = document.getElementById('finish-btn');
 const clearBtn = document.getElementById('clear-btn');
 const paletteGrid = document.getElementById('palette-grid');
+const togglePaletteBtn = document.getElementById('toggle-palette-btn');
+const paletteBtnText = document.getElementById('palette-btn-text');
+const paletteColumn = document.querySelector('.palette-column');
 
 // Results Screen Elements
 const scoreRingProgress = document.getElementById('score-ring-progress');
@@ -533,6 +536,20 @@ function renderPalette() {
     paletteGrid.appendChild(btn);
   });
   updatePaletteStatus();
+
+  // On mobile or when scrolling, ensure question header stays in comfortable view
+  if (quizScreen.classList.contains('active')) {
+    const qCol = document.querySelector('.question-column');
+    if (qCol) {
+      const topOffset = qCol.getBoundingClientRect().top;
+      if (topOffset < 60 || topOffset > 240) {
+        window.scrollTo({
+          top: qCol.offsetTop - 70,
+          behavior: 'smooth'
+        });
+      }
+    }
+  }
 }
 
 function updatePaletteStatus() {
@@ -885,3 +902,13 @@ window.addEventListener('DOMContentLoaded', () => {
   initTheme();
   initData();
 });
+
+if (togglePaletteBtn && paletteColumn) {
+  togglePaletteBtn.addEventListener('click', () => {
+    const isOpen = paletteColumn.classList.toggle('mobile-open');
+    paletteBtnText.textContent = isOpen ? 'Hide Palette' : 'Palette';
+    if (isOpen) {
+      paletteColumn.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  });
+}
