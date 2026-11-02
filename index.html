@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IT5058 Web Technologies with .NET - MCQ Practice & Assessment</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Navbar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="brand">
+        <span class="brand-badge">IT5058</span>
+        <div>
+          <h1 class="brand-title">.NET MCQ Practice Portal</h1>
+          <p class="brand-subtitle">Units V & VI | 465 Questions Question Bank</p>
+        </div>
+      </div>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="btn-icon" title="Toggle Dark/Light Mode">
+          <span class="icon" id="theme-icon">🌙</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-container">
+    <!-- Setup / Config Screen -->
+    <section id="setup-screen" class="view-card active">
+      <div class="hero-header">
+        <div class="hero-pill">⚡ Interactive Exam Engine</div>
+        <h2 class="hero-title">Prepare, Test & Master ASP.NET Core</h2>
+        <p class="hero-desc">Complete coverage of Razor Views, Syntax, Layouts, Model Binding, Validations, Form Apps, Online Payments, Email Sending, & Social Logins.</p>
+      </div>
+
+      <!-- Quick Stats Banner -->
+      <div class="stats-row">
+        <div class="stat-card">
+          <span class="stat-number">465</span>
+          <span class="stat-label">Total MCQs</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">2 Units</span>
+          <span class="stat-label">Units V & VI</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">13 Topics</span>
+          <span class="stat-label">Curated Sections</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">Shuffle & Verify</span>
+        </div>
+      </div>
+
+      <!-- Configuration Card -->
+      <div class="config-box">
+        <h3 class="section-heading">1. Select Mode</h3>
+        <div class="mode-grid">
+          <label class="mode-card selected" for="mode-practice">
+            <input type="radio" name="app-mode" id="mode-practice" value="practice" checked>
+            <div class="mode-content">
+              <div class="mode-icon">🎯</div>
+              <div class="mode-info">
+                <h4>Practice Mode (Instant Feedback)</h4>
+                <p>Verify answers right after picking. Read instant explanations, see correct choices, and learn at your own pace.</p>
+              </div>
+            </div>
+          </label>
+
+          <label class="mode-card" for="mode-exam">
+            <input type="radio" name="app-mode" id="mode-exam" value="exam">
+            <div class="mode-content">
+              <div class="mode-icon">⏱️</div>
+              <div class="mode-info">
+                <h4>Exam / Self-Assessment Mode</h4>
+                <p>Timed mock assessment with complete question palette, flag for review, and full score analysis at the end.</p>
+              </div>
+            </div>
+          </label>
+        </div>
+
+        <h3 class="section-heading" style="margin-top: 1.5rem;">2. Scope & Filter</h3>
+        <div class="filter-controls">
+          <div class="form-group">
+            <label for="unit-select">Filter by Unit:</label>
+            <select id="unit-select" class="form-control">
+              <option value="all">All Units (V & VI)</option>
+              <option value="Unit V: Using Controllers with Views">Unit V: Using Controllers with Views (Q1 - Q210)</option>
+              <option value="Unit VI: Working with Model, Form and Other Web Applications">Unit VI: Working with Model, Form & Others (Q211 - Q465)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="topic-select">Filter by Topic:</label>
+            <select id="topic-select" class="form-control">
+              <option value="all">All Topics (Full Coverage)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="count-select">Number of Questions:</label>
+            <select id="count-select" class="form-control">
+              <option value="20">Quick 20 Questions</option>
+              <option value="50" selected>Standard 50 Questions</option>
+              <option value="100">Intensive 100 Questions</option>
+              <option value="all">Full Set (All Available in filter)</option>
+            </select>
+          </div>
+        </div>
+
+        <h3 class="section-heading" style="margin-top: 1.5rem;">3. Randomization & Settings</h3>
+        <div class="toggle-group">
+          <label class="toggle-item">
+            <input type="checkbox" id="shuffle-questions" checked>
+            <span class="custom-toggle"></span>
+            <div>
+              <strong>Shuffle Questions</strong>
+              <p>Randomize the order of questions each session</p>
+            </div>
+          </label>
+
+          <label class="toggle-item">
+            <input type="checkbox" id="shuffle-options" checked>
+            <span class="custom-toggle"></span>
+            <div>
+              <strong>Shuffle Options (Answers)</strong>
+              <p>Randomize A, B, C, D answer choices for each question</p>
+            </div>
+          </label>
+        </div>
+
+        <div class="start-action-row">
+          <button id="start-btn" class="btn btn-primary btn-lg">
+            🚀 Launch Assessment
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quiz Active Screen -->
+    <section id="quiz-screen" class="view-card">
+      <!-- Quiz Header / Status Bar -->
+      <div class="quiz-topbar">
+        <div class="quiz-progress-meta">
+          <span class="badge" id="quiz-badge-mode">Practice Mode</span>
+          <span class="badge badge-unit" id="quiz-badge-unit">Unit V</span>
+          <span class="quiz-counter">Question <strong id="current-q-index">1</strong> of <span id="total-q-count">50</span></span>
+        </div>
+        
+        <div class="quiz-top-actions">
+          <div id="quiz-timer-box" class="timer-box" style="display: none;">
+            <span class="timer-icon">⏳</span>
+            <span id="quiz-timer-text">00:00</span>
+          </div>
+          <button id="flag-btn" class="btn btn-secondary btn-sm" title="Bookmark for review">
+            🚩 <span id="flag-text">Flag</span>
+          </button>
+          <button id="abort-btn" class="btn btn-outline-danger btn-sm">Quit</button>
+        </div>
+      </div>
+
+      <!-- Progress Line -->
+      <div class="progress-bar-container">
+        <div id="quiz-progress-bar" class="progress-bar-fill"></div>
+      </div>
+
+      <!-- Main Quiz Layout (Question + Sidebar Palette) -->
+      <div class="quiz-body-grid">
+        <div class="question-column">
+          <div class="question-header">
+            <span class="topic-tag" id="current-topic-tag">Working with Razor Views</span>
+            <span class="qid-tag" id="current-qid-tag">Q#</span>
+          </div>
+
+          <h3 id="question-text" class="question-prompt">Loading question...</h3>
+
+          <div id="options-list" class="options-container">
+            <!-- Rendered dynamically -->
+          </div>
+
+          <!-- Instant Feedback Area (Practice Mode) -->
+          <div id="feedback-panel" class="feedback-panel" style="display: none;">
+            <div class="feedback-badge" id="feedback-badge">Correct!</div>
+            <div class="feedback-details">
+              <p id="feedback-text"></p>
+            </div>
+          </div>
+
+          <!-- Question Navigation Buttons -->
+          <div class="question-nav-bar">
+            <button id="prev-btn" class="btn btn-secondary" disabled>← Previous</button>
+            <div class="nav-middle">
+              <button id="clear-btn" class="btn btn-subtle">Clear Selection</button>
+            </div>
+            <button id="next-btn" class="btn btn-primary">Next →</button>
+            <button id="finish-btn" class="btn btn-success" style="display: none;">Submit Assessment 🏁</button>
+          </div>
+        </div>
+
+        <!-- Question Palette Sidebar -->
+        <aside class="palette-column">
+          <div class="palette-header">
+            <h4>Question Palette</h4>
+            <div class="palette-legend">
+              <span class="legend-item"><span class="dot dot-answered"></span> Answered</span>
+              <span class="legend-item"><span class="dot dot-flagged"></span> Flagged</span>
+              <span class="legend-item"><span class="dot dot-unanswered"></span> Pending</span>
+            </div>
+          </div>
+          <div id="palette-grid" class="palette-grid">
+            <!-- Palette numbers rendered dynamically -->
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Results Screen -->
+    <section id="results-screen" class="view-card">
+      <div class="results-header">
+        <div class="score-circle-wrapper">
+          <svg class="score-ring" viewBox="0 0 120 120">
+            <circle class="score-ring-bg" cx="60" cy="60" r="50"></circle>
+            <circle id="score-ring-progress" class="score-ring-bar" cx="60" cy="60" r="50"></circle>
+          </svg>
+          <div class="score-display">
+            <span id="score-percent" class="score-val">0%</span>
+            <span class="score-sub">Score</span>
+          </div>
+        </div>
+
+        <div class="results-summary-info">
+          <h2 id="result-greeting">Assessment Completed!</h2>
+          <p id="result-message">Here is your performance breakdown.</p>
+          <div class="results-quick-badges">
+            <span class="res-badge res-correct">✓ <span id="res-correct-cnt">0</span> Correct</span>
+            <span class="res-badge res-wrong">✕ <span id="res-wrong-cnt">0</span> Incorrect</span>
+            <span class="res-badge res-skipped">○ <span id="res-skipped-cnt">0</span> Unanswered</span>
+            <span class="res-badge res-time">⏱ <span id="res-time-taken">00:00</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="results-actions">
+        <button id="retake-btn" class="btn btn-primary">🔄 Retake Same Filter (Shuffle)</button>
+        <button id="retry-incorrect-btn" class="btn btn-warning" style="display: none;">⚠️ Retry Incorrect Questions</button>
+        <button id="new-test-btn" class="btn btn-secondary">⚙️ Configure New Assessment</button>
+      </div>
+
+      <!-- Detailed Review Section -->
+      <div class="review-section">
+        <div class="review-header">
+          <h3>Review All Questions</h3>
+          <div class="review-filters">
+            <button class="filter-chip active" data-filter="all">All (<span id="chip-all-cnt">0</span>)</button>
+            <button class="filter-chip" data-filter="wrong">Incorrect (<span id="chip-wrong-cnt">0</span>)</button>
+            <button class="filter-chip" data-filter="correct">Correct (<span id="chip-correct-cnt">0</span>)</button>
+            <button class="filter-chip" data-filter="flagged">Flagged (<span id="chip-flagged-cnt">0</span>)</button>
+          </div>
+        </div>
+
+        <div id="review-cards-list" class="review-cards-container">
+          <!-- Rendered dynamically -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <p>IT5058 Web Technologies with .NET Multiple-Choice Assessment Platform</p>
+      <p>465 Verified Questions with Options & Answer Shuffling. Ready for GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <!-- Include Question Bank and App Logic -->
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
