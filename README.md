@@ -14,13 +14,13 @@ Hosted live on **GitHub Pages**:
 | **03/11/2026** | 9:45–10:05 AM & 10:30–10:50 AM | **Web Technology with .NET** | `IT5058` | 🟢 **Ready** | **465 MCQs** | Unit V & Unit VI |
 | **03/11/2026** | 12:00 PM – 12:20 PM | **Design of Wearable and Smart Gadgets** | `DWG501` | ⏳ Pending | `subjects/wearable-gadgets/` | - |
 | **03/11/2026** | 01:30–01:50 PM & 02:15–02:35 PM | **Data Communication and Networking (DCN)** | `IT5052` | 🟢 **Ready** | **395 MCQs** | Unit IV, Unit V & Unit VI |
-| **04/11/2026** | 9:00 – 9:20 AM | **Windows .NET (WPF)** | `MOB503` | 🟢 **Ready** | **80 MCQs** | Unit V & Unit VI |
-| **04/11/2026** | 10:30 – 10:50 AM | **Information Security** | `IT5054` | 🟢 **Ready** | **74 MCQs** | Unit V & Unit VI |
+| **04/11/2026** | 9:00 – 9:20 AM | **Windows .NET (WPF)** | `MOB503` | 🟢 **Ready** | **100 MCQs** | Unit V & Unit VI |
+| **04/11/2026** | 10:30 – 10:50 AM | **Information Security** | `IT5054` | 🟢 **Ready** | **108 MCQs** | Unit V & Unit VI |
 | **04/11/2026** | 12:45 PM – 01:05 PM | **Cloud Infrastructure & Resource Management**| `IT5056` | ⏳ Pending | `subjects/cloud-infrastructure/` | - |
-| **04/11/2026** | 02:15 PM – 02:35 PM | **Machine Learning** | `AI502` | 🟢 **Ready** | **77 MCQs** | Unit V & Unit VI |
+| **04/11/2026** | 02:15 PM – 02:35 PM | **Machine Learning** | `AI502` | 🟢 **Ready** | **106 MCQs** | Unit V & Unit VI |
 | **04/11/2026** | 02:15 PM – 02:35 PM | **Software Testing** | `SE504` | ⏳ Pending | `subjects/software-testing/` | - |
 
-**Total Active Verified Question Bank: 1,091 MCQs across 5 Core Subjects!**
+**Total Active Verified Question Bank: 1,174 MCQs across 5 Core Subjects!**
 
 ---
 
@@ -83,15 +83,15 @@ mcqs-practice/
     │   ├── questions.js
     │   └── questions.json
     ├── windows-dotnet/                               # MOB503 - Windows .NET (WPF)
-    │   ├── MOB503_Windows_DotNet_Units_V_VI_MCQ_Question_Bank.pdf # Downloadable printable PDF (80 MCQs)
+    │   ├── MOB503_Windows_DotNet_Units_V_VI_MCQ_Question_Bank.pdf # Downloadable printable PDF (100 MCQs)
     │   ├── questions.js
     │   └── questions.json
     ├── information-security/                         # IT5054 - Information Security
-    │   ├── IT5054_IS_Units_V_VI_MCQ_Question_Bank.pdf # Downloadable printable PDF (74 MCQs)
+    │   ├── IT5054_IS_Units_V_VI_MCQ_Question_Bank.pdf # Downloadable printable PDF (108 MCQs)
     │   ├── questions.js
     │   └── questions.json
     └── machine-learning/                             # AI502 - Machine Learning
-        ├── AI502_ML_Units_V_VI_MCQ_Question_Bank.pdf # Downloadable printable PDF (77 MCQs)
+        ├── AI502_ML_Units_V_VI_MCQ_Question_Bank.pdf # Downloadable printable PDF (106 MCQs)
         ├── questions.js
         └── questions.json
 ```
@@ -110,6 +110,6 @@ Then navigate to `http://localhost:8000`.
 To push updates to GitHub Pages:
 ```bash
 git add .
-git commit -m "feat: complete multi-subject question bank integration, PDFs & website improvements"
+git commit -m "feat: expand question banks to 1,174 MCQs, regenerate PDFs & update portal"
 git push origin main
 ```

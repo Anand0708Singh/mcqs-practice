@@ -2309,5 +2309,875 @@ window.ML_DATA = [
     "correct_text": "Storing past transitions (s, a, r, s') and sampling random mini-batches to break temporal correlation between consecutive experiences and stabilize training",
     "explanation": "Consecutive transitions in RL are highly correlated, leading to unstable gradient updates; uniform random sampling from replay memory breaks these correlations.",
     "difficulty": "Hard"
+  },
+  {
+    "id": 78,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit V: Unsupervised Learning & Neural Networks",
+    "topic": "Clustering & Partition Methods",
+    "question": "What is the computational time complexity of the standard Lloyd's k-Means algorithm per iteration with $n$ data points, $d$ dimensions, and $k$ clusters?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "$O(n \\cdot k \\cdot d)$"
+      },
+      {
+        "letter": "B",
+        "text": "$O(n^2 \\cdot d)$"
+      },
+      {
+        "letter": "C",
+        "text": "$O(k^3 \\cdot n)$"
+      },
+      {
+        "letter": "D",
+        "text": "$O(d^2 \\cdot \\log n)$"
+      }
+    ],
+    "correct_text": "$O(n \\cdot k \\cdot d)$",
+    "explanation": "In each iteration of k-Means, every one of the $n$ points calculates Euclidean distance to $k$ centroids across $d$ dimensions.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 79,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit V: Unsupervised Learning & Neural Networks",
+    "topic": "Clustering & Partition Methods",
+    "question": "What is the k-Means++ initialization algorithm designed to solve?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Poor clustering convergence caused by arbitrarily choosing initial centroids too close to each other"
+      },
+      {
+        "letter": "B",
+        "text": "Overfitting on large training datasets"
+      },
+      {
+        "letter": "C",
+        "text": "Vanishing gradients in neural network backpropagation"
+      },
+      {
+        "letter": "D",
+        "text": "Inability of k-Means to handle continuous numerical attributes"
+      }
+    ],
+    "correct_text": "Poor clustering convergence caused by arbitrarily choosing initial centroids too close to each other",
+    "explanation": "k-Means++ selects the first centroid uniformly at random, then chooses subsequent centroids with probability proportional to the squared distance from the closest existing centroid.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 80,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit V: Unsupervised Learning & Neural Networks",
+    "topic": "Hierarchical Clustering",
+    "question": "In hierarchical agglomerative clustering, what is 'Single Linkage' (Minimum Linkage) and what artifact is it susceptible to?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Distance between two clusters is the minimum distance between any point in Cluster 1 and any point in Cluster 2; susceptible to 'Chaining' (elongated clusters)"
+      },
+      {
+        "letter": "B",
+        "text": "Distance between cluster means; susceptible to spherical bias"
+      },
+      {
+        "letter": "C",
+        "text": "Distance between cluster variances; susceptible to outliers"
+      },
+      {
+        "letter": "D",
+        "text": "Distance computed using random sampling; susceptible to non-convergence"
+      }
+    ],
+    "correct_text": "Distance between two clusters is the minimum distance between any point in Cluster 1 and any point in Cluster 2; susceptible to 'Chaining' (elongated clusters)",
+    "explanation": "Single linkage merges clusters linked by thin chains of intermediate points, often generating extended string-like clusters rather than compact groups.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 81,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit V: Unsupervised Learning & Neural Networks",
+    "topic": "Hierarchical Clustering",
+    "question": "What objective does Ward's Hierarchical Clustering method optimize at each merge step?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Minimizing the total within-cluster variance increase (minimum sum of squared differences from the centroid)"
+      },
+      {
+        "letter": "B",
+        "text": "Maximizing the geometric distance between farthest points"
+      },
+      {
+        "letter": "C",
+        "text": "Maximizing the total number of clusters"
+      },
+      {
+        "letter": "D",
+        "text": "Minimizing the number of dimensions in the dataset"
+      }
+    ],
+    "correct_text": "Minimizing the total within-cluster variance increase (minimum sum of squared differences from the centroid)",
+    "explanation": "Ward's minimum variance criterion merges the pair of clusters that minimizes the increase in total within-cluster sum of squares.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 82,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit V: Unsupervised Learning & Neural Networks",
+    "topic": "Density-Based Clustering",
+    "question": "What does OPTICS (Ordering Points To Identify the Clustering Structure) improve over standard DBSCAN?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "It handles datasets with varying densities by producing an augmented cluster-ordering reachability plot rather than relying on a single fixed global epsilon"
+      },
+      {
+        "letter": "B",
+        "text": "It runs in $O(1)$ constant time"
+      },
+      {
+        "letter": "C",
+        "text": "It replaces distance metrics with decision trees"
+      },
+      {
+        "letter": "D",
+        "text": "It requires user labels for cluster seeds"
+      }
+    ],
+    "correct_text": "It handles datasets with varying densities by producing an augmented cluster-ordering reachability plot rather than relying on a single fixed global epsilon",
+    "explanation": "Standard DBSCAN struggles when clusters have significantly different local densities; OPTICS generates reachability plots to identify multi-density clusters.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 83,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit V: Unsupervised Learning & Neural Networks",
+    "topic": "Pattern Finding & Association Rules",
+    "question": "What is the FP-Growth (Frequent Pattern Growth) algorithm and why is it faster than Apriori?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "It constructs a compact FP-Tree data structure in memory and uses recursive divide-and-conquer without generating candidate itemsets"
+      },
+      {
+        "letter": "B",
+        "text": "It uses quantum computing gates to search databases"
+      },
+      {
+        "letter": "C",
+        "text": "It only scans the database for single items"
+      },
+      {
+        "letter": "D",
+        "text": "It discards 90% of transaction data at random"
+      }
+    ],
+    "correct_text": "It constructs a compact FP-Tree data structure in memory and uses recursive divide-and-conquer without generating candidate itemsets",
+    "explanation": "FP-Growth avoids the exponential bottleneck of candidate generation by compressing transactions into a prefix tree and mining conditional pattern bases.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 84,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit V: Unsupervised Learning & Neural Networks",
+    "topic": "Basics of Neural Networks",
+    "question": "What is the mathematical threshold logic function computed by the original 1943 McCulloch-Pitts artificial neuron?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "$y = 1$ if $\\sum w_i x_i \\ge \\theta$ and no inhibitory inputs are active; otherwise $y = 0$"
+      },
+      {
+        "letter": "B",
+        "text": "$y = \\frac{1}{1 + e^{-z}}$"
+      },
+      {
+        "letter": "C",
+        "text": "$y = \\max(0, z)$"
+      },
+      {
+        "letter": "D",
+        "text": "$y = \\tanh(z)$"
+      }
+    ],
+    "correct_text": "$y = 1$ if $\\sum w_i x_i \\ge \\theta$ and no inhibitory inputs are active; otherwise $y = 0$",
+    "explanation": "The McCulloch-Pitts neuron modelled biological excitation and absolute inhibition using binary threshold logic with fixed integer weights.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 85,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit V: Unsupervised Learning & Neural Networks",
+    "topic": "Basics of Neural Networks",
+    "question": "What is the Perceptron Convergence Theorem formulated by Frank Rosenblatt?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "If the training dataset is linearly separable, the Perceptron learning algorithm is guaranteed to converge to a separating hyperplane in a finite number of steps"
+      },
+      {
+        "letter": "B",
+        "text": "Any neural network with 3 layers can learn any continuous function"
+      },
+      {
+        "letter": "C",
+        "text": "Perceptrons converge faster when learning rates are infinite"
+      },
+      {
+        "letter": "D",
+        "text": "Perceptrons can separate non-linear circles without kernel transformations"
+      }
+    ],
+    "correct_text": "If the training dataset is linearly separable, the Perceptron learning algorithm is guaranteed to converge to a separating hyperplane in a finite number of steps",
+    "explanation": "Rosenblatt proved that given linear separability and bounded inputs, error-correction weight updates will terminate with zero training error.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 86,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit V: Unsupervised Learning & Neural Networks",
+    "topic": "Basics of Neural Networks",
+    "question": "What is the derivative of the standard Sigmoid function $\\sigma(z)$ expressed in terms of its output?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "$\\sigma'(z) = \\sigma(z)(1 - \\sigma(z))$"
+      },
+      {
+        "letter": "B",
+        "text": "$\\sigma'(z) = 1 - \\sigma(z)^2$"
+      },
+      {
+        "letter": "C",
+        "text": "$\\sigma'(z) = \\max(0, 1)$"
+      },
+      {
+        "letter": "D",
+        "text": "$\\sigma'(z) = \\frac{1}{\\sigma(z)}$"
+      }
+    ],
+    "correct_text": "$\\sigma'(z) = \\sigma(z)(1 - \\sigma(z))$",
+    "explanation": "Because its derivative has maximum value 0.25 (at $z=0$), chaining gradients across multiple layers quickly leads to vanishing gradients ($0.25^L \\to 0$).",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 87,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit V: Unsupervised Learning & Neural Networks",
+    "topic": "Basics of Neural Networks",
+    "question": "What is the Dying ReLU problem in deep neural network training?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "If a large gradient updates weights such that the neuron produces negative values for all training samples, its gradient is permanently 0 and the neuron never activates again"
+      },
+      {
+        "letter": "B",
+        "text": "The GPU runs out of video memory during backpropagation"
+      },
+      {
+        "letter": "C",
+        "text": "The loss function oscillates to infinity"
+      },
+      {
+        "letter": "D",
+        "text": "The network loses connection to the training server"
+      }
+    ],
+    "correct_text": "If a large gradient updates weights such that the neuron produces negative values for all training samples, its gradient is permanently 0 and the neuron never activates again",
+    "explanation": "Because the derivative of ReLU is 0 for $z < 0$, weights cannot recover once a neuron gets knocked into negative activation across the entire dataset.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 88,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit V: Unsupervised Learning & Neural Networks",
+    "topic": "Basics of Neural Networks",
+    "question": "How does Leaky ReLU resolve the Dying ReLU problem?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "By introducing a small, non-zero slope (e.g. $\\alpha = 0.01$) for negative inputs ($f(x) = \\alpha x$ when $x < 0$)"
+      },
+      {
+        "letter": "B",
+        "text": "By inverting positive values to negative values"
+      },
+      {
+        "letter": "C",
+        "text": "By converting all weights to complex numbers"
+      },
+      {
+        "letter": "D",
+        "text": "By resetting weights to zero after every epoch"
+      }
+    ],
+    "correct_text": "By introducing a small, non-zero slope (e.g. $\\alpha = 0.01$) for negative inputs ($f(x) = \\alpha x$ when $x < 0$)",
+    "explanation": "Leaky ReLU ensures a small gradient always flows backward even when activations are negative, preventing dead units.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 89,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit V: Unsupervised Learning & Neural Networks",
+    "topic": "Basics of Neural Networks",
+    "question": "What is a Competitive Neural Network (such as a Kohonen Self-Organizing Map / SOM)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "An unsupervised network where neurons compete for the right to respond to input patterns using a Winner-Takes-All rule"
+      },
+      {
+        "letter": "B",
+        "text": "A network where two players play chess against each other"
+      },
+      {
+        "letter": "C",
+        "text": "A network that optimizes linear programming models"
+      },
+      {
+        "letter": "D",
+        "text": "A supervised classifier using hinge loss"
+      }
+    ],
+    "correct_text": "An unsupervised network where neurons compete for the right to respond to input patterns using a Winner-Takes-All rule",
+    "explanation": "In competitive learning, the neuron whose weight vector is closest to the input vector wins and adapts its weights and neighborhood towards the input.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 90,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit V: Unsupervised Learning & Neural Networks",
+    "topic": "Basics of Neural Networks",
+    "question": "What is the Exploding Gradient problem in Recurrent Neural Networks (RNNs) and how is it standardly mitigated?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Gradients accumulate exponentially through unrolled time steps causing numeric overflow; mitigated using Gradient Clipping (capping maximum gradient norm)"
+      },
+      {
+        "letter": "B",
+        "text": "Gradients diminish to zero; mitigated by adding more layers"
+      },
+      {
+        "letter": "C",
+        "text": "Loss becomes negative; mitigated by removing hidden layers"
+      },
+      {
+        "letter": "D",
+        "text": "Weights flip signs alternately; mitigated by multiplying by -1"
+      }
+    ],
+    "correct_text": "Gradients accumulate exponentially through unrolled time steps causing numeric overflow; mitigated using Gradient Clipping (capping maximum gradient norm)",
+    "explanation": "Gradient clipping rescales gradient vectors when their $L_2$ norm exceeds a threshold $c$: $g \\leftarrow c \\frac{g}{\\|g\\|}$.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 91,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit V: Unsupervised Learning & Neural Networks",
+    "topic": "Basics of Neural Networks",
+    "question": "What are the three gates present in a Long Short-Term Memory (LSTM) cell?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Forget Gate, Input Gate, and Output Gate"
+      },
+      {
+        "letter": "B",
+        "text": "Read Gate, Write Gate, and Execute Gate"
+      },
+      {
+        "letter": "C",
+        "text": "Encode Gate, Latent Gate, and Decode Gate"
+      },
+      {
+        "letter": "D",
+        "text": "AND Gate, OR Gate, and XOR Gate"
+      }
+    ],
+    "correct_text": "Forget Gate, Input Gate, and Output Gate",
+    "explanation": "LSTMs regulate internal cell state $C_t$ via sigmoid gates: forget gate (what to discard), input gate (what new information to store), output gate (what to emit).",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 92,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit V: Unsupervised Learning & Neural Networks",
+    "topic": "Basics of Neural Networks",
+    "question": "What is the difference between standard convolution and 1x1 Convolution (Pointwise Convolution) in deep CNN architectures (like Inception)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1x1 convolution acts as cross-channel pooling, reducing or increasing feature map channel depth without altering spatial width and height"
+      },
+      {
+        "letter": "B",
+        "text": "1x1 convolution downsamples spatial resolution by half"
+      },
+      {
+        "letter": "C",
+        "text": "1x1 convolution completely removes spatial channels"
+      },
+      {
+        "letter": "D",
+        "text": "1x1 convolution can only be applied to black-and-white photos"
+      }
+    ],
+    "correct_text": "1x1 convolution acts as cross-channel pooling, reducing or increasing feature map channel depth without altering spatial width and height",
+    "explanation": "1x1 convolutions compute linear combinations across input channels followed by non-linearities, allowing dimensionality reduction before expensive 3x3/5x5 convolutions.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 93,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit V: Unsupervised Learning & Neural Networks",
+    "topic": "Basics of Neural Networks",
+    "question": "What is Positional Encoding in Transformer models?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Vector representations added to token embeddings to inject sequence order information into the permutation-invariant self-attention layers"
+      },
+      {
+        "letter": "B",
+        "text": "GPS tracking coordinates embedded in mobile devices"
+      },
+      {
+        "letter": "C",
+        "text": "Index numbers assigned to hidden layer weights"
+      },
+      {
+        "letter": "D",
+        "text": "Labels assigned to tokens by human annotators"
+      }
+    ],
+    "correct_text": "Vector representations added to token embeddings to inject sequence order information into the permutation-invariant self-attention layers",
+    "explanation": "Because multi-head attention operates on sets of tokens simultaneously without recurrence, sinusoidal or learned positional embeddings restore word order.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 94,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit VI: Advanced Learning Topics",
+    "topic": "Representation Learning",
+    "question": "What is Self-Supervised Learning (SSL) and how does it relate to Representation Learning?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The model creates its own supervisory signals from unlabeled data (e.g. predicting masked words or contrasting augmented image views) to learn rich feature representations"
+      },
+      {
+        "letter": "B",
+        "text": "A human supervisor writes rules for the model once a day"
+      },
+      {
+        "letter": "C",
+        "text": "The model trains exclusively without loss functions"
+      },
+      {
+        "letter": "D",
+        "text": "A technique where models evaluate their own accuracy on test sets"
+      }
+    ],
+    "correct_text": "The model creates its own supervisory signals from unlabeled data (e.g. predicting masked words or contrasting augmented image views) to learn rich feature representations",
+    "explanation": "Pre-training paradigms like BERT (Masked Language Modeling) and SimCLR (Contrastive Learning) extract generalizable representations from massive unlabeled corpora.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 95,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit VI: Advanced Learning Topics",
+    "topic": "Active Learning",
+    "question": "Which query strategy in Active Learning selects unlabeled instances where the difference between the top two highest predicted class probabilities is smallest?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Margin Sampling"
+      },
+      {
+        "letter": "B",
+        "text": "Least Confidence Sampling"
+      },
+      {
+        "letter": "C",
+        "text": "Entropy Sampling"
+      },
+      {
+        "letter": "D",
+        "text": "Random Uniform Sampling"
+      }
+    ],
+    "correct_text": "Margin Sampling",
+    "explanation": "Margin sampling targets data points where the classifier is most ambiguous between the top two competitor classes: $x^* = \\arg\\min_x (P(\\hat{y}_1|x) - P(\\hat{y}_2|x))$.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 96,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit VI: Advanced Learning Topics",
+    "topic": "Instance-Based Learning",
+    "question": "What is the 'Curse of Dimensionality' in high-dimensional instance-based learning (k-NN)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "As the number of features increases, data points become equidistant from one another in high-dimensional space, rendering distance metrics uninformative"
+      },
+      {
+        "letter": "B",
+        "text": "High dimensional matrices cannot be multiplied on modern GPUs"
+      },
+      {
+        "letter": "C",
+        "text": "The number of classes grows exponentially with dataset size"
+      },
+      {
+        "letter": "D",
+        "text": "k-NN cannot be run on datasets with more than 5 columns"
+      }
+    ],
+    "correct_text": "As the number of features increases, data points become equidistant from one another in high-dimensional space, rendering distance metrics uninformative",
+    "explanation": "In high dimensions, the ratio between the distance to the nearest neighbor and the distance to the farthest neighbor approaches 1, diminishing neighbor distinctions.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 97,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit VI: Advanced Learning Topics",
+    "topic": "Ensemble Learning",
+    "question": "What is the mathematical definition of Stacking (Stacked Generalization) in ensemble learning?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Training multiple heterogeneous base models (e.g. SVM, Random Forest, Neural Net) and training a Meta-Learner on their combined prediction outputs"
+      },
+      {
+        "letter": "B",
+        "text": "Summing all decision tree weights without training"
+      },
+      {
+        "letter": "C",
+        "text": "Stacking datasets on top of each other in a spreadsheet"
+      },
+      {
+        "letter": "D",
+        "text": "Running the same model 10 times in a loop"
+      }
+    ],
+    "correct_text": "Training multiple heterogeneous base models (e.g. SVM, Random Forest, Neural Net) and training a Meta-Learner on their combined prediction outputs",
+    "explanation": "Stacking combines predictions of diverse model families via out-of-fold cross-validation to prevent target leakage into the meta-model.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 98,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit VI: Advanced Learning Topics",
+    "topic": "Ensemble Learning",
+    "question": "In AdaBoost (Adaptive Boosting), how are the weights of training instances modified after each weak hypothesis is trained?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Weights of incorrectly classified instances are increased, forcing subsequent weak learners to concentrate on hard examples"
+      },
+      {
+        "letter": "B",
+        "text": "Weights of all instances are reset to zero"
+      },
+      {
+        "letter": "C",
+        "text": "Weights of correctly classified instances are doubled"
+      },
+      {
+        "letter": "D",
+        "text": "Incorrect instances are deleted from the training set"
+      }
+    ],
+    "correct_text": "Weights of incorrectly classified instances are increased, forcing subsequent weak learners to concentrate on hard examples",
+    "explanation": "AdaBoost updates sample weights with $w_i \\leftarrow w_i \\exp(\\alpha_m \\cdot \\mathbb{I}(y_i \\ne h_m(x_i)))$, focusing attention on misclassified points.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 99,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit VI: Advanced Learning Topics",
+    "topic": "Ensemble Learning",
+    "question": "How does Gradient Boosting differ fundamentally from AdaBoost?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Gradient Boosting optimizes any differentiable loss function by training base learners to fit pseudo-residuals (negative gradients) rather than re-weighting data points"
+      },
+      {
+        "letter": "B",
+        "text": "Gradient Boosting cannot be used for regression"
+      },
+      {
+        "letter": "C",
+        "text": "Gradient Boosting trains all trees in parallel"
+      },
+      {
+        "letter": "D",
+        "text": "Gradient Boosting does not use decision trees"
+      }
+    ],
+    "correct_text": "Gradient Boosting optimizes any differentiable loss function by training base learners to fit pseudo-residuals (negative gradients) rather than re-weighting data points",
+    "explanation": "Gradient boosting views boosting as gradient descent in function space, sequentially fitting new base models to the residual errors of the current ensemble.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 100,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit VI: Advanced Learning Topics",
+    "topic": "Regularization Algorithms",
+    "question": "What is Early Stopping in iterative machine learning algorithms?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Halting model training when performance on an independent validation set begins to deteriorate, preventing overfitting"
+      },
+      {
+        "letter": "B",
+        "text": "Terminating the server when training exceeds 1 hour"
+      },
+      {
+        "letter": "C",
+        "text": "Stopping the test set evaluation after 10 samples"
+      },
+      {
+        "letter": "D",
+        "text": "Deleting model checkpoints periodically"
+      }
+    ],
+    "correct_text": "Halting model training when performance on an independent validation set begins to deteriorate, preventing overfitting",
+    "explanation": "Early stopping acts as a regularizer by limiting effective parameter capacity and stopping gradient updates before the model fits noise.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 101,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit VI: Advanced Learning Topics",
+    "topic": "Regularization Algorithms",
+    "question": "What is Batch Normalization and what are its primary benefits during deep network training?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Normalizing layer inputs across each mini-batch (zero mean, unit variance) followed by learnable scaling and shifting (gamma and beta); speeds up training and stabilizes gradients"
+      },
+      {
+        "letter": "B",
+        "text": "Sorting training records in alphabetical order"
+      },
+      {
+        "letter": "C",
+        "text": "Compressing mini-batches with gzip"
+      },
+      {
+        "letter": "D",
+        "text": "Rounding all weight parameters to integer values"
+      }
+    ],
+    "correct_text": "Normalizing layer inputs across each mini-batch (zero mean, unit variance) followed by learnable scaling and shifting (gamma and beta); speeds up training and stabilizes gradients",
+    "explanation": "Batch Normalization reduces internal covariate shift, allows significantly higher learning rates, and acts as a mild regularizer.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 102,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit VI: Advanced Learning Topics",
+    "topic": "Generative Models",
+    "question": "What is the Mode Collapse failure mode in Generative Adversarial Networks (GANs)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The Generator discovers a narrow subset of outputs that fool the Discriminator and produces limited, repetitive samples rather than diverse data distributions"
+      },
+      {
+        "letter": "B",
+        "text": "The Generator runs out of memory and crashes"
+      },
+      {
+        "letter": "C",
+        "text": "The Discriminator achieves 100% loss on real images"
+      },
+      {
+        "letter": "D",
+        "text": "The generator and discriminator swap weight parameters"
+      }
+    ],
+    "correct_text": "The Generator discovers a narrow subset of outputs that fool the Discriminator and produces limited, repetitive samples rather than diverse data distributions",
+    "explanation": "Mode collapse occurs when the generator maps multiple latent vectors to the same small set of realistic outputs, failing to capture full data variety.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 103,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit VI: Advanced Learning Topics",
+    "topic": "Generative Models",
+    "question": "What loss component in Variational Autoencoders (VAEs) measures the difference between the approximate posterior distribution $q_\\phi(z|x)$ and the prior $p(z)$?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kullback-Leibler (KL) Divergence"
+      },
+      {
+        "letter": "B",
+        "text": "Mean Squared Error (MSE)"
+      },
+      {
+        "letter": "C",
+        "text": "Binary Cross Entropy"
+      },
+      {
+        "letter": "D",
+        "text": "Hinge Loss"
+      }
+    ],
+    "correct_text": "Kullback-Leibler (KL) Divergence",
+    "explanation": "The VAE loss combines reconstruction loss (measuring data fidelity) and KL divergence (regularizing latent representations towards standard normal distributions).",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 104,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit VI: Advanced Learning Topics",
+    "topic": "Reinforcement Learning",
+    "question": "What is the Bellman Optimality Equation for the state-value function $V^*(s)$ in dynamic programming / RL?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "$V^*(s) = \\max_a \\sum_{s', r} p(s', r | s, a) [r + \\gamma V^*(s')]$"
+      },
+      {
+        "letter": "B",
+        "text": "$V^*(s) = \\sum_a \\pi(a|s) Q(s, a)$"
+      },
+      {
+        "letter": "C",
+        "text": "$V^*(s) = r + \\gamma$"
+      },
+      {
+        "letter": "D",
+        "text": "$V^*(s) = \\frac{1}{1 - \\gamma}$"
+      }
+    ],
+    "correct_text": "$V^*(s) = \\max_a \\sum_{s', r} p(s', r | s, a) [r + \\gamma V^*(s')]$",
+    "explanation": "The Bellman optimality equation states that the value of an optimal state equals the expected immediate reward plus discounted optimal value of the successor state.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 105,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit VI: Advanced Learning Topics",
+    "topic": "Reinforcement Learning",
+    "question": "What is the difference between On-Policy algorithms (like SARSA) and Off-Policy algorithms (like Q-Learning)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "On-Policy evaluates and improves the exact policy currently used to take actions; Off-Policy learns an optimal target policy independently of the exploratory behavior policy"
+      },
+      {
+        "letter": "B",
+        "text": "On-Policy runs on real robots; Off-Policy runs in software simulations"
+      },
+      {
+        "letter": "C",
+        "text": "On-Policy requires neural networks; Off-Policy uses lookup tables only"
+      },
+      {
+        "letter": "D",
+        "text": "On-Policy does not use discount factors"
+      }
+    ],
+    "correct_text": "On-Policy evaluates and improves the exact policy currently used to take actions; Off-Policy learns an optimal target policy independently of the exploratory behavior policy",
+    "explanation": "SARSA updates using action $a'$ chosen by its current epsilon-greedy policy: $Q(s, a) \\leftarrow Q(s, a) + \\alpha [r + \\gamma Q(s', a') - Q(s, a)]$, while Q-learning uses $\\max_{a'} Q(s', a')$.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 106,
+    "subject_id": "machine-learning",
+    "subject_code": "AI502",
+    "subject_name": "Machine Learning",
+    "unit": "Unit VI: Advanced Learning Topics",
+    "topic": "Reinforcement Learning",
+    "question": "In Policy Gradient methods (such as REINFORCE), what is directly parameterized by the neural network weights $\\theta$?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The policy distribution $\\pi_\\theta(a|s)$ mapping states directly to action selection probabilities"
+      },
+      {
+        "letter": "B",
+        "text": "The transition probability table of the environment"
+      },
+      {
+        "letter": "C",
+        "text": "The discounted cumulative reward discount factor"
+      },
+      {
+        "letter": "D",
+        "text": "The physical mass of the agent robot"
+      }
+    ],
+    "correct_text": "The policy distribution $\\pi_\\theta(a|s)$ mapping states directly to action selection probabilities",
+    "explanation": "Policy gradient methods bypass value function discretization, allowing seamless operation in continuous action spaces.",
+    "difficulty": "Hard"
   }
 ];

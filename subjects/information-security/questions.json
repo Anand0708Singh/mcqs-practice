@@ -2218,5 +2218,1025 @@
     "correct_text": "Monitoring encrypted local process memory, OS system calls, and file integrity on the local file system",
     "explanation": "Because network traffic is heavily encrypted (HTTPS/TLS), NIDS often cannot inspect payloads, whereas HIDS inspects data directly on the host.",
     "difficulty": "Hard"
+  },
+  {
+    "id": 75,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit V: Authentication Methods, Passwords & Biometrics",
+    "topic": "Authentication Factors",
+    "question": "What is Multi-Factor Authentication (MFA) and why does entering a password along with a security PIN NOT qualify as true 2-Factor Authentication?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Both a password and a PIN belong to the same single authentication category ('Something you know')"
+      },
+      {
+        "letter": "B",
+        "text": "MFA strictly requires biometric scanning on dedicated hardware"
+      },
+      {
+        "letter": "C",
+        "text": "PIN codes are unencrypted during network transit"
+      },
+      {
+        "letter": "D",
+        "text": "Passwords and PINs cancel each other out in security hashing"
+      }
+    ],
+    "correct_text": "Both a password and a PIN belong to the same single authentication category ('Something you know')",
+    "explanation": "True multi-factor authentication requires combining credentials from at least two different categories (knowledge, possession, inherence). Two passwords or a password and a PIN are two instances of the same factor.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 76,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit V: Authentication Methods, Passwords & Biometrics",
+    "topic": "Authentication Factors",
+    "question": "Which of the following represents an authentication mechanism based on 'Something You Have' (Possession Factor)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A hardware FIDO2 / YubiKey USB token generating cryptographic assertions"
+      },
+      {
+        "letter": "B",
+        "text": "A 6-digit memorized secret PIN"
+      },
+      {
+        "letter": "C",
+        "text": "An iris scan captured by an infrared camera"
+      },
+      {
+        "letter": "D",
+        "text": "The typing rhythm and keystroke dynamics of the user"
+      }
+    ],
+    "correct_text": "A hardware FIDO2 / YubiKey USB token generating cryptographic assertions",
+    "explanation": "Hardware tokens, smartcards, SIM cards, and physical key fobs represent the possession factor ('Something you have').",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 77,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit V: Authentication Methods, Passwords & Biometrics",
+    "topic": "Authentication Factors",
+    "question": "What is an SMS-based One-Time Password (OTP) vulnerable to that makes hardware security keys (FIDO2/WebAuthn) vastly superior?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "SIM swapping attacks, SS7 cellular interception, and real-time reverse proxy phishing attacks"
+      },
+      {
+        "letter": "B",
+        "text": "High CPU power consumption on the user's mobile device"
+      },
+      {
+        "letter": "C",
+        "text": "Inability to work with UTF-8 character encoding"
+      },
+      {
+        "letter": "D",
+        "text": "Complete incompatibility with web browsers"
+      }
+    ],
+    "correct_text": "SIM swapping attacks, SS7 cellular interception, and real-time reverse proxy phishing attacks",
+    "explanation": "SMS OTPs are transmitted over unencrypted cellular protocols (SS7), prone to social-engineering SIM swaps, and can be intercepted by phishing reverse-proxies.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 78,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit V: Authentication Methods, Passwords & Biometrics",
+    "topic": "Authentication Factors",
+    "question": "What is Time-Based One-Time Password (TOTP, RFC 6238) and what shared parameter does it rely on between client and server?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A shared secret key and synchronized current unix epoch time divided into fixed time steps (typically 30 seconds)"
+      },
+      {
+        "letter": "B",
+        "text": "A shared counter that increments only after every successful login"
+      },
+      {
+        "letter": "C",
+        "text": "A database of precomputed MD5 hashes"
+      },
+      {
+        "letter": "D",
+        "text": "The client device's physical GPS coordinates"
+      }
+    ],
+    "correct_text": "A shared secret key and synchronized current unix epoch time divided into fixed time steps (typically 30 seconds)",
+    "explanation": "TOTP computes HMAC-SHA1(K, T) where T = floor((CurrentUnixTime - T0) / X), where X is standardly 30 seconds.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 79,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit V: Authentication Methods, Passwords & Biometrics",
+    "topic": "Authentication Factors",
+    "question": "What distinguishes HMAC-Based One-Time Password (HOTP, RFC 4226) from TOTP?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "HOTP uses a monotonically incrementing counter synchronized between client and server instead of a real-time clock"
+      },
+      {
+        "letter": "B",
+        "text": "HOTP requires a fingerprint sensor"
+      },
+      {
+        "letter": "C",
+        "text": "HOTP cannot be generated on mobile applications"
+      },
+      {
+        "letter": "D",
+        "text": "HOTP is an asymmetric public-key cryptosystem"
+      }
+    ],
+    "correct_text": "HOTP uses a monotonically incrementing counter synchronized between client and server instead of a real-time clock",
+    "explanation": "HOTP increments an event counter C each time a code is requested, requiring server re-synchronization lookahead windows if codes are generated without being submitted.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 80,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit V: Authentication Methods, Passwords & Biometrics",
+    "topic": "Password Verification & Storage",
+    "question": "Why should passwords never be stored using raw, fast cryptographic hashes such as MD5 or SHA-256?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Modern GPUs and ASICs can compute billions of MD5/SHA-256 hashes per second, making brute-force and rainbow table recovery trivial"
+      },
+      {
+        "letter": "B",
+        "text": "SHA-256 produces variable length outputs that overflow database columns"
+      },
+      {
+        "letter": "C",
+        "text": "MD5 and SHA-256 can be mathematically reversed using linear algebra"
+      },
+      {
+        "letter": "D",
+        "text": "Operating systems reject hashes longer than 16 bytes"
+      }
+    ],
+    "correct_text": "Modern GPUs and ASICs can compute billions of MD5/SHA-256 hashes per second, making brute-force and rainbow table recovery trivial",
+    "explanation": "General-purpose hashes are designed for speed. Password hashing requires deliberately slow, computationally expensive functions.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 81,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit V: Authentication Methods, Passwords & Biometrics",
+    "topic": "Password Verification & Storage",
+    "question": "What is a cryptographic 'Salt' in password hashing and what attack does it completely neutralize?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A random, unique string appended to each password before hashing; it neutralizes precomputed Rainbow Table attacks and prevents identical passwords from having identical hashes"
+      },
+      {
+        "letter": "B",
+        "text": "An encryption key that is kept secret inside the CPU cache"
+      },
+      {
+        "letter": "C",
+        "text": "A special symbol required in complex passwords (such as @ or #)"
+      },
+      {
+        "letter": "D",
+        "text": "A technique to compress password strings into smaller byte arrays"
+      }
+    ],
+    "correct_text": "A random, unique string appended to each password before hashing; it neutralizes precomputed Rainbow Table attacks and prevents identical passwords from having identical hashes",
+    "explanation": "Salting ensures that two users with identical passwords yield completely different hash digests, forcing attackers to attack each hash individually.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 82,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit V: Authentication Methods, Passwords & Biometrics",
+    "topic": "Password Verification & Storage",
+    "question": "What is a 'Pepper' in secure password architecture?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A secret key added to passwords before hashing that is stored separately from the database (e.g., in an HSM or environment variable)"
+      },
+      {
+        "letter": "B",
+        "text": "A random string stored in plaintext next to the password hash in the database table"
+      },
+      {
+        "letter": "C",
+        "text": "A mechanism to expire passwords after 30 days"
+      },
+      {
+        "letter": "D",
+        "text": "A mathematical salt that is shared across all user accounts"
+      }
+    ],
+    "correct_text": "A secret key added to passwords before hashing that is stored separately from the database (e.g., in an HSM or environment variable)",
+    "explanation": "Unlike salts (which are stored with the hash in the DB), a pepper is an application-level secret kept outside the database, protecting hashes if the DB alone is breached.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 83,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit V: Authentication Methods, Passwords & Biometrics",
+    "topic": "Password Verification & Storage",
+    "question": "Why is bcrypt superior to PBKDF2 when defending against specialized hardware (ASIC/FPGA) cracking?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "bcrypt is based on the Blowfish cipher and requires significant fast RAM (memory-hardness via Eksblowfish), making custom silicon expensive to manufacture"
+      },
+      {
+        "letter": "B",
+        "text": "bcrypt uses 1024-bit RSA modular exponentiation"
+      },
+      {
+        "letter": "C",
+        "text": "bcrypt outputs reversible ciphertext"
+      },
+      {
+        "letter": "D",
+        "text": "bcrypt does not require a salt"
+      }
+    ],
+    "correct_text": "bcrypt is based on the Blowfish cipher and requires significant fast RAM (memory-hardness via Eksblowfish), making custom silicon expensive to manufacture",
+    "explanation": "bcrypt's memory requirements limit the parallel efficiency of custom FPGA/ASIC password cracking rigs.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 84,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit V: Authentication Methods, Passwords & Biometrics",
+    "topic": "Password Verification & Storage",
+    "question": "Which password hashing algorithm won the Password Hashing Competition (PHC) and provides tunable time, memory, and parallel thread parameters?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Argon2 (Argon2id)"
+      },
+      {
+        "letter": "B",
+        "text": "MD6"
+      },
+      {
+        "letter": "C",
+        "text": "DES-Crypt"
+      },
+      {
+        "letter": "D",
+        "text": "HMAC-SHA512"
+      }
+    ],
+    "correct_text": "Argon2 (Argon2id)",
+    "explanation": "Argon2id combines resistance to side-channel cache-timing attacks (Argon2i) and GPU-cracking memory hardness (Argon2d).",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 85,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit V: Authentication Methods, Passwords & Biometrics",
+    "topic": "Password Verification & Storage",
+    "question": "What timing attack occurs if password verification uses a standard string comparison (`hash == inputHash`) instead of constant-time comparison?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The comparison terminates early on the first mismatched byte, allowing an attacker to deduce the correct hash byte-by-byte by measuring microsecond latency differences"
+      },
+      {
+        "letter": "B",
+        "text": "The server restarts whenever a character is incorrect"
+      },
+      {
+        "letter": "C",
+        "text": "The database locks all records for 10 seconds"
+      },
+      {
+        "letter": "D",
+        "text": "The user's password is logged in server error files"
+      }
+    ],
+    "correct_text": "The comparison terminates early on the first mismatched byte, allowing an attacker to deduce the correct hash byte-by-byte by measuring microsecond latency differences",
+    "explanation": "Constant-time comparison algorithms inspect all bytes regardless of mismatches, eliminating side-channel timing disclosures.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 86,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit V: Authentication Methods, Passwords & Biometrics",
+    "topic": "Attacking Systems via Passwords",
+    "question": "What is a 'Credential Stuffing' attack?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Automated injection of stolen username/password pairs from third-party breaches across hundreds of other unrelated websites"
+      },
+      {
+        "letter": "B",
+        "text": "Guessing passwords using a dictionary of English words on a single account"
+      },
+      {
+        "letter": "C",
+        "text": "Sniffing unencrypted HTTP packets on local public Wi-Fi"
+      },
+      {
+        "letter": "D",
+        "text": "Physical theft of hard drives containing user databases"
+      }
+    ],
+    "correct_text": "Automated injection of stolen username/password pairs from third-party breaches across hundreds of other unrelated websites",
+    "explanation": "Credential stuffing capitalizes on pervasive user password reuse across different online platforms.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 87,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit V: Authentication Methods, Passwords & Biometrics",
+    "topic": "Attacking Systems via Passwords",
+    "question": "What is 'Password Spraying' and how does it evade traditional account lockout policies?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Trying a few common passwords (e.g. 'Winter2026!') against thousands of different user accounts rather than trying many passwords against a single account"
+      },
+      {
+        "letter": "B",
+        "text": "Flooding a network server with gigabytes of password hashes to cause Denial of Service"
+      },
+      {
+        "letter": "C",
+        "text": "Sending spam phishing emails asking users to reset their passwords"
+      },
+      {
+        "letter": "D",
+        "text": "Cracking a stolen hash database offline with Hashcat"
+      }
+    ],
+    "correct_text": "Trying a few common passwords (e.g. 'Winter2026!') against thousands of different user accounts rather than trying many passwords against a single account",
+    "explanation": "Standard lockout rules lock an account after 3-5 failed tries; spraying tries 1 password per account across the entire company directory, staying under lockout thresholds.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 88,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit V: Authentication Methods, Passwords & Biometrics",
+    "topic": "Attacking Systems via Passwords",
+    "question": "In rainbow table password cracking, what is the role of a 'Reduction Function'?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Mapping a cryptographic hash digest back into a valid plaintext password string in the search domain"
+      },
+      {
+        "letter": "B",
+        "text": "Reducing the file size of the database through gzip compression"
+      },
+      {
+        "letter": "C",
+        "text": "Decrypting the hash directly using a private key"
+      },
+      {
+        "letter": "D",
+        "text": "Truncating the password hash from 256 bits to 128 bits"
+      }
+    ],
+    "correct_text": "Mapping a cryptographic hash digest back into a valid plaintext password string in the search domain",
+    "explanation": "Rainbow tables alternate hash functions with reduction functions to generate long chains, storing only the starting plaintext and ending hash.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 89,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit V: Authentication Methods, Passwords & Biometrics",
+    "topic": "Biometrics",
+    "question": "What is the difference between Physiological biometrics and Behavioral biometrics?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Physiological biometrics measure static physical body characteristics (fingerprints, iris); Behavioral biometrics measure dynamic human patterns (keystroke dynamics, voice cadence, gait)"
+      },
+      {
+        "letter": "B",
+        "text": "Physiological biometrics can change every day; Behavioral biometrics remain unchanged for life"
+      },
+      {
+        "letter": "C",
+        "text": "Physiological biometrics cannot be digitized; Behavioral biometrics are stored as text"
+      },
+      {
+        "letter": "D",
+        "text": "Physiological biometrics are only used in hospitals; Behavioral biometrics are for computer logins"
+      }
+    ],
+    "correct_text": "Physiological biometrics measure static physical body characteristics (fingerprints, iris); Behavioral biometrics measure dynamic human patterns (keystroke dynamics, voice cadence, gait)",
+    "explanation": "Physiological traits are physical anatomical features (iris, face, vein, fingerprints), while behavioral traits capture actions performed over time.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 90,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit V: Authentication Methods, Passwords & Biometrics",
+    "topic": "Biometrics",
+    "question": "What does False Acceptance Rate (FAR, Type II error) measure in a biometric authentication system?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The probability that the system incorrectly authenticates an unauthorized impostor as a legitimate enrolled user"
+      },
+      {
+        "letter": "B",
+        "text": "The probability that the system rejects a genuine enrolled user"
+      },
+      {
+        "letter": "C",
+        "text": "The percentage of times the sensor fails to power on"
+      },
+      {
+        "letter": "D",
+        "text": "The time taken in milliseconds to extract facial landmark points"
+      }
+    ],
+    "correct_text": "The probability that the system incorrectly authenticates an unauthorized impostor as a legitimate enrolled user",
+    "explanation": "FAR represents security vulnerability: an unauthorized impostor is incorrectly accepted by the biometric matcher.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 91,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit V: Authentication Methods, Passwords & Biometrics",
+    "topic": "Biometrics",
+    "question": "What does False Rejection Rate (FRR, Type I error) measure in biometric systems?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The probability that the system incorrectly rejects an authentic, legitimate user"
+      },
+      {
+        "letter": "B",
+        "text": "The probability that an impostor bypasses authentication"
+      },
+      {
+        "letter": "C",
+        "text": "The probability of the biometric database being hacked"
+      },
+      {
+        "letter": "D",
+        "text": "The frequency of users forgetting their biometric passwords"
+      }
+    ],
+    "correct_text": "The probability that the system incorrectly rejects an authentic, legitimate user",
+    "explanation": "FRR measures usability and convenience: a legitimate enrolled user is mistakenly denied access.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 92,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit V: Authentication Methods, Passwords & Biometrics",
+    "topic": "Biometrics",
+    "question": "What is the Crossover Error Rate (CER), also known as Equal Error Rate (EER)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The point on the operating characteristics curve where the False Acceptance Rate (FAR) exactly equals the False Rejection Rate (FRR)"
+      },
+      {
+        "letter": "B",
+        "text": "The rate at which biometric sensors degrade over time"
+      },
+      {
+        "letter": "C",
+        "text": "The total number of false positives recorded in 24 hours"
+      },
+      {
+        "letter": "D",
+        "text": "The error rate when combining facial recognition with fingerprint scanning"
+      }
+    ],
+    "correct_text": "The point on the operating characteristics curve where the False Acceptance Rate (FAR) exactly equals the False Rejection Rate (FRR)",
+    "explanation": "The CER/EER is the standard industry metric for comparing biometric system accuracy; lower CER indicates a more accurate system.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 93,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit V: Authentication Methods, Passwords & Biometrics",
+    "topic": "Biometrics",
+    "question": "What is 'Liveness Detection' in biometric facial recognition and fingerprint systems?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Techniques used to determine whether the biometric sample presented originates from a live human subject rather than a spoofed artifact (photo, mask, 3D printed finger)"
+      },
+      {
+        "letter": "B",
+        "text": "Checking whether the biometric server has an active internet connection"
+      },
+      {
+        "letter": "C",
+        "text": "Measuring the heart rate to detect if the user is exercising"
+      },
+      {
+        "letter": "D",
+        "text": "Testing if the camera sensor has adequate battery life"
+      }
+    ],
+    "correct_text": "Techniques used to determine whether the biometric sample presented originates from a live human subject rather than a spoofed artifact (photo, mask, 3D printed finger)",
+    "explanation": "Liveness detection uses thermal sensors, depth cameras (structured infrared light), pupil dilation checks, or challenge-response prompts (blinking, smiling) to defeat presentation attacks.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 94,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit VI: Firewalls & Intrusion Detection",
+    "topic": "CAPTCHA Architectures",
+    "question": "What does the acronym CAPTCHA stand for?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Completely Automated Public Turing test to tell Computers and Humans Apart"
+      },
+      {
+        "letter": "B",
+        "text": "Computerized Access Protocol To Check Human Authentication"
+      },
+      {
+        "letter": "C",
+        "text": "Centralized Automated Protection Technique for Computer Host Attacks"
+      },
+      {
+        "letter": "D",
+        "text": "Cryptographic Algorithm for Packet Transmission and Cyber Hazard Analysis"
+      }
+    ],
+    "correct_text": "Completely Automated Public Turing test to tell Computers and Humans Apart",
+    "explanation": "CAPTCHA is a challenge-response test designed so that humans can easily solve it, but automated software bots cannot.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 95,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit VI: Firewalls & Intrusion Detection",
+    "topic": "CAPTCHA Architectures",
+    "question": "Why have traditional distorted-text CAPTCHAs become largely obsolete and ineffective?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Advances in Convolutional Neural Networks (CNNs) and Optical Character Recognition (OCR) allow AI bots to solve text CAPTCHAs with >99% accuracy"
+      },
+      {
+        "letter": "B",
+        "text": "Distorted text consumes too much network bandwidth"
+      },
+      {
+        "letter": "C",
+        "text": "Text CAPTCHAs require licensed commercial fonts"
+      },
+      {
+        "letter": "D",
+        "text": "HTML5 eliminated canvas rendering"
+      }
+    ],
+    "correct_text": "Advances in Convolutional Neural Networks (CNNs) and Optical Character Recognition (OCR) allow AI bots to solve text CAPTCHAs with >99% accuracy",
+    "explanation": "Deep learning models can decipher noisy, warped text faster and more accurately than human beings, forcing shifts to behavioral risk analysis (e.g. reCAPTCHA v3).",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 96,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit VI: Firewalls & Intrusion Detection",
+    "topic": "CAPTCHA Architectures",
+    "question": "How does invisible/behavioral CAPTCHA (such as Google reCAPTCHA v3) distinguish human users from automated scripts?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "By analyzing user interaction signals such as mouse trajectory curves, acceleration, keystroke timings, browsing history, and browser environment to return a risk score (0.0 to 1.0)"
+      },
+      {
+        "letter": "B",
+        "text": "By forcing users to solve complex calculus equations in secret"
+      },
+      {
+        "letter": "C",
+        "text": "By scanning the user's hard drive for automated bot scripts"
+      },
+      {
+        "letter": "D",
+        "text": "By blocking all users who use Google Chrome"
+      }
+    ],
+    "correct_text": "By analyzing user interaction signals such as mouse trajectory curves, acceleration, keystroke timings, browsing history, and browser environment to return a risk score (0.0 to 1.0)",
+    "explanation": "reCAPTCHA v3 operates frictionlessly in the background, computing risk scores based on human motor biomechanics and browser environment signatures.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 97,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit VI: Firewalls & Intrusion Detection",
+    "topic": "Firewall Fundamentals & Classifications",
+    "question": "At which OSI layers does a classic Stateless Packet Filtering Firewall operate, and what parameters does it inspect?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Layers 3 and 4 (Network & Transport); inspects Source/Destination IP, Source/Destination Port, and IP Protocol (TCP/UDP/ICMP)"
+      },
+      {
+        "letter": "B",
+        "text": "Layer 7 (Application); inspects HTTP request payloads and SQL syntax"
+      },
+      {
+        "letter": "C",
+        "text": "Layer 2 (Data Link); inspects MAC addresses only"
+      },
+      {
+        "letter": "D",
+        "text": "Layer 1 (Physical); inspects cable voltage levels"
+      }
+    ],
+    "correct_text": "Layers 3 and 4 (Network & Transport); inspects Source/Destination IP, Source/Destination Port, and IP Protocol (TCP/UDP/ICMP)",
+    "explanation": "Stateless packet filters evaluate packets in isolation without tracking TCP handshake state or connection tables.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 98,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit VI: Firewalls & Intrusion Detection",
+    "topic": "Firewall Fundamentals & Classifications",
+    "question": "What is the critical capability that distinguishes a Stateful Inspection Firewall from a Stateless Packet Filter?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A Stateful firewall maintains a dynamic state table tracking active TCP connection states (SYN, SYN-ACK, ESTABLISHED), automatically permitting return traffic for established outbound sessions"
+      },
+      {
+        "letter": "B",
+        "text": "A Stateful firewall decrypts HTTPS traffic using commercial certificates"
+      },
+      {
+        "letter": "C",
+        "text": "A Stateful firewall physically shuts down network switches when an attack occurs"
+      },
+      {
+        "letter": "D",
+        "text": "A Stateful firewall does not use IP addresses in filtering rules"
+      }
+    ],
+    "correct_text": "A Stateful firewall maintains a dynamic state table tracking active TCP connection states (SYN, SYN-ACK, ESTABLISHED), automatically permitting return traffic for established outbound sessions",
+    "explanation": "Stateful inspection understands connection lifecycle, preventing unauthorized inbound SYN packets while dynamically admitting reply packets belonging to initiated flows.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 99,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit VI: Firewalls & Intrusion Detection",
+    "topic": "Firewall Fundamentals & Classifications",
+    "question": "What is an Application-Level Gateway (Proxy Firewall) and what is its chief security benefit?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A firewall that terminates incoming client connections at Layer 7 and initiates a completely separate proxy connection to internal servers, inspecting full application payloads"
+      },
+      {
+        "letter": "B",
+        "text": "A hardware router that routes BGP routes between autonomous systems"
+      },
+      {
+        "letter": "C",
+        "text": "A software firewall installed on Android smartphones"
+      },
+      {
+        "letter": "D",
+        "text": "A tool used to compress JPEG images before sending over HTTP"
+      }
+    ],
+    "correct_text": "A firewall that terminates incoming client connections at Layer 7 and initiates a completely separate proxy connection to internal servers, inspecting full application payloads",
+    "explanation": "Proxy firewalls prevent direct network layer connectivity between external clients and internal hosts, deeply inspecting protocol commands (HTTP GET, FTP commands).",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 100,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit VI: Firewalls & Intrusion Detection",
+    "topic": "Firewall Fundamentals & Classifications",
+    "question": "In firewall network topology, what is a Demilitarized Zone (DMZ)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A physical or logical subnetwork that exposes external-facing public services (Web, DNS, Mail) to the internet while isolating them from the private internal LAN"
+      },
+      {
+        "letter": "B",
+        "text": "A zone where no security firewalls are installed"
+      },
+      {
+        "letter": "C",
+        "text": "An unencrypted public Wi-Fi access point"
+      },
+      {
+        "letter": "D",
+        "text": "A backup server room located in another country"
+      }
+    ],
+    "correct_text": "A physical or logical subnetwork that exposes external-facing public services (Web, DNS, Mail) to the internet while isolating them from the private internal LAN",
+    "explanation": "If a public web server in the DMZ is compromised, the internal corporate network remains shielded behind internal firewall segmentation.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 101,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit VI: Firewalls & Intrusion Detection",
+    "topic": "Firewall Fundamentals & Classifications",
+    "question": "What is a Personal Firewall (Host-Based Firewall)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A software firewall running directly on an individual endpoint (such as Windows Defender Firewall) that controls traffic to and from applications on that single host"
+      },
+      {
+        "letter": "B",
+        "text": "A hardware rackmount appliance installed in enterprise data centers"
+      },
+      {
+        "letter": "C",
+        "text": "A firewall operated by an individual internet service provider (ISP)"
+      },
+      {
+        "letter": "D",
+        "text": "A physical lock placed on a computer casing"
+      }
+    ],
+    "correct_text": "A software firewall running directly on an individual endpoint (such as Windows Defender Firewall) that controls traffic to and from applications on that single host",
+    "explanation": "Personal firewalls protect mobile laptops and endpoints on untrusted networks by regulating inbound and outbound connections per software process.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 102,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit VI: Firewalls & Intrusion Detection",
+    "topic": "Firewall Fundamentals & Classifications",
+    "question": "What is the standard 'Default Deny' (Implicit Deny) principle in firewall security policy?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Any network traffic that does not explicitly match an allowed rule in the firewall rulebase is automatically dropped/blocked"
+      },
+      {
+        "letter": "B",
+        "text": "All traffic is permitted unless a user explicitly reports an attack"
+      },
+      {
+        "letter": "C",
+        "text": "The firewall shuts down and denies all network traffic at midnight"
+      },
+      {
+        "letter": "D",
+        "text": "All outgoing HTTP requests are redirected to a denial landing page"
+      }
+    ],
+    "correct_text": "Any network traffic that does not explicitly match an allowed rule in the firewall rulebase is automatically dropped/blocked",
+    "explanation": "Default Deny represents least privilege in network security: only explicitly permitted traffic is allowed; everything else is rejected.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 103,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit VI: Firewalls & Intrusion Detection",
+    "topic": "Intrusion Detection Systems (IDS)",
+    "question": "What is the operational difference between an Intrusion Detection System (IDS) and an Intrusion Prevention System (IPS)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "An IDS operates out-of-band (passively monitoring, analyzing mirrored traffic, and raising alerts); an IPS sits inline and actively drops malicious packets in real time"
+      },
+      {
+        "letter": "B",
+        "text": "An IDS requires hardware; an IPS is only software"
+      },
+      {
+        "letter": "C",
+        "text": "An IDS protects against viruses; an IPS only protects against hardware overheating"
+      },
+      {
+        "letter": "D",
+        "text": "An IDS can only be used on Linux; an IPS is for Windows"
+      }
+    ],
+    "correct_text": "An IDS operates out-of-band (passively monitoring, analyzing mirrored traffic, and raising alerts); an IPS sits inline and actively drops malicious packets in real time",
+    "explanation": "IDS monitors TAP or SPAN port mirrored traffic without introducing latency; IPS is inline and can intercept and terminate active attack flows before damage occurs.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 104,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit VI: Firewalls & Intrusion Detection",
+    "topic": "Intrusion Detection Systems (IDS)",
+    "question": "What is Signature-Based (Knowledge-Based) Intrusion Detection?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Matching network packets or system events against a database of known threat patterns, byte sequences, or attack signatures"
+      },
+      {
+        "letter": "B",
+        "text": "Comparing current traffic against a baseline of normal behavioral activity"
+      },
+      {
+        "letter": "C",
+        "text": "Requiring digital cryptographic signatures on every TCP packet"
+      },
+      {
+        "letter": "D",
+        "text": "Scanning the network administrator's handwritten signature"
+      }
+    ],
+    "correct_text": "Matching network packets or system events against a database of known threat patterns, byte sequences, or attack signatures",
+    "explanation": "Signature-based detection is highly accurate with low false positives for known threats (like antivirus definitions), but fails completely against zero-day exploits.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 105,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit VI: Firewalls & Intrusion Detection",
+    "topic": "Intrusion Detection Systems (IDS)",
+    "question": "What is Anomaly-Based (Behavioral) Intrusion Detection, and what is its primary weakness?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Establishing a statistical baseline of normal network behavior and flagging deviations as suspicious; its primary weakness is a high rate of False Positives"
+      },
+      {
+        "letter": "B",
+        "text": "Looking for specific hardcoded malware strings; its weakness is high memory usage"
+      },
+      {
+        "letter": "C",
+        "text": "Monitoring CPU fan speeds; its weakness is inaccurate temperature probes"
+      },
+      {
+        "letter": "D",
+        "text": "Using blockchain hashing; its weakness is high transaction fees"
+      }
+    ],
+    "correct_text": "Establishing a statistical baseline of normal network behavior and flagging deviations as suspicious; its primary weakness is a high rate of False Positives",
+    "explanation": "Anomaly detection can detect novel zero-day attacks, but unusual legitimate user behavior (e.g. large file backup during odd hours) triggers frequent false alarms.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 106,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit VI: Firewalls & Intrusion Detection",
+    "topic": "Intrusion Detection Systems (IDS)",
+    "question": "What distinguishes a Host-Based IDS (HIDS) from a Network-Based IDS (NIDS)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A HIDS monitors internal OS logs, file system integrity, registry keys, and local process memory on a specific host; a NIDS monitors packets across the entire network wire"
+      },
+      {
+        "letter": "B",
+        "text": "A HIDS cannot detect unauthorized logins; a NIDS can"
+      },
+      {
+        "letter": "C",
+        "text": "A NIDS is installed directly into the motherboard BIOS of every client machine"
+      },
+      {
+        "letter": "D",
+        "text": "A HIDS is only used for encrypting email messages"
+      }
+    ],
+    "correct_text": "A HIDS monitors internal OS logs, file system integrity, registry keys, and local process memory on a specific host; a NIDS monitors packets across the entire network wire",
+    "explanation": "HIDS (e.g. OSSEC, Tripwire, Wazuh) can inspect unencrypted local system events and file modifications that NIDS cannot see on encrypted network channels (TLS).",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 107,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit VI: Firewalls & Intrusion Detection",
+    "topic": "Intrusion Detection Systems (IDS)",
+    "question": "What open-source packet sniffer, traffic logger, and network intrusion detection/prevention system uses a famous rule-based language (e.g. `alert tcp any any -> 192.168.1.0/24 80 (msg:...;)` )?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Snort"
+      },
+      {
+        "letter": "B",
+        "text": "Wireshark"
+      },
+      {
+        "letter": "C",
+        "text": "Metasploit"
+      },
+      {
+        "letter": "D",
+        "text": "Nmap"
+      }
+    ],
+    "correct_text": "Snort",
+    "explanation": "Snort is the quintessential open-source network IDS/IPS that performs protocol analysis, content searching, and attack matching.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 108,
+    "subject_id": "information-security",
+    "subject_code": "IT5054",
+    "subject_name": "Information Security",
+    "unit": "Unit VI: Firewalls & Intrusion Detection",
+    "topic": "Intrusion Detection Systems (IDS)",
+    "question": "What is a 'Honeypot' in network intrusion detection strategy?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A decoy system deliberately left vulnerable to lure attackers, detect intrusion attempts, and study attacker tactics without risking production data"
+      },
+      {
+        "letter": "B",
+        "text": "A password manager used by security administrators"
+      },
+      {
+        "letter": "C",
+        "text": "An encrypted vault for storing database backups"
+      },
+      {
+        "letter": "D",
+        "text": "A hardware accelerator for cryptographic hashes"
+      }
+    ],
+    "correct_text": "A decoy system deliberately left vulnerable to lure attackers, detect intrusion attempts, and study attacker tactics without risking production data",
+    "explanation": "Because honeypots serve no legitimate production purpose, any connection attempt to a honeypot is almost certainly malicious or unauthorized.",
+    "difficulty": "Medium"
   }
 ]

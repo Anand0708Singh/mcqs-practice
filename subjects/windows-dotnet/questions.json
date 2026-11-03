@@ -2398,5 +2398,605 @@
     "correct_text": "SpotLight",
     "explanation": "SpotLight radiates light in a directed cone defined by InnerConeAngle and OuterConeAngle, attenuating towards the edges.",
     "difficulty": "Medium"
+  },
+  {
+    "id": 81,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Vector Graphics & Shapes",
+    "question": "What is the function of the SnapsToDevicePixels property on WPF visual elements?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ensures that element boundaries align with physical device pixel grid lines, eliminating anti-aliasing fuzziness on straight edges"
+      },
+      {
+        "letter": "B",
+        "text": "Takes a screenshot of the display monitor and saves it to disk"
+      },
+      {
+        "letter": "C",
+        "text": "Locks the window to standard 1080p resolution"
+      },
+      {
+        "letter": "D",
+        "text": "Accelerates vector rendering on mobile GPUs"
+      }
+    ],
+    "correct_text": "Ensures that element boundaries align with physical device pixel grid lines, eliminating anti-aliasing fuzziness on straight edges",
+    "explanation": "WPF renders using device-independent units (96 DPI); setting SnapsToDevicePixels='True' prevents fuzzy sub-pixel anti-aliasing on lines and borders.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 82,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Vector Graphics & Shapes",
+    "question": "Which property specifies how two overlapping paths in a PathGeometry calculate whether interior enclosed areas are filled or transparent?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "FillRule (EvenOdd vs Nonzero)"
+      },
+      {
+        "letter": "B",
+        "text": "ClipToBounds"
+      },
+      {
+        "letter": "C",
+        "text": "CombineRule"
+      },
+      {
+        "letter": "D",
+        "text": "InteriorRule"
+      }
+    ],
+    "correct_text": "FillRule (EvenOdd vs Nonzero)",
+    "explanation": "FillRule determines ray-intersection logic: EvenOdd counts ray crossings modulo 2, while Nonzero tracks path direction windings.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 83,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Brushes & Transforms",
+    "question": "What is the difference between RelativeTransform and Transform on a WPF Brush?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "RelativeTransform uses unit coordinates from 0.0 to 1.0 relative to the painted bounding box; Transform uses absolute device-independent pixel values"
+      },
+      {
+        "letter": "B",
+        "text": "RelativeTransform is only for 3D surfaces"
+      },
+      {
+        "letter": "C",
+        "text": "Transform can only perform translations while RelativeTransform performs rotations"
+      },
+      {
+        "letter": "D",
+        "text": "RelativeTransform cannot be animated"
+      }
+    ],
+    "correct_text": "RelativeTransform uses unit coordinates from 0.0 to 1.0 relative to the painted bounding box; Transform uses absolute device-independent pixel values",
+    "explanation": "RelativeTransform scales automatically as the painted shape resizes, whereas standard Brush.Transform requires manual coordinate tracking.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 84,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Geometries & Effects",
+    "question": "How are custom HLSL (High-Level Shader Language) pixel shaders executed in WPF applications?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Compiled into .ps pixel shader bytecode using the DirectX fxc compiler and wrapped inside a ShaderEffect subclass"
+      },
+      {
+        "letter": "B",
+        "text": "Interpreted on-the-fly by the C# JIT compiler"
+      },
+      {
+        "letter": "C",
+        "text": "Translated into SVG filter primitives"
+      },
+      {
+        "letter": "D",
+        "text": "Executed inside a WebBrowser control using WebGL"
+      }
+    ],
+    "correct_text": "Compiled into .ps pixel shader bytecode using the DirectX fxc compiler and wrapped inside a ShaderEffect subclass",
+    "explanation": "WPF supports custom GPU pixel shader effects (Pixel Shader model 2.0/3.0) via ShaderEffect and PixelShader classes.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 85,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Data Templates",
+    "question": "What is the purpose of the HierarchicalDataTemplate class in WPF?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To display nested, recursive tree data (such as folder directories or org charts) inside a TreeView or Menu control"
+      },
+      {
+        "letter": "B",
+        "text": "To display data in a 2D SQL grid"
+      },
+      {
+        "letter": "C",
+        "text": "To bind data to a high-speed vector chart"
+      },
+      {
+        "letter": "D",
+        "text": "To format currency numbers in text boxes"
+      }
+    ],
+    "correct_text": "To display nested, recursive tree data (such as folder directories or org charts) inside a TreeView or Menu control",
+    "explanation": "HierarchicalDataTemplate adds an ItemsSource property that tells controls how to traverse child collections recursively.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 86,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Data Templates",
+    "question": "What is the difference between VisualTree and DataTemplate when designing custom controls?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The VisualTree is the actual runtime tree of instantiated visual elements (UIElements); the DataTemplate is a blueprint recipe for generating visual nodes from data"
+      },
+      {
+        "letter": "B",
+        "text": "VisualTree is used only in WPF; DataTemplate is used only in ASP.NET"
+      },
+      {
+        "letter": "C",
+        "text": "DataTemplate compiles to C# bytecode; VisualTree exists in XAML only"
+      },
+      {
+        "letter": "D",
+        "text": "There is no difference; they are exact synonyms"
+      }
+    ],
+    "correct_text": "The VisualTree is the actual runtime tree of instantiated visual elements (UIElements); the DataTemplate is a blueprint recipe for generating visual nodes from data",
+    "explanation": "DataTemplate acts as a factory template that inflates into concrete VisualTree nodes at runtime when bound to business entities.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 87,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Control Templates & Visual States",
+    "question": "Inside a ControlTemplate, what visual element is required to display scrollbars and scrollable viewport areas (e.g. inside a ListBox template)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "ScrollViewer"
+      },
+      {
+        "letter": "B",
+        "text": "ContentPresenter"
+      },
+      {
+        "letter": "C",
+        "text": "ItemsPanel"
+      },
+      {
+        "letter": "D",
+        "text": "Canvas"
+      }
+    ],
+    "correct_text": "ScrollViewer",
+    "explanation": "The ScrollViewer inside a control template encapsulates scroll logic, viewport clipping, and horizontal/vertical scrollbars.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 88,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Control Templates & Visual States",
+    "question": "How do VisualStateTransitions work inside a VisualStateManager?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "They define Storyboards that animate property changes smoothly when transitioning from one visual state (e.g. Normal) to another (e.g. MouseOver)"
+      },
+      {
+        "letter": "B",
+        "text": "They switch screens like page navigations"
+      },
+      {
+        "letter": "C",
+        "text": "They restart the operating system display driver"
+      },
+      {
+        "letter": "D",
+        "text": "They convert vector paths into PNG images"
+      }
+    ],
+    "correct_text": "They define Storyboards that animate property changes smoothly when transitioning from one visual state (e.g. Normal) to another (e.g. MouseOver)",
+    "explanation": "VisualStateTransition allows designers to specify interpolation durations and easing curves for transitions between UI states.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 89,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Storyboard & Animations",
+    "question": "What is a KeyFrame Animation in WPF, and how does it differ from a 'from/to/by' animation?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Keyframe animations specify multiple target values at discrete time milestones throughout a duration (Spline, Linear, or Discrete interpolation)"
+      },
+      {
+        "letter": "B",
+        "text": "Keyframe animations can only animate integer numbers"
+      },
+      {
+        "letter": "C",
+        "text": "Keyframe animations run outside the WPF compositor thread"
+      },
+      {
+        "letter": "D",
+        "text": "Keyframe animations require a physical keyboard attached"
+      }
+    ],
+    "correct_text": "Keyframe animations specify multiple target values at discrete time milestones throughout a duration (Spline, Linear, or Discrete interpolation)",
+    "explanation": "While From/To/By animations only interpolate between two points, KeyFrame animations (like DoubleAnimationUsingKeyFrames) navigate multi-point timelines.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 90,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Storyboard & Animations",
+    "question": "What is a SplineDoubleKeyFrame and what does its KeySpline property represent?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "It uses a cubic Bezier curve defined by two control points (CP1, CP2) to customize acceleration and deceleration rates between keyframes"
+      },
+      {
+        "letter": "B",
+        "text": "It draws a curved spline geometry on the screen"
+      },
+      {
+        "letter": "C",
+        "text": "It splits an animation into two parallel threads"
+      },
+      {
+        "letter": "D",
+        "text": "It loops the animation infinitely"
+      }
+    ],
+    "correct_text": "It uses a cubic Bezier curve defined by two control points (CP1, CP2) to customize acceleration and deceleration rates between keyframes",
+    "explanation": "KeySpline defines the shape of a cubic Bezier curve on a 0,0 to 1,1 unit square, allowing custom physics-like acceleration profiles.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 91,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Performance Tuning",
+    "question": "What does the CompositionTarget.Rendering event provide in WPF low-level animation architectures?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Fires once per display frame render pass (synchronous with monitor refresh rate, e.g. 60Hz or 120Hz), allowing custom frame-by-frame rendering"
+      },
+      {
+        "letter": "B",
+        "text": "Notifies the app when a window is closed"
+      },
+      {
+        "letter": "C",
+        "text": "Logs memory garbage collection events"
+      },
+      {
+        "letter": "D",
+        "text": "Measures battery level on laptops"
+      }
+    ],
+    "correct_text": "Fires once per display frame render pass (synchronous with monitor refresh rate, e.g. 60Hz or 120Hz), allowing custom frame-by-frame rendering",
+    "explanation": "CompositionTarget.Rendering enables game loops and high-performance custom drawing synchronized directly with WPF's rendering pipeline.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 92,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Window Class & Interaction",
+    "question": "Which property on a Window specifies whether it is an Owned window, ensuring it minimizes and closes automatically with its parent?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Owner"
+      },
+      {
+        "letter": "B",
+        "text": "Parent"
+      },
+      {
+        "letter": "C",
+        "text": "MasterWindow"
+      },
+      {
+        "letter": "D",
+        "text": "DependencyWindow"
+      }
+    ],
+    "correct_text": "Owner",
+    "explanation": "Setting window.Owner = parentWindow establishes ownership: the child window stays above the owner, minimizes with it, and terminates upon owner disposal.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 93,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Window Class & Interaction",
+    "question": "What is the WPF WindowChrome class used for in modern desktop design?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To extend client area into non-client title bar regions while retaining native Windows aero snap, resizing borders, and minimize/maximize behaviors"
+      },
+      {
+        "letter": "B",
+        "text": "To launch Google Chrome from WPF"
+      },
+      {
+        "letter": "C",
+        "text": "To add shiny metallic gradient themes to buttons"
+      },
+      {
+        "letter": "D",
+        "text": "To compile Windows apps for Linux"
+      }
+    ],
+    "correct_text": "To extend client area into non-client title bar regions while retaining native Windows aero snap, resizing borders, and minimize/maximize behaviors",
+    "explanation": "WindowChrome allows creating custom styled title bars (like Visual Studio or Spotify) while preserving standard OS aero glass snaps and border handles.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 94,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Page-Based Navigation",
+    "question": "What is a CustomContentState in WPF navigation journal architecture?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A class that allows persisting and restoring custom internal page state (e.g. scroll offset or wizard step) when users click Back and Forward in the journal"
+      },
+      {
+        "letter": "B",
+        "text": "A technique to store passwords in browser cookies"
+      },
+      {
+        "letter": "C",
+        "text": "An HTML5 local storage API wrapper"
+      },
+      {
+        "letter": "D",
+        "text": "A global application cache in app.xaml"
+      }
+    ],
+    "correct_text": "A class that allows persisting and restoring custom internal page state (e.g. scroll offset or wizard step) when users click Back and Forward in the journal",
+    "explanation": "Subclassing CustomContentState and calling AddBackEntry() allows recording custom checkpoints into the navigation history journal.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 95,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Page-Based Navigation",
+    "question": "What is the difference between a Hyperlink inside a FlowDocument/TextBlock and a standard Button in WPF navigation?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A Hyperlink has a NavigateUri property that automatically dispatches to the host NavigationService or external web browser"
+      },
+      {
+        "letter": "B",
+        "text": "A Hyperlink cannot be clicked with a mouse"
+      },
+      {
+        "letter": "C",
+        "text": "A Button cannot navigate to other windows"
+      },
+      {
+        "letter": "D",
+        "text": "A Hyperlink requires an active internet connection to compile"
+      }
+    ],
+    "correct_text": "A Hyperlink has a NavigateUri property that automatically dispatches to the host NavigationService or external web browser",
+    "explanation": "Hyperlink is an inline document element designed for text navigation that routes requests through the nearest navigation container.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 96,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Menus, Toolbars & Ribbons",
+    "question": "What is the role of the CommandManager class in WPF routed commanding?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Listens to user input across the visual tree and triggers RequerySuggested events to re-evaluate CanExecute() on all active command bindings"
+      },
+      {
+        "letter": "B",
+        "text": "Runs commands on remote database servers"
+      },
+      {
+        "letter": "C",
+        "text": "Logs all keyboard keystrokes to a security file"
+      },
+      {
+        "letter": "D",
+        "text": "Controls operating system administrative permissions"
+      }
+    ],
+    "correct_text": "Listens to user input across the visual tree and triggers RequerySuggested events to re-evaluate CanExecute() on all active command bindings",
+    "explanation": "CommandManager detects focus changes and mouse/keyboard events, automatically updating the enabled/disabled state of buttons and menu items.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 97,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Sound & Video",
+    "question": "Which class provides off-screen, non-visual audio/video playback capabilities with complete playback control (volume, position, balance) without UI rendering?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "MediaPlayer"
+      },
+      {
+        "letter": "B",
+        "text": "MediaElement"
+      },
+      {
+        "letter": "C",
+        "text": "SoundDevice"
+      },
+      {
+        "letter": "D",
+        "text": "AudioBuffer"
+      }
+    ],
+    "correct_text": "MediaPlayer",
+    "explanation": "MediaPlayer is the lightweight, non-visual engine beneath MediaElement; it plays audio/video in background worker threads without visual tree attachment.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 98,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "3D Drawing",
+    "question": "What does the ModelVisual3D class represent in a WPF Viewport3D scene graph?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A visual node that wraps a 3D model (Content of type Model3D) and can be placed directly inside Viewport3D.Children"
+      },
+      {
+        "letter": "B",
+        "text": "A 3D graphics card hardware driver"
+      },
+      {
+        "letter": "C",
+        "text": "A tool for 3D printing STL files"
+      },
+      {
+        "letter": "D",
+        "text": "A camera that follows mouse movements"
+      }
+    ],
+    "correct_text": "A visual node that wraps a 3D model (Content of type Model3D) and can be placed directly inside Viewport3D.Children",
+    "explanation": "ModelVisual3D bridges visual tree hierarchy with 3D model graphs, accepting Model3D objects and child visual nodes.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 99,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "3D Drawing",
+    "question": "What is the difference between SpecularMaterial and DiffuseMaterial in WPF 3D rendering?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "SpecularMaterial creates bright glossy highlights simulating shiny metallic or polished surfaces; DiffuseMaterial scatters light uniformly with a matte finish"
+      },
+      {
+        "letter": "B",
+        "text": "SpecularMaterial is transparent; DiffuseMaterial is opaque"
+      },
+      {
+        "letter": "C",
+        "text": "SpecularMaterial only reflects red light"
+      },
+      {
+        "letter": "D",
+        "text": "DiffuseMaterial requires GPU raytracing"
+      }
+    ],
+    "correct_text": "SpecularMaterial creates bright glossy highlights simulating shiny metallic or polished surfaces; DiffuseMaterial scatters light uniformly with a matte finish",
+    "explanation": "SpecularMaterial uses SpecularPower to concentrate light reflections into intense specular glints on polished surfaces.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 100,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "3D Drawing",
+    "question": "What is 'Hit Testing' in a WPF Viewport3D?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Using VisualTreeHelper.HitTest to cast a 2D ray from screen mouse coordinates into the 3D scene to identify intersected 3D meshes and ray hit coordinates"
+      },
+      {
+        "letter": "B",
+        "text": "Testing whether two 3D models collide physically"
+      },
+      {
+        "letter": "C",
+        "text": "Testing the frame rate of 3D animations"
+      },
+      {
+        "letter": "D",
+        "text": "Stress testing the graphics card memory bandwidth"
+      }
+    ],
+    "correct_text": "Using VisualTreeHelper.HitTest to cast a 2D ray from screen mouse coordinates into the 3D scene to identify intersected 3D meshes and ray hit coordinates",
+    "explanation": "3D hit testing projects a 2D cursor click into 3D world space, returning RayMeshGeometry3DHitTestResult detailing point, distance, and triangle index.",
+    "difficulty": "Hard"
   }
 ]
