@@ -1,0 +1,35 @@
+Unit - V
+
+5
+
+Unsupervised Learning:
+Comparison with supervised learning, Clustering as a machine
+learning task, Partition methods in clustering, k-Medoids,
+Hierarchical clustering, Density based clustering, Pattern finding
+with association rule.
+
+Basics of Neural Networks:
+Biological nervous system, Exploring artificial neuron, Activation
+functions - Identity, Step, ReLu Sigmoid, Softmax and Hyperbolic
+tangent, MCCulloch-Pitts
+ADALINE, Single layer feed-forward network, Multi-layer feed-
+forward network, Competitive network, Recurrent network, Back-
+propagation, Convolutional network, Transformers.
+
+
+
+model,
+Rosenblatt's
+
+perceptron,
+
+
+
+Unit - VI
+
+Advanced Learning Topics:
+Representation learning, Active learning, Instance based learning,
+Association rule learning algorithm, Ensemble learning algorithm,
+Regularization algorithm, Generative models, Reinforcement
+learning.
+

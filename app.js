@@ -143,6 +143,15 @@ function initData() {
   if (window.DCN_DATA && Array.isArray(window.DCN_DATA)) {
     allQuestions.push(...window.DCN_DATA);
   }
+  if (window.IS_DATA && Array.isArray(window.IS_DATA)) {
+    allQuestions.push(...window.IS_DATA);
+  }
+  if (window.ML_DATA && Array.isArray(window.ML_DATA)) {
+    allQuestions.push(...window.ML_DATA);
+  }
+  if (window.WIN_DATA && Array.isArray(window.WIN_DATA)) {
+    allQuestions.push(...window.WIN_DATA);
+  }
 
   if (allQuestions.length > 0) {
     buildSubjectsRegistry();
@@ -293,6 +302,19 @@ function selectSubject(subjectId) {
   statTotalMcqs.textContent = sub.questions.length;
   statTotalUnits.textContent = `${sub.units.size} Units`;
   statTotalTopics.textContent = `${sub.topics.size} Topics`;
+  // Update PDF download link
+  const pdfLink = document.getElementById('download-pdf-link');
+  if (pdfLink) {
+    const catalogEntry = (window.SUBJECTS_CATALOG || []).find(c => c.id === sub.id);
+    if (catalogEntry && catalogEntry.pdfPath) {
+      pdfLink.href = catalogEntry.pdfPath;
+      pdfLink.download = catalogEntry.pdfPath.split('/').pop();
+      pdfLink.style.display = 'inline-flex';
+      pdfLink.title = 'Download official question bank PDF for ' + sub.name;
+    } else {
+      pdfLink.style.display = 'none';
+    }
+  }
 
   // Populate Unit Dropdown
   populateUnitsDropdown(sub);

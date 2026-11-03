@@ -1,0 +1,2402 @@
+[
+  {
+    "id": 1,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Vector Graphics & Shapes",
+    "question": "Which base abstract class do all WPF/XAML shape elements (such as Rectangle, Ellipse, Line, and Polygon) derive from?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "System.Windows.Shapes.Shape"
+      },
+      {
+        "letter": "B",
+        "text": "System.Windows.Controls.Control"
+      },
+      {
+        "letter": "C",
+        "text": "System.Windows.Media.Visual"
+      },
+      {
+        "letter": "D",
+        "text": "System.Windows.FrameworkElement.Geometry"
+      }
+    ],
+    "correct_text": "System.Windows.Shapes.Shape",
+    "explanation": "All standard 2D vector shapes derive from the Shape base class, which in turn inherits from FrameworkElement and UIElement.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 2,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Vector Graphics & Shapes",
+    "question": "Which properties on the Shape class control the interior fill color and the outline boundary appearance respectively?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Fill and Stroke"
+      },
+      {
+        "letter": "B",
+        "text": "Background and BorderBrush"
+      },
+      {
+        "letter": "C",
+        "text": "Color and Outline"
+      },
+      {
+        "letter": "D",
+        "text": "Paint and Pen"
+      }
+    ],
+    "correct_text": "Fill and Stroke",
+    "explanation": "Shape elements use Fill (Brush) to paint their interior and Stroke (Brush) along with StrokeThickness to draw their outline.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 3,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Vector Graphics & Shapes",
+    "question": "What property of the Shape class allows creating dashed or dotted line outlines in XAML?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "StrokeDashArray"
+      },
+      {
+        "letter": "B",
+        "text": "StrokeStyle"
+      },
+      {
+        "letter": "C",
+        "text": "DashPattern"
+      },
+      {
+        "letter": "D",
+        "text": "LineStipple"
+      }
+    ],
+    "correct_text": "StrokeDashArray",
+    "explanation": "StrokeDashArray is a DoubleCollection that specifies alternating lengths of dashes and gaps that make up the outline.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 4,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Vector Graphics & Shapes",
+    "question": "What is the key difference between a Polygon shape and a Polyline shape in WPF?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A Polygon automatically closes the path from the last point to the first point; a Polyline remains an open series of connected line segments"
+      },
+      {
+        "letter": "B",
+        "text": "A Polyline can have curved vertices while a Polygon cannot"
+      },
+      {
+        "letter": "C",
+        "text": "A Polygon cannot have a Fill brush applied"
+      },
+      {
+        "letter": "D",
+        "text": "A Polyline can only be drawn horizontally"
+      }
+    ],
+    "correct_text": "A Polygon automatically closes the path from the last point to the first point; a Polyline remains an open series of connected line segments",
+    "explanation": "Polygon automatically connects the last coordinate to the first coordinate, closing the area for solid interior fills.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 5,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Brushes & Transforms",
+    "question": "Which Brush subclass in WPF creates a smooth, gradual transition between two or more colors along a directional line?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "LinearGradientBrush"
+      },
+      {
+        "letter": "B",
+        "text": "RadialGradientBrush"
+      },
+      {
+        "letter": "C",
+        "text": "SolidColorBrush"
+      },
+      {
+        "letter": "D",
+        "text": "ImageBrush"
+      }
+    ],
+    "correct_text": "LinearGradientBrush",
+    "explanation": "LinearGradientBrush paints an area with a linear gradient defined by StartPoint, EndPoint, and GradientStops.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 6,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Brushes & Transforms",
+    "question": "What does a RadialGradientBrush use to define the outermost boundary ellipse and the center origin of the color blend?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Center, RadiusX, RadiusY, and GradientOrigin"
+      },
+      {
+        "letter": "B",
+        "text": "StartPoint and EndPoint"
+      },
+      {
+        "letter": "C",
+        "text": "Offset and Angle"
+      },
+      {
+        "letter": "D",
+        "text": "X1, Y1, X2, and Y2"
+      }
+    ],
+    "correct_text": "Center, RadiusX, RadiusY, and GradientOrigin",
+    "explanation": "Center and RadiusX/RadiusY define the circle/ellipse boundary, while GradientOrigin defines the focal highlight point.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 7,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Brushes & Transforms",
+    "question": "Which Brush in WPF allows painting a UI area using a static or animated snapshot of another live Visual element?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "VisualBrush"
+      },
+      {
+        "letter": "B",
+        "text": "DrawingBrush"
+      },
+      {
+        "letter": "C",
+        "text": "BitmapBrush"
+      },
+      {
+        "letter": "D",
+        "text": "DynamicBrush"
+      }
+    ],
+    "correct_text": "VisualBrush",
+    "explanation": "VisualBrush enables projection of live UI elements onto surfaces, creating dynamic reflections, magnifying glasses, and interactive thumbnails.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 8,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Brushes & Transforms",
+    "question": "What is the difference between RenderTransform and LayoutTransform on a WPF FrameworkElement?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "RenderTransform modifies appearance post-layout without altering surrounding layout measurements; LayoutTransform recalculates the entire layout pass"
+      },
+      {
+        "letter": "B",
+        "text": "RenderTransform is only for 3D elements; LayoutTransform is for 2D"
+      },
+      {
+        "letter": "C",
+        "text": "RenderTransform only supports translation; LayoutTransform only supports rotation"
+      },
+      {
+        "letter": "D",
+        "text": "LayoutTransform has much higher rendering performance during real-time animations than RenderTransform"
+      }
+    ],
+    "correct_text": "RenderTransform modifies appearance post-layout without altering surrounding layout measurements; LayoutTransform recalculates the entire layout pass",
+    "explanation": "RenderTransform executes during the rendering phase on the GPU without triggering measure/arrange passes, making it ideal for smooth animations.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 9,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Brushes & Transforms",
+    "question": "Which Transform class in WPF is used to rotate an element around a center pivot point (CenterX, CenterY) by a specified Angle in degrees?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "RotateTransform"
+      },
+      {
+        "letter": "B",
+        "text": "ScaleTransform"
+      },
+      {
+        "letter": "C",
+        "text": "TranslateTransform"
+      },
+      {
+        "letter": "D",
+        "text": "SkewTransform"
+      }
+    ],
+    "correct_text": "RotateTransform",
+    "explanation": "RotateTransform rotates an object clockwise by a specified Angle around CenterX and CenterY coordinates.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 10,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Brushes & Transforms",
+    "question": "To combine multiple transforms (e.g., rotating, scaling, and translating simultaneously) on a single UI element, which container class is used?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "TransformGroup"
+      },
+      {
+        "letter": "B",
+        "text": "MatrixCollection"
+      },
+      {
+        "letter": "C",
+        "text": "MultiTransform"
+      },
+      {
+        "letter": "D",
+        "text": "TransformArray"
+      }
+    ],
+    "correct_text": "TransformGroup",
+    "explanation": "TransformGroup aggregates multiple Transform objects into a composite transformation pipeline applied in sequence.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 11,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Geometries & Effects",
+    "question": "How does a Geometry object differ fundamentally from a Shape element in WPF?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A Geometry is a lightweight mathematical description of a 2D shape without built-in rendering/layout overhead; a Shape is a full UIElement"
+      },
+      {
+        "letter": "B",
+        "text": "A Shape is vector-based; a Geometry is raster/pixel-based"
+      },
+      {
+        "letter": "C",
+        "text": "A Geometry cannot be combined with other geometries"
+      },
+      {
+        "letter": "D",
+        "text": "Shapes cannot be used inside Canvas panels"
+      }
+    ],
+    "correct_text": "A Geometry is a lightweight mathematical description of a 2D shape without built-in rendering/layout overhead; a Shape is a full UIElement",
+    "explanation": "Geometries are non-visual mathematical path definitions (inheriting from Freezable) that consume far fewer resources than full Shape controls.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 12,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Geometries & Effects",
+    "question": "What mini-language or path syntax command in XAML represents moving the pen to coordinates (X, Y) without drawing a line?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "M (Move)"
+      },
+      {
+        "letter": "B",
+        "text": "L (Line)"
+      },
+      {
+        "letter": "C",
+        "text": "C (Cubic Bezier)"
+      },
+      {
+        "letter": "D",
+        "text": "Z (Close path)"
+      }
+    ],
+    "correct_text": "M (Move)",
+    "explanation": "In WPF path mini-language, 'M' or 'm' establishes a new current start point without drawing a visible line.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 13,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Geometries & Effects",
+    "question": "Which built-in pixel shader effect in WPF applies a soft gaussian defocus blur to a visual element?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "BlurEffect"
+      },
+      {
+        "letter": "B",
+        "text": "DropShadowEffect"
+      },
+      {
+        "letter": "C",
+        "text": "OpacityMask"
+      },
+      {
+        "letter": "D",
+        "text": "GlowEffect"
+      }
+    ],
+    "correct_text": "BlurEffect",
+    "explanation": "BlurEffect utilizes GPU pixel shaders to apply gaussian blur controlled by the Radius and KernelType properties.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 14,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Geometries & Effects",
+    "question": "What is the DrawingVisual class used for in WPF high-performance graphics?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A lightweight visual container used to retain and display vector drawings with minimal overhead compared to full FrameworkElements"
+      },
+      {
+        "letter": "B",
+        "text": "A high-level window control for hosting DirectX games"
+      },
+      {
+        "letter": "C",
+        "text": "A specialized button for drawing raster pen sketches"
+      },
+      {
+        "letter": "D",
+        "text": "A tool for debugging memory leaks in XAML"
+      }
+    ],
+    "correct_text": "A lightweight visual container used to retain and display vector drawings with minimal overhead compared to full FrameworkElements",
+    "explanation": "DrawingVisual bypasses layout, styling, data binding, and event routing to render thousands of graphical primitives efficiently.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 15,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Data Templates",
+    "question": "What is the primary role of a DataTemplate in WPF application development?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To define the visual representation and layout structure for presenting raw custom business data objects"
+      },
+      {
+        "letter": "B",
+        "text": "To alter the interactive behavioral template of a Button control"
+      },
+      {
+        "letter": "C",
+        "text": "To configure database connection strings in app.config"
+      },
+      {
+        "letter": "D",
+        "text": "To define hardware drivers for multi-touch monitors"
+      }
+    ],
+    "correct_text": "To define the visual representation and layout structure for presenting raw custom business data objects",
+    "explanation": "DataTemplate separates the underlying data model from its UI presentation, dictating how business objects render in controls like ListBox or ItemsControl.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 16,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Data Templates",
+    "question": "How can a DataTemplate be applied automatically to all instances of a specific business class (e.g. Employee) without explicit Keys?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "By setting the DataType property of the DataTemplate to '{x:Type local:Employee}' inside resources"
+      },
+      {
+        "letter": "B",
+        "text": "By naming the DataTemplate 'EmployeeTemplate'"
+      },
+      {
+        "letter": "C",
+        "text": "By adding an x:Key='Employee' attribute"
+      },
+      {
+        "letter": "D",
+        "text": "By calling Employee.SetTemplate() in C# code-behind"
+      }
+    ],
+    "correct_text": "By setting the DataType property of the DataTemplate to '{x:Type local:Employee}' inside resources",
+    "explanation": "Omitting x:Key and assigning DataType creates an implicit DataTemplate that WPF automatically resolves whenever an instance of that type is displayed.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 17,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Data Templates",
+    "question": "Which class allows custom runtime programmatic logic to choose different DataTemplates based on properties of the data item?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "DataTemplateSelector"
+      },
+      {
+        "letter": "B",
+        "text": "StyleSelector"
+      },
+      {
+        "letter": "C",
+        "text": "BindingConverter"
+      },
+      {
+        "letter": "D",
+        "text": "VisualTreeHelper"
+      }
+    ],
+    "correct_text": "DataTemplateSelector",
+    "explanation": "By overriding SelectTemplate(object item, DependencyObject container) in a DataTemplateSelector subclass, developers can dynamically select templates.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 18,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Control Templates & Visual States",
+    "question": "What is the function of a ControlTemplate in WPF?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To completely replace the visual structure, layout, and appearance of a control while retaining its built-in behavior and event handling"
+      },
+      {
+        "letter": "B",
+        "text": "To bind controls directly to an SQL database table"
+      },
+      {
+        "letter": "C",
+        "text": "To compile XAML into C# binary assemblies"
+      },
+      {
+        "letter": "D",
+        "text": "To encrypt passwords stored in memory"
+      }
+    ],
+    "correct_text": "To completely replace the visual structure, layout, and appearance of a control while retaining its built-in behavior and event handling",
+    "explanation": "ControlTemplate decouples a control's operational logic (click, focus, state machine) from its visual tree (borders, shapes, content presenters).",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 19,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Control Templates & Visual States",
+    "question": "Inside a ControlTemplate for a ContentControl (such as a Button), which element acts as the placeholder indicating where the control's content should appear?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "ContentPresenter"
+      },
+      {
+        "letter": "B",
+        "text": "ItemsPresenter"
+      },
+      {
+        "letter": "C",
+        "text": "ContentControl"
+      },
+      {
+        "letter": "D",
+        "text": "TemplateBinding"
+      }
+    ],
+    "correct_text": "ContentPresenter",
+    "explanation": "ContentPresenter is the specific placeholder in the control's visual tree where the Content (text, image, or UI elements) is inserted.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 20,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Control Templates & Visual States",
+    "question": "What XAML markup extension is optimized for binding properties within a ControlTemplate directly to properties of the templated parent control?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "TemplateBinding"
+      },
+      {
+        "letter": "B",
+        "text": "x:Static"
+      },
+      {
+        "letter": "C",
+        "text": "RelativeSource Self"
+      },
+      {
+        "letter": "D",
+        "text": "DynamicResource"
+      }
+    ],
+    "correct_text": "TemplateBinding",
+    "explanation": "TemplateBinding is a lightweight, compile-time optimized binding designed specifically for binding template child properties to templated parent properties.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 21,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Control Templates & Visual States",
+    "question": "What framework was introduced in WPF to replace complex property triggers with standardized state management (e.g. Normal, MouseOver, Pressed, Disabled)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Visual State Manager (VSM)"
+      },
+      {
+        "letter": "B",
+        "text": "Windows Forms Timer"
+      },
+      {
+        "letter": "C",
+        "text": "State Pattern Engine"
+      },
+      {
+        "letter": "D",
+        "text": "WPF Event Hub"
+      }
+    ],
+    "correct_text": "Visual State Manager (VSM)",
+    "explanation": "The VisualStateManager (VSM) organizes visual states into VisualStateGroups and coordinates smooth storyboard transitions between states.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 22,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Storyboard & Animations",
+    "question": "Which animation class in WPF is used to smoothly transition a double-precision floating point property (such as Opacity or Width) over time?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "DoubleAnimation"
+      },
+      {
+        "letter": "B",
+        "text": "ColorAnimation"
+      },
+      {
+        "letter": "C",
+        "text": "PointAnimation"
+      },
+      {
+        "letter": "D",
+        "text": "ScalarTimeline"
+      }
+    ],
+    "correct_text": "DoubleAnimation",
+    "explanation": "DoubleAnimation animates DependencyProperties of type System.Double between a From, To, and By value over a specified Duration.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 23,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Storyboard & Animations",
+    "question": "What container object in WPF coordinates the timing, targeting, and execution of one or more timeline animations?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Storyboard"
+      },
+      {
+        "letter": "B",
+        "text": "TimelineGroup"
+      },
+      {
+        "letter": "C",
+        "text": "AnimationPlayer"
+      },
+      {
+        "letter": "D",
+        "text": "ActionCoordinator"
+      }
+    ],
+    "correct_text": "Storyboard",
+    "explanation": "A Storyboard is a specialized container timeline that uses Storyboard.TargetName and Storyboard.TargetProperty to orchestrate synchronized animations.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 24,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Storyboard & Animations",
+    "question": "What attached property in XAML specifies the target dependency property that an animation inside a Storyboard will modify?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Storyboard.TargetProperty"
+      },
+      {
+        "letter": "B",
+        "text": "Storyboard.TargetName"
+      },
+      {
+        "letter": "C",
+        "text": "Storyboard.PropertyName"
+      },
+      {
+        "letter": "D",
+        "text": "Timeline.BindingProperty"
+      }
+    ],
+    "correct_text": "Storyboard.TargetProperty",
+    "explanation": "Storyboard.TargetProperty designates the specific DependencyProperty (e.g., '(UIElement.Opacity)' or '(UIElement.RenderTransform).(RotateTransform.Angle)').",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 25,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Storyboard & Animations",
+    "question": "Which EasingFunction provides an acceleration and deceleration curve simulating an object bouncing against a surface before coming to rest?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "BounceEase"
+      },
+      {
+        "letter": "B",
+        "text": "LinearEase"
+      },
+      {
+        "letter": "C",
+        "text": "ExponentialEase"
+      },
+      {
+        "letter": "D",
+        "text": "CircleEase"
+      }
+    ],
+    "correct_text": "BounceEase",
+    "explanation": "BounceEase simulates natural physics bounce oscillations based on Bounces, Bounciness, and EasingMode (EaseIn, EaseOut, EaseInOut).",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 26,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Storyboard & Animations",
+    "question": "What property of an Animation or Timeline controls whether the animated property retains its final animated value or snaps back to its base value upon completion?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "FillBehavior (HoldEnd vs Stop)"
+      },
+      {
+        "letter": "B",
+        "text": "RepeatBehavior"
+      },
+      {
+        "letter": "C",
+        "text": "AutoReverse"
+      },
+      {
+        "letter": "D",
+        "text": "SpeedRatio"
+      }
+    ],
+    "correct_text": "FillBehavior (HoldEnd vs Stop)",
+    "explanation": "FillBehavior.HoldEnd maintains the final animation value, holding precedence over the base property value until the storyboard is stopped or removed.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 27,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Performance Tuning",
+    "question": "Which rendering tier in WPF indicates full hardware acceleration with DirectX capability for advanced shaders and effects?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Tier 2"
+      },
+      {
+        "letter": "B",
+        "text": "Tier 0"
+      },
+      {
+        "letter": "C",
+        "text": "Tier 1"
+      },
+      {
+        "letter": "D",
+        "text": "Tier 3"
+      }
+    ],
+    "correct_text": "Tier 2",
+    "explanation": "RenderCapability.Tier >> 16 returns the tier: Tier 0 (no hardware acceleration/software rasterization), Tier 1 (partial acceleration), Tier 2 (full hardware acceleration).",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 28,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Performance Tuning",
+    "question": "What attached property can be set to BitmapCache to render a complex vector visual tree onto a GPU texture cache during frequent animations?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "RenderOptions.BitmapScalingMode or UIElement.CacheMode"
+      },
+      {
+        "letter": "B",
+        "text": "RenderOptions.ClearTypeHint"
+      },
+      {
+        "letter": "C",
+        "text": "Visual.ClipToBounds"
+      },
+      {
+        "letter": "D",
+        "text": "DrawingContext.CacheEnabled"
+      }
+    ],
+    "correct_text": "RenderOptions.BitmapScalingMode or UIElement.CacheMode",
+    "explanation": "Setting CacheMode='{BitmapCache}' rasterizes the visual sub-tree into a GPU texture, allowing transforms and opacity changes to run without redrawing vector geometry.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 29,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Window Class & Interaction",
+    "question": "In WPF, which method of the Window class opens a modal dialog box, disabling the owner window and blocking execution until closed?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "ShowDialog()"
+      },
+      {
+        "letter": "B",
+        "text": "Show()"
+      },
+      {
+        "letter": "C",
+        "text": "OpenModal()"
+      },
+      {
+        "letter": "D",
+        "text": "DisplayDialog()"
+      }
+    ],
+    "correct_text": "ShowDialog()",
+    "explanation": "ShowDialog() opens a modal window that returns a Nullable<bool> (DialogResult) and blocks the calling thread flow until the dialog is dismissed.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 30,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Window Class & Interaction",
+    "question": "Which property on a Window specifies whether closing the window is prevented or what confirmation dialog is presented before shutdown?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Handling the Closing event and setting CancelEventArgs.Cancel = true"
+      },
+      {
+        "letter": "B",
+        "text": "Setting Window.CanClose = false"
+      },
+      {
+        "letter": "C",
+        "text": "Setting Window.IsModal = true"
+      },
+      {
+        "letter": "D",
+        "text": "Overriding Window.StopClose()"
+      }
+    ],
+    "correct_text": "Handling the Closing event and setting CancelEventArgs.Cancel = true",
+    "explanation": "The Closing event fires prior to window destruction; setting e.Cancel = true aborts the closure.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 31,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Window Class & Interaction",
+    "question": "Which property of the Window class dictates how the window initializes its placement relative to the desktop screen or its owner?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "WindowStartupLocation"
+      },
+      {
+        "letter": "B",
+        "text": "StartPosition"
+      },
+      {
+        "letter": "C",
+        "text": "PlacementMode"
+      },
+      {
+        "letter": "D",
+        "text": "StartupOrigin"
+      }
+    ],
+    "correct_text": "WindowStartupLocation",
+    "explanation": "WindowStartupLocation accepts CenterScreen, CenterOwner, or Manual coordinates.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 32,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Window Class & Interaction",
+    "question": "Which Window properties must be set in XAML to create a custom shaped, transparent, non-rectangular window in WPF?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "WindowStyle='None' and AllowsTransparency='True' (with Background='Transparent')"
+      },
+      {
+        "letter": "B",
+        "text": "WindowStyle='ToolWindow' and Opacity='0.5'"
+      },
+      {
+        "letter": "C",
+        "text": "ShowInTaskbar='False' and WindowState='Normal'"
+      },
+      {
+        "letter": "D",
+        "text": "ClipToBounds='True' and IsHitTestVisible='False'"
+      }
+    ],
+    "correct_text": "WindowStyle='None' and AllowsTransparency='True' (with Background='Transparent')",
+    "explanation": "To eliminate standard Win32 chrome and allow shaped borders, WindowStyle must be None and AllowsTransparency set to True.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 33,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Window Class & Interaction",
+    "question": "What method on the Window class allows dragging and moving a borderless non-rectangular window when clicking anywhere on the surface?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "DragMove()"
+      },
+      {
+        "letter": "B",
+        "text": "MoveWindow()"
+      },
+      {
+        "letter": "C",
+        "text": "BeginDrag()"
+      },
+      {
+        "letter": "D",
+        "text": "CaptureMouse()"
+      }
+    ],
+    "correct_text": "DragMove()",
+    "explanation": "Calling this.DragMove() inside the MouseLeftButtonDown event handler automatically initiates native OS window movement.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 34,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Window Class & Interaction",
+    "question": "Which WPF class enables modern Windows taskbar integration, such as taskbar progress bars, overlay icons, and jump lists?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "TaskbarItemInfo"
+      },
+      {
+        "letter": "B",
+        "text": "TaskbarManager"
+      },
+      {
+        "letter": "C",
+        "text": "ShellDesktopManager"
+      },
+      {
+        "letter": "D",
+        "text": "NotificationIcon"
+      }
+    ],
+    "correct_text": "TaskbarItemInfo",
+    "explanation": "Window.TaskbarItemInfo provides properties like ProgressState, ProgressValue, Overlay, and ThumbButtonInfos directly in XAML.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 35,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Page-Based Navigation",
+    "question": "Which WPF top-level container inherits from Window and provides built-in browser-style navigation buttons (Forward/Back) and a history journal?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "NavigationWindow"
+      },
+      {
+        "letter": "B",
+        "text": "PageWindow"
+      },
+      {
+        "letter": "C",
+        "text": "BrowserWindow"
+      },
+      {
+        "letter": "D",
+        "text": "ExplorerFrame"
+      }
+    ],
+    "correct_text": "NavigationWindow",
+    "explanation": "NavigationWindow is a root window designed for hosting Page instances, equipped with automatic navigation chrome and journal history.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 36,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Page-Based Navigation",
+    "question": "Which content control can be embedded inside any WPF window or layout panel to host Page navigation with its own isolated journal history?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Frame"
+      },
+      {
+        "letter": "B",
+        "text": "ContentControl"
+      },
+      {
+        "letter": "C",
+        "text": "DocumentViewer"
+      },
+      {
+        "letter": "D",
+        "text": "ScrollViewer"
+      }
+    ],
+    "correct_text": "Frame",
+    "explanation": "The Frame control can host WPF Pages, HTML, or external URIs and manages its own forward/backward navigation history stack.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 37,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Page-Based Navigation",
+    "question": "Which central service object provides programmatic navigation methods (such as Navigate, GoBack, GoForward, and Refresh) in a page-based WPF app?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "NavigationService"
+      },
+      {
+        "letter": "B",
+        "text": "PageCoordinator"
+      },
+      {
+        "letter": "C",
+        "text": "JournalManager"
+      },
+      {
+        "letter": "D",
+        "text": "HistoryDispatcher"
+      }
+    ],
+    "correct_text": "NavigationService",
+    "explanation": "NavigationService handles asynchronous navigation between content and provides access to the navigation journal stack.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 38,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Page-Based Navigation",
+    "question": "By default, what happens to Page instances in WPF when navigated away from?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The Page object is discarded and garbage collected, and re-instantiated upon returning unless KeepAlive is set to True"
+      },
+      {
+        "letter": "B",
+        "text": "The Page is kept in RAM forever regardless of system memory"
+      },
+      {
+        "letter": "C",
+        "text": "The Page state is automatically saved to an SQLite database"
+      },
+      {
+        "letter": "D",
+        "text": "The application crashes with an OutOfMemoryException"
+      }
+    ],
+    "correct_text": "The Page object is discarded and garbage collected, and re-instantiated upon returning unless KeepAlive is set to True",
+    "explanation": "WPF discards Page instances to conserve memory, keeping only journal entry metadata unless Page.KeepAlive is explicitly set to true.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 39,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Page-Based Navigation",
+    "question": "Which control in WPF hosts web pages and displays HTML content by wrapping an embedded web engine?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "WebBrowser"
+      },
+      {
+        "letter": "B",
+        "text": "HtmlViewer"
+      },
+      {
+        "letter": "C",
+        "text": "HttpRenderer"
+      },
+      {
+        "letter": "D",
+        "text": "WebViewHost"
+      }
+    ],
+    "correct_text": "WebBrowser",
+    "explanation": "The System.Windows.Controls.WebBrowser control hosts web pages, executing scripts and displaying local or remote web content.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 40,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Menus, Toolbars & Ribbons",
+    "question": "What element in WPF represents an individual item or command within a Menu or ContextMenu?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "MenuItem"
+      },
+      {
+        "letter": "B",
+        "text": "MenuButton"
+      },
+      {
+        "letter": "C",
+        "text": "CommandEntry"
+      },
+      {
+        "letter": "D",
+        "text": "ActionItem"
+      }
+    ],
+    "correct_text": "MenuItem",
+    "explanation": "MenuItem can act as a clickable command button, a checkable option (IsCheckable=true), or a parent container for submenu items.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 41,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Menus, Toolbars & Ribbons",
+    "question": "Which property on a MenuItem or Button connects the element directly to WPF's command routing architecture (e.g. ApplicationCommands.Open)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Command"
+      },
+      {
+        "letter": "B",
+        "text": "ActionTarget"
+      },
+      {
+        "letter": "C",
+        "text": "EventTrigger"
+      },
+      {
+        "letter": "D",
+        "text": "RoutedHandler"
+      }
+    ],
+    "correct_text": "Command",
+    "explanation": "Setting Command automatically handles click dispatching and enables/disables the control based on the command's CanExecute status.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 42,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Menus, Toolbars & Ribbons",
+    "question": "What container control groups related ToolBar controls together and provides an overflow dropdown button when items exceed available width?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "ToolBarTray"
+      },
+      {
+        "letter": "B",
+        "text": "ToolBarPanel"
+      },
+      {
+        "letter": "C",
+        "text": "CommandBar"
+      },
+      {
+        "letter": "D",
+        "text": "RibbonGroup"
+      }
+    ],
+    "correct_text": "ToolBarTray",
+    "explanation": "ToolBarTray arranges multiple ToolBar controls across rows and columns and manages toolbar reordering and overflow menus.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 43,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Menus, Toolbars & Ribbons",
+    "question": "What suite of controls provides Microsoft Office-style tabbed command interfaces with ApplicationMenu, Tabs, Groups, and QuickAccessToolBar?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ribbon (System.Windows.Controls.Ribbon)"
+      },
+      {
+        "letter": "B",
+        "text": "OfficeBarControl"
+      },
+      {
+        "letter": "C",
+        "text": "FluentMenuStrip"
+      },
+      {
+        "letter": "D",
+        "text": "AccordionPanel"
+      }
+    ],
+    "correct_text": "Ribbon (System.Windows.Controls.Ribbon)",
+    "explanation": "The WPF Ribbon library implements the standard Microsoft Office Fluent ribbon user interface.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 44,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Sound & Video",
+    "question": "Which WPF control is capable of playing audio and video streams directly within the UI visual tree?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "MediaElement"
+      },
+      {
+        "letter": "B",
+        "text": "SoundPlayer"
+      },
+      {
+        "letter": "C",
+        "text": "VideoView"
+      },
+      {
+        "letter": "D",
+        "text": "AudioStreamer"
+      }
+    ],
+    "correct_text": "MediaElement",
+    "explanation": "MediaElement can render video and playback audio streams, supporting standard playback controls (Play, Pause, Stop, Position).",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 45,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Sound & Video",
+    "question": "What lightweight .NET class is used strictly for playing simple uncompressed .wav audio files without the visual overhead of MediaElement?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "System.Media.SoundPlayer"
+      },
+      {
+        "letter": "B",
+        "text": "System.Windows.Media.MediaPlayer"
+      },
+      {
+        "letter": "C",
+        "text": "System.IO.AudioPlayer"
+      },
+      {
+        "letter": "D",
+        "text": "System.Windows.Forms.Beeper"
+      }
+    ],
+    "correct_text": "System.Media.SoundPlayer",
+    "explanation": "SoundPlayer is a simple, lightweight class intended specifically for playing basic system notification sounds and .wav audio clips.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 46,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Sound & Video",
+    "question": "Which property on MediaElement must be set to 'Manual' to control playback using C# methods (Play, Pause) when a clock is not used?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "LoadedBehavior"
+      },
+      {
+        "letter": "B",
+        "text": "UnloadedBehavior"
+      },
+      {
+        "letter": "C",
+        "text": "PlayMode"
+      },
+      {
+        "letter": "D",
+        "text": "StreamStatus"
+      }
+    ],
+    "correct_text": "LoadedBehavior",
+    "explanation": "LoadedBehavior must be set to MediaState.Manual so that programmatic calls like media.Play() take effect instead of default storyboard clocks.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 47,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "3D Drawing",
+    "question": "What WPF control acts as the 2D bridge to host and render 3D scenes within a standard XAML visual layout?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Viewport3D"
+      },
+      {
+        "letter": "B",
+        "text": "Canvas3D"
+      },
+      {
+        "letter": "C",
+        "text": "SceneGraph3D"
+      },
+      {
+        "letter": "D",
+        "text": "DirectXHost"
+      }
+    ],
+    "correct_text": "Viewport3D",
+    "explanation": "Viewport3D hosts 3D visual content, containing Camera, Children (ModelVisual3D), and handling 3D-to-2D projection.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 48,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "3D Drawing",
+    "question": "Which camera type in WPF 3D graphics simulates human eye vision where distant objects appear smaller than near objects?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "PerspectiveCamera"
+      },
+      {
+        "letter": "B",
+        "text": "OrthographicCamera"
+      },
+      {
+        "letter": "C",
+        "text": "MatrixCamera"
+      },
+      {
+        "letter": "D",
+        "text": "ParallelCamera"
+      }
+    ],
+    "correct_text": "PerspectiveCamera",
+    "explanation": "PerspectiveCamera creates realistic perspective foreshortening based on Position, LookDirection, UpDirection, and FieldOfView.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 49,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "3D Drawing",
+    "question": "In WPF 3D modeling, what geometry class defines 3D surfaces using collections of Positions, TriangleIndices, and Normals?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "MeshGeometry3D"
+      },
+      {
+        "letter": "B",
+        "text": "GeometryModel3D"
+      },
+      {
+        "letter": "C",
+        "text": "Surface3D"
+      },
+      {
+        "letter": "D",
+        "text": "Polyhedron3D"
+      }
+    ],
+    "correct_text": "MeshGeometry3D",
+    "explanation": "MeshGeometry3D specifies the vertex positions (Point3DCollection) and triangle index list that compose 3D triangle mesh surfaces.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 50,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "3D Drawing",
+    "question": "Which light source in WPF 3D illuminates all surfaces in a scene uniformly from all directions without a specific source location?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "AmbientLight"
+      },
+      {
+        "letter": "B",
+        "text": "DirectionalLight"
+      },
+      {
+        "letter": "C",
+        "text": "PointLight"
+      },
+      {
+        "letter": "D",
+        "text": "SpotLight"
+      }
+    ],
+    "correct_text": "AmbientLight",
+    "explanation": "AmbientLight provides constant, non-directional illumination across every surface in a 3D scene regardless of surface normal orientation.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 51,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "3D Drawing",
+    "question": "Which 3D material in WPF paints a diffuse matte surface using a standard 2D Brush (such as SolidColorBrush or ImageBrush)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "DiffuseMaterial"
+      },
+      {
+        "letter": "B",
+        "text": "SpecularMaterial"
+      },
+      {
+        "letter": "C",
+        "text": "EmissiveMaterial"
+      },
+      {
+        "letter": "D",
+        "text": "MaterialGroup"
+      }
+    ],
+    "correct_text": "DiffuseMaterial",
+    "explanation": "DiffuseMaterial reflects light diffusely across the surface of a 3D mesh model using any WPF 2D Brush.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 52,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Vector Graphics & Shapes",
+    "question": "What does the Stretch property on a Shape or Viewbox control when its container dimensions change?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Determines whether and how the graphical content scales to fill allocated space (None, Fill, Uniform, UniformToFill)"
+      },
+      {
+        "letter": "B",
+        "text": "Determines the thickness of the border"
+      },
+      {
+        "letter": "C",
+        "text": "Controls the elastic bounce animation of the shape"
+      },
+      {
+        "letter": "D",
+        "text": "Stretches the color spectrum across RGB components"
+      }
+    ],
+    "correct_text": "Determines whether and how the graphical content scales to fill allocated space (None, Fill, Uniform, UniformToFill)",
+    "explanation": "Stretch governs aspect ratio preservation and scaling: Uniform preserves aspect ratio, while Fill distorts to fill dimensions.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 53,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Brushes & Transforms",
+    "question": "What is the function of the MatrixTransform class in WPF graphics?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Applies an arbitrary 3x3 affine transformation matrix (supporting simultaneous translation, rotation, scaling, and skewing)"
+      },
+      {
+        "letter": "B",
+        "text": "Converts color matrices into grayscale"
+      },
+      {
+        "letter": "C",
+        "text": "Converts 3D models into 2D bitmaps"
+      },
+      {
+        "letter": "D",
+        "text": "Calculates neural network weight multiplications"
+      }
+    ],
+    "correct_text": "Applies an arbitrary 3x3 affine transformation matrix (supporting simultaneous translation, rotation, scaling, and skewing)",
+    "explanation": "MatrixTransform allows low-level mathematical manipulation of 2D coordinates through a 3x3 affine transformation matrix.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 54,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Control Templates & Visual States",
+    "question": "Which element is used inside an ItemsControl's ControlTemplate to dictate where the collection items are generated?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "ItemsPresenter"
+      },
+      {
+        "letter": "B",
+        "text": "ContentPresenter"
+      },
+      {
+        "letter": "C",
+        "text": "ItemTemplate"
+      },
+      {
+        "letter": "D",
+        "text": "ItemsPanel"
+      }
+    ],
+    "correct_text": "ItemsPresenter",
+    "explanation": "ItemsPresenter marks the insertion point within the template where the items (specified by ItemsPanel) are physically placed.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 55,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Storyboard & Animations",
+    "question": "What is an Animation Clock in the WPF animation engine?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A runtime object created from a Timeline that tracks the current tick, progress, and playback state of an animation"
+      },
+      {
+        "letter": "B",
+        "text": "A physical hardware timer chip on the motherboard"
+      },
+      {
+        "letter": "C",
+        "text": "A visual analog clock control for user dashboards"
+      },
+      {
+        "letter": "D",
+        "text": "A profiler tool that calculates CPU usage during rendering"
+      }
+    ],
+    "correct_text": "A runtime object created from a Timeline that tracks the current tick, progress, and playback state of an animation",
+    "explanation": "WPF timelines are blueprints; when started, the animation engine instantiates an AnimationClock to manage progression over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 56,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Page-Based Navigation",
+    "question": "What is a PageFunction in WPF navigation architecture?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A specialized Page<T> that behaves like a navigational sub-routine, returning a typed result to the calling page when completed"
+      },
+      {
+        "letter": "B",
+        "text": "A C# delegate attached to page button clicks"
+      },
+      {
+        "letter": "C",
+        "text": "A JavaScript function executing inside a WebBrowser"
+      },
+      {
+        "letter": "D",
+        "text": "A mathematical formula for calculating page dimensions"
+      }
+    ],
+    "correct_text": "A specialized Page<T> that behaves like a navigational sub-routine, returning a typed result to the calling page when completed",
+    "explanation": "PageFunction<T> enables structured navigation workflows (like wizards) by firing a Return event with a typed result back to the parent page.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 57,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Sound & Video",
+    "question": "Which event on MediaElement notifies the application that an audio or video file has finished playing?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "MediaEnded"
+      },
+      {
+        "letter": "B",
+        "text": "MediaFailed"
+      },
+      {
+        "letter": "C",
+        "text": "MediaOpened"
+      },
+      {
+        "letter": "D",
+        "text": "PlaybackFinished"
+      }
+    ],
+    "correct_text": "MediaEnded",
+    "explanation": "MediaEnded fires when the media stream reaches the end of its duration, allowing loop restarting or playlist progression.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 58,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "3D Drawing",
+    "question": "Which light type in WPF casts light in all directions from a specific point in 3D space and attenuates with distance?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "PointLight"
+      },
+      {
+        "letter": "B",
+        "text": "DirectionalLight"
+      },
+      {
+        "letter": "C",
+        "text": "AmbientLight"
+      },
+      {
+        "letter": "D",
+        "text": "SpotLight"
+      }
+    ],
+    "correct_text": "PointLight",
+    "explanation": "PointLight occupies a specific 3D Point3D position and radiates light outward with optional distance attenuation.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 59,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Window Class & Interaction",
+    "question": "What property allows a WPF Window to remain visibly on top of all other non-topmost desktop windows even when losing focus?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Topmost='True'"
+      },
+      {
+        "letter": "B",
+        "text": "IsActive='True'"
+      },
+      {
+        "letter": "C",
+        "text": "Focusable='True'"
+      },
+      {
+        "letter": "D",
+        "text": "AlwaysOnTop='True'"
+      }
+    ],
+    "correct_text": "Topmost='True'",
+    "explanation": "Window.Topmost = true ensures the window floats above other regular application windows in the OS Z-order.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 60,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Geometries & Effects",
+    "question": "Which Geometry class represents a complex composite 2D shape composed of sub-paths, arcs, lines, and Bezier curves?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "PathGeometry"
+      },
+      {
+        "letter": "B",
+        "text": "LineGeometry"
+      },
+      {
+        "letter": "C",
+        "text": "RectangleGeometry"
+      },
+      {
+        "letter": "D",
+        "text": "EllipseGeometry"
+      }
+    ],
+    "correct_text": "PathGeometry",
+    "explanation": "PathGeometry is the most versatile geometry, containing PathFigures comprised of PathSegments (LineSegment, ArcSegment, BezierSegment).",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 61,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Brushes & Transforms",
+    "question": "Which WPF brush paints an area with repeated tiled patterns of vector or bitmap drawings?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "TileBrush (e.g., ImageBrush, DrawingBrush)"
+      },
+      {
+        "letter": "B",
+        "text": "SolidColorBrush"
+      },
+      {
+        "letter": "C",
+        "text": "GradientBrush"
+      },
+      {
+        "letter": "D",
+        "text": "ShaderBrush"
+      }
+    ],
+    "correct_text": "TileBrush (e.g., ImageBrush, DrawingBrush)",
+    "explanation": "TileBrush provides TileMode properties (None, Tile, FlipX, FlipY, FlipXY) to repeat images or drawings across infinite surfaces.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 62,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Brushes & Transforms",
+    "question": "What does the Viewport property on a TileBrush determine?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The position and dimensions of the fundamental tile relative to the painted bounding box"
+      },
+      {
+        "letter": "B",
+        "text": "The 3D camera angle"
+      },
+      {
+        "letter": "C",
+        "text": "The window resolution"
+      },
+      {
+        "letter": "D",
+        "text": "The border stroke thickness"
+      }
+    ],
+    "correct_text": "The position and dimensions of the fundamental tile relative to the painted bounding box",
+    "explanation": "Viewport specifies the size and position of the base tile, which is then repeated if TileMode is set to Tile.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 63,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Geometries & Effects",
+    "question": "Which Geometry class in WPF combines two existing geometries using Boolean operations like Union, Intersect, Exclude, or Xor?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "CombinedGeometry"
+      },
+      {
+        "letter": "B",
+        "text": "GeometryGroup"
+      },
+      {
+        "letter": "C",
+        "text": "StreamGeometry"
+      },
+      {
+        "letter": "D",
+        "text": "PathGeometry"
+      }
+    ],
+    "correct_text": "CombinedGeometry",
+    "explanation": "CombinedGeometry takes Geometry1 and Geometry2 and applies a GeometryCombineMode operation (Union, Intersect, Xor, Exclude).",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 64,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Geometries & Effects",
+    "question": "Why is StreamGeometry preferred over PathGeometry when creating lightweight, non-modifiable vector icons in XAML?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "StreamGeometry cannot be animated or modified after creation, using significantly less memory and CPU than PathGeometry"
+      },
+      {
+        "letter": "B",
+        "text": "StreamGeometry supports audio streaming"
+      },
+      {
+        "letter": "C",
+        "text": "StreamGeometry automatically converts to JPEG"
+      },
+      {
+        "letter": "D",
+        "text": "PathGeometry does not support Bezier curves"
+      }
+    ],
+    "correct_text": "StreamGeometry cannot be animated or modified after creation, using significantly less memory and CPU than PathGeometry",
+    "explanation": "StreamGeometry is an immutable, read-only geometry optimized for performance and resource consumption.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 65,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Data Templates",
+    "question": "What control property in ItemsControl/ListBox specifies the visual template applied to individual list items?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "ItemTemplate"
+      },
+      {
+        "letter": "B",
+        "text": "ItemsPanel"
+      },
+      {
+        "letter": "C",
+        "text": "ItemContainerStyle"
+      },
+      {
+        "letter": "D",
+        "text": "Template"
+      }
+    ],
+    "correct_text": "ItemTemplate",
+    "explanation": "ItemTemplate specifies the DataTemplate used to render each business object bound to the ItemsSource.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 66,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Data Templates",
+    "question": "What is the function of the ItemsPanelTemplate in WPF collection controls?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Defines the layout container panel (such as StackPanel, WrapPanel, or VirtualizingStackPanel) that holds the generated item containers"
+      },
+      {
+        "letter": "B",
+        "text": "Defines the visual appearance of each individual item"
+      },
+      {
+        "letter": "C",
+        "text": "Controls database SQL paging queries"
+      },
+      {
+        "letter": "D",
+        "text": "Configures keyboard shortcut hotkeys"
+      }
+    ],
+    "correct_text": "Defines the layout container panel (such as StackPanel, WrapPanel, or VirtualizingStackPanel) that holds the generated item containers",
+    "explanation": "ItemsControl.ItemsPanel specifies the internal panel type used to arrange the child items.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 67,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Control Templates & Visual States",
+    "question": "What happens when you apply a custom ControlTemplate to a Button without defining visual cues for mouse clicks or hover?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The Button loses all default hover highlights and click press animations, remaining visually static unless custom triggers/states are defined"
+      },
+      {
+        "letter": "B",
+        "text": "The Button throws a compilation error in XAML"
+      },
+      {
+        "letter": "C",
+        "text": "The Button ceases to fire the Click event"
+      },
+      {
+        "letter": "D",
+        "text": "WPF restores the Windows 95 fallback theme"
+      }
+    ],
+    "correct_text": "The Button loses all default hover highlights and click press animations, remaining visually static unless custom triggers/states are defined",
+    "explanation": "A ControlTemplate replaces the complete visual tree; all visual state feedback (MouseOver, Pressed) must be explicitly reconstructed.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 68,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Control Templates & Visual States",
+    "question": "What is the difference between a Trigger and an EventTrigger in WPF styling?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A Property Trigger monitors a DependencyProperty value (e.g., IsMouseOver); an EventTrigger fires actions (like Storyboards) in response to a routed event"
+      },
+      {
+        "letter": "B",
+        "text": "Property Triggers only work in code-behind; EventTriggers work in XAML"
+      },
+      {
+        "letter": "C",
+        "text": "EventTriggers can modify property values directly without animations"
+      },
+      {
+        "letter": "D",
+        "text": "There is no difference; they are exact synonyms"
+      }
+    ],
+    "correct_text": "A Property Trigger monitors a DependencyProperty value (e.g., IsMouseOver); an EventTrigger fires actions (like Storyboards) in response to a routed event",
+    "explanation": "Property Triggers set Setters while conditions evaluate true; EventTriggers execute actions like BeginStoryboard upon event occurrence.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 69,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Storyboard & Animations",
+    "question": "Which animation class is used to animate transitions between discrete states that cannot be smoothly interpolated (e.g., Visibility or Object references)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "ObjectAnimationUsingKeyFrames (with DiscreteObjectKeyFrame)"
+      },
+      {
+        "letter": "B",
+        "text": "LinearDoubleAnimation"
+      },
+      {
+        "letter": "C",
+        "text": "ContinuousColorAnimation"
+      },
+      {
+        "letter": "D",
+        "text": "Vector3DAnimation"
+      }
+    ],
+    "correct_text": "ObjectAnimationUsingKeyFrames (with DiscreteObjectKeyFrame)",
+    "explanation": "Discrete keyframes snap immediately to the target value at the key time rather than interpolating gradual increments.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 70,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit V: Graphics, Templates, & Animation",
+    "topic": "Storyboard & Animations",
+    "question": "What property of an Animation specifies how many times it should loop (e.g. 'Forever' or '3x')?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "RepeatBehavior"
+      },
+      {
+        "letter": "B",
+        "text": "LoopCount"
+      },
+      {
+        "letter": "C",
+        "text": "IterationLimit"
+      },
+      {
+        "letter": "D",
+        "text": "CycleBehavior"
+      }
+    ],
+    "correct_text": "RepeatBehavior",
+    "explanation": "RepeatBehavior can be set to an iteration count (e.g., '3x'), a TimeSpan duration, or 'Forever' for infinite continuous looping.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 71,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Window Class & Interaction",
+    "question": "What property determines whether a Window shows standard Minimize, Maximize, and Close buttons on its title bar?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "ResizeMode"
+      },
+      {
+        "letter": "B",
+        "text": "WindowStyle"
+      },
+      {
+        "letter": "C",
+        "text": "ShowInTaskbar"
+      },
+      {
+        "letter": "D",
+        "text": "TitleButtonsVisible"
+      }
+    ],
+    "correct_text": "ResizeMode",
+    "explanation": "ResizeMode settings like NoResize remove maximize/minimize buttons, while CanMinimize disables maximize.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 72,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Window Class & Interaction",
+    "question": "How can a WPF Window be closed programmatically from C# code-behind?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "this.Close()"
+      },
+      {
+        "letter": "B",
+        "text": "this.Destroy()"
+      },
+      {
+        "letter": "C",
+        "text": "this.Exit()"
+      },
+      {
+        "letter": "D",
+        "text": "this.Kill()"
+      }
+    ],
+    "correct_text": "this.Close()",
+    "explanation": "Calling Window.Close() initiates the Closing and Closed events, closing the window and releasing its Win32 HWND handle.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 73,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Page-Based Navigation",
+    "question": "What event on NavigationService or Frame is triggered when a navigation operation fails (e.g. invalid URI or network drop)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "NavigationFailed"
+      },
+      {
+        "letter": "B",
+        "text": "NavigationError"
+      },
+      {
+        "letter": "C",
+        "text": "LoadFailed"
+      },
+      {
+        "letter": "D",
+        "text": "UriNotFound"
+      }
+    ],
+    "correct_text": "NavigationFailed",
+    "explanation": "NavigationFailed provides details on the exception and lets developers set Handled = true to prevent app crashing.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 74,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Page-Based Navigation",
+    "question": "What is an XBAP (XAML Browser Application) in classical WPF architecture?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A WPF application compiled to execute inside Internet Explorer/Web browser sandbox"
+      },
+      {
+        "letter": "B",
+        "text": "An XML database parser"
+      },
+      {
+        "letter": "C",
+        "text": "A cross-platform Android compiler"
+      },
+      {
+        "letter": "D",
+        "text": "A cloud database migration script"
+      }
+    ],
+    "correct_text": "A WPF application compiled to execute inside Internet Explorer/Web browser sandbox",
+    "explanation": "XBAPs were designed to deploy WPF rich client applications hosted directly within web browser windows.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 75,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Menus, Toolbars & Ribbons",
+    "question": "What control is commonly placed between MenuItems or ToolBar buttons to create a vertical or horizontal dividing line?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Separator"
+      },
+      {
+        "letter": "B",
+        "text": "Divider"
+      },
+      {
+        "letter": "C",
+        "text": "Splitter"
+      },
+      {
+        "letter": "D",
+        "text": "LineControl"
+      }
+    ],
+    "correct_text": "Separator",
+    "explanation": "The Separator control renders a styled dividing bar between grouped commands in menus and toolbars.",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 76,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Menus, Toolbars & Ribbons",
+    "question": "In WPF Ribbon architecture, what is the 'Quick Access Toolbar' (QAT)?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A customizable toolbar pinned to the top window chrome containing frequently used commands"
+      },
+      {
+        "letter": "B",
+        "text": "The Windows start menu"
+      },
+      {
+        "letter": "C",
+        "text": "A status bar at the bottom of the screen"
+      },
+      {
+        "letter": "D",
+        "text": "A floating context menu on right-click"
+      }
+    ],
+    "correct_text": "A customizable toolbar pinned to the top window chrome containing frequently used commands",
+    "explanation": "The QuickAccessToolBar provides immediate one-click access to essential application commands regardless of the active ribbon tab.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 77,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "Sound & Video",
+    "question": "Which property on MediaElement specifies the playback rate, allowing fast-forwarding or slow-motion video playback?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "SpeedRatio"
+      },
+      {
+        "letter": "B",
+        "text": "PlaybackSpeed"
+      },
+      {
+        "letter": "C",
+        "text": "RateMultiplier"
+      },
+      {
+        "letter": "D",
+        "text": "VideoRatio"
+      }
+    ],
+    "correct_text": "SpeedRatio",
+    "explanation": "SpeedRatio accepts a double multiplier (e.g., 2.0 for 2x fast-forward, 0.5 for half speed).",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 78,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "3D Drawing",
+    "question": "What 3D transformation class rotates a 3D model around a specified axis vector by a given angle in degrees?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "AxisAngleRotation3D (inside RotateTransform3D)"
+      },
+      {
+        "letter": "B",
+        "text": "TranslateTransform3D"
+      },
+      {
+        "letter": "C",
+        "text": "ScaleTransform3D"
+      },
+      {
+        "letter": "D",
+        "text": "MatrixTransform3D"
+      }
+    ],
+    "correct_text": "AxisAngleRotation3D (inside RotateTransform3D)",
+    "explanation": "RotateTransform3D uses an AxisAngleRotation3D specifying the rotation Axis (e.g. 0,1,0 for Y-axis) and the Angle.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 79,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "3D Drawing",
+    "question": "What is the function of the Normals property on a MeshGeometry3D?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Specifies vectors perpendicular to each vertex used for realistic lighting and surface shading calculations"
+      },
+      {
+        "letter": "B",
+        "text": "Specifies the color of the mesh"
+      },
+      {
+        "letter": "C",
+        "text": "Normalizes the screen DPI resolution"
+      },
+      {
+        "letter": "D",
+        "text": "Defines camera view clipping planes"
+      }
+    ],
+    "correct_text": "Specifies vectors perpendicular to each vertex used for realistic lighting and surface shading calculations",
+    "explanation": "Surface normal vectors determine how light reflects off faces, producing smooth curved shading rather than faceted polygons.",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 80,
+    "subject_id": "windows-dotnet",
+    "subject_code": "MOB503",
+    "subject_name": "Windows .NET (WPF)",
+    "unit": "Unit VI: Windows, Pages & Rich Controls",
+    "topic": "3D Drawing",
+    "question": "Which 3D light type emits a directed conical beam of light with inner and outer cone angles from a point in space?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "SpotLight"
+      },
+      {
+        "letter": "B",
+        "text": "DirectionalLight"
+      },
+      {
+        "letter": "C",
+        "text": "PointLight"
+      },
+      {
+        "letter": "D",
+        "text": "AmbientLight"
+      }
+    ],
+    "correct_text": "SpotLight",
+    "explanation": "SpotLight radiates light in a directed cone defined by InnerConeAngle and OuterConeAngle, attenuating towards the edges.",
+    "difficulty": "Medium"
+  }
+]

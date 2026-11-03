@@ -1,0 +1,13 @@
+
+
+Authentication
+Authentication methods: Something you know, Something you are,
+Something You Have, Passwords, Password verification, Attacking
+Systems via passwords, Biometrics
+
+Unit - VI
+
+Firewall and Intrusion Detection
+CAPTCHA, Introduction of Firewall, Classifications of Firewall, Personal
+Firewall, Intrusion Detection
+

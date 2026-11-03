@@ -1,0 +1,20 @@
+
+
+
+
+
+Unit - V
+Graphics, Templates, & Animation
+Vector graphics - Shapes, Brushes and Transforms, Geometries, Effects
+and Visuals, Data Templates: Reusable visual structures for custom
+business objects, Storyboard-driven Animations, performance tuning,
+Control Templates - Creating, organizing and building templates,
+Defining Visual States.
+
+Unit - VI
+Windows, Pages and Rich Controls:
+Window - Class, Interaction, Nonrectangular window and taskbar, Page-
+based navigation systems, managing the page history journal, and
+hosting content via WebBrowser, Menus, Toolbar, Ribbons, Sound and
+video, 3D drawing.
+

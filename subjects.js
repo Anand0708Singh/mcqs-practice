@@ -36,7 +36,7 @@ const SUBJECTS_CATALOG = [
     name: "Data Communication and Networking",
     date: "03/11/2026",
     time: "01:30 PM – 01:50 PM & 02:15 PM – 02:35 PM",
-    description: "Network Layer (Services, Packet Switching, Performance, IPv4 & IPv6, Forwarding, Routing & Multicast), Transport Layer (Services, UDP, TCP, SCTP), and Application Layer (WWW/HTTP, FTP, Email, SSH, DNS, Compression).",
+    description: "Network Layer (Services, Packet Switching, IPv4, IPv6, Forwarding, Routing Algorithms & Protocols), Transport Layer (Services, UDP, TCP, SCTP), and Application Layer (WWW/HTTP, FTP, Email, SSH, DNS, Compression).",
     icon: "📡",
     available: true,
     totalQuestions: 395,
@@ -48,18 +48,21 @@ const SUBJECTS_CATALOG = [
     dataVar: "DCN_DATA"
   },
   {
-    id: "windows-ios",
+    id: "windows-dotnet",
     code: "MOB503",
-    name: "Windows_252, iOS_56",
+    name: "Windows .NET (WPF)",
     date: "04/11/2026",
     time: "9:00 – 9:20 AM",
-    description: "Windows desktop and universal app development & iOS Swift mobile architectures.",
+    description: "Unit V: Vector Graphics, Shapes, Brushes, Transforms, Geometries, Data & Control Templates, Visual States, Storyboards. Unit VI: Window Class, Nonrectangular Windows, Taskbar, Page Navigation, Menus, Toolbars, Ribbons, Sound/Video & 3D Drawing.",
     icon: "📱",
-    available: false,
-    totalQuestions: 0,
-    unitsCount: 0,
-    topicsCount: 0,
-    dataPath: "subjects/windows-ios/questions.json"
+    available: true,
+    totalQuestions: 80,
+    unitsCount: 2,
+    topicsCount: 12,
+    dataPath: "subjects/windows-dotnet/questions.json",
+    scriptPath: "subjects/windows-dotnet/questions.js",
+    pdfPath: "subjects/windows-dotnet/MOB503_Windows_DotNet_Units_V_VI_MCQ_Question_Bank.pdf",
+    dataVar: "WIN_DATA"
   },
   {
     id: "information-security",
@@ -67,13 +70,16 @@ const SUBJECTS_CATALOG = [
     name: "Information Security",
     date: "04/11/2026",
     time: "10:30 – 10:50 AM",
-    description: "Symmetric and asymmetric cryptography, access controls, network threats, malware and authentication.",
+    description: "Unit V: Authentication Methods, Passwords, Dictionary/Rainbow Table Attacks, Biometric Systems (FAR/FRR/CER). Unit VI: CAPTCHA architectures, Firewalls (Packet Filtering, Stateful, Application Proxy), DMZ, IDS/IPS & Snort.",
     icon: "🔒",
-    available: false,
-    totalQuestions: 0,
-    unitsCount: 0,
-    topicsCount: 0,
-    dataPath: "subjects/information-security/questions.json"
+    available: true,
+    totalQuestions: 74,
+    unitsCount: 2,
+    topicsCount: 18,
+    dataPath: "subjects/information-security/questions.json",
+    scriptPath: "subjects/information-security/questions.js",
+    pdfPath: "subjects/information-security/IT5054_IS_Units_V_VI_MCQ_Question_Bank.pdf",
+    dataVar: "IS_DATA"
   },
   {
     id: "cloud-infrastructure",
@@ -95,13 +101,16 @@ const SUBJECTS_CATALOG = [
     name: "Machine Learning",
     date: "04/11/2026",
     time: "02:15 PM – 02:35 PM",
-    description: "Supervised and unsupervised learning, classification, regression, model evaluation, and neural networks.",
+    description: "Unit V: Unsupervised Learning, k-Means, k-Medoids, Hierarchical, DBSCAN, Apriori, Neural Networks (McCulloch-Pitts, Perceptron, ADALINE, Backpropagation, CNN, Transformers). Unit VI: Representation Learning, Active Learning, Ensembles (Bagging/Boosting), Regularization (L1/L2/Dropout), GANs, Diffusion Models & Reinforcement Learning.",
     icon: "🤖",
-    available: false,
-    totalQuestions: 0,
-    unitsCount: 0,
-    topicsCount: 0,
-    dataPath: "subjects/machine-learning/questions.json"
+    available: true,
+    totalQuestions: 77,
+    unitsCount: 2,
+    topicsCount: 19,
+    dataPath: "subjects/machine-learning/questions.json",
+    scriptPath: "subjects/machine-learning/questions.js",
+    pdfPath: "subjects/machine-learning/AI502_ML_Units_V_VI_MCQ_Question_Bank.pdf",
+    dataVar: "ML_DATA"
   },
   {
     id: "software-testing",
@@ -120,4 +129,3 @@ const SUBJECTS_CATALOG = [
 ];
 
 window.SUBJECTS_CATALOG = SUBJECTS_CATALOG;
-
