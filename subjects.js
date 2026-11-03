@@ -1,52 +1,13 @@
+// Master Examination Timetable & Subjects Catalog
+// Priority Order:
+// 1. Tomorrow's Exam Subjects (04/11/2026) with Questions/Quiz Ready FIRST
+// 2. Tomorrow's Exam Subjects (04/11/2026) Pending
+// 3. Today's / Previous Exam Subjects (03/11/2026) with Questions Ready
+// 4. Any remaining subjects
 const SUBJECTS_CATALOG = [
-  {
-    id: "web-dotnet",
-    code: "IT5058",
-    name: "Web Technology with .NET",
-    date: "03/11/2026",
-    time: "9:45 – 10:05 AM & 10:30 – 10:50 AM",
-    description: "Razor Views, Controllers, Layouts, Model Binding, Validations, Form Applications, Payments, Emails, and Social Logins.",
-    icon: "🌐",
-    available: true,
-    totalQuestions: 465,
-    unitsCount: 2,
-    topicsCount: 13,
-    dataPath: "subjects/web-dotnet/questions.json",
-    scriptPath: "subjects/web-dotnet/questions.js",
-    pdfPath: "subjects/web-dotnet/IT5058_Unit_V_VI_MCQ_Question_Bank.pdf",
-    dataVar: "MCQ_DATA"
-  },
-  {
-    id: "wearable-gadgets",
-    code: "DWG501",
-    name: "Design of Wearable and Smart Gadgets",
-    date: "03/11/2026",
-    time: "12:00 PM – 12:20 PM",
-    description: "Wearable architectures, embedded sensors, smart gadget protocols, battery optimization & edge interfacing.",
-    icon: "⌚",
-    available: false,
-    totalQuestions: 0,
-    unitsCount: 0,
-    topicsCount: 0,
-    dataPath: "subjects/wearable-gadgets/questions.json"
-  },
-  {
-    id: "dcn",
-    code: "IT5052",
-    name: "Data Communication and Networking",
-    date: "03/11/2026",
-    time: "01:30 PM – 01:50 PM & 02:15 PM – 02:35 PM",
-    description: "Network Layer (Services, Packet Switching, IPv4, IPv6, Forwarding, Routing Algorithms & Protocols), Transport Layer (Services, UDP, TCP, SCTP), and Application Layer (WWW/HTTP, FTP, Email, SSH, DNS, Compression).",
-    icon: "📡",
-    available: true,
-    totalQuestions: 395,
-    unitsCount: 3,
-    topicsCount: 26,
-    dataPath: "subjects/dcn/questions.json",
-    scriptPath: "subjects/dcn/questions.js",
-    pdfPath: "subjects/dcn/IT5052_DCN_Units_IV_V_VI_MCQ_Question_Bank.pdf",
-    dataVar: "DCN_DATA"
-  },
+  // ==========================================
+  // TOMORROW'S EXAMS (04/11/2026) - QUESTIONS READY (TOP PRIORITY)
+  // ==========================================
   {
     id: "windows-dotnet",
     code: "MOB503",
@@ -82,20 +43,6 @@ const SUBJECTS_CATALOG = [
     dataVar: "IS_DATA"
   },
   {
-    id: "cloud-infrastructure",
-    code: "IT5056",
-    name: "Cloud Infrastructure and Resource Management",
-    date: "04/11/2026",
-    time: "12:45 PM – 01:05 PM",
-    description: "Virtualization, IaaS/PaaS/SaaS architectures, cloud storage, containerization, and orchestration.",
-    icon: "☁️",
-    available: false,
-    totalQuestions: 0,
-    unitsCount: 0,
-    topicsCount: 0,
-    dataPath: "subjects/cloud-infrastructure/questions.json"
-  },
-  {
     id: "machine-learning",
     code: "AI502",
     name: "Machine Learning",
@@ -112,6 +59,24 @@ const SUBJECTS_CATALOG = [
     pdfPath: "subjects/machine-learning/AI502_ML_Units_V_VI_MCQ_Question_Bank.pdf",
     dataVar: "ML_DATA"
   },
+
+  // ==========================================
+  // TOMORROW'S EXAMS (04/11/2026) - PENDING QUESTION UPLOAD
+  // ==========================================
+  {
+    id: "cloud-infrastructure",
+    code: "IT5056",
+    name: "Cloud Infrastructure and Resource Management",
+    date: "04/11/2026",
+    time: "12:45 PM – 01:05 PM",
+    description: "Virtualization, IaaS/PaaS/SaaS architectures, cloud storage, containerization, and orchestration.",
+    icon: "☁️",
+    available: false,
+    totalQuestions: 0,
+    unitsCount: 0,
+    topicsCount: 0,
+    dataPath: "subjects/cloud-infrastructure/questions.json"
+  },
   {
     id: "software-testing",
     code: "SE504",
@@ -125,6 +90,58 @@ const SUBJECTS_CATALOG = [
     unitsCount: 0,
     topicsCount: 0,
     dataPath: "subjects/software-testing/questions.json"
+  },
+
+  // ==========================================
+  // TODAY'S / COMPLETED EXAMS (03/11/2026) - QUESTIONS READY
+  // ==========================================
+  {
+    id: "web-dotnet",
+    code: "IT5058",
+    name: "Web Technology with .NET",
+    date: "03/11/2026",
+    time: "9:45 – 10:05 AM & 10:30 – 10:50 AM",
+    description: "Razor Views, Controllers, Layouts, Model Binding, Validations, Form Applications, Payments, Emails, and Social Logins.",
+    icon: "🌐",
+    available: true,
+    totalQuestions: 465,
+    unitsCount: 2,
+    topicsCount: 13,
+    dataPath: "subjects/web-dotnet/questions.json",
+    scriptPath: "subjects/web-dotnet/questions.js",
+    pdfPath: "subjects/web-dotnet/IT5058_Unit_V_VI_MCQ_Question_Bank.pdf",
+    dataVar: "MCQ_DATA"
+  },
+  {
+    id: "dcn",
+    code: "IT5052",
+    name: "Data Communication and Networking",
+    date: "03/11/2026",
+    time: "01:30 PM – 01:50 PM & 02:15 PM – 02:35 PM",
+    description: "Network Layer (Services, Packet Switching, IPv4, IPv6, Forwarding, Routing Algorithms & Protocols), Transport Layer (Services, UDP, TCP, SCTP), and Application Layer (WWW/HTTP, FTP, Email, SSH, DNS, Compression).",
+    icon: "📡",
+    available: true,
+    totalQuestions: 395,
+    unitsCount: 3,
+    topicsCount: 26,
+    dataPath: "subjects/dcn/questions.json",
+    scriptPath: "subjects/dcn/questions.js",
+    pdfPath: "subjects/dcn/IT5052_DCN_Units_IV_V_VI_MCQ_Question_Bank.pdf",
+    dataVar: "DCN_DATA"
+  },
+  {
+    id: "wearable-gadgets",
+    code: "DWG501",
+    name: "Design of Wearable and Smart Gadgets",
+    date: "03/11/2026",
+    time: "12:00 PM – 12:20 PM",
+    description: "Wearable architectures, embedded sensors, smart gadget protocols, battery optimization & edge interfacing.",
+    icon: "⌚",
+    available: false,
+    totalQuestions: 0,
+    unitsCount: 0,
+    topicsCount: 0,
+    dataPath: "subjects/wearable-gadgets/questions.json"
   }
 ];
 

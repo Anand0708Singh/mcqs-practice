@@ -224,7 +224,33 @@ function buildSubjectsRegistry() {
 
 function renderSubjectCards() {
   subjectsGrid.innerHTML = '';
-  const subjects = Object.values(subjectsMap);
+  let subjects = Object.values(subjectsMap);
+
+  // Sorting Priority:
+  // 1. Tomorrow (04/11/2026) with active questions/quiz first
+  // 2. Tomorrow (04/11/2026) pending
+  // 3. Other dates (03/11/2026) with active questions
+  // 4. Other dates pending
+  subjects.sort((a, b) => {
+    const aHasQ = a.available && a.questions.length > 0 ? 1 : 0;
+    const bHasQ = b.available && b.questions.length > 0 ? 1 : 0;
+    const aIsTomorrow = (a.date && a.date.includes('04/11/2026')) ? 1 : 0;
+    const bIsTomorrow = (b.date && b.date.includes('04/11/2026')) ? 1 : 0;
+
+    // Rank calculation:
+    // Tomorrow + Has Questions = Rank 4
+    // Tomorrow + No Questions  = Rank 3
+    // Other + Has Questions    = Rank 2
+    // Other + No Questions     = Rank 1
+    const aRank = (aIsTomorrow * 2) + aHasQ;
+    const bRank = (bIsTomorrow * 2) + bHasQ;
+
+    if (bRank !== aRank) {
+      return bRank - aRank; // Higher rank first
+    }
+    // Tie-breaker: keep catalog order or more questions
+    return b.questions.length - a.questions.length;
+  });
 
   subjects.forEach(sub => {
     const card = document.createElement('div');
@@ -239,9 +265,12 @@ function renderSubjectCards() {
       <div>
         <div class="subject-card-top">
           <div class="subject-icon-box">${sub.icon || '📚'}</div>
-          <span class="subject-status-pill ${isAvail ? 'status-ready' : 'status-pending'}">
-            ${isAvail ? '✓ Ready to Practice' : '⏳ Questions Pending'}
-          </span>
+          <div style="display: flex; gap: 0.35rem; flex-wrap: wrap; justify-content: flex-end;">
+            ${sub.date && sub.date.includes('04/11/2026') ? '<span class="subject-status-pill" style="background: #fef3c7; color: #b45309; border: 1px solid #fde68a;">⭐ Tomorrow</span>' : ''}
+            <span class="subject-status-pill ${isAvail ? 'status-ready' : 'status-pending'}">
+              ${isAvail ? '✓ Ready to Practice' : '⏳ Questions Pending'}
+            </span>
+          </div>
         </div>
 
         <div class="subject-timing-bar ${isAvail ? '' : 'pending-bar'}">
